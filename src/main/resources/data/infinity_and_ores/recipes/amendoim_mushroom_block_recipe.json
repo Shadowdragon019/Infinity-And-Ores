@@ -1,0 +1,22 @@
+{
+  "group": "amendoim_mushroom_block",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:amendoim_mushroom"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_mushroom"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_mushroom"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_mushroom"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:amendoim_mushroom_block",
+    "count": 1
+  }
+}

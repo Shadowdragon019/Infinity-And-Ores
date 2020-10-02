@@ -1,0 +1,22 @@
+{
+  "group": "amendoim_wood",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:amendoim_log"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_log"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_log"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_log"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:amendoim_wood",
+    "count": 4
+  }
+}

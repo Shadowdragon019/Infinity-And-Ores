@@ -1,0 +1,57 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "glitched_helmet",
+    "enableBody": true,
+    "textureBody": "glitched_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "glitched_leggings",
+    "enableBoots": true,
+    "textureBoots": "glitched_boots",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "armorTextureFile": "glitched__",
+    "helmetName": "Glitched Helmet",
+    "bodyName": "Glitched Chestplate",
+    "leggingsName": "Glitched Leggings",
+    "bootsName": "Glitched Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 80,
+    "damageValueHelmet": 8,
+    "damageValueBody": 12,
+    "damageValueLeggings": 11,
+    "damageValueBoots": 8,
+    "enchantability": 75,
+    "toughness": 5.0,
+    "equipSound": {
+      "value": "item.armor.equip_generic"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GlitchedIngot"
+      }
+    ]
+  }
+}

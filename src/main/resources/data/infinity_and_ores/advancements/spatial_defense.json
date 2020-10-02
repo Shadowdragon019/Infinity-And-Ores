@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:endesulite_helmet"
+    },
+    "title": {
+      "translate": "advancements.spatial_defense.title"
+    },
+    "description": {
+      "translate": "advancements.spatial_defense.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spatial_defense": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:lunar_power"
+}

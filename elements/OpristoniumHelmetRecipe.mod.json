@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "opristonium_helmet",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:opristonium"
+      },
+      {
+        "value": "TAG:forge:opristonium"
+      },
+      {
+        "value": "TAG:forge:opristonium"
+      },
+      {
+        "value": "TAG:forge:opristonium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:opristonium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OpristoniumArmor.helmet"
+    },
+    "name": "opristonium_helmet_recipe",
+    "namespace": "mod"
+  }
+}

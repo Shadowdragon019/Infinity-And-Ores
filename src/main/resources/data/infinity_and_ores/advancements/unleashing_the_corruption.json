@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glitched_obsidian"
+    },
+    "title": {
+      "translate": "advancements.unleashing_the_corruption.title"
+    },
+    "description": {
+      "translate": "advancements.unleashing_the_corruption.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unleashing_the_corruption": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:what_could_go_wrong"
+}

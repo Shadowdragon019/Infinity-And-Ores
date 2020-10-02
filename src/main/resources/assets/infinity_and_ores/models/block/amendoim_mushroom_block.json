@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/amendoim_mushroom_block",
+    "up": "infinity_and_ores:blocks/amendoim_mushroom_block",
+    "north": "infinity_and_ores:blocks/amendoim_mushroom_block",
+    "east": "infinity_and_ores:blocks/amendoim_mushroom_block",
+    "south": "infinity_and_ores:blocks/amendoim_mushroom_block",
+    "west": "infinity_and_ores:blocks/amendoim_mushroom_block",
+    "particle": "infinity_and_ores:blocks/amendoim_mushroom_block"
+  }
+}

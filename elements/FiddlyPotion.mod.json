@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Fiddly Potion",
+    "effectName": "No Effect",
+    "icon": "opriston.png",
+    "color": {
+      "value": -13421569,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false
+  }
+}

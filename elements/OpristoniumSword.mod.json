@@ -1,0 +1,33 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "opristonium_sword",
+    "customModelName": "Normal",
+    "name": "Opristonium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 15.0,
+    "attackSpeed": 1.6,
+    "enchantability": 33,
+    "damageVsEntity": 7.0,
+    "usageCount": 2698,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:OpristoniumGem"
+      },
+      {
+        "value": "CUSTOM:OpristoniumIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

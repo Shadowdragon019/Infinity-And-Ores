@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/glitched_station_bottom",
+    "up": "infinity_and_ores:blocks/glitched_station_top",
+    "north": "infinity_and_ores:blocks/glitched_station_side",
+    "east": "infinity_and_ores:blocks/glitched_station_side",
+    "south": "infinity_and_ores:blocks/glitched_station_side",
+    "west": "infinity_and_ores:blocks/glitched_station_side",
+    "particle": "infinity_and_ores:blocks/glitched_station_bottom"
+  }
+}

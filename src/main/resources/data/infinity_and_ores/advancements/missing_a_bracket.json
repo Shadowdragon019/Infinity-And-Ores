@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glitched_ingot"
+    },
+    "title": {
+      "translate": "advancements.missing_a_bracket.title"
+    },
+    "description": {
+      "translate": "advancements.missing_a_bracket.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "missing_a_bracket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinity_and_ores:glitched_ingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:what_could_go_wrong"
+}

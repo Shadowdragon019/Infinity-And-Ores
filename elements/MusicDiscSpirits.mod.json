@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_spirits",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Spirits",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:spirits"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

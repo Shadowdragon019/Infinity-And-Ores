@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "mantle_white_coal_ore",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:MantleWhiteCoalOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:WhiteCoal"
+    },
+    "name": "mantle_white_coal_ore_recipe",
+    "namespace": "mod"
+  }
+}

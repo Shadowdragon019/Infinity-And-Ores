@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_dimension_c-587",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Dimension C-581",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:dimension_c-581"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

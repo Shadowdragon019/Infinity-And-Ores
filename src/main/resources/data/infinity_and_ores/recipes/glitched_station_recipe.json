@@ -1,0 +1,42 @@
+{
+  "group": "glitched_station",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:opristonium_ingot"
+    },
+    "1": {
+      "item": "infinity_and_ores:glitched_shard"
+    },
+    "2": {
+      "item": "infinity_and_ores:opristonium_ingot"
+    },
+    "3": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "4": {
+      "item": "infinity_and_ores:opristonium_gem"
+    },
+    "5": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "6": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "7": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "8": {
+      "item": "infinity_and_ores:glitched_crystal"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:glitched_station",
+    "count": 1
+  }
+}

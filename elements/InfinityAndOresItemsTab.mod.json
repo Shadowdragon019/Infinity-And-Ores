@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Infinity & Ores: Items",
+    "icon": {
+      "value": "CUSTOM:OpristoniumGem"
+    },
+    "showSearch": false
+  }
+}

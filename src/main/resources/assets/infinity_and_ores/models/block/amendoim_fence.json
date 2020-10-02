@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "infinity_and_ores:blocks/amendoim_planks",
+    "particle": "infinity_and_ores:blocks/amendoim_planks"
+  }
+}

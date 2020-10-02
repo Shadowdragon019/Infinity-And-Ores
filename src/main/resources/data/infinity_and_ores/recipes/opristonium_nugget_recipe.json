@@ -1,0 +1,13 @@
+{
+  "group": "opristonium_nugget",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:opristonium_ingot"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:opristonium_nugget",
+    "count": 9
+  }
+}

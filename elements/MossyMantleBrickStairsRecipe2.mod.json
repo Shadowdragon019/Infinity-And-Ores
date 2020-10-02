@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "mossy_mantle_brick_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyMantleBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyMantleBricks"
+      },
+      {
+        "value": "CUSTOM:MossyMantleBricks"
+      },
+      {
+        "value": "CUSTOM:MossyMantleBricks"
+      },
+      {
+        "value": "CUSTOM:MossyMantleBricks"
+      },
+      {
+        "value": "CUSTOM:MossyMantleBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyMantleBrickStairs"
+    },
+    "name": "mossy_mantle_brick_stairs_recipe_2",
+    "namespace": "mod"
+  }
+}

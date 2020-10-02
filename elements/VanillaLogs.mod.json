@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PolishedMantleWall"
+      },
+      {
+        "value": "CUSTOM:AmendoimLog"
+      },
+      {
+        "value": "CUSTOM:AmendoimWood"
+      },
+      {
+        "value": "CUSTOM:StrippedAmendoimLog"
+      },
+      {
+        "value": "CUSTOM:StrippedAmendoimWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

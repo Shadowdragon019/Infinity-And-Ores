@@ -1,0 +1,16 @@
+{
+  "group": "chissled_mantle_bricks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:mantle_brick_slab"
+    },
+    {
+      "item": "infinity_and_ores:mantle_brick_slab"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:chiseled_mantle_bricks",
+    "count": 1
+  }
+}

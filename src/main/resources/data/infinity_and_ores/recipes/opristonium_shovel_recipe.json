@@ -1,0 +1,24 @@
+{
+  "group": "opristonium_shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:opristonium"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:opristonium_shovel",
+    "count": 1
+  }
+}

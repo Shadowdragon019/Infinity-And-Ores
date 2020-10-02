@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glitched_axe"
+    },
+    "title": {
+      "translate": "advancements.unknown_axe.title"
+    },
+    "description": {
+      "translate": "advancements.unknown_axe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknown_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinity_and_ores:glitched_axe",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:unknown_pickaxe"
+}

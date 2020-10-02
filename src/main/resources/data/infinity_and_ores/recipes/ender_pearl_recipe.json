@@ -1,0 +1,22 @@
+{
+  "group": "ender_pearl",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 1
+  }
+}

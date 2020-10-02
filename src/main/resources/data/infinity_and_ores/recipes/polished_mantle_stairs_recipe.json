@@ -1,0 +1,33 @@
+{
+  "group": "polished_mantle_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:polished_mantle"
+    },
+    "3": {
+      "item": "infinity_and_ores:polished_mantle"
+    },
+    "4": {
+      "item": "infinity_and_ores:polished_mantle"
+    },
+    "6": {
+      "item": "infinity_and_ores:polished_mantle"
+    },
+    "7": {
+      "item": "infinity_and_ores:polished_mantle"
+    },
+    "8": {
+      "item": "infinity_and_ores:polished_mantle"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:polished_mantle_stairs",
+    "count": 4
+  }
+}

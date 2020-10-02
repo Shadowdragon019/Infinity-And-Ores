@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/mossy_mantle",
+    "up": "infinity_and_ores:blocks/mossy_mantle",
+    "north": "infinity_and_ores:blocks/mossy_mantle",
+    "east": "infinity_and_ores:blocks/mossy_mantle",
+    "south": "infinity_and_ores:blocks/mossy_mantle",
+    "west": "infinity_and_ores:blocks/mossy_mantle",
+    "particle": "infinity_and_ores:blocks/mossy_mantle"
+  }
+}

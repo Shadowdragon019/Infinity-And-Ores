@@ -1,0 +1,42 @@
+{
+  "group": "endesulite_crystal",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "1": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "2": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "3": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "4": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "5": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "6": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "7": {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    "8": {
+      "item": "infinity_and_ores:endesulite_shard"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:endesulite_crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "ender_pearl",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EndesuliteShard"
+      },
+      {
+        "value": "CUSTOM:EndesuliteShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EndesuliteShard"
+      },
+      {
+        "value": "CUSTOM:EndesuliteShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.ENDER_PEARL"
+    },
+    "name": "ender_pearl_recipe",
+    "namespace": "mod"
+  }
+}

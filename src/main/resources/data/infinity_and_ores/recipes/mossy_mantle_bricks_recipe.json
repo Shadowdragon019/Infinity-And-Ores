@@ -1,0 +1,22 @@
+{
+  "group": "mossy_mantle_bricks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:mossy_mantle"
+    },
+    {
+      "item": "infinity_and_ores:mossy_mantle"
+    },
+    {
+      "item": "infinity_and_ores:mossy_mantle"
+    },
+    {
+      "item": "infinity_and_ores:mossy_mantle"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:mossy_mantle_bricks",
+    "count": 4
+  }
+}

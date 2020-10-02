@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glitched_chestplate"
+    },
+    "title": {
+      "translate": "advancements.dimensional_guardian.title"
+    },
+    "description": {
+      "translate": "advancements.dimensional_guardian.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dimensional_guardian": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:spatial_defense"
+}

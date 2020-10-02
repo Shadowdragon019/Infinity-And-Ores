@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glitched_helmet"
+    },
+    "title": {
+      "translate": "advancements.unknown_helmet.title"
+    },
+    "description": {
+      "translate": "advancements.unknown_helmet.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknown_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinity_and_ores:glitched_helmet",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:missing_a_bracket"
+}

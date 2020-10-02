@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AmendoimApple"
+      },
+      {
+        "value": "Items.APPLE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "crafting_apple",
+    "namespace": "forge"
+  }
+}

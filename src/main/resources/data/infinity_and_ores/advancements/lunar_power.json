@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:endesulite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.lunar_power.title"
+    },
+    "description": {
+      "translate": "advancements.lunar_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lunar_power": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:freenium"
+}

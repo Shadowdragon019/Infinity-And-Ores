@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "infinity_and_ores:block/mantle_brick_slab"
+    },
+    "type=top": {
+      "model": "infinity_and_ores:block/mantle_brick_slab_top"
+    },
+    "type=double": {
+      "model": "infinity_and_ores:block/mantle_brick_slab_full"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:opristonium_helmet"
+    },
+    "title": {
+      "translate": "advancements.huh_it_fits.title"
+    },
+    "description": {
+      "translate": "advancements.huh_it_fits.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "huh_it_fits": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:opristonium_madness"
+}

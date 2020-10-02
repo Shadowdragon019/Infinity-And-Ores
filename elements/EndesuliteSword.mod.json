@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ezesulite_sword",
+    "customModelName": "Normal",
+    "name": "Endesulite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 20.0,
+    "attackSpeed": 1.6,
+    "enchantability": 55,
+    "damageVsEntity": 8.0,
+    "usageCount": 3774,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EndesuliteCrystal"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

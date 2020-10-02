@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_parasidal_minds",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Parasidal Minds",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:parasidal_minds"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

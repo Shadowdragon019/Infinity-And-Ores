@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:opristonium_chestplate"
+    },
+    "title": {
+      "translate": "advancements.smooth_mineral.title"
+    },
+    "description": {
+      "translate": "advancements.smooth_mineral.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "smooth_mineral": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:huh_it_fits"
+}

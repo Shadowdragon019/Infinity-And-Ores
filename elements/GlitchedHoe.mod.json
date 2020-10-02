@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "glitched_hoe",
+    "customModelName": "Normal",
+    "name": "Glitched Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 20.0,
+    "attackSpeed": 4.0,
+    "enchantability": 60,
+    "damageVsEntity": 1.0,
+    "usageCount": 4530,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:GlitchedIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

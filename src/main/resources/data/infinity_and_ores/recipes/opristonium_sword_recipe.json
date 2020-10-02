@@ -1,0 +1,24 @@
+{
+  "group": "opristonium_sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:opristonium"
+    },
+    "1": {
+      "tag": "forge:opristonium"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:opristonium_sword",
+    "count": 1
+  }
+}

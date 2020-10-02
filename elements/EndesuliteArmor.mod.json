@@ -1,0 +1,57 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ezesulite_helmet",
+    "enableBody": true,
+    "textureBody": "ezesulite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "ezesulite_leggings",
+    "enableBoots": true,
+    "textureBoots": "ezesulite_boots",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "armorTextureFile": "ezesulite__",
+    "helmetName": "Endesulite Helmet",
+    "bodyName": "Endesulite Chestplate",
+    "leggingsName": "Endesulite Leggings",
+    "bootsName": "Endesulite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 55,
+    "damageValueHelmet": 6,
+    "damageValueBody": 10,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 6,
+    "enchantability": 25,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": "item.armor.equip_generic"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EndesuliteCrystal"
+      }
+    ]
+  }
+}

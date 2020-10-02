@@ -1,0 +1,74 @@
+{
+  "_fv": 10,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "CUSTOM:MantleAmendoimNylium"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Mantle"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 5,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:AmendoimLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:AmendoimLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 10,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 3,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "rainingPossibility": 0.0,
+    "temperature": 0.0,
+    "baseHeight": 0.6,
+    "heightVariation": 0.9,
+    "spawnBiome": false,
+    "biomeWeight": 20,
+    "biomeType": "WARM",
+    "biomeCategory": "FOREST",
+    "parent": {
+      "value": "CUSTOM:MantleRealms"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityEndermite"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

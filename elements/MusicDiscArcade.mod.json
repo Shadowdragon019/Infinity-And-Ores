@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_arcade",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Arcade (Fixed Version)",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:arcade"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

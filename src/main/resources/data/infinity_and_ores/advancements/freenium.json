@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "title": {
+      "translate": "advancements.freenium.title"
+    },
+    "description": {
+      "translate": "advancements.freenium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "freenium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinity_and_ores:endesulite_crystal",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:spitted_apart"
+}

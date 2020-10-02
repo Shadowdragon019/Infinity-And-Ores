@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OpristoniumGem"
+      },
+      {
+        "value": "CUSTOM:OpristoniumIngot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "opristonium",
+    "namespace": "forge"
+  }
+}

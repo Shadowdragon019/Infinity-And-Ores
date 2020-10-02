@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "mantle_bricks",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Mantle"
+      },
+      {
+        "value": "CUSTOM:Mantle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Mantle"
+      },
+      {
+        "value": "CUSTOM:Mantle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MantleBricks"
+    },
+    "name": "mantle_bricks_recipe",
+    "namespace": "mod"
+  }
+}

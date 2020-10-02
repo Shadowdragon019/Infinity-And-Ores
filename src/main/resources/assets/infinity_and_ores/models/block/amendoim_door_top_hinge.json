@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "infinity_and_ores:blocks/amendoim_door_bottom",
+    "top": "infinity_and_ores:blocks/amendoim_door_top"
+  }
+}

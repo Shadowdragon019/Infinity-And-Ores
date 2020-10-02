@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/glitched_obsidian",
+    "up": "infinity_and_ores:blocks/glitched_obsidian",
+    "north": "infinity_and_ores:blocks/glitched_obsidian",
+    "east": "infinity_and_ores:blocks/glitched_obsidian",
+    "south": "infinity_and_ores:blocks/glitched_obsidian",
+    "west": "infinity_and_ores:blocks/glitched_obsidian",
+    "particle": "infinity_and_ores:blocks/glitched_obsidian"
+  }
+}

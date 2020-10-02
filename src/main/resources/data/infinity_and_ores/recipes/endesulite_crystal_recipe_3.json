@@ -1,0 +1,13 @@
+{
+  "group": "endesulite_crystal",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:endesulite_block"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:endesulite_crystal",
+    "count": 9
+  }
+}

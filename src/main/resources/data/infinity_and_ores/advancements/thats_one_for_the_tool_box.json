@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:opristonium_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.thats_one_for_the_tool_box.title"
+    },
+    "description": {
+      "translate": "advancements.thats_one_for_the_tool_box.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thats_one_for_the_tool_box": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:opristonium_madness"
+}

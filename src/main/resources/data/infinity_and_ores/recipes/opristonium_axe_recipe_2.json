@@ -1,0 +1,30 @@
+{
+  "group": "opristonium_axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:opristonium"
+    },
+    "1": {
+      "tag": "forge:opristonium"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "tag": "forge:opristonium"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:opristonium_axe",
+    "count": 1
+  }
+}

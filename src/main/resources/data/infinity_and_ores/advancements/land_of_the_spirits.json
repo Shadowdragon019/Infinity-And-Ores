@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glomper_tooth"
+    },
+    "title": {
+      "translate": "advancements.land_of_the_spirits.title"
+    },
+    "description": {
+      "translate": "advancements.land_of_the_spirits.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "land_of_the_spirits": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "infinity_and_ores:spiky_plateau"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:glitchiness"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/ender_amendoim_nylium_bottom",
+    "up": "infinity_and_ores:blocks/amendoim_nylium",
+    "north": "infinity_and_ores:blocks/ender_amendoim_nylium_side",
+    "east": "infinity_and_ores:blocks/ender_amendoim_nylium_side",
+    "south": "infinity_and_ores:blocks/ender_amendoim_nylium_side",
+    "west": "infinity_and_ores:blocks/ender_amendoim_nylium_side",
+    "particle": "infinity_and_ores:blocks/ender_amendoim_nylium_bottom"
+  }
+}

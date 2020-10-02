@@ -1,0 +1,13 @@
+{
+  "group": "amendoim_planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:stripped_amendoim_wood"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:amendoim_planks",
+    "count": 4
+  }
+}

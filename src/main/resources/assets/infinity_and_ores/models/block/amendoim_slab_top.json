@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "infinity_and_ores:blocks/amendoim_planks",
+    "top": "infinity_and_ores:blocks/amendoim_planks",
+    "side": "infinity_and_ores:blocks/amendoim_planks"
+  }
+}

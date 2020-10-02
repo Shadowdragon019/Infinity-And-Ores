@@ -1,0 +1,22 @@
+{
+  "group": "mantle_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mantle"
+    },
+    "1": {
+      "item": "infinity_and_ores:mantle"
+    },
+    "2": {
+      "item": "infinity_and_ores:mantle"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mantle_slab",
+    "count": 6
+  }
+}

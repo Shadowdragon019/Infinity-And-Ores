@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_calm_after_the_storm",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Calm After The Storm",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:calm_after_the_storm"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "opristonium_helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:opristonium"
+    },
+    "1": {
+      "tag": "tag:forge:opristonium"
+    },
+    "2": {
+      "tag": "forge:opristonium"
+    },
+    "3": {
+      "tag": "tag:forge:opristonium"
+    },
+    "5": {
+      "tag": "tag:forge:opristonium"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:opristonium_helmet",
+    "count": 1
+  }
+}

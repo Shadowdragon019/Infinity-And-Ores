@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/ezesulite_block",
+    "up": "infinity_and_ores:blocks/ezesulite_block",
+    "north": "infinity_and_ores:blocks/ezesulite_block",
+    "east": "infinity_and_ores:blocks/ezesulite_block",
+    "south": "infinity_and_ores:blocks/ezesulite_block",
+    "west": "infinity_and_ores:blocks/ezesulite_block",
+    "particle": "infinity_and_ores:blocks/ezesulite_block"
+  }
+}

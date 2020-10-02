@@ -1,0 +1,16 @@
+{
+  "group": "glitch_and_steel",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:glitched_ingot"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:glitched_dimension",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "mantle_wall",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "infinity_and_ores:mantle"
+  },
+  "result": "infinity_and_ores:mantle_wall"
+}

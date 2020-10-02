@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Infinity & Ores: Tools & Armor",
+    "icon": {
+      "value": "CUSTOM:OpristoniumSword"
+    },
+    "showSearch": false
+  }
+}

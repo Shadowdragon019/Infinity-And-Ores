@@ -1,0 +1,33 @@
+{
+  "group": "infinity_and_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mantle_bricks"
+    },
+    "3": {
+      "item": "infinity_and_ores:mantle_bricks"
+    },
+    "4": {
+      "item": "infinity_and_ores:mantle_bricks"
+    },
+    "6": {
+      "item": "infinity_and_ores:mantle_bricks"
+    },
+    "7": {
+      "item": "infinity_and_ores:mantle_bricks"
+    },
+    "8": {
+      "item": "infinity_and_ores:mantle_bricks"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mantle_brick_stairs",
+    "count": 4
+  }
+}

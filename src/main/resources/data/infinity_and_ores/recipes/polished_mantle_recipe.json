@@ -1,0 +1,22 @@
+{
+  "group": "polished_mantle",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:smooth_mantle"
+    },
+    {
+      "item": "infinity_and_ores:smooth_mantle"
+    },
+    {
+      "item": "infinity_and_ores:smooth_mantle"
+    },
+    {
+      "item": "infinity_and_ores:smooth_mantle"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:polished_mantle",
+    "count": 4
+  }
+}

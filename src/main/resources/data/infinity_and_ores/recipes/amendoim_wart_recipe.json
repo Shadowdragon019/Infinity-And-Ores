@@ -1,0 +1,13 @@
+{
+  "group": "amendoim_wart",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:amendoim_wart_block"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:amendoim_wart",
+    "count": 9
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "structure",
+  "definition": {
+    "structure": "amendoim_tree9",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 500000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:GlitchedDimension"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:MantleAmendoimNylium"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MantleAmendoimForest"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

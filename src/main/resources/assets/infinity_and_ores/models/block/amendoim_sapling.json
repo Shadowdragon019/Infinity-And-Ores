@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "infinity_and_ores:blocks/test_block",
+    "particle": "infinity_and_ores:blocks/test_block"
+  }
+}

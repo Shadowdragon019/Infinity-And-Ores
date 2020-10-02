@@ -1,0 +1,4353 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "OpristoniumGem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_gem"
+    },
+    {
+      "name": "OpristoniumOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_ore"
+    },
+    {
+      "name": "OpristoniumBlock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_block"
+    },
+    {
+      "name": "OpristoniumBlockRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_block_recipe"
+    },
+    {
+      "name": "GlitchedShard",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_shard"
+    },
+    {
+      "name": "GlitchedOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_ore"
+    },
+    {
+      "name": "NetherGlitchedOre",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_glitched_ore"
+    },
+    {
+      "name": "EndGlitchedOre",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_glitched_ore"
+    },
+    {
+      "name": "GlitchedBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_block"
+    },
+    {
+      "name": "GlitchedStation",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_station"
+    },
+    {
+      "name": "EndesuliteOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_ore"
+    },
+    {
+      "name": "EndesuliteBlock",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_block"
+    },
+    {
+      "name": "OpristoniumIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_ingot"
+    },
+    {
+      "name": "OpristoniumNugget",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_nugget"
+    },
+    {
+      "name": "OpristoniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_ingot_recipe"
+    },
+    {
+      "name": "OpristoniumShard",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_shard"
+    },
+    {
+      "name": "OpristoniumIngotRecipe2",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_ingot_recipe_2"
+    },
+    {
+      "name": "OpristoniumGemRecipe2",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_gem_recipe_2"
+    },
+    {
+      "name": "OpristoniumIngotRecipe4",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_ingot_recipe_4"
+    },
+    {
+      "name": "OpristoniumGemRecipe3",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_gem_recipe_3"
+    },
+    {
+      "name": "OpristoniumNuggetRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_nugget_recipe"
+    },
+    {
+      "name": "OpristoniumShardRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_shard_recipe"
+    },
+    {
+      "name": "GlitchedCrystalItem",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_crystal"
+    },
+    {
+      "name": "GlitchedCrystalBlock",
+      "type": "plant",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_crystal_block"
+    },
+    {
+      "name": "GlitchedStationRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_station_recipe"
+    },
+    {
+      "name": "OpristoniumSword",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_sword"
+    },
+    {
+      "name": "OpristoniumPickaxe",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_pickaxe"
+    },
+    {
+      "name": "GlitchedCrystalBlockAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_crystal_block_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpristoniumAxe",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_axe"
+    },
+    {
+      "name": "OpristoniumShovel",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_shovel"
+    },
+    {
+      "name": "OpristoniumHoe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_hoe"
+    },
+    {
+      "name": "OpristoniumArmor",
+      "type": "armor",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OpristoniumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_helmet_recipe"
+    },
+    {
+      "name": "OpristoniumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_chestplate_recipe"
+    },
+    {
+      "name": "OpristoniumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_leggings_recipe"
+    },
+    {
+      "name": "OpristoniumBootsRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_boots_recipe"
+    },
+    {
+      "name": "GlitchedStationGUI",
+      "type": "gui",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_station_gui"
+    },
+    {
+      "name": "OpristoniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_sword_recipe"
+    },
+    {
+      "name": "OpristoniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_pickaxe_recipe"
+    },
+    {
+      "name": "OpristoniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_shovel_recipe"
+    },
+    {
+      "name": "OpristoniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_axe_recipe"
+    },
+    {
+      "name": "OpristoniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_hoe_recipe"
+    },
+    {
+      "name": "OpristoniumAxeRecipe2",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_axe_recipe_2"
+    },
+    {
+      "name": "OpristoniumHoeRecipe2",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_hoe_recipe_2"
+    },
+    {
+      "name": "GlitchedResidue",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_residue"
+    },
+    {
+      "name": "GlitchedIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_ingot"
+    },
+    {
+      "name": "GlitchedScrap",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_scrap"
+    },
+    {
+      "name": "GlitchedCrystalProcedure",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_crystal_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchedSword",
+      "type": "tool",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_sword"
+    },
+    {
+      "name": "GlitchedPickaxe",
+      "type": "tool",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_pickaxe"
+    },
+    {
+      "name": "GlitchedAxe",
+      "type": "tool",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_axe"
+    },
+    {
+      "name": "GlitchedShovel",
+      "type": "tool",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_shovel"
+    },
+    {
+      "name": "GlitchedHoe",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_hoe"
+    },
+    {
+      "name": "GlitchedArmor",
+      "type": "armor",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EndesuliteCrystal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_crystal"
+    },
+    {
+      "name": "EndesuliteSwordRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_sword_recipe"
+    },
+    {
+      "name": "EndesuliteArmor",
+      "type": "armor",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EndesuliteSword",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_sword"
+    },
+    {
+      "name": "EndesulitePickaxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_pickaxe"
+    },
+    {
+      "name": "EndesuliteAxe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_axe"
+    },
+    {
+      "name": "EndesuliteShovel",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_shovel"
+    },
+    {
+      "name": "EndesuliteHoe",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_hoe"
+    },
+    {
+      "name": "EndesulitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_pickaxe_recipe"
+    },
+    {
+      "name": "EndesuliteShovelRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_shovel_recipe"
+    },
+    {
+      "name": "EndesuliteAxeRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_axe_recipe"
+    },
+    {
+      "name": "EndesuliteHoeRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_hoe_recipe"
+    },
+    {
+      "name": "EndesuliteShard",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_shard"
+    },
+    {
+      "name": "EnderPearlRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_pearl_recipe"
+    },
+    {
+      "name": "EnderEyePearl",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_eye_pearl"
+    },
+    {
+      "name": "EndesuliteCrystalRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_crystal_recipe"
+    },
+    {
+      "name": "EndesuliteShardRecipe1",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_shard_recipe_1"
+    },
+    {
+      "name": "EndesuliteShardRecipe2",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_shard_recipe_2"
+    },
+    {
+      "name": "EndesuliteShardRecipe3",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_shard_recipe_3"
+    },
+    {
+      "name": "EndesuliteCrystalRecipe2",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_crystal_recipe_2"
+    },
+    {
+      "name": "EndesuliteBlockRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_block_recipe"
+    },
+    {
+      "name": "EndesuliteCrystalRecipe3",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_crystal_recipe_3"
+    },
+    {
+      "name": "GlitchedIngotRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_ingot_recipe"
+    },
+    {
+      "name": "GlitchedBlockRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_block_recipe"
+    },
+    {
+      "name": "GlitchedIngotRecipe2",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_ingot_recipe_2"
+    },
+    {
+      "name": "GlitchedShardRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_shard_recipe"
+    },
+    {
+      "name": "MusicDiscArcade",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_arcade"
+    },
+    {
+      "name": "MusicDiscBattleStarts",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_battle_starts"
+    },
+    {
+      "name": "MusicDiscCalmAfterTheStorm",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_calm_after_the_storm"
+    },
+    {
+      "name": "MusicDiscDimensionC581",
+      "type": "musicdisc",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_dimension_c_581"
+    },
+    {
+      "name": "MusicDiscFinalDiscoveries",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_final_discoveries"
+    },
+    {
+      "name": "MusicDiscHypertension",
+      "type": "musicdisc",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_hypertension"
+    },
+    {
+      "name": "MusicDiscIgnitarAwakens",
+      "type": "musicdisc",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_ignitar_awakens"
+    },
+    {
+      "name": "MusicDiscMutationalParasite",
+      "type": "musicdisc",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_mutational_parasite"
+    },
+    {
+      "name": "MusicDiscParasidalMinds",
+      "type": "musicdisc",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_parasidal_minds"
+    },
+    {
+      "name": "MusicDiscSpirits",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_spirits"
+    },
+    {
+      "name": "Mantle",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle"
+    },
+    {
+      "name": "MantleStairs",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_stairs"
+    },
+    {
+      "name": "MantleSlab",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_slab"
+    },
+    {
+      "name": "MantleWall",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_wall"
+    },
+    {
+      "name": "MantleBricks",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_bricks"
+    },
+    {
+      "name": "MantleBrickStairs",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_stairs"
+    },
+    {
+      "name": "MantleBrickSlab",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_slab"
+    },
+    {
+      "name": "MantleBrickWall",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_wall"
+    },
+    {
+      "name": "SmoothMantle",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle"
+    },
+    {
+      "name": "SmoothMantleSlab",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle_slab"
+    },
+    {
+      "name": "PolishedMantle",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle"
+    },
+    {
+      "name": "PolishedMantleStairs",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_stairs"
+    },
+    {
+      "name": "PolishedMantleSlab",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_slab"
+    },
+    {
+      "name": "PolishedMantleWall",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_wall"
+    },
+    {
+      "name": "MantleStairsRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_stairs_recipe"
+    },
+    {
+      "name": "PolishedMantleStairsRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_stairs_recipe"
+    },
+    {
+      "name": "MantleBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_stairs_recipe"
+    },
+    {
+      "name": "MantleSlabRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_slab_recipe"
+    },
+    {
+      "name": "PolishedMantleSlabRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_slab_recipe"
+    },
+    {
+      "name": "MantleBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_slab_recipe"
+    },
+    {
+      "name": "MantleWallRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_wall_recipe"
+    },
+    {
+      "name": "PolishedMantleWallRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_wall_recipe"
+    },
+    {
+      "name": "MantleBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_wall_recipe"
+    },
+    {
+      "name": "SmoothMantleSlabRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle_slab_recipe"
+    },
+    {
+      "name": "MantleBricksRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_bricks_recipe"
+    },
+    {
+      "name": "SmoothMantleRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle_recipe"
+    },
+    {
+      "name": "PolishedMantleRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_recipe"
+    },
+    {
+      "name": "MantleStairsStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_stairs_stonecutter_recipe"
+    },
+    {
+      "name": "PolishedMantleStairsStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_stairs_stonecutter_recipe"
+    },
+    {
+      "name": "MantleBrickStairsStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_stairs_stonecutter_recipe"
+    },
+    {
+      "name": "PolishedMantleStairsStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_stairs_stonecutter_recipe_2"
+    },
+    {
+      "name": "MantleBrickStairsStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_stairs_stonecutter_recipe_2"
+    },
+    {
+      "name": "MantleSlabStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_slab_stonecutter_recipe"
+    },
+    {
+      "name": "PolishedMantleSlabStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_slab_stonecutter_recipe"
+    },
+    {
+      "name": "MantleBrickSlabStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_slab_stonecutter_recipe"
+    },
+    {
+      "name": "SmoothMantleSlabStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle_slab_stonecutter_recipe"
+    },
+    {
+      "name": "PolishedMantleSlabStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_slab_stonecutter_recipe_2"
+    },
+    {
+      "name": "MantleBrickSlabStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_slab_stonecutter_recipe_2"
+    },
+    {
+      "name": "SmoothMantleSlabStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle_slab_stonecutter_recipe_2"
+    },
+    {
+      "name": "MantleWalllStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_walll_stonecutter_recipe"
+    },
+    {
+      "name": "PolishedMantleWallStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_wall_stonecutter_recipe"
+    },
+    {
+      "name": "MantleBrickWallStonecutterRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_wall_stonecutter_recipe"
+    },
+    {
+      "name": "MantleWallStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_wall_stonecutter_recipe_2"
+    },
+    {
+      "name": "PolishedMantleWallStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_wall_stonecutter_recipe_2"
+    },
+    {
+      "name": "MantleBrickWallStonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_wall_stonecutter_recipe_2"
+    },
+    {
+      "name": "InfinityAndOresBuildingBlocksTab",
+      "type": "tab",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinity_and_ores_building_blocks_tab"
+    },
+    {
+      "name": "InfinityAndOresDecorationBlocksTab",
+      "type": "tab",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinity_and_ores_decoration_blocks_tab"
+    },
+    {
+      "name": "InfinityAndOresToolsAndArmorsTab",
+      "type": "tab",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinity_and_ores_tools_and_armors_tab"
+    },
+    {
+      "name": "InfinityAndOresItemsTab",
+      "type": "tab",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinity_and_ores_items_tab"
+    },
+    {
+      "name": "OpristoniumMadness",
+      "type": "achievement",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_madness"
+    },
+    {
+      "name": "MinersDream",
+      "type": "achievement",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miners_dream"
+    },
+    {
+      "name": "LetANewEraBegin",
+      "type": "achievement",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "let_a_new_era_begin"
+    },
+    {
+      "name": "Freenium",
+      "type": "achievement",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freenium"
+    },
+    {
+      "name": "SpittedApart",
+      "type": "achievement",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spitted_apart"
+    },
+    {
+      "name": "EndPower",
+      "type": "achievement",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_power"
+    },
+    {
+      "name": "LunarPower",
+      "type": "achievement",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lunar_power"
+    },
+    {
+      "name": "HuhItFits",
+      "type": "achievement",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huh_it_fits"
+    },
+    {
+      "name": "HuhItFitsProcedure",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huh_it_fits_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThatsOneForTheToolBox",
+      "type": "achievement",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thats_one_for_the_tool_box"
+    },
+    {
+      "name": "ThatsOneForTheToolBoxProcedure",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thats_one_for_the_tool_box_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmoothMineral",
+      "type": "achievement",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mineral"
+    },
+    {
+      "name": "SmoothMineralProcedure",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mineral_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LunarPowerProcedure",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lunar_power_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpatialDefense",
+      "type": "achievement",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spatial_defense"
+    },
+    {
+      "name": "SpatialDefenseProcedure",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spatial_defense_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SharpProgrammingBud",
+      "type": "achievement",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sharp_programming_bud"
+    },
+    {
+      "name": "WhatCouldGoWrong",
+      "type": "achievement",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "what_could_go_wrong"
+    },
+    {
+      "name": "MissingABracket",
+      "type": "achievement",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "missing_a_bracket"
+    },
+    {
+      "name": "ERRORBlockNotFound",
+      "type": "achievement",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_block_not_found"
+    },
+    {
+      "name": "Impossible",
+      "type": "achievement",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impossible"
+    },
+    {
+      "name": "ImpossibleProcedure",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "impossible_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnknownSword",
+      "type": "achievement",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_sword"
+    },
+    {
+      "name": "UnknownPickaxe",
+      "type": "achievement",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_pickaxe"
+    },
+    {
+      "name": "UnknownAxe",
+      "type": "achievement",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_axe"
+    },
+    {
+      "name": "UnknownShovel",
+      "type": "achievement",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_shovel"
+    },
+    {
+      "name": "UnknownHoe",
+      "type": "achievement",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_hoe"
+    },
+    {
+      "name": "UnknownHelmet",
+      "type": "achievement",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_helmet"
+    },
+    {
+      "name": "UnknownChestplate",
+      "type": "achievement",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_chestplate"
+    },
+    {
+      "name": "UnknownLeggings",
+      "type": "achievement",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_leggings"
+    },
+    {
+      "name": "UnknownBoots",
+      "type": "achievement",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknown_boots"
+    },
+    {
+      "name": "DimensionalGuardian",
+      "type": "achievement",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimensional_guardian"
+    },
+    {
+      "name": "DimensionalGuardianProcedure",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimensional_guardian_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MantleBricksRecipe2",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_bricks_recipe_2"
+    },
+    {
+      "name": "PolishedMantleRecipe2",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_recipe_2"
+    },
+    {
+      "name": "SmoothMantleRecipe2",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_mantle_recipe_2"
+    },
+    {
+      "name": "AmendoimLog",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_log"
+    },
+    {
+      "name": "AmendoimWood",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wood"
+    },
+    {
+      "name": "StrippedAmendoimLog",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_amendoim_log"
+    },
+    {
+      "name": "StrippedAmendoimWood",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_amendoim_wood"
+    },
+    {
+      "name": "AmendoimPlanks",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks"
+    },
+    {
+      "name": "AmendoimStairs",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stairs"
+    },
+    {
+      "name": "AmendoimSlab",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slab"
+    },
+    {
+      "name": "AmendoimFence",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fence"
+    },
+    {
+      "name": "AmendoimFenceGate",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fence_gate"
+    },
+    {
+      "name": "AmendoimDoor",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_door"
+    },
+    {
+      "name": "AmendoimTrapdoor",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_trapdoor"
+    },
+    {
+      "name": "MantleAmendoimNylium",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_amendoim_nylium"
+    },
+    {
+      "name": "EnderAmendoimNylium",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_amendoim_nylium"
+    },
+    {
+      "name": "AmendoimMushroomBlock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_mushroom_block"
+    },
+    {
+      "name": "AmendoimWartBlock",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wart_block"
+    },
+    {
+      "name": "AmendoimSlimeBall",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slime_ball"
+    },
+    {
+      "name": "AmendoimPlanksRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks_recipe"
+    },
+    {
+      "name": "AmendoimPlanks2",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks_2"
+    },
+    {
+      "name": "AmendoimPlanks3",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks_3"
+    },
+    {
+      "name": "AmendoimPlanks4",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks_4"
+    },
+    {
+      "name": "AmendoimDoorRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_door_recipe"
+    },
+    {
+      "name": "AmendoimTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_trapdoor_recipe"
+    },
+    {
+      "name": "AmendoimSlimeBlockRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slime_block_recipe"
+    },
+    {
+      "name": "AmendoimSlabRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slab_recipe"
+    },
+    {
+      "name": "AmendoimStairsRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stairs_recipe"
+    },
+    {
+      "name": "AmendoimFenceRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fence_recipe"
+    },
+    {
+      "name": "AmendoimFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fence_gate_recipe"
+    },
+    {
+      "name": "AmendoimSlimeBallRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slime_ball_recipe"
+    },
+    {
+      "name": "StrippedAmendoimWoodProcedure",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_amendoim_wood_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimWoodRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wood_recipe"
+    },
+    {
+      "name": "GlitchedSoil",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_soil"
+    },
+    {
+      "name": "MantleAmendoimSpreadProcedure",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_amendoim_spread_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderAmendoimSpreadProcedure",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_amendoim_spread_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimMushroom",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_mushroom"
+    },
+    {
+      "name": "AmendoimMushroomBlockRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_mushroom_block_recipe"
+    },
+    {
+      "name": "MantleGlitchedOre",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_glitched_ore"
+    },
+    {
+      "name": "GlitchedObsidian",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_obsidian"
+    },
+    {
+      "name": "AmendoimStew",
+      "type": "food",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stew"
+    },
+    {
+      "name": "AmendoimStewRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stew_recipe"
+    },
+    {
+      "name": "ChiseledMantleBricks",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_mantle_bricks"
+    },
+    {
+      "name": "ChiseledMantleBricksRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_mantle_bricks_recipe"
+    },
+    {
+      "name": "ChiseledMantleBricksRecipe2",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_mantle_bricks_recipe_2"
+    },
+    {
+      "name": "ChiseledMantleBricks3",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chiseled_mantle_bricks_3"
+    },
+    {
+      "name": "StoneAgeMantleAdvancement",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_age_mantle_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MantleAmendoimForest",
+      "type": "biome",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_amendoim_forest"
+    },
+    {
+      "name": "MantleRealms",
+      "type": "biome",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_realms"
+    },
+    {
+      "name": "GlitchedDimension",
+      "type": "dimension",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_dimension"
+    },
+    {
+      "name": "AmendoimStewProcedure",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stew_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimCharcoalRecipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_charcoal_recipe"
+    },
+    {
+      "name": "AmendoimFungus",
+      "type": "plant",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fungus"
+    },
+    {
+      "name": "AmendoimPlanksFuel",
+      "type": "fuel",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks_fuel"
+    },
+    {
+      "name": "AmendoimLogFuel",
+      "type": "fuel",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_log_fuel"
+    },
+    {
+      "name": "AmendoimWoodFuel",
+      "type": "fuel",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wood_fuel"
+    },
+    {
+      "name": "StrippedAmendoimLogFuel",
+      "type": "fuel",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_amendoim_log_fuel"
+    },
+    {
+      "name": "StrippedAmendoimWoodFuel",
+      "type": "fuel",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_amendoim_wood_fuel"
+    },
+    {
+      "name": "AmendoimMushroomBlockFuel",
+      "type": "fuel",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_mushroom_block_fuel"
+    },
+    {
+      "name": "AmendoimStairsFuel",
+      "type": "fuel",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stairs_fuel"
+    },
+    {
+      "name": "AmendoimSlabFuel",
+      "type": "fuel",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slab_fuel"
+    },
+    {
+      "name": "AmendoimFenceFuel",
+      "type": "fuel",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fence_fuel"
+    },
+    {
+      "name": "AmendoimFenceGateFuel",
+      "type": "fuel",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fence_gate_fuel"
+    },
+    {
+      "name": "AmendoimDoorFuel",
+      "type": "fuel",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_door_fuel"
+    },
+    {
+      "name": "AmendoimTrapdoorFuel",
+      "type": "fuel",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_trapdoor_fuel"
+    },
+    {
+      "name": "AmendoimFungiFuel",
+      "type": "fuel",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_fungi_fuel"
+    },
+    {
+      "name": "AmendoimSlimeBallRecipe2",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_slime_ball_recipe_2"
+    },
+    {
+      "name": "AmendoimTreeAdditionalGeneration",
+      "type": "procedure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_additional_generation",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimTree1",
+      "type": "structure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_1"
+    },
+    {
+      "name": "AmendoimTree2",
+      "type": "structure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_2"
+    },
+    {
+      "name": "AmendoimTree3",
+      "type": "structure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_3"
+    },
+    {
+      "name": "AmendoimTree4",
+      "type": "structure",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_4"
+    },
+    {
+      "name": "AmendoimTree5",
+      "type": "structure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_5"
+    },
+    {
+      "name": "AmendoimTree6",
+      "type": "structure",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_6"
+    },
+    {
+      "name": "AmendoimTree7",
+      "type": "structure",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_7"
+    },
+    {
+      "name": "AmendoimTree8",
+      "type": "structure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_8"
+    },
+    {
+      "name": "AmendoimTree9",
+      "type": "structure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_9"
+    },
+    {
+      "name": "AmendoimSaplingBonemealProcedure",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_sapling_bonemeal_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimTreeProcedure",
+      "type": "procedure",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchAndSteelRecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitch_and_steel_recipe"
+    },
+    {
+      "name": "TestBlock",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_block"
+    },
+    {
+      "name": "TestIngot",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_ingot"
+    },
+    {
+      "name": "WhiteCoalBlock",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal_block"
+    },
+    {
+      "name": "WhiteCoal",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal"
+    },
+    {
+      "name": "WhiteCharcoal",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_charcoal"
+    },
+    {
+      "name": "WhiteCoalRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal_recipe"
+    },
+    {
+      "name": "WhiteCharcoalRecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_charcoal_recipe"
+    },
+    {
+      "name": "WhiteCoalRecipe2",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal_recipe_2"
+    },
+    {
+      "name": "WhiteCoalBlockRecipe",
+      "type": "recipe",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal_block_recipe"
+    },
+    {
+      "name": "MantleWhiteCoalOre",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_white_coal_ore"
+    },
+    {
+      "name": "WhiteCoalFuel",
+      "type": "fuel",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal_fuel"
+    },
+    {
+      "name": "WhiteCharcoalFuel",
+      "type": "fuel",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_charcoal_fuel"
+    },
+    {
+      "name": "WhiteCoalBlockFuel",
+      "type": "fuel",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_coal_block_fuel"
+    },
+    {
+      "name": "MantleWhiteCoalOreRecipe",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_white_coal_ore_recipe"
+    },
+    {
+      "name": "AmendoimWart",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wart"
+    },
+    {
+      "name": "FiddlePotionBrewingRecipe",
+      "type": "code",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "fiddle_potion_brewing_recipe"
+    },
+    {
+      "name": "AmendoimWartRecipe",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wart_recipe"
+    },
+    {
+      "name": "AmendoimWartBlockRecipe",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_wart_block_recipe"
+    },
+    {
+      "name": "FiddlyPotion",
+      "type": "potion",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "fiddly_potion"
+    },
+    {
+      "name": "GlitchedIngotRecipeProcedure",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_ingot_recipe_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchedToolsRecipeProcedure",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_tools_recipe_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchedArmorAndItemsRecipeProcedure",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_armor_and_items_recipe_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchedTableRecipesProcedure",
+      "type": "procedure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_table_recipes_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimTreeWorldGenerationProcedure",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_world_generation_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimTreeGenerator",
+      "type": "structure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator"
+    },
+    {
+      "name": "AmendoimSprouts",
+      "type": "plant",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_sprouts"
+    },
+    {
+      "name": "AmendoimRoots",
+      "type": "plant",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_roots"
+    },
+    {
+      "name": "AmendoimDyesRecipe",
+      "type": "recipe",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_dyes_recipe"
+    },
+    {
+      "name": "AmendoimTreeGenerator2",
+      "type": "structure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_2"
+    },
+    {
+      "name": "AmendoimTreeGenerator3",
+      "type": "structure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_3"
+    },
+    {
+      "name": "AmendoimTreeGenerator4",
+      "type": "structure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_4"
+    },
+    {
+      "name": "AmendoimTreeGenerator5",
+      "type": "structure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_5"
+    },
+    {
+      "name": "AmendoimTreeGenerator6",
+      "type": "structure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_6"
+    },
+    {
+      "name": "AmendoimTreeGenerator7",
+      "type": "structure",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_7"
+    },
+    {
+      "name": "AmendoimTreeGenerator8",
+      "type": "structure",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_8"
+    },
+    {
+      "name": "AmendoimTreeGenerator9",
+      "type": "structure",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_generator_9"
+    },
+    {
+      "name": "AmendoimSaplingGrowthProcedure",
+      "type": "procedure",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_sapling_growth_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Urcus",
+      "type": "mob",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "urcus"
+    },
+    {
+      "name": "WeaknessUrcus",
+      "type": "mob",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weakness_urcus"
+    },
+    {
+      "name": "WitherUrcus",
+      "type": "mob",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_urcus"
+    },
+    {
+      "name": "PoisonUrcusCollidingProcedure",
+      "type": "procedure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_urcus_colliding_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeaknessUrcusCollideProcedure",
+      "type": "procedure",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weakness_urcus_collide_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlownessUrcusCollideProcedure",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slowness_urcus_collide_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherUrcusCollideProcedure",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_urcus_collide_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoisonUrcusHitProcedure",
+      "type": "procedure",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_urcus_hit_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeaknessUrcusHitProcedure",
+      "type": "procedure",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weakness_urcus_hit_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlownessUrcusHitProcedure",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slowness_urcus_hit_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherUrcusHitProcedure",
+      "type": "procedure",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_urcus_hit_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlownessUrcus",
+      "type": "mob",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slowness_urcus"
+    },
+    {
+      "name": "PoisonUrcus",
+      "type": "mob",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poison_urcus"
+    },
+    {
+      "name": "VirusCore",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virus_nucleus"
+    },
+    {
+      "name": "PotionOfDecayPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "potion_of_decay_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfDecay",
+      "type": "potion",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "potion_of_decay"
+    },
+    {
+      "name": "PotionOfDecayBrewingRecipe",
+      "type": "code",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "potion_of_decay_brewing_recipe"
+    },
+    {
+      "name": "UrcusCollideProcedure",
+      "type": "procedure",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "urcus_collide_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crawlant",
+      "type": "mob",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crawlant"
+    },
+    {
+      "name": "RawCrawlantMeat",
+      "type": "food",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_crawlant_meat"
+    },
+    {
+      "name": "CookedCrawlantMeat",
+      "type": "food",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_crawlant_meat"
+    },
+    {
+      "name": "CrawlantMeatRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crawlant_meat_recipe"
+    },
+    {
+      "name": "SpikyPlateau",
+      "type": "biome",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spiky_plateau"
+    },
+    {
+      "name": "GlitchedSpikeSmall",
+      "type": "structure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_spike_small"
+    },
+    {
+      "name": "GlitchedSpikeMedium",
+      "type": "structure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_spike_medium"
+    },
+    {
+      "name": "GlitchedSpikeLarge",
+      "type": "structure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_spike_large"
+    },
+    {
+      "name": "AmendoimStem",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stem"
+    },
+    {
+      "name": "AmendoimPlanksRecipe2",
+      "type": "recipe",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_planks_recipe_2"
+    },
+    {
+      "name": "AmendoimLeaves",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_leaves"
+    },
+    {
+      "name": "VanillaLogs",
+      "type": "tag",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanilla_logs"
+    },
+    {
+      "name": "VanillaCoals",
+      "type": "tag",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanilla_coals"
+    },
+    {
+      "name": "ForgeCobblestone",
+      "type": "tag",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_cobblestone"
+    },
+    {
+      "name": "VanillaPlanks",
+      "type": "tag",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vanilla_planks"
+    },
+    {
+      "name": "Opristonium",
+      "type": "tag",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium"
+    },
+    {
+      "name": "EndesuliteAxeRecipe2",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_axe_recipe_2"
+    },
+    {
+      "name": "EndesuliteHoeRecipe2",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_hoe_recipe_2"
+    },
+    {
+      "name": "MantleStairsRecipe2",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_stairs_recipe_2"
+    },
+    {
+      "name": "PolishedMantleStairsRecipe2",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_mantle_stairs_recipe_2"
+    },
+    {
+      "name": "MantleBrickStairsRecipe2",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_brick_stairs_recipe_2"
+    },
+    {
+      "name": "MantleOpristoniumOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mantle_opristonium_ore"
+    },
+    {
+      "name": "AmendoimStemFuel",
+      "type": "fuel",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stem_fuel"
+    },
+    {
+      "name": "AmendoimHyphaeRecipe",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_hyphae_recipe"
+    },
+    {
+      "name": "AmendoimHyphaeFuel",
+      "type": "fuel",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_hyphae_fuel"
+    },
+    {
+      "name": "GlitchedAppleRecipe",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_apple_recipe"
+    },
+    {
+      "name": "Glomper",
+      "type": "mob",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glomper"
+    },
+    {
+      "name": "GlomperTeethAdditionalGenerationProcedure",
+      "type": "procedure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glomper_teeth_additional_generation_procedure",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpristoniumIngotRecipe3",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_ingot_recipe_3"
+    },
+    {
+      "name": "AmendoimApple",
+      "type": "food",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_apple"
+    },
+    {
+      "name": "GlomperTeethMob",
+      "type": "block",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glomper_teeth_mob"
+    },
+    {
+      "name": "GlitchedApple",
+      "type": "food",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_apple"
+    },
+    {
+      "name": "GlomperRevealProcedure",
+      "type": "procedure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glomper_reveal_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantedGlitchedAppleRecipe",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_glitched_apple_recipe"
+    },
+    {
+      "name": "AmendoimStairsRecipe2",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_stairs_recipe_2"
+    },
+    {
+      "name": "EnchantedGlitchedApple",
+      "type": "food",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_glitched_apple"
+    },
+    {
+      "name": "GlomperTooth",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glomper_tooth"
+    },
+    {
+      "name": "AmendoimHyphae",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_hyphae"
+    },
+    {
+      "name": "ForgeCraftingApple",
+      "type": "tag",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_crafting_apple"
+    },
+    {
+      "name": "CrackedMantleBricks",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_mantle_bricks"
+    },
+    {
+      "name": "MossyMantleBricks",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_bricks"
+    },
+    {
+      "name": "MossyMantleBrickStairs",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_stairs"
+    },
+    {
+      "name": "MossyMantleBrickSlab",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_slab"
+    },
+    {
+      "name": "MossyMantleBrickWall",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_wall"
+    },
+    {
+      "name": "MossyMantle",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle"
+    },
+    {
+      "name": "MossyMantleStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_stairs"
+    },
+    {
+      "name": "MossyMantleSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_slab"
+    },
+    {
+      "name": "MossyMantleWall",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_wall"
+    },
+    {
+      "name": "MossyMantleBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_stairs_recipe"
+    },
+    {
+      "name": "MossyMantleBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_slab_recipe"
+    },
+    {
+      "name": "MossyMantleBrickWallRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_wall_recipe"
+    },
+    {
+      "name": "MossyMantleBrickStairsRecipe2",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_brick_stairs_recipe_2"
+    },
+    {
+      "name": "MossyMantleStairsRecipe2",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_stairs_recipe_2"
+    },
+    {
+      "name": "MossyMantleStairsRecipe",
+      "type": "recipe",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_stairs_recipe"
+    },
+    {
+      "name": "MossyMantleSlabRecipe",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_slab_recipe"
+    },
+    {
+      "name": "MossyMantleWallRecipe",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_wall_recipe"
+    },
+    {
+      "name": "CrackedMantleBricksRecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cracked_mantle_bricks_recipe"
+    },
+    {
+      "name": "MossyMantleBricksRecipe",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_bricks_recipe"
+    },
+    {
+      "name": "EndesuliteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_helmet_recipe"
+    },
+    {
+      "name": "EndesuliteHelmetRecipe2",
+      "type": "recipe",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_helmet_recipe_2"
+    },
+    {
+      "name": "EndesuliteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_chestplate_recipe"
+    },
+    {
+      "name": "EndesuliteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_leggings_recipe"
+    },
+    {
+      "name": "EndesuliteBootsRecipe",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_boots_recipe"
+    },
+    {
+      "name": "EndesuliteBootsRecipe2",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_boots_recipe_2"
+    },
+    {
+      "name": "OpristoniumHelmetRecipe2",
+      "type": "recipe",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_helmet_recipe_2"
+    },
+    {
+      "name": "OpristoniumBootsRecipe2",
+      "type": "recipe",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opristonium_boots_recipe_2"
+    },
+    {
+      "name": "AmendoimSapling",
+      "type": "plant",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_sapling"
+    },
+    {
+      "name": "AmendoimTree2Procedure",
+      "type": "procedure",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_2_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimSaplingBonemealProcedure2",
+      "type": "procedure",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_sapling_bonemeal_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmendoimSaplingGrowthProcedure2",
+      "type": "procedure",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_sapling_growth_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MossyMantleRecipe",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_mantle_recipe"
+    },
+    {
+      "name": "UnleashingTheCorruption",
+      "type": "achievement",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unleashing_the_corruption"
+    },
+    {
+      "name": "TheHunterBecomesTheHunted",
+      "type": "achievement",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_hunter_becomes_the_hunted"
+    },
+    {
+      "name": "Glitchiness",
+      "type": "achievement",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitchiness"
+    },
+    {
+      "name": "LandOfTheSpirits",
+      "type": "achievement",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "land_of_the_spirits"
+    },
+    {
+      "name": "ABitSalty",
+      "type": "achievement",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_bit_salty"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "arcade",
+      "file": "arcade",
+      "category": "record"
+    },
+    {
+      "name": "battle_starts",
+      "file": "battle_starts",
+      "category": "record"
+    },
+    {
+      "name": "calm_after_the_storm",
+      "file": "calm_after_the_storm",
+      "category": "record"
+    },
+    {
+      "name": "dimension_c-581",
+      "file": "dimension_c-581",
+      "category": "record"
+    },
+    {
+      "name": "final_discoveries",
+      "file": "final_discoveries",
+      "category": "record"
+    },
+    {
+      "name": "hypertension",
+      "file": "hypertension",
+      "category": "record"
+    },
+    {
+      "name": "ignitar_awakens",
+      "file": "ignitar_awakens",
+      "category": "record"
+    },
+    {
+      "name": "mutational_parasite",
+      "file": "mutational_parasite",
+      "category": "record"
+    },
+    {
+      "name": "parasidal_minds",
+      "file": "parasidal_minds",
+      "category": "record"
+    },
+    {
+      "name": "spirits",
+      "file": "spirits",
+      "category": "music"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.infinity_and_ores.music_disc_ignitar_awakens": "Music Disc",
+      "advancements.miners_dream.title": "Miner\u0027s Dream",
+      "advancements.spitted_apart.title": "Spitted Apart",
+      "advancements.thats_one_for_the_tool_box.descr": "Craft an Opristonium tool",
+      "block.infinity_and_ores.mantle_wall": "Mantle Wall",
+      "advancements.huh_it_fits.descr": "Craft a piece of Opristonium Armor",
+      "block.infinity_and_ores.amendoim_hyphae": "Amendoim Hyphae",
+      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
+      "item.minecraft.potion.effect.potion_of_decay": "Potion of Decay",
+      "effect.fiddly_potion": "No Effect",
+      "item.infinity_and_ores.glomper_tooth": "Glomper Tooth",
+      "item.minecraft.lingering_potion.effect.fiddly_potion": "Fiddly Lingering Potion",
+      "item.infinity_and_ores.opristonium_shovel": "Opristonium Shovel",
+      "item.infinity_and_ores.glitched_shovel": "Glitched Shovel",
+      "item.infinity_and_ores.glitched_boots": "Glitched Boots",
+      "block.infinity_and_ores.end_glitched_ore": "End Glitched Ore",
+      "advancements.unknown_helmet.title": "Unknown [item.helmet]",
+      "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
+      "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
+      "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
+      "entity.infinity_and_ores.crawlant": "Crawlant",
+      "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",
+      "item.minecraft.splash_potion.effect.potion_of_decay": "Splash Potion of Decay",
+      "block.infinity_and_ores.amendoim_log": "Amendoim Log",
+      "item.infinity_and_ores.music_disc_calm_after_the_storm.desc": "Thediamondcrystal - Calm After The Storm",
+      "item.infinity_and_ores.music_disc_dimension_c_581": "Music Disc",
+      "block.infinity_and_ores.cracked_mantle_bricks": "Cracked Mantle Bricks",
+      "advancements.impossible.title": "...Impossible.",
+      "item.infinity_and_ores.enchanted_glitched_apple": "Enchanted Glitched Apple",
+      "advancements.spatial_defense.title": "Spatial Defense",
+      "advancements.opristonium_madness.title": "Opristonium Madness",
+      "advancements.unknown_leggings.descr": "Craft a Glitched Leggings in the Glitched Station",
+      "block.infinity_and_ores.mossy_mantle_brick_stairs": "Mossy Mantle Brick Stairs",
+      "block.infinity_and_ores.stripped_amendoim_log": "Stripped Amendoim Log",
+      "advancements.lunar_power.descr": "Craft an Endesulite tool",
+      "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
+      "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
+      "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
+      "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
+      "block.infinity_and_ores.amendoim_door": "Amendoim Door",
+      "advancements.freenium.title": "Freenium",
+      "block.infinity_and_ores.amendoim_trapdoor": "Amendoim Trapdoor",
+      "item.infinity_and_ores.music_disc_spirits.desc": "Thediamondcrystal - Spirits",
+      "entity.infinity_and_ores.weakness_urcus": "Weakness Urcus",
+      "advancements.missing_a_bracket.descr": "Craft a Glitched Ingot using the Glitched Station",
+      "block.infinity_and_ores.mossy_mantle": "Mossy Mantle",
+      "block.infinity_and_ores.nether_glitched_ore": "Nether Glitched Ore",
+      "block.infinity_and_ores.mantle_brick_stairs": "Mantle Brick Stairs",
+      "advancements.land_of_the_spirits.descr": "Enter the Spiky Plateau and discover the hidden secrets.",
+      "item.infinity_and_ores.opristonium_ingot": "Opristonium Ingot",
+      "item.infinity_and_ores.music_disc_mutational_parasite.desc": "Thediamondcrystal - Mutational Parasite",
+      "item.infinity_and_ores.raw_crawlant_meat": "Raw Crawlant Meat",
+      "item.infinity_and_ores.cooked_crawlant_meat": "Cooked Crawlant Meat",
+      "item.infinity_and_ores.endesulite_chestplate": "Endesulite Chestplate",
+      "item.infinity_and_ores.endesulite_crystal": "Endesulite Crystal",
+      "advancements.unknown_chestplate.title": "Unknown [item.chestplate]",
+      "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
+      "advancements.glitchiness.title": "Glitchiness",
+      "block.infinity_and_ores.amendoim_leaves": "Amendoim Leaves",
+      "item.infinity_and_ores.music_disc_battle_starts": "Music Disc",
+      "block.infinity_and_ores.glitched_soil": "Glitched Soil",
+      "block.infinity_and_ores.amendoim_wart_block": "Amendoim Wart Block",
+      "item.infinity_and_ores.opristonium_hoe": "Opristonium Hoe",
+      "block.infinity_and_ores.endesulite_block": "Block of Endesulite",
+      "item.infinity_and_ores.endesulite_shovel": "Endesulite Shovel",
+      "item.minecraft.potion.effect.fiddly_potion": "Fiddly Potion",
+      "item.infinity_and_ores.glitched_crystal": "Glitched Crystal",
+      "advancements.glitchiness.descr": "Something\u0027s wrong I can feel it. Discover the weirdness of Minecraft.",
+      "item.infinity_and_ores.glitched_dimension": "Flint \u0026 Glitch",
+      "item.infinity_and_ores.opristonium_boots": "Opristonium Boots",
+      "item.infinity_and_ores.poison_urcus": "Poison Urcus Spawn Egg",
+      "effect.potion_of_decay": "Wither",
+      "item.infinity_and_ores.music_disc_dimension_c_581.desc": "Thediamondcrystal - Dimension C-581",
+      "item.infinity_and_ores.music_disc_parasidal_minds": "Music Disc",
+      "advancements.dimensional_guardian.title": "Dimensional Guardian",
+      "block.infinity_and_ores.mossy_mantle_brick_slab": "Mantle Brick Slab",
+      "item.infinity_and_ores.opristonium_leggings": "Opristonium Leggings",
+      "block.infinity_and_ores.smooth_mantle_slab": "Smooth Mantle Slab",
+      "block.infinity_and_ores.glitched_obsidian": "Glitched Obsidian",
+      "block.infinity_and_ores.mantle_slab": "Mantle Slab",
+      "block.infinity_and_ores.stripped_amendoim_wood": "Stripped Amendoim Wood",
+      "item.minecraft.tipped_arrow.effect.fiddly_potion": "Fiddly Arrow",
+      "block.infinity_and_ores.test_block": "Test Block",
+      "advancements.unknown_chestplate.descr": "Craft a Glitched Chestplate in the Glitched Station",
+      "entity.infinity_and_ores.wither_urcus": "Wither Urcus",
+      "item.infinity_and_ores.music_disc_spirits": "Music Disc",
+      "advancements.smooth_mineral.title": "Smooth Mineral!",
+      "entity.infinity_and_ores.urcus": "Urcus",
+      "advancements.missing_a_bracket.title": "Missing a Bracket",
+      "block.infinity_and_ores.mantle_white_coal_ore": "Mantle White Coal Ore",
+      "block.infinity_and_ores.endesulite_ore": "Endesulite Ore",
+      "advancements.unknown_shovel.title": "Unknown [item.shovel]",
+      "advancements.unleashing_the_corruption.descr": "Make a portal and travel to the glitched dimension.",
+      "advancements.miners_dream.descr": "Craft a Block of Opristonium",
+      "block.infinity_and_ores.amendoim_slab": "Amendoim Slab",
+      "advancements.what_could_go_wrong.title": "What Could Go Wrong?",
+      "item.infinity_and_ores.white_charcoal": "White Charcoal",
+      "item.infinity_and_ores.amendoim_wart": "Amendoim Wart",
+      "advancements.unknown_hoe.descr": "Craft a Glitched Hoe in the Glitched Station",
+      "advancements.unknown_boots.title": "Unknown [item.boots]",
+      "item.infinity_and_ores.white_coal": "White Coal",
+      "item.infinity_and_ores.wither_urcus": "Wither Urcus Spawn Egg",
+      "block.infinity_and_ores.chiseled_mantle_bricks": "Chiseled Mantle Bricks",
+      "item.infinity_and_ores.glitched_helmet": "Glitched Helmet",
+      "item.infinity_and_ores.music_disc_final_discoveries": "Music Disc",
+      "advancements.a_bit_salty.title": "A bit salty",
+      "item.infinity_and_ores.opristonium_chestplate": "Opristonium Chestplate",
+      "advancements.the_hunter_becomes_the_hunted.title": "The hunter becomes the hunted",
+      "advancements.error_block_not_found.title": "[ERROR] Block Not Found",
+      "item.minecraft.tipped_arrow.effect.potion_of_decay": "Arrow of Decay",
+      "item.infinity_and_ores.endesulite_sword": "Endesulite Sword",
+      "item.infinity_and_ores.music_disc_calm_after_the_storm": "Music Disc",
+      "block.infinity_and_ores.amendoim_mushroom_block": "Amendoim Mushroom Block",
+      "advancements.end_power.descr": "Craft an Endesulite Block",
+      "itemGroup.tabinfinity_and_ores_tools_and_armors_tab": "Infinity \u0026 Ores: Tools \u0026 Armor",
+      "block.infinity_and_ores.mantle_brick_wall": "Mantle Brick Wall",
+      "advancements.unknown_leggings.title": "Unknown [item.leggings]",
+      "entity.infinity_and_ores.poison_urcus": "Poison Urcus",
+      "item.infinity_and_ores.music_disc_ignitar_awakens.desc": "Thediamondcrystal - Ignitar Awakens",
+      "item.infinity_and_ores.endesulite_shard": "Endesulite Shard",
+      "block.infinity_and_ores.amendoim_stairs": "Amendoim Stairs",
+      "advancements.spatial_defense.descr": "Craft a piece of Endesulite armor",
+      "item.infinity_and_ores.endesulite_hoe": "Endesulite Hoe",
+      "advancements.unknown_sword.descr": "Craft a Glitched Sword in the Glitched Station",
+      "block.infinity_and_ores.glomper_teeth_mob": "Glomper Teeth Mob",
+      "block.infinity_and_ores.amendoim_roots": "Amendoim Roots",
+      "advancements.dimensional_guardian.descr": "Craft a full set of Ezesulite armor",
+      "advancements.unknown_boots.descr": "Craft a Glitched Boots in the Glitched Station",
+      "advancements.unknown_shovel.descr": "Craft a Glitched Shovel in the Glitched Station",
+      "item.infinity_and_ores.glitched_scrap": "Glitched Scrap",
+      "advancements.sharp_programming_bud.title": "Sharp programming, bud!",
+      "block.infinity_and_ores.polished_mantle_stairs": "Polished Mantle Stairs",
+      "advancements.unknown_axe.descr": "Craft a Glitched Axe in the Glitched Station",
+      "item.infinity_and_ores.glitched_ingot": "Glitched Ingot",
+      "block.infinity_and_ores.mantle_amendoim_nylium": "Mantle Amendoim Nylium",
+      "item.infinity_and_ores.music_disc_arcade.desc": "Thediamondcrystal - Arcade (Fixed Version)",
+      "itemGroup.tabinfinity_and_ores_building_blocks_tab": "Infinity \u0026 Ores: Building Blocks",
+      "item.infinity_and_ores.glitched_residue": "Glitched Residue",
+      "block.infinity_and_ores.polished_mantle_slab": "Polished Mantle Slab",
+      "block.infinity_and_ores.mantle_glitched_ore": "Mantle Glitched Ore",
+      "item.infinity_and_ores.opristonium_axe": "Opristonium Axe",
+      "block.infinity_and_ores.amendoim_wood": "Amendoim Wood",
+      "item.infinity_and_ores.opristonium_nugget": "Opristonium Nugget",
+      "item.infinity_and_ores.endesulite_leggings": "Endesulite Leggings",
+      "block.infinity_and_ores.glitched_ore": "Glitched Ore",
+      "item.infinity_and_ores.glitched_shard": "Glitched Shard",
+      "block.infinity_and_ores.glitched_block": "Glitched Block",
+      "item.infinity_and_ores.endesulite_pickaxe": "Endesulite Pickaxe",
+      "item.infinity_and_ores.endesulite_helmet": "Endesulite Helmet",
+      "block.infinity_and_ores.mossy_mantle_wall": "Mossy Mantle Wall",
+      "block.infinity_and_ores.amendoim_sapling": "Amendoim Sapling",
+      "item.infinity_and_ores.opristonium_helmet": "Opristonium Helmet",
+      "block.infinity_and_ores.amendoim_fence": "Amendoim Fence",
+      "entity.infinity_and_ores.glomper": "Glomper",
+      "item.infinity_and_ores.opristonium_gem": "Opristonium Gem",
+      "itemGroup.tabinfinity_and_ores_decoration_blocks_tab": "Infinity \u0026 Ores: Decoration Blocks",
+      "item.infinity_and_ores.music_disc_parasidal_minds.desc": "Thediamondcrystal - Parasidal Minds",
+      "item.infinity_and_ores.glitched_sword": "Glitched Sword",
+      "advancements.freenium.descr": "Collect/craft an Endesulite Crystal",
+      "advancements.unknown_pickaxe.title": "Unknown [item.pickaxe]",
+      "block.infinity_and_ores.glitched_station": "Glitched Station",
+      "block.infinity_and_ores.white_coal_block": "Block of White Coal",
+      "item.infinity_and_ores.glitched_chestplate": "Glitched Chestplate",
+      "advancements.unknown_pickaxe.descr": "Craft a Glitched Pickaxe in the Glitched Station",
+      "block.infinity_and_ores.mossy_mantle_brick_wall": "Mantle Brick Wall",
+      "item.infinity_and_ores.amendoim_stew": "Amendoim Stew",
+      "block.infinity_and_ores.mantle": "Mantle",
+      "block.infinity_and_ores.mossy_mantle_bricks": "Mossy Mantle Bricks",
+      "item.infinity_and_ores.music_disc_mutational_parasite": "Music Disc",
+      "advancements.let_a_new_era_begin.title": "Let a new Era begin!",
+      "entity.infinity_and_ores.slowness_urcus": "Slowness Urcus",
+      "block.infinity_and_ores.amendoim_planks": "Amendoim Planks",
+      "item.infinity_and_ores.virus_nucleus": "Virus Nucleus",
+      "item.infinity_and_ores.glitched_axe": "Glitched Axe",
+      "block.infinity_and_ores.mantle_opristonium_ore": "Mantle Opristonium Ore",
+      "advancements.opristonium_madness.descr": "Collect an Opristonium Gem",
+      "item.infinity_and_ores.glitched_leggings": "Glitched Leggings",
+      "advancements.unknown_helmet.descr": "Craft a Glitched Helmet in the Glitched Station",
+      "item.infinity_and_ores.music_disc_arcade": "Music Disc",
+      "block.infinity_and_ores.mantle_brick_slab": "Mantle Brick Slab",
+      "advancements.huh_it_fits.title": "Huh, It Fits!",
+      "block.infinity_and_ores.mossy_mantle_stairs": "Mossy Mantle Stairs",
+      "advancements.unknown_axe.title": "Unknown [item.axe]",
+      "item.infinity_and_ores.slowness_urcus": "Slowness Urcus Spawn Egg",
+      "item.infinity_and_ores.endesulite_boots": "Endesulite Boots",
+      "advancements.end_power.title": "End Power",
+      "block.infinity_and_ores.polished_mantle_wall": "Polished Mantle Wall",
+      "item.infinity_and_ores.test_ingot": "Test Ingot",
+      "advancements.spitted_apart.descr": "Find, mine or craft some Endesulite Shards",
+      "advancements.sharp_programming_bud.descr": "Mine a Glitched Crystal",
+      "item.infinity_and_ores.opristonium_shard": "Opristonium Shard",
+      "item.infinity_and_ores.glomper": "Glomper Spawn Egg",
+      "block.infinity_and_ores.glitched_crystal_block": "Glitched Crystal Block",
+      "block.infinity_and_ores.polished_mantle": "Polished Mantle",
+      "advancements.land_of_the_spirits.title": "Land of the Spirits",
+      "block.infinity_and_ores.mossy_mantle_slab": "Mossy Mantle Slab",
+      "advancements.unknown_sword.title": "Unknown [item.sword]",
+      "advancements.let_a_new_era_begin.descr": "Join the world and start discovering what Infinity \u0026 Ores has to offer!",
+      "item.infinity_and_ores.amendoim_slime_ball": "Amendoim Slime Ball",
+      "item.infinity_and_ores.glitched_apple": "Glitched Apple",
+      "item.infinity_and_ores.glitched_pickaxe": "Glitched Pickaxe",
+      "item.infinity_and_ores.glitched_hoe": "Glitched Hoe",
+      "item.infinity_and_ores.opristonium_sword": "Opristonium Sword",
+      "advancements.a_bit_salty.descr": "Consume some Cooked Crawlant Meat",
+      "block.infinity_and_ores.amendoim_stem": "Amendoim Stem",
+      "item.minecraft.splash_potion.effect.fiddly_potion": "Fiddly Splash Potion",
+      "itemGroup.tabinfinity_and_ores_items_tab": "Infinity \u0026 Ores: Items",
+      "block.infinity_and_ores.amendoim_fence_gate": "Amendoim Fence Gat",
+      "item.infinity_and_ores.endesulite_axe": "Endesulite Axe",
+      "item.infinity_and_ores.music_disc_final_discoveries.desc": "Thediamondcrystal - Final Discoveries",
+      "advancements.unleashing_the_corruption.title": "Unleashing the Corruption!",
+      "item.infinity_and_ores.music_disc_hypertension": "Music Disc",
+      "advancements.smooth_mineral.descr": "Smooth Mineral!",
+      "block.infinity_and_ores.mantle_stairs": "Mantle Stairs",
+      "item.infinity_and_ores.weakness_urcus": "Weakness Urcus Spawn Egg",
+      "advancements.the_hunter_becomes_the_hunted.descr": "Kill a Crawlant and collect its\u0027 meat",
+      "item.infinity_and_ores.crawlant": "Crawlant Spawn Egg",
+      "item.infinity_and_ores.amendoim_mushroom": "Amendoim Mushroom",
+      "advancements.lunar_power.title": "Lunar Power",
+      "advancements.error_block_not_found.descr": "Craft a Glitched Block",
+      "advancements.thats_one_for_the_tool_box.title": "That\u0027s one for the Toolbox!",
+      "block.infinity_and_ores.amendoim_fungus": "Amendoim Fungus",
+      "advancements.unknown_hoe.title": "Unknown [item.hoe]",
+      "block.infinity_and_ores.opristonium_ore": "Opristonium Ore",
+      "advancements.impossible.descr": "Craft a full set of Glitched armor"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "infinity_and_ores",
+    "modName": "Infinity \u0026 Ores",
+    "version": "Alpha Test 1.2.0 Snapshot 3",
+    "description": "Infinity \u0026 Ores is a mod created by Thediamondcrystal in order to enhance the vanilla world by adding over 10 unique ores, new dimensions, new bosses and more. Kindly created using MCreator, this mod is a revamp of one of Thediamondcrystal\u0027s old mod; Magical Infinity. From new blocks like the Opristonium Ore or a Corrupted Block to new dimensions, this mod has something for everyone.Thank you to astroidbuster, DTRW191, Pythagoras_314, ShamanDorn and verisimal for their help with texturing, this version wouldn\u0027t be possible without you guys! :D",
+    "author": "Thediamondcrystal",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "opriston",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.infinityores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

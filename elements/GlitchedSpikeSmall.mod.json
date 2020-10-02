@@ -1,0 +1,28 @@
+{
+  "_fv": 10,
+  "_type": "structure",
+  "definition": {
+    "structure": "glitched_spike_small",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 750000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:GlitchedDimension"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:GlitchedSoil"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SpikyPlateau"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

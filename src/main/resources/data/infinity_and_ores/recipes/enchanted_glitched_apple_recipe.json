@@ -1,0 +1,42 @@
+{
+  "group": "enchanted_glitched_apple",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "1": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "2": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "3": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "4": {
+      "tag": "forge:crafting_apple"
+    },
+    "5": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "6": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "7": {
+      "item": "infinity_and_ores:glitched_block"
+    },
+    "8": {
+      "item": "infinity_and_ores:glitched_block"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:enchanted_glitched_apple",
+    "count": 1
+  }
+}

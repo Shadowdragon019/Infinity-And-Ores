@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/polished_mantle",
+    "up": "infinity_and_ores:blocks/polished_mantle",
+    "north": "infinity_and_ores:blocks/polished_mantle",
+    "east": "infinity_and_ores:blocks/polished_mantle",
+    "south": "infinity_and_ores:blocks/polished_mantle",
+    "west": "infinity_and_ores:blocks/polished_mantle",
+    "particle": "infinity_and_ores:blocks/polished_mantle"
+  }
+}

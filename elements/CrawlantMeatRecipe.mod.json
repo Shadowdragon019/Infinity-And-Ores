@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "crawlant_meat",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawCrawlantMeat"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedCrawlantMeat"
+    },
+    "name": "crawlant_meat_recipe",
+    "namespace": "mod"
+  }
+}

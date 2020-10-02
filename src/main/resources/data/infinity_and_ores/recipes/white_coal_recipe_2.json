@@ -1,0 +1,13 @@
+{
+  "group": "white_coal",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:white_coal_block"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:white_coal",
+    "count": 9
+  }
+}

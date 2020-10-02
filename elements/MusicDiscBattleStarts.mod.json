@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_battle_starts",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Battle Starts",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:battle_starts"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

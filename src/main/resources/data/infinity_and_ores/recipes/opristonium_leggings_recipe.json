@@ -1,0 +1,36 @@
+{
+  "group": "opristonium_leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:opristonium"
+    },
+    "1": {
+      "tag": "forge:opristonium"
+    },
+    "2": {
+      "tag": "forge:opristonium"
+    },
+    "3": {
+      "tag": "forge:opristonium"
+    },
+    "5": {
+      "tag": "forge:opristonium"
+    },
+    "6": {
+      "tag": "forge:opristonium"
+    },
+    "8": {
+      "tag": "forge:opristonium"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:opristonium_leggings",
+    "count": 1
+  }
+}

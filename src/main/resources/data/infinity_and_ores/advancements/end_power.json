@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:endesulite_block"
+    },
+    "title": {
+      "translate": "advancements.end_power.title"
+    },
+    "description": {
+      "translate": "advancements.end_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "end_power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinity_and_ores:endesulite_block",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:freenium"
+}

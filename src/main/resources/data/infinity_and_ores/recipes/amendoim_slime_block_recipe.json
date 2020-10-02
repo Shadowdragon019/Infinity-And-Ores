@@ -1,0 +1,26 @@
+{
+  "group": "amendoim_slime_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:amendoim_slime_ball"
+    },
+    "1": {
+      "item": "infinity_and_ores:amendoim_slime_ball"
+    },
+    "2": {
+      "item": "infinity_and_ores:amendoim_slime_ball"
+    },
+    "3": {
+      "item": "infinity_and_ores:amendoim_slime_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_block",
+    "count": 1
+  }
+}

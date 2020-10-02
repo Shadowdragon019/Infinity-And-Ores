@@ -1,0 +1,9 @@
+{
+  "group": "mantle_brick_stairs",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "infinity_and_ores:mantle_bricks"
+  },
+  "result": "infinity_and_ores:mantle_brick_stairs"
+}

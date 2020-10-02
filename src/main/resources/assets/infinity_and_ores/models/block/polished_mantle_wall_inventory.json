@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "infinity_and_ores:blocks/polished_mantle",
+    "particle": "infinity_and_ores:blocks/polished_mantle"
+  }
+}

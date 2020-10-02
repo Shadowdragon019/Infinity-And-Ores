@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/glitched_soil",
+    "up": "infinity_and_ores:blocks/glitched_soil",
+    "north": "infinity_and_ores:blocks/glitched_soil",
+    "east": "infinity_and_ores:blocks/glitched_soil",
+    "south": "infinity_and_ores:blocks/glitched_soil",
+    "west": "infinity_and_ores:blocks/glitched_soil",
+    "particle": "infinity_and_ores:blocks/glitched_soil"
+  }
+}

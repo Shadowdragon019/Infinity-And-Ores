@@ -1,0 +1,26 @@
+{
+  "group": "opristonium_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:opristonium"
+    },
+    "2": {
+      "tag": "forge:opristonium"
+    },
+    "3": {
+      "tag": "forge:opristonium"
+    },
+    "5": {
+      "tag": "forge:opristonium"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:opristonium_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "amendoim_slime_ball",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:AmendoimMushroomBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:AmendoimSlimeBall"
+    },
+    "name": "amendoim_slime_ball_recipe",
+    "namespace": "mod"
+  }
+}

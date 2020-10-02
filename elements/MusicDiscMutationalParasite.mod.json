@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_mutational_parasite",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Mutational Parasite",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:mutational_parasite"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

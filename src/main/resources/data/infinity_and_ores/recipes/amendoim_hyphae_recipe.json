@@ -1,0 +1,22 @@
+{
+  "group": "amendoim_hyphae",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:amendoim_stem"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_stem"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_stem"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_stem"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:amendoim_hyphae",
+    "count": 4
+  }
+}

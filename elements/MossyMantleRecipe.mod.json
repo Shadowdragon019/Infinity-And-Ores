@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "mossy_mantle",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Mantle"
+      },
+      {
+        "value": "CUSTOM:AmendoimRoots"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyMantle"
+    },
+    "name": "mossy_mantle_recipe",
+    "namespace": "mod"
+  }
+}

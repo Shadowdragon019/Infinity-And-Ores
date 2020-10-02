@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_final_discoveries",
+    "name": "Music Disc",
+    "description": "Thediamondcrystal - Final Discoveries",
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "music": {
+      "value": "CUSTOM:final_discoveries"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

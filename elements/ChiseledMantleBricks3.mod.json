@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "chissled_mantle_bricks",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Mantle"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:ChiseledMantleBricks"
+    },
+    "name": "chiseled_mantle_bricks_3",
+    "namespace": "mod"
+  }
+}

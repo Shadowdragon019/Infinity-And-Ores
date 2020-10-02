@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "infinity_and_ores:block/mossy_mantle_slab"
+    },
+    "type=top": {
+      "model": "infinity_and_ores:block/mossy_mantle_slab_top"
+    },
+    "type=double": {
+      "model": "infinity_and_ores:block/mossy_mantle_slab_full"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "arcade": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:arcade",
+        "stream": true
+      }
+    ]
+  },
+  "battle_starts": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:battle_starts",
+        "stream": true
+      }
+    ]
+  },
+  "calm_after_the_storm": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:calm_after_the_storm",
+        "stream": true
+      }
+    ]
+  },
+  "dimension_c-581": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:dimension_c-581",
+        "stream": true
+      }
+    ]
+  },
+  "final_discoveries": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:final_discoveries",
+        "stream": true
+      }
+    ]
+  },
+  "hypertension": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:hypertension",
+        "stream": true
+      }
+    ]
+  },
+  "ignitar_awakens": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:ignitar_awakens",
+        "stream": true
+      }
+    ]
+  },
+  "mutational_parasite": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:mutational_parasite",
+        "stream": true
+      }
+    ]
+  },
+  "parasidal_minds": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:parasidal_minds",
+        "stream": true
+      }
+    ]
+  },
+  "spirits": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "infinity_and_ores:spirits",
+        "stream": true
+      }
+    ]
+  }
+}

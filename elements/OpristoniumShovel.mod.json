@@ -1,0 +1,33 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "opristonium_shovel",
+    "customModelName": "Normal",
+    "name": "Opristonium Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
+    "enchantability": 33,
+    "damageVsEntity": 7.5,
+    "usageCount": 2698,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:OpristoniumGem"
+      },
+      {
+        "value": "CUSTOM:OpristoniumIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

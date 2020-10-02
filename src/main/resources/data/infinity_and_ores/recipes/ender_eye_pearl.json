@@ -1,0 +1,22 @@
+{
+  "group": "ender_eye",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    {
+      "item": "infinity_and_ores:endesulite_shard"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_eye",
+    "count": 1
+  }
+}

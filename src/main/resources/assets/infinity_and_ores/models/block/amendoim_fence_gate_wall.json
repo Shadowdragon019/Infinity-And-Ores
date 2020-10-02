@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "infinity_and_ores:blocks/amendoim_planks"
+  }
+}

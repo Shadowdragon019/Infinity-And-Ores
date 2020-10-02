@@ -1,0 +1,36 @@
+{
+  "group": "endesulite_leggings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "1": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "2": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "3": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "5": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "6": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "8": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:endesulite_leggings",
+    "count": 1
+  }
+}

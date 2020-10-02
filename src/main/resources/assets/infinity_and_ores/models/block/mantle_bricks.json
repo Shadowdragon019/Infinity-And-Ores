@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/mantle_bricks",
+    "up": "infinity_and_ores:blocks/mantle_bricks",
+    "north": "infinity_and_ores:blocks/mantle_bricks",
+    "east": "infinity_and_ores:blocks/mantle_bricks",
+    "south": "infinity_and_ores:blocks/mantle_bricks",
+    "west": "infinity_and_ores:blocks/mantle_bricks",
+    "particle": "infinity_and_ores:blocks/mantle_bricks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/end_glitched_ore",
+    "up": "infinity_and_ores:blocks/end_glitched_ore",
+    "north": "infinity_and_ores:blocks/end_glitched_ore",
+    "east": "infinity_and_ores:blocks/end_glitched_ore",
+    "south": "infinity_and_ores:blocks/end_glitched_ore",
+    "west": "infinity_and_ores:blocks/end_glitched_ore",
+    "particle": "infinity_and_ores:blocks/end_glitched_ore"
+  }
+}

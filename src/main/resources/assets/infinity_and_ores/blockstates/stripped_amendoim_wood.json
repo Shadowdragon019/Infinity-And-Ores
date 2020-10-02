@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "infinity_and_ores:block/stripped_amendoim_wood"
+    },
+    "facing=north": {
+      "model": "infinity_and_ores:block/stripped_amendoim_wood"
+    },
+    "facing=east": {
+      "model": "infinity_and_ores:block/stripped_amendoim_wood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "infinity_and_ores:block/stripped_amendoim_wood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "infinity_and_ores:block/stripped_amendoim_wood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "infinity_and_ores:block/stripped_amendoim_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

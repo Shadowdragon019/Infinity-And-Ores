@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="infinity_and_ores"
+version="Alpha Test 1.2.0 Snapshot 3"
+displayName="Infinity & Ores"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="Thediamondcrystal"
+description='''
+Infinity & Ores is a mod created by Thediamondcrystal in order to enhance the vanilla world by adding over 10 unique ores, new dimensions, new bosses and more. Kindly created using MCreator, this mod is a revamp of one of Thediamondcrystal's old mod; Magical Infinity. From new blocks like the Opristonium Ore or a Corrupted Block to new dimensions, this mod has something for everyone.Thank you to astroidbuster, DTRW191, Pythagoras_314, ShamanDorn and verisimal for their help with texturing, this version wouldn't be possible without you guys! :D
+'''
+
+[[dependencies.infinity_and_ores]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

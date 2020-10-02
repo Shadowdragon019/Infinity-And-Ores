@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "infinity_and_ores:block/glitched_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "infinity_and_ores:block/glitched_dimension_portal_ns"
+    }
+  }
+}

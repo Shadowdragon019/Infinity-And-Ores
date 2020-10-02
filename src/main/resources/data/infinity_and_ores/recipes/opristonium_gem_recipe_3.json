@@ -1,0 +1,22 @@
+{
+  "group": "opristonium_gem",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:opristonium_shard"
+    },
+    {
+      "item": "infinity_and_ores:opristonium_shard"
+    },
+    {
+      "item": "infinity_and_ores:opristonium_shard"
+    },
+    {
+      "item": "infinity_and_ores:opristonium_shard"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:opristonium_gem",
+    "count": 1
+  }
+}

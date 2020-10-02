@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "infinity_and_ores:blocks/polished_mantle",
+    "top": "infinity_and_ores:blocks/polished_mantle",
+    "side": "infinity_and_ores:blocks/polished_mantle"
+  }
+}

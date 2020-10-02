@@ -1,0 +1,29 @@
+{
+  "group": "endesulite_helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "1": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "2": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "3": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "5": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:endesulite_helmet",
+    "count": 1
+  }
+}

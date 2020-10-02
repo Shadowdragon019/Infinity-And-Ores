@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "amendoim_mushroom",
+    "customModelName": "Normal",
+    "name": "Amendoim Mushroom",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.6,
+    "eatingSpeed": 10,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/amendoim_stem",
+    "up": "infinity_and_ores:blocks/amendoim_stem",
+    "north": "infinity_and_ores:blocks/amendoim_stem",
+    "east": "infinity_and_ores:blocks/amendoim_stem",
+    "south": "infinity_and_ores:blocks/amendoim_stem",
+    "west": "infinity_and_ores:blocks/amendoim_stem",
+    "particle": "infinity_and_ores:blocks/amendoim_stem"
+  }
+}

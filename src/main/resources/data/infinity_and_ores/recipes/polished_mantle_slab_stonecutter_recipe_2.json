@@ -1,0 +1,9 @@
+{
+  "group": "polished_mantle_slab",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "infinity_and_ores:mantle"
+  },
+  "result": "infinity_and_ores:polished_mantle_slab"
+}

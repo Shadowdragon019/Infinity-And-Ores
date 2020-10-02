@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "potion",
+  "definition": {
+    "name": "Potion of Decay",
+    "effectName": "Wither",
+    "icon": "wither.png",
+    "color": {
+      "value": -15135475,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "PotionOfDecayPotionStartedapplied"
+    }
+  }
+}

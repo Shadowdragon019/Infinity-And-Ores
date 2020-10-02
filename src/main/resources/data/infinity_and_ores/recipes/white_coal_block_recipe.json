@@ -1,0 +1,42 @@
+{
+  "group": "white_coal_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "1": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "2": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "3": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "4": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "5": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "6": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "7": {
+      "item": "infinity_and_ores:white_coal"
+    },
+    "8": {
+      "item": "infinity_and_ores:white_coal"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:white_coal_block",
+    "count": 1
+  }
+}

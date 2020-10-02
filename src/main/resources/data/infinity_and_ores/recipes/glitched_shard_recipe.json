@@ -1,0 +1,13 @@
+{
+  "group": "glitched_shard",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:glitched_ingot"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:glitched_shard",
+    "count": 9
+  }
+}

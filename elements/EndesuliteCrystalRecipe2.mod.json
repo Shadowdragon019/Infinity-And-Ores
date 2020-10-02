@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "endesulite_crystal",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:EndesuliteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:EndesuliteCrystal"
+    },
+    "name": "endesulite_crystal_recipe_2",
+    "namespace": "mod"
+  }
+}

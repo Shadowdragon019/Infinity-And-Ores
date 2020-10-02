@@ -1,0 +1,19 @@
+{
+  "group": "amendoim_stew",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:amendoim_fungus"
+    },
+    {
+      "item": "infinity_and_ores:amendoim_mushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:amendoim_stew",
+    "count": 1
+  }
+}

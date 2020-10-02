@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "amendoim_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmendoimPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmendoimPlanks"
+      },
+      {
+        "value": "CUSTOM:AmendoimPlanks"
+      },
+      {
+        "value": "CUSTOM:AmendoimPlanks"
+      },
+      {
+        "value": "CUSTOM:AmendoimPlanks"
+      },
+      {
+        "value": "CUSTOM:AmendoimPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmendoimStairs"
+    },
+    "name": "amendoim_stairs_recipe_2",
+    "namespace": "mod"
+  }
+}
