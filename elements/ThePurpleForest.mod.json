@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "The Purple Forest",
+    "achievementDescription": "Enter the Mantle Amendoim Forest",
+    "achievementIcon": {
+      "value": "CUSTOM:MantleAmendoimNylium"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:UnleashingTheCorruption"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"55\" y=\"46\"><field name=\"biome\">CUSTOM:MantleAmendoimForest</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}
