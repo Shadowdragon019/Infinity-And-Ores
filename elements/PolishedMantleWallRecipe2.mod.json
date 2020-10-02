@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "polished_mantle_wall",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedMantle"
+      },
+      {
+        "value": "CUSTOM:PolishedMantle"
+      },
+      {
+        "value": "CUSTOM:PolishedMantle"
+      },
+      {
+        "value": "CUSTOM:PolishedMantle"
+      },
+      {
+        "value": "CUSTOM:PolishedMantle"
+      },
+      {
+        "value": "CUSTOM:PolishedMantle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedMantleWall"
+    },
+    "name": "polished_mantle_wall_recipe_2",
+    "namespace": "mod"
+  }
+}

@@ -173,7 +173,7 @@ public class WitherUrcusEntity extends InfinityAndOresModElements.ModElement {
 			Entity sourceentity = source.getTrueSource();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				WitherUrcusHitProcedureProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof PotionEntity)

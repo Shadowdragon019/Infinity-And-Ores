@@ -173,7 +173,7 @@ public class PoisonUrcusEntity extends InfinityAndOresModElements.ModElement {
 			Entity sourceentity = source.getTrueSource();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				PoisonUrcusHitProcedureProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof PotionEntity)

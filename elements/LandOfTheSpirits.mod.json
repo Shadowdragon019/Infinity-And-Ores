@@ -5,7 +5,7 @@
     "achievementName": "Land of the Spirits",
     "achievementDescription": "Enter the Spiky Plateau and discover the hidden secrets.",
     "achievementIcon": {
-      "value": "CUSTOM:GlomperTooth"
+      "value": "CUSTOM:GlitchedSoil"
     },
     "background": "Default",
     "disableDisplay": false,

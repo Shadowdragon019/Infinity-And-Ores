@@ -9,6 +9,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
@@ -40,6 +41,7 @@ import net.minecraft.block.Block;
 import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.procedures.GlomperTeethAdditionalGenerationProcedureProcedure;
 import net.mcreator.infinityores.procedures.GlomperRevealProcedureProcedure;
+import net.mcreator.infinityores.procedures.GlomperRevealProcedure2Procedure;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -72,7 +74,7 @@ public class GlomperTeethMobBlock extends InfinityAndOresModElements.ModElement 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.LANTERN).hardnessAndResistance(-1, 3600000).lightValue(0)
-					.doesNotBlockMovement().notSolid());
+					.doesNotBlockMovement().notSolid().tickRandomly());
 			setRegistryName("glomper_teeth_mob");
 		}
 
@@ -97,6 +99,22 @@ public class GlomperTeethMobBlock extends InfinityAndOresModElements.ModElement 
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+			super.tick(state, world, pos, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				GlomperRevealProcedure2Procedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

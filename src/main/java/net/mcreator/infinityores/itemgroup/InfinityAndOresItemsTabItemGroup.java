@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.infinityores.item.OpristoniumGemItem;
+import net.mcreator.infinityores.item.GlitchedIngotItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 @InfinityAndOresModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class InfinityAndOresItemsTabItemGroup extends InfinityAndOresModElements
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(OpristoniumGemItem.block, (int) (1));
+				return new ItemStack(GlitchedIngotItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

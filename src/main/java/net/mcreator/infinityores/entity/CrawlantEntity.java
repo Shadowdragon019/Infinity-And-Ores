@@ -115,6 +115,7 @@ public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, GlomperEntity.CustomEntity.class, false, false));
 		}
 
 		@Override
