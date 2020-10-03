@@ -53,7 +53,7 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:glitched_crystal_block")
 	public static final Block block = null;
 	public GlitchedCrystalBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 131);
+		super(instance, 129);
 	}
 
 	@Override

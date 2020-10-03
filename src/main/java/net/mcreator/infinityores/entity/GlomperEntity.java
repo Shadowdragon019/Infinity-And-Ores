@@ -23,31 +23,27 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.ai.goal.TemptGoal;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.PanicGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.goal.AvoidEntityGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.entity.AgeableEntity;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.material.Material;
 
-import net.mcreator.infinityores.procedures.GlomperHideProcedureProcedure;
 import net.mcreator.infinityores.item.GlomperToothItem;
 import net.mcreator.infinityores.item.AmendoimWartItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
-
-import java.util.Map;
-import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -56,18 +52,18 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public GlomperEntity(InfinityAndOresModElements instance) {
-		super(instance, 117);
+		super(instance, 412);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 1f)).build("glomper")
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("glomper")
 						.setRegistryName("glomper");
 		elements.entities.add(() -> entity);
 		elements.items
-				.add(() -> new SpawnEggItem(entity, -16777216, -10092442, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("glomper"));
+				.add(() -> new SpawnEggItem(entity, -16777216, -6750055, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("glomper"));
 	}
 
 	@Override
@@ -78,7 +74,7 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 6, 2, 6));
+			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 10, 1, 3));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
@@ -97,7 +93,7 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 			};
 		});
 	}
-	public static class CustomEntity extends CreatureEntity {
+	public static class CustomEntity extends AnimalEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -116,13 +112,12 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1,
-					new TemptGoal(this, 1, Ingredient.fromItems(new ItemStack(AmendoimWartItem.block, (int) (1)).getItem()), false));
+			this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(3, new AvoidEntityGoal(this, CrawlantEntity.CustomEntity.class, (float) 6, 1, 1.2));
-			this.goalSelector.addGoal(4, new PanicGoal(this, 1.2));
-			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(6, new SwimGoal(this));
+			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(4, new SwimGoal(this));
+			this.goalSelector.addGoal(5,
+					new TemptGoal(this, 1, Ingredient.fromItems(new ItemStack(AmendoimWartItem.block, (int) (1)).getItem()), false));
 		}
 
 		@Override
@@ -146,24 +141,6 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 		}
 
 		@Override
-		public void baseTick() {
-			super.baseTick();
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity entity = this;
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				GlomperHideProcedureProcedure.executeProcedure($_dependencies);
-			}
-		}
-
-		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
@@ -175,6 +152,20 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
+		}
+
+		@Override
+		public AgeableEntity createChild(AgeableEntity ageable) {
+			return (CustomEntity) entity.create(this.world);
+		}
+
+		@Override
+		public boolean isBreedingItem(ItemStack stack) {
+			if (stack == null)
+				return false;
+			if (new ItemStack(AmendoimWartItem.block, (int) (1)).getItem() == stack.getItem())
+				return true;
+			return false;
 		}
 	}
 

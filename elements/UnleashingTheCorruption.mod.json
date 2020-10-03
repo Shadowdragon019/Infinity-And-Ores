@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Unleashing the Corruption!",
-    "achievementDescription": "Make a portal and travel to the glitched dimension.",
+    "achievementDescription": "Create a Glitched portal and enter the hardest dimension: The Glitched dimension",
     "achievementIcon": {
       "value": "CUSTOM:GlitchedObsidian"
     },
@@ -18,8 +18,8 @@
     "rewardXP": 1,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:WhatCouldGoWrong"
+      "value": "CUSTOM:Glitchiness"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"34\" y=\"49\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"41\" y=\"49\"><field name=\"dimension\">CUSTOM:GlitchedDimension</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

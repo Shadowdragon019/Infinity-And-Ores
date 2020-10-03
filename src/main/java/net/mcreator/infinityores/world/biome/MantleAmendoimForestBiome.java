@@ -47,7 +47,7 @@ public class MantleAmendoimForestBiome extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:mantle_amendoim_forest")
 	public static final CustomBiome biome = null;
 	public MantleAmendoimForestBiome(InfinityAndOresModElements instance) {
-		super(instance, 258);
+		super(instance, 256);
 	}
 
 	@Override
@@ -60,7 +60,7 @@ public class MantleAmendoimForestBiome extends InfinityAndOresModElements.ModEle
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0f).depth(0.6f).scale(0.9f).temperature(0f).precipitation(Biome.RainType.NONE)
+			super(new Biome.Builder().downfall(0f).depth(0.2f).scale(0.4f).temperature(0f).precipitation(Biome.RainType.NONE)
 					.category(Biome.Category.FOREST).waterColor(4159204).waterFogColor(329011).parent("infinity_and_ores:mantle_realms")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(MantleAmendoimNyliumBlock.block.getDefaultState(),
 							MantleBlock.block.getDefaultState(), MantleBlock.block.getDefaultState())));

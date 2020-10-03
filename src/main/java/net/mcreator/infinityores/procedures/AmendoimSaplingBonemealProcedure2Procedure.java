@@ -24,7 +24,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimSaplingBonemealProcedure2Procedure(InfinityAndOresModElements instance) {
-		super(instance, 376);
+		super(instance, 430);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -80,7 +80,7 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					AmendoimTree2ProcedureProcedure.executeProcedure($_dependencies);
+					AmendoimTreeProcedureProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}
@@ -108,7 +108,7 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					AmendoimTree2ProcedureProcedure.executeProcedure($_dependencies);
+					AmendoimTreeProcedureProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}

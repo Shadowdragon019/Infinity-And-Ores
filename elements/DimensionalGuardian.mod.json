@@ -5,7 +5,7 @@
     "achievementName": "Dimensional Guardian",
     "achievementDescription": "Craft a full set of Ezesulite armor",
     "achievementIcon": {
-      "value": "CUSTOM:GlitchedArmor.body"
+      "value": "CUSTOM:EndesuliteArmor.body"
     },
     "background": "Default",
     "disableDisplay": false,

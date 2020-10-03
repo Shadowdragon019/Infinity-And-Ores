@@ -32,7 +32,7 @@ public class AmendoimLogBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_log")
 	public static final Block block = null;
 	public AmendoimLogBlock(InfinityAndOresModElements instance) {
-		super(instance, 66);
+		super(instance, 65);
 	}
 
 	@Override

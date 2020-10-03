@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "A bit salty",
-    "achievementDescription": "Consume some Cooked Crawlant Meat",
+    "achievementDescription": "Cook some Crawlan Meat and eat it",
     "achievementIcon": {
       "value": "CUSTOM:CookedCrawlantMeat"
     },
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:TheHunterBecomesTheHunted"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"34\" y=\"14\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CookedCrawlantMeat</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"40\" y=\"17\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CookedCrawlantMeat</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

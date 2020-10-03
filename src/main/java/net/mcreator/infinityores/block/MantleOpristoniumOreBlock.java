@@ -42,7 +42,7 @@ public class MantleOpristoniumOreBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:mantle_opristonium_ore")
 	public static final Block block = null;
 	public MantleOpristoniumOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 32);
+		super(instance, 31);
 	}
 
 	@Override

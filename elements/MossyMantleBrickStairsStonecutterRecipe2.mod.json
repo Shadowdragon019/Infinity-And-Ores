@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "mossy_mantle_brick_stairs",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:MossyMantle"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:MossyMantleBrickStairs"
+    },
+    "name": "mossy_mantle_brick_stairs_stonecutter_recipe_2",
+    "namespace": "mod"
+  }
+}

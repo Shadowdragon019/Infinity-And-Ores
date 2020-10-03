@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class WitherUrcusHitProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public WitherUrcusHitProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 324);
+		super(instance, 322);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -31,7 +31,7 @@ public class WitherUrcusHitProcedureProcedure extends InfinityAndOresModElements
 			((LivingEntity) sourceentity).addPotionEffect(new EffectInstance(Effects.WITHER, (int) 100, (int) 0));
 		if (sourceentity instanceof ServerPlayerEntity) {
 			Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) sourceentity).server).getAdvancementManager()
-					.getAdvancement(new ResourceLocation("infinity_and_ores:opristonium_madness"));
+					.getAdvancement(new ResourceLocation("infinity_and_ores:infected"));
 			AdvancementProgress _ap = ((ServerPlayerEntity) sourceentity).getAdvancements().getProgress(_adv);
 			if (!_ap.isDone()) {
 				Iterator _iterator = _ap.getRemaningCriteria().iterator();

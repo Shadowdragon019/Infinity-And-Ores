@@ -10,6 +10,15 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:EndesuliteCrystal"
       },
       {
@@ -26,15 +35,6 @@
       },
       {
         "value": "CUSTOM:EndesuliteCrystal"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {

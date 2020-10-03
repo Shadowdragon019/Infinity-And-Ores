@@ -1,0 +1,24 @@
+{
+  "group": "endesulite_shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:endesulite_crystal"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:endesulite_shovel",
+    "count": 1
+  }
+}

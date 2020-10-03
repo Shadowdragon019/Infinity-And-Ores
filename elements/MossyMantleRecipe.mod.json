@@ -6,8 +6,8 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "mossy_mantle",
-    "recipeShapeless": false,
+    "group": "",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""

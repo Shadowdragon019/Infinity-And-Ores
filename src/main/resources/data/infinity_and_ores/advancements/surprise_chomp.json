@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinity_and_ores:glomper_teeth_block"
+    },
+    "title": {
+      "translate": "advancements.surprise_chomp.title"
+    },
+    "description": {
+      "translate": "advancements.surprise_chomp.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "surprise_chomp": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "infinity_and_ores:land_of_the_spirits"
+}

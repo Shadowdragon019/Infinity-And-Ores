@@ -59,7 +59,7 @@ public class AmendoimFungusBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_fungus")
 	public static final Block block = null;
 	public AmendoimFungusBlock(InfinityAndOresModElements instance) {
-		super(instance, 87);
+		super(instance, 84);
 	}
 
 	@Override
@@ -104,7 +104,7 @@ public class AmendoimFungusBlock extends InfinityAndOresModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(10))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(3))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

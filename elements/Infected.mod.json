@@ -2,8 +2,8 @@
   "_fv": 10,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Infected",
-    "achievementDescription": "Get infected by a potion effect by an Urcus",
+    "achievementName": "Infected!",
+    "achievementDescription": "Receive a negative potion effect from an Urcus",
     "achievementIcon": {
       "value": "CUSTOM:VirusCore"
     },
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:UnleashingTheCorruption"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"41\" y=\"50\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"32\" y=\"52\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

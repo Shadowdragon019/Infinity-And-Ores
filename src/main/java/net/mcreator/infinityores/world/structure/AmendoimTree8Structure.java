@@ -26,15 +26,18 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
+import net.mcreator.infinityores.procedures.AmendoimTreeAdditionalGenerationProcedure;
 import net.mcreator.infinityores.block.MantleAmendoimNyliumBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
 
+import com.google.common.collect.ImmutableMap;
+
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTree8Structure extends InfinityAndOresModElements.ModElement {
 	public AmendoimTree8Structure(InfinityAndOresModElements instance) {
-		super(instance, 284);
+		super(instance, 282);
 	}
 
 	@Override
@@ -51,7 +54,7 @@ public class AmendoimTree8Structure extends InfinityAndOresModElements.ModElemen
 				if (!dimensionCriteria)
 					return false;
 				if ((random.nextInt(1000000) + 1) <= 500000) {
-					int count = random.nextInt(1) + 1;
+					int count = random.nextInt(1) + 3;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
@@ -69,8 +72,10 @@ public class AmendoimTree8Structure extends InfinityAndOresModElements.ModElemen
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
+						if (!AmendoimTreeAdditionalGenerationProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
+							continue;
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree8"));
+								.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_mushroom_tallest"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)

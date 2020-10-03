@@ -38,7 +38,7 @@ public class MossyMantleBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mossy_mantle")
 	public static final Block block = null;
 	public MossyMantleBlock(InfinityAndOresModElements instance) {
-		super(instance, 48);
+		super(instance, 47);
 	}
 
 	@Override

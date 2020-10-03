@@ -22,7 +22,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class ThatsOneForTheToolBoxProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public ThatsOneForTheToolBoxProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 210);
+		super(instance, 208);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
