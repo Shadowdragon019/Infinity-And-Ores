@@ -4060,6 +4060,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "amendoim_logs"
+    },
+    {
+      "name": "GlitchedDimensionMusisDiscDrops",
+      "type": "tag",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "glitched_dimension_musis_disc_drops"
     }
   ],
   "variable_elements": [],

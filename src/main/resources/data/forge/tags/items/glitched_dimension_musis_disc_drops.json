@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "infinity_and_ores:music_disc_arcade",
+    "infinity_and_ores:music_disc_battle_starts",
+    "infinity_and_ores:music_disc_calm_after_the_storm",
+    "infinity_and_ores:music_disc_dimension_c_581",
+    "infinity_and_ores:music_disc_final_discoveries",
+    "infinity_and_ores:music_disc_hypertension",
+    "infinity_and_ores:music_disc_ignitar_awakens",
+    "infinity_and_ores:music_disc_mutational_parasite",
+    "infinity_and_ores:music_disc_parasidal_minds",
+    "infinity_and_ores:music_disc_spirits",
+    "minecraft:music_disc_13",
+    "minecraft:music_disc_cat",
+    "minecraft:music_disc_blocks",
+    "minecraft:music_disc_chirp",
+    "minecraft:music_disc_far",
+    "minecraft:music_disc_mall",
+    "minecraft:music_disc_mellohi",
+    "minecraft:music_disc_stal",
+    "minecraft:music_disc_ward",
+    "minecraft:music_disc_11",
+    "minecraft:music_disc_wait"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MusicDiscArcade"
+      },
+      {
+        "value": "CUSTOM:MusicDiscBattleStarts"
+      },
+      {
+        "value": "CUSTOM:MusicDiscCalmAfterTheStorm"
+      },
+      {
+        "value": "CUSTOM:MusicDiscDimensionC581"
+      },
+      {
+        "value": "CUSTOM:MusicDiscFinalDiscoveries"
+      },
+      {
+        "value": "CUSTOM:MusicDiscHypertension"
+      },
+      {
+        "value": "CUSTOM:MusicDiscIgnitarAwakens"
+      },
+      {
+        "value": "CUSTOM:MusicDiscMutationalParasite"
+      },
+      {
+        "value": "CUSTOM:MusicDiscParasidalMinds"
+      },
+      {
+        "value": "CUSTOM:MusicDiscSpirits"
+      },
+      {
+        "value": "Items.RECORD_13"
+      },
+      {
+        "value": "Items.RECORD_CAT"
+      },
+      {
+        "value": "Items.RECORD_BLOCKS"
+      },
+      {
+        "value": "Items.RECORD_BLOCKS"
+      },
+      {
+        "value": "Items.RECORD_CHIRP"
+      },
+      {
+        "value": "Items.RECORD_FAR"
+      },
+      {
+        "value": "Items.RECORD_MALL"
+      },
+      {
+        "value": "Items.RECORD_MELLOHI"
+      },
+      {
+        "value": "Items.RECORD_STAL"
+      },
+      {
+        "value": "Items.RECORD_WARD"
+      },
+      {
+        "value": "Items.RECORD_11"
+      },
+      {
+        "value": "Items.RECORD_WAIT"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "glitched_dimension_musis_disc_drops",
+    "namespace": "forge"
+  }
+}
