@@ -1849,33 +1849,6 @@
       "registry_name": "amendoim_planks_recipe"
     },
     {
-      "name": "AmendoimPlanks2",
-      "type": "recipe",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_planks_2"
-    },
-    {
-      "name": "AmendoimPlanks3",
-      "type": "recipe",
-      "sortid": 236,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_planks_3"
-    },
-    {
-      "name": "AmendoimPlanks4",
-      "type": "recipe",
-      "sortid": 237,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_planks_4"
-    },
-    {
       "name": "AmendoimDoorRecipe",
       "type": "recipe",
       "sortid": 238,
@@ -3587,24 +3560,6 @@
       "registry_name": "mossy_mantle_slab_recipe"
     },
     {
-      "name": "MossyMantleSlabRecipe2",
-      "type": "recipe",
-      "sortid": 357,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_slab_recipe_2"
-    },
-    {
-      "name": "MossyMantleSlabRecipe3",
-      "type": "recipe",
-      "sortid": 358,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_slab_recipe_3"
-    },
-    {
       "name": "MossyMantleWallRecipe",
       "type": "recipe",
       "sortid": 359,
@@ -3612,15 +3567,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mossy_mantle_wall_recipe"
-    },
-    {
-      "name": "MossyMantleWallRecipe2",
-      "type": "recipe",
-      "sortid": 360,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_wall_recipe_2"
     },
     {
       "name": "MossyMantleRecipe",
@@ -3641,15 +3587,6 @@
       "registry_name": "mossy_mantle_brick_slab_recipe"
     },
     {
-      "name": "MossyMantleBrickSlabRecipe2",
-      "type": "recipe",
-      "sortid": 363,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_brick_slab_recipe_2"
-    },
-    {
       "name": "MossyMantleBrickStairsRecipe",
       "type": "recipe",
       "sortid": 364,
@@ -3668,15 +3605,6 @@
       "registry_name": "mossy_mantle_brick_stairs_recipe_2"
     },
     {
-      "name": "MossyMantleBrickSlabRecipe3",
-      "type": "recipe",
-      "sortid": 366,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_brick_slab_recipe_3"
-    },
-    {
       "name": "MossyMantleBrickWallRecipe",
       "type": "recipe",
       "sortid": 367,
@@ -3684,15 +3612,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mossy_mantle_brick_wall_recipe"
-    },
-    {
-      "name": "MossyMantleBrickWallRecipe2",
-      "type": "recipe",
-      "sortid": 368,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_brick_wall_recipe_2"
     },
     {
       "name": "MossyMantleBrickStairsStonecutterRecipe",
@@ -4132,6 +4051,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "endesulite_hoe_recipe_2"
+    },
+    {
+      "name": "AmendoimLogs",
+      "type": "tag",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_logs"
     }
   ],
   "variable_elements": [],
@@ -4208,8 +4136,8 @@
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
       "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
-      "entity.infinity_and_ores.crawlant": "Crawlant",
       "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
+      "entity.infinity_and_ores.crawlant": "Crawlant",
       "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",
       "item.minecraft.splash_potion.effect.potion_of_decay": "Splash Potion of Decay",
       "block.infinity_and_ores.amendoim_log": "Amendoim Log",
@@ -4226,9 +4154,9 @@
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
-      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
-      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
       "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Straight from the source!",
       "block.infinity_and_ores.amendoim_door": "Amendoim Door",

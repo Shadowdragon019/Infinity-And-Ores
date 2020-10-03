@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "infinity_and_ores:amendoim_log"
+      "tag": "forge:amendoim_logs"
     }
   ],
   "result": {
