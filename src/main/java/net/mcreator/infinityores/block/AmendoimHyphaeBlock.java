@@ -32,7 +32,7 @@ public class AmendoimHyphaeBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_hyphae")
 	public static final Block block = null;
 	public AmendoimHyphaeBlock(InfinityAndOresModElements instance) {
-		super(instance, 69);
+		super(instance, 68);
 	}
 
 	@Override

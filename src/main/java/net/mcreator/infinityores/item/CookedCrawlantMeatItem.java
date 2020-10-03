@@ -16,7 +16,7 @@ public class CookedCrawlantMeatItem extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:cooked_crawlant_meat")
 	public static final Item block = null;
 	public CookedCrawlantMeatItem(InfinityAndOresModElements instance) {
-		super(instance, 119);
+		super(instance, 117);
 	}
 
 	@Override

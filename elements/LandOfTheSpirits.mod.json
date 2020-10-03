@@ -3,9 +3,9 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Land of the Spirits",
-    "achievementDescription": "Enter the Spiky Plateau and discover the hidden secrets.",
+    "achievementDescription": "Enter the Spiky Plateau and discover their secrets",
     "achievementIcon": {
-      "value": "CUSTOM:GlomperTooth"
+      "value": "CUSTOM:GlitchedSoil"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -18,8 +18,8 @@
     "rewardXP": 1,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:Glitchiness"
+      "value": "CUSTOM:UnleashingTheCorruption"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"41\" y=\"51\"><field name=\"biome\">CUSTOM:SpikyPlateau</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"37\" y=\"55\"><field name=\"biome\">CUSTOM:SpikyPlateau</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

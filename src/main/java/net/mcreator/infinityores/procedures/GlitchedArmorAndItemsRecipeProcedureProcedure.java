@@ -24,7 +24,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedArmorAndItemsRecipeProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedArmorAndItemsRecipeProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 303);
+		super(instance, 301);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

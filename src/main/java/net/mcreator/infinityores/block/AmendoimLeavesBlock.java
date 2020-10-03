@@ -24,7 +24,7 @@ public class AmendoimLeavesBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_leaves")
 	public static final Block block = null;
 	public AmendoimLeavesBlock(InfinityAndOresModElements instance) {
-		super(instance, 78);
+		super(instance, 77);
 	}
 
 	@Override

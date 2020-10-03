@@ -24,7 +24,7 @@ public class ChiseledMantleBricksBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:chiseled_mantle_bricks")
 	public static final Block block = null;
 	public ChiseledMantleBricksBlock(InfinityAndOresModElements instance) {
-		super(instance, 54);
+		super(instance, 53);
 	}
 
 	@Override

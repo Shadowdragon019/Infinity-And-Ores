@@ -1,0 +1,32 @@
+{
+  "group": "amendoim_fence",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:amendoim_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "infinity_and_ores:amendoim_planks"
+    },
+    "3": {
+      "item": "infinity_and_ores:amendoim_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "infinity_and_ores:amendoim_planks"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:amendoim_fence",
+    "count": 3
+  }
+}

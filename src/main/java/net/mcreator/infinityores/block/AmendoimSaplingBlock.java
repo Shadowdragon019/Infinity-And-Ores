@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockRayTraceResult;
@@ -29,12 +28,10 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infinityores.procedures.AmendoimSaplingGrowthProcedureProcedure;
-import net.mcreator.infinityores.procedures.AmendoimSaplingBonemealProcedureProcedure;
+import net.mcreator.infinityores.procedures.AmendoimSaplingBonemealProcedure2Procedure;
 import net.mcreator.infinityores.itemgroup.InfinityAndOresDecorationBlocksTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
-import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
@@ -45,7 +42,7 @@ public class AmendoimSaplingBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:amendoim_sapling")
 	public static final Block block = null;
 	public AmendoimSaplingBlock(InfinityAndOresModElements instance) {
-		super(instance, 374);
+		super(instance, 429);
 	}
 
 	@Override
@@ -62,7 +59,7 @@ public class AmendoimSaplingBlock extends InfinityAndOresModElements.ModElement 
 	}
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
-			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).tickRandomly().doesNotBlockMovement().sound(SoundType.PLANT)
+			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).tickRandomly().doesNotBlockMovement().sound(SoundType.NETHER_WART)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("amendoim_sapling");
 		}
@@ -81,21 +78,6 @@ public class AmendoimSaplingBlock extends InfinityAndOresModElements.ModElement 
 		}
 
 		@Override
-		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				AmendoimSaplingGrowthProcedureProcedure.executeProcedure($_dependencies);
-			}
-		}
-
-		@Override
 		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
 			super.onBlockActivated(state, world, pos, entity, hand, hit);
@@ -110,7 +92,7 @@ public class AmendoimSaplingBlock extends InfinityAndOresModElements.ModElement 
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				AmendoimSaplingBonemealProcedureProcedure.executeProcedure($_dependencies);
+				AmendoimSaplingBonemealProcedure2Procedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}

@@ -6,22 +6,10 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 4,
-    "group": "mossy_mantle_bricks",
+    "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:MossyMantle"
       },
       {
@@ -35,6 +23,18 @@
       },
       {
         "value": "CUSTOM:MossyMantle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

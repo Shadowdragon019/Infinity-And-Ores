@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "mossy_mantle_slab",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MossyMantle"
+      },
+      {
+        "value": "CUSTOM:MossyMantle"
+      },
+      {
+        "value": "CUSTOM:MossyMantle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyMantleSlab"
+    },
+    "name": "mossy_mantle_slab_recipe_3",
+    "namespace": "mod"
+  }
+}

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "missing": "glomper_teeth"
+        "0": "glomper_teeth_block"
       },
       "name": "default"
     }

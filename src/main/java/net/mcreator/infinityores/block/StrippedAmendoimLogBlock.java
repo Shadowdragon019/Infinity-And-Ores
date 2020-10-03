@@ -32,7 +32,7 @@ public class StrippedAmendoimLogBlock extends InfinityAndOresModElements.ModElem
 	@ObjectHolder("infinity_and_ores:stripped_amendoim_log")
 	public static final Block block = null;
 	public StrippedAmendoimLogBlock(InfinityAndOresModElements instance) {
-		super(instance, 70);
+		super(instance, 69);
 	}
 
 	@Override

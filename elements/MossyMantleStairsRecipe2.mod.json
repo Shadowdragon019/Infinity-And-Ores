@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MossyMantleStairs"
+      "value": "CUSTOM:MantleStairs"
     },
     "name": "mossy_mantle_stairs_recipe_2",
     "namespace": "mod"

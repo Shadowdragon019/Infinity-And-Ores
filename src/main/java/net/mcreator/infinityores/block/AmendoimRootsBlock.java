@@ -50,7 +50,7 @@ public class AmendoimRootsBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_roots")
 	public static final Block block = null;
 	public AmendoimRootsBlock(InfinityAndOresModElements instance) {
-		super(instance, 89);
+		super(instance, 86);
 	}
 
 	@Override

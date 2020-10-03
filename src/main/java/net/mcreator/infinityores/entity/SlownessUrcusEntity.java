@@ -56,7 +56,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SlownessUrcusEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public SlownessUrcusEntity(InfinityAndOresModElements instance) {
-		super(instance, 115);
+		super(instance, 114);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -152,7 +152,7 @@ public class SlownessUrcusEntity extends InfinityAndOresModElements.ModElement {
 			Entity sourceentity = source.getTrueSource();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				SlownessUrcusHitProcedureProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof PotionEntity)

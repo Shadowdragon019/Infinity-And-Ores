@@ -23,7 +23,7 @@ public class SpikyPlateauBiome extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:spiky_plateau")
 	public static final CustomBiome biome = null;
 	public SpikyPlateauBiome(InfinityAndOresModElements instance) {
-		super(instance, 330);
+		super(instance, 328);
 	}
 
 	@Override

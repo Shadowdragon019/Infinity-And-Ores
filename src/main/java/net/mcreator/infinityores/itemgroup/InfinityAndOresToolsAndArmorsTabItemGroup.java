@@ -7,13 +7,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.infinityores.item.OpristoniumSwordItem;
+import net.mcreator.infinityores.item.GlitchedSwordItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 @InfinityAndOresModElements.ModElement.Tag
 public class InfinityAndOresToolsAndArmorsTabItemGroup extends InfinityAndOresModElements.ModElement {
 	public InfinityAndOresToolsAndArmorsTabItemGroup(InfinityAndOresModElements instance) {
-		super(instance, 198);
+		super(instance, 196);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class InfinityAndOresToolsAndArmorsTabItemGroup extends InfinityAndOresMo
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(OpristoniumSwordItem.block, (int) (1));
+				return new ItemStack(GlitchedSwordItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

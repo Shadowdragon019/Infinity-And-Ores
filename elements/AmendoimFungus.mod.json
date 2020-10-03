@@ -37,7 +37,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 10,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "CUSTOM:GlitchedDimension"
     ],

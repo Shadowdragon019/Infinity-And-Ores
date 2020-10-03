@@ -61,7 +61,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class WeaknessUrcusEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public WeaknessUrcusEntity(InfinityAndOresModElements instance) {
-		super(instance, 113);
+		super(instance, 112);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -173,7 +173,7 @@ public class WeaknessUrcusEntity extends InfinityAndOresModElements.ModElement {
 			Entity sourceentity = source.getTrueSource();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
 				WeaknessUrcusHitProcedureProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof PotionEntity)

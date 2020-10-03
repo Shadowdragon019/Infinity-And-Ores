@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "test_block",
+    "texture": "amendoim_fungus",
     "customModelName": "Cross model",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
@@ -19,7 +19,7 @@
     "luminance": 0.0,
     "unbreakable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "NETHER_WART"
     },
     "customDrop": {
       "value": ""
@@ -37,14 +37,11 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 10,
+    "frequencyOnChunks": 0,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "onTickUpdate": {
-      "name": "AmendoimSaplingGrowthProcedure"
-    },
     "onRightClicked": {
-      "name": "AmendoimSaplingBonemealProcedure"
+      "name": "AmendoimSaplingBonemealProcedure2"
     }
   }
 }

@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Smooth Mineral!",
-    "achievementDescription": "Smooth Mineral!",
+    "achievementDescription": "Craft a full set of Opristonium armor",
     "achievementIcon": {
       "value": "CUSTOM:OpristoniumArmor.body"
     },

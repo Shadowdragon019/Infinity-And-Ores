@@ -3,9 +3,9 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "The Purple Forest",
-    "achievementDescription": "Enter the Mantle Amendoim Forest",
+    "achievementDescription": "Enter the mysterious Mantle Amendoim Forest or the Ender Amendoim Forest",
     "achievementIcon": {
-      "value": "CUSTOM:MantleAmendoimNylium"
+      "value": "CUSTOM:AmendoimLog"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:UnleashingTheCorruption"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"55\" y=\"46\"><field name=\"biome\">CUSTOM:MantleAmendoimForest</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"58\" y=\"60\"><field name=\"biome\">CUSTOM:MantleAmendoimForest</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }

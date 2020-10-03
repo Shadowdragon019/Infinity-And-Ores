@@ -26,7 +26,7 @@ public class MossyMantleSlabBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:mossy_mantle_slab")
 	public static final Block block = null;
 	public MossyMantleSlabBlock(InfinityAndOresModElements instance) {
-		super(instance, 50);
+		super(instance, 49);
 	}
 
 	@Override

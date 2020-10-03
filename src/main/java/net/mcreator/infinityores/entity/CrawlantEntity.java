@@ -50,7 +50,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public CrawlantEntity(InfinityAndOresModElements instance) {
-		super(instance, 116);
+		super(instance, 115);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -115,6 +115,7 @@ public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, UrcusEntity.CustomEntity.class, false, false));
 		}
 
 		@Override

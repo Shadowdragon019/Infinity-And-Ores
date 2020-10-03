@@ -16,11 +16,14 @@
   },
   "criteria": {
     "unleashing_the_corruption": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "infinity_and_ores:glitched_dimension"
+      }
     }
   },
   "rewards": {
     "experience": 1
   },
-  "parent": "infinity_and_ores:what_could_go_wrong"
+  "parent": "infinity_and_ores:glitchiness"
 }

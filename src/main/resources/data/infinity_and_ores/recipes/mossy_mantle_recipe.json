@@ -1,17 +1,14 @@
 {
-  "group": "mossy_mantle",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01"
-  ],
-  "key": {
-    "0": {
+  "group": "infinity_and_ores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "infinity_and_ores:mantle"
     },
-    "1": {
+    {
       "item": "infinity_and_ores:amendoim_roots"
     }
-  },
+  ],
   "result": {
     "item": "infinity_and_ores:mossy_mantle",
     "count": 1
