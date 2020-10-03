@@ -30,7 +30,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
-import net.mcreator.infinityores.item.OpristoniumGemItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -60,7 +59,7 @@ public class OpristoniumOreBlock extends InfinityAndOresModElements.ModElement {
 
 		@Override
 		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(OpristoniumGemItem.block, (int) (1));
+			return new ItemStack(Blocks.AIR, (int) (1));
 		}
 
 		@Override

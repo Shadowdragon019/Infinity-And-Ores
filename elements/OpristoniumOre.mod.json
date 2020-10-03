@@ -48,7 +48,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:OpristoniumGem"
+      "value": "Blocks.AIR"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
