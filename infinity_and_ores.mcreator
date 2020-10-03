@@ -3296,15 +3296,6 @@
       "registry_name": "endesulite_axe_recipe_2"
     },
     {
-      "name": "EndesuliteHoeRecipe2",
-      "type": "recipe",
-      "sortid": 339,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_hoe_recipe_2"
-    },
-    {
       "name": "MantleStairsRecipe2",
       "type": "recipe",
       "sortid": 340,
@@ -3794,132 +3785,6 @@
       "registry_name": "mossy_mantle_wall_stonecutter_recipe"
     },
     {
-      "name": "AmendoimSlabRecipe2",
-      "type": "recipe",
-      "sortid": 379,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_slab_recipe_2"
-    },
-    {
-      "name": "AmendoimSlabRecipe3",
-      "type": "recipe",
-      "sortid": 380,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_slab_recipe_3"
-    },
-    {
-      "name": "AmendoimFenceRecipe2",
-      "type": "recipe",
-      "sortid": 381,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_fence_recipe_2"
-    },
-    {
-      "name": "AmendoimFenceGateRecipe2",
-      "type": "recipe",
-      "sortid": 382,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_fence_gate_recipe_2"
-    },
-    {
-      "name": "AmendoimDoorRecipe2",
-      "type": "recipe",
-      "sortid": 383,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_door_recipe_2"
-    },
-    {
-      "name": "AmendoimTrapdoorRecipe2",
-      "type": "recipe",
-      "sortid": 384,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_trapdoor_recipe_2"
-    },
-    {
-      "name": "EndesuliteSwordRecipe2",
-      "type": "recipe",
-      "sortid": 394,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_sword_recipe_2"
-    },
-    {
-      "name": "EndesuliteSwordRecipe3",
-      "type": "recipe",
-      "sortid": 395,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_sword_recipe_3"
-    },
-    {
-      "name": "EndesuliteAxeRecipe3",
-      "type": "recipe",
-      "sortid": 396,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_axe_recipe_3"
-    },
-    {
-      "name": "EndesuliteAxeRecipe4",
-      "type": "recipe",
-      "sortid": 397,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_axe_recipe_4"
-    },
-    {
-      "name": "EndesuliteShovelRecipe2",
-      "type": "recipe",
-      "sortid": 398,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_shovel_recipe_2"
-    },
-    {
-      "name": "EndesuliteShovelRecipe3",
-      "type": "recipe",
-      "sortid": 399,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_shovel_recipe_3"
-    },
-    {
-      "name": "EndesuliteHoeRecipe4",
-      "type": "recipe",
-      "sortid": 400,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_hoe_recipe_4"
-    },
-    {
-      "name": "EndesuliteHoeRecipe3",
-      "type": "recipe",
-      "sortid": 401,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_hoe_recipe_3"
-    },
-    {
       "name": "EndesuliteHelmetRecipe",
       "type": "recipe",
       "sortid": 404,
@@ -3927,15 +3792,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "endesulite_helmet_recipe"
-    },
-    {
-      "name": "EndesuliteHelmetRecipe2",
-      "type": "recipe",
-      "sortid": 405,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_helmet_recipe_2"
     },
     {
       "name": "EndesuliteChestplateRecipe",
@@ -3963,15 +3819,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "endesulite_boots_recipe"
-    },
-    {
-      "name": "EndesuliteBootsRecipe2",
-      "type": "recipe",
-      "sortid": 409,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_boots_recipe_2"
     },
     {
       "name": "CrackedMantleBricksRecipe",
@@ -4276,6 +4123,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "EndesuliteHoeRecipe2",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_hoe_recipe_2"
     }
   ],
   "variable_elements": [],
