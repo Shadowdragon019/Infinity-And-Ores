@@ -67,6 +67,8 @@ public class InfinityAndOresModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("infinity_and_ores", "parasidal_minds")));
 		sounds.put(new ResourceLocation("infinity_and_ores", "spirits"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("infinity_and_ores", "spirits")));
+		sounds.put(new ResourceLocation("infinity_and_ores", "broken_connection"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("infinity_and_ores", "broken_connection")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("infinity_and_ores").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
