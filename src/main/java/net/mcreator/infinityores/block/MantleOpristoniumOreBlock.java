@@ -16,13 +16,10 @@ import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -30,7 +27,6 @@ import net.minecraft.block.Block;
 
 import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
-import net.mcreator.infinityores.item.OpristoniumGemItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -56,11 +52,6 @@ public class MantleOpristoniumOreBlock extends InfinityAndOresModElements.ModEle
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4f, 4f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mantle_opristonium_ore");
-		}
-
-		@Override
-		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(OpristoniumGemItem.block, (int) (1));
 		}
 
 		@Override

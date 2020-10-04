@@ -4060,6 +4060,141 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "glitched_dimension_musis_disc_drops"
+    },
+    {
+      "name": "AmendoimTree13",
+      "type": "structure",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_13"
+    },
+    {
+      "name": "AmendoimTree14",
+      "type": "structure",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_14"
+    },
+    {
+      "name": "AmendoimTree15",
+      "type": "structure",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_15"
+    },
+    {
+      "name": "AmendoimTreeReplacement1",
+      "type": "structure",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_1"
+    },
+    {
+      "name": "AmendoimTreeReplacement2",
+      "type": "structure",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_2"
+    },
+    {
+      "name": "AmendoimTreeReplacement3",
+      "type": "structure",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_3"
+    },
+    {
+      "name": "AmendoimTreeReplacement4",
+      "type": "structure",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_4"
+    },
+    {
+      "name": "AmendoimTreeReplacement5",
+      "type": "structure",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_5"
+    },
+    {
+      "name": "AmendoimTreeReplacement6",
+      "type": "structure",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_6"
+    },
+    {
+      "name": "AmendoimTreeReplacement7",
+      "type": "structure",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_7"
+    },
+    {
+      "name": "AmendoimTreeReplacement8",
+      "type": "structure",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_8"
+    },
+    {
+      "name": "AmendoimTreeReplacement9",
+      "type": "structure",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_9"
+    },
+    {
+      "name": "AmendoimTreeReplacement10",
+      "type": "structure",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_10"
+    },
+    {
+      "name": "AmendoimTreeReplacement11",
+      "type": "structure",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_11"
+    },
+    {
+      "name": "AmendoimTreeReplacement12",
+      "type": "structure",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_12"
     }
   ],
   "variable_elements": [],
@@ -4136,8 +4271,8 @@
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
       "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
-      "entity.infinity_and_ores.crawlant": "Crawlant",
       "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
+      "entity.infinity_and_ores.crawlant": "Crawlant",
       "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",
       "item.minecraft.splash_potion.effect.potion_of_decay": "Splash Potion of Decay",
       "block.infinity_and_ores.amendoim_log": "Amendoim Log",
@@ -4154,9 +4289,9 @@
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
-      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
-      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
       "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Straight from the source!",
       "block.infinity_and_ores.amendoim_door": "Amendoim Door",

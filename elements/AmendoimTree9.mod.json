@@ -23,9 +23,6 @@
         "value": "CUSTOM:MantleAmendoimForest"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK",
-    "generateCondition": {
-      "name": "AmendoimTreeAdditionalGeneration"
-    }
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

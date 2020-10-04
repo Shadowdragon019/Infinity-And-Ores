@@ -27,7 +27,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
-import net.mcreator.infinityores.item.EndesuliteShardItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -60,7 +59,7 @@ public class EndesuliteOreBlock extends InfinityAndOresModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(EndesuliteShardItem.block, (int) (4)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override

@@ -32,7 +32,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:WhiteCoal"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,

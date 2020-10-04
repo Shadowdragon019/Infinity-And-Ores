@@ -27,7 +27,6 @@ import net.minecraft.block.Block;
 
 import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
-import net.mcreator.infinityores.item.WhiteCoalItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -60,7 +59,7 @@ public class MantleWhiteCoalOreBlock extends InfinityAndOresModElements.ModEleme
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(WhiteCoalItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override

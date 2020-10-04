@@ -44,7 +44,7 @@
     "heightVariation": 0.2,
     "spawnBiome": false,
     "biomeWeight": 10,
-    "biomeType": "WARM",
+    "biomeType": "COOL",
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"
