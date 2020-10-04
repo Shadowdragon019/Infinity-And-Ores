@@ -4141,6 +4141,23 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "glitched_dimension_musis_disc_drops"
+    },
+    {
+      "name": "EnchantedGlitchedAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_glitched_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
