@@ -6,8 +6,8 @@
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,
-    "minCountPerChunk": 3,
-    "maxCountPerChunk": 3,
+    "minCountPerChunk": 16,
+    "maxCountPerChunk": 16,
     "spawnLocation": "Underground",
     "spawnHeightOffset": 0,
     "spawnWorldTypes": [
@@ -23,9 +23,6 @@
         "value": "CUSTOM:MantleAmendoimForest"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK",
-    "generateCondition": {
-      "name": "AmendoimTreeAdditionalGeneration"
-    }
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

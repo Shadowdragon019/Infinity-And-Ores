@@ -11,7 +11,7 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.trees.Tree;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.infinityores.block.AmendoimFungusBlock;
+import net.mcreator.infinityores.block.AmendoimSaplingBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Map;
@@ -77,7 +77,7 @@ public class AmendoimTreeProcedure2Procedure extends InfinityAndOresModElements.
 					}
 				}
 			} else if (((Tree) == 3)) {
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), AmendoimFungusBlock.block.getDefaultState(), 3);
+				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), AmendoimSaplingBlock.block.getDefaultState(), 3);
 			}
 		}
 	}

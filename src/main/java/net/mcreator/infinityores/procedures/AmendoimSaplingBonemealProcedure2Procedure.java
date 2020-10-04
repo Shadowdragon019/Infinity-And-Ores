@@ -69,10 +69,10 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BONE_MEAL, (int) (1)).getItem() == p.getItem(),
 						(int) 1);
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
+			}
 			if ((Math.random() < 0.875)) {
-				if (world instanceof ServerWorld) {
-					((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
-				}
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
@@ -80,7 +80,7 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					AmendoimTreeProcedureProcedure.executeProcedure($_dependencies);
+					AmendoimTreeProcedure2Procedure.executeProcedure($_dependencies);
 				}
 			}
 		}
@@ -97,10 +97,10 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 			}
 		}.checkGamemode(entity)) && (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem()))) {
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
+			}
 			if ((Math.random() < 0.875)) {
-				if (world instanceof ServerWorld) {
-					((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
-				}
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
@@ -108,7 +108,7 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					AmendoimTreeProcedureProcedure.executeProcedure($_dependencies);
+					AmendoimTreeProcedure2Procedure.executeProcedure($_dependencies);
 				}
 			}
 		}
