@@ -88,14 +88,5 @@
         "stream": true
       }
     ]
-  },
-  "broken_connection": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "infinity_and_ores:broken_connection",
-        "stream": true
-      }
-    ]
   }
 }
