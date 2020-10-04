@@ -22,7 +22,7 @@ public class TestIngotItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:test_ingot")
 	public static final Item block = null;
 	public TestIngotItem(InfinityAndOresModElements instance) {
-		super(instance, 25);
+		super(instance, 287);
 	}
 
 	@Override

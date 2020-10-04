@@ -26,7 +26,7 @@ public class EndesuliteBlockBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:endesulite_block")
 	public static final Block block = null;
 	public EndesuliteBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 39);
+		super(instance, 40);
 	}
 
 	@Override

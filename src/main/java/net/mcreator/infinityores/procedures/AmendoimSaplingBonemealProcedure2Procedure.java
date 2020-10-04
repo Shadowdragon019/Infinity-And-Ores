@@ -24,7 +24,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimSaplingBonemealProcedure2Procedure(InfinityAndOresModElements instance) {
-		super(instance, 430);
+		super(instance, 384);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

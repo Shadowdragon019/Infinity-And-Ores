@@ -13,7 +13,7 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 @InfinityAndOresModElements.ModElement.Tag
 public class StrippedAmendoimWoodFuelFuel extends InfinityAndOresModElements.ModElement {
 	public StrippedAmendoimWoodFuelFuel(InfinityAndOresModElements instance) {
-		super(instance, 264);
+		super(instance, 263);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

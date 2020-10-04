@@ -23,7 +23,7 @@ public class MusicDiscBrokenConnectionItem extends InfinityAndOresModElements.Mo
 	@ObjectHolder("infinity_and_ores:music_disc_broken_connection")
 	public static final Item block = null;
 	public MusicDiscBrokenConnectionItem(InfinityAndOresModElements instance) {
-		super(instance, 449);
+		super(instance, 30);
 	}
 
 	@Override
@@ -40,8 +40,8 @@ public class MusicDiscBrokenConnectionItem extends InfinityAndOresModElements.Mo
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("WARNING: If you play this song in a YouTube video"));
-			list.add(new StringTextComponent("you might get demonetized."));
+			list.add(new StringTextComponent("\u00A7cWARNING: \u00A7fIf you play this song in a YouTube video"));
+			list.add(new StringTextComponent("you might get \u00A7edemonetized\u00A7f."));
 		}
 	}
 }

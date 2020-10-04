@@ -28,7 +28,7 @@ public class TestBlockBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:test_block")
 	public static final Block block = null;
 	public TestBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 43);
+		super(instance, 286);
 	}
 
 	@Override

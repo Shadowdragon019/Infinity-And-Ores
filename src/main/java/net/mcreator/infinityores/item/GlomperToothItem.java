@@ -15,7 +15,7 @@ public class GlomperToothItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glomper_tooth")
 	public static final Item block = null;
 	public GlomperToothItem(InfinityAndOresModElements instance) {
-		super(instance, 416);
+		super(instance, 29);
 	}
 
 	@Override

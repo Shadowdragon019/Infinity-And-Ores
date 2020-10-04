@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class WeaknessUrcusCollideProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public WeaknessUrcusCollideProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 316);
+		super(instance, 307);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

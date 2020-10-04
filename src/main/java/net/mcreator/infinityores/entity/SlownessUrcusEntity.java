@@ -56,7 +56,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class SlownessUrcusEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public SlownessUrcusEntity(InfinityAndOresModElements instance) {
-		super(instance, 114);
+		super(instance, 115);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

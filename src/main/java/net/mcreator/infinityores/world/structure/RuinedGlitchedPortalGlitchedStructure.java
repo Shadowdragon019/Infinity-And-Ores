@@ -32,7 +32,7 @@ import java.util.Random;
 @InfinityAndOresModElements.ModElement.Tag
 public class RuinedGlitchedPortalGlitchedStructure extends InfinityAndOresModElements.ModElement {
 	public RuinedGlitchedPortalGlitchedStructure(InfinityAndOresModElements instance) {
-		super(instance, 452);
+		super(instance, 407);
 	}
 
 	@Override
@@ -57,7 +57,7 @@ public class RuinedGlitchedPortalGlitchedStructure extends InfinityAndOresModEle
 						j = Math.abs(random.nextInt(Math.max(1, j)) - 24);
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 0, k);
+						BlockPos spawnTo = new BlockPos(i, j + 6, k);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();

@@ -32,7 +32,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedToolsRecipeProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedToolsRecipeProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 300);
+		super(instance, 301);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

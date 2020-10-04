@@ -15,7 +15,7 @@ public class WhiteCoalItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:white_coal")
 	public static final Item block = null;
 	public WhiteCoalItem(InfinityAndOresModElements instance) {
-		super(instance, 26);
+		super(instance, 25);
 	}
 
 	@Override

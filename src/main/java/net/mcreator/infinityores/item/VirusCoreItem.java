@@ -15,7 +15,7 @@ public class VirusCoreItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:virus_nucleus")
 	public static final Item block = null;
 	public VirusCoreItem(InfinityAndOresModElements instance) {
-		super(instance, 29);
+		super(instance, 28);
 	}
 
 	@Override

@@ -50,7 +50,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public CrawlantEntity(InfinityAndOresModElements instance) {
-		super(instance, 115);
+		super(instance, 116);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
