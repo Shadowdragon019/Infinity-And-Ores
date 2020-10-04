@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AmendoimLog"
+      },
+      {
+        "value": "CUSTOM:AmendoimWood"
+      },
+      {
+        "value": "CUSTOM:StrippedAmendoimLog"
+      },
+      {
+        "value": "CUSTOM:StrippedAmendoimWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "amendoim_logs",
+    "namespace": "forge"
+  }
+}

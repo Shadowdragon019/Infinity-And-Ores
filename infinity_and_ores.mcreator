@@ -1849,33 +1849,6 @@
       "registry_name": "amendoim_planks_recipe"
     },
     {
-      "name": "AmendoimPlanks2",
-      "type": "recipe",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_planks_2"
-    },
-    {
-      "name": "AmendoimPlanks3",
-      "type": "recipe",
-      "sortid": 236,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_planks_3"
-    },
-    {
-      "name": "AmendoimPlanks4",
-      "type": "recipe",
-      "sortid": 237,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_planks_4"
-    },
-    {
       "name": "AmendoimDoorRecipe",
       "type": "recipe",
       "sortid": 238,
@@ -3296,15 +3269,6 @@
       "registry_name": "endesulite_axe_recipe_2"
     },
     {
-      "name": "EndesuliteHoeRecipe2",
-      "type": "recipe",
-      "sortid": 339,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endesulite_hoe_recipe_2"
-    },
-    {
       "name": "MantleStairsRecipe2",
       "type": "recipe",
       "sortid": 340,
@@ -3596,24 +3560,6 @@
       "registry_name": "mossy_mantle_slab_recipe"
     },
     {
-      "name": "MossyMantleSlabRecipe2",
-      "type": "recipe",
-      "sortid": 357,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_slab_recipe_2"
-    },
-    {
-      "name": "MossyMantleSlabRecipe3",
-      "type": "recipe",
-      "sortid": 358,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_slab_recipe_3"
-    },
-    {
       "name": "MossyMantleWallRecipe",
       "type": "recipe",
       "sortid": 359,
@@ -3621,15 +3567,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mossy_mantle_wall_recipe"
-    },
-    {
-      "name": "MossyMantleWallRecipe2",
-      "type": "recipe",
-      "sortid": 360,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_wall_recipe_2"
     },
     {
       "name": "MossyMantleRecipe",
@@ -3650,15 +3587,6 @@
       "registry_name": "mossy_mantle_brick_slab_recipe"
     },
     {
-      "name": "MossyMantleBrickSlabRecipe2",
-      "type": "recipe",
-      "sortid": 363,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_brick_slab_recipe_2"
-    },
-    {
       "name": "MossyMantleBrickStairsRecipe",
       "type": "recipe",
       "sortid": 364,
@@ -3677,15 +3605,6 @@
       "registry_name": "mossy_mantle_brick_stairs_recipe_2"
     },
     {
-      "name": "MossyMantleBrickSlabRecipe3",
-      "type": "recipe",
-      "sortid": 366,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_brick_slab_recipe_3"
-    },
-    {
       "name": "MossyMantleBrickWallRecipe",
       "type": "recipe",
       "sortid": 367,
@@ -3693,15 +3612,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mossy_mantle_brick_wall_recipe"
-    },
-    {
-      "name": "MossyMantleBrickWallRecipe2",
-      "type": "recipe",
-      "sortid": 368,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_mantle_brick_wall_recipe_2"
     },
     {
       "name": "MossyMantleBrickStairsStonecutterRecipe",
@@ -4000,15 +3910,6 @@
       "registry_name": "infected"
     },
     {
-      "name": "TestDimension",
-      "type": "dimension",
-      "sortid": 423,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "test_dimension"
-    },
-    {
       "name": "AmendoimTree10",
       "type": "structure",
       "sortid": 424,
@@ -4132,6 +4033,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "EndesuliteHoeRecipe2",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endesulite_hoe_recipe_2"
+    },
+    {
+      "name": "AmendoimLogs",
+      "type": "tag",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_logs"
     },
     {
       "name": "GlitchedDimensionMusisDiscDrops",
@@ -4416,7 +4335,6 @@
       "advancements.sharp_programming_bud.descr": "Mine a Glitched Crystal",
       "item.infinity_and_ores.opristonium_shard": "Opristonium Shard",
       "item.infinity_and_ores.glomper": "Glomper Spawn Egg",
-      "item.infinity_and_ores.test_dimension": "Test Dimension Portal Igniter",
       "block.infinity_and_ores.glitched_crystal_block": "Glitched Crystal Block",
       "advancements.the_purple_forest.title": "The Purple Forest",
       "block.infinity_and_ores.polished_mantle": "Polished Mantle",
