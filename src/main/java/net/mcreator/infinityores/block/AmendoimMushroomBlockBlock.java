@@ -13,7 +13,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
+import net.mcreator.infinityores.itemgroup.InfinityAndOresDecorationBlocksTabItemGroup;
 import net.mcreator.infinityores.item.AmendoimMushroomItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -31,7 +31,7 @@ public class AmendoimMushroomBlockBlock extends InfinityAndOresModElements.ModEl
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(InfinityAndOresBuildingBlocksTabItemGroup.tab))
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(InfinityAndOresDecorationBlocksTabItemGroup.tab))
 				.setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {

@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Test Ingot",
     "creativeTab": {
-      "value": "CUSTOM:InfinityAndOresItemsTab"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

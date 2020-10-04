@@ -4212,6 +4212,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "MusicDiscBrokenConnection",
+      "type": "musicdisc",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_broken_connection"
+    },
+    {
+      "name": "RuinedGlitchedPortalOverworld",
+      "type": "structure",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_overworld"
+    },
+    {
+      "name": "RuinedGlitchedPortalNether",
+      "type": "structure",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_nether"
+    },
+    {
+      "name": "RuinedGlitchedPortalGlitched",
+      "type": "structure",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_glitched"
+    },
+    {
+      "name": "RuinedGlitchedPortalEnd",
+      "type": "structure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_end"
     }
   ],
   "variable_elements": [],
@@ -4288,8 +4333,8 @@
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
       "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
-      "entity.infinity_and_ores.crawlant": "Crawlant",
       "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
+      "entity.infinity_and_ores.crawlant": "Crawlant",
       "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",
       "item.minecraft.splash_potion.effect.potion_of_decay": "Splash Potion of Decay",
       "block.infinity_and_ores.amendoim_log": "Amendoim Log",
@@ -4306,9 +4351,9 @@
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
-      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
-      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
       "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Straight from the source!",
       "block.infinity_and_ores.amendoim_door": "Amendoim Door",
@@ -4328,6 +4373,7 @@
       "item.infinity_and_ores.endesulite_chestplate": "Endesulite Chestplate",
       "item.infinity_and_ores.endesulite_crystal": "Endesulite Crystal",
       "advancements.unknown_chestplate.title": "Unknown [item.chestplate]",
+      "item.infinity_and_ores.music_disc_broken_connection.desc": "Thediamondcrystal - Broken Connection",
       "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
       "advancements.glitchiness.title": "Glitchiness",
       "block.infinity_and_ores.amendoim_leaves": "Amendoim Leaves",
@@ -4344,6 +4390,7 @@
       "item.infinity_and_ores.opristonium_boots": "Opristonium Boots",
       "item.infinity_and_ores.poison_urcus": "Poison Urcus Spawn Egg",
       "effect.potion_of_decay": "Wither",
+      "item.infinity_and_ores.music_disc_broken_connection": "Music Disc",
       "item.infinity_and_ores.music_disc_dimension_c_581.desc": "Thediamondcrystal - Dimension C-581",
       "item.infinity_and_ores.music_disc_parasidal_minds": "Music Disc",
       "advancements.dimensional_guardian.title": "Dimensional Guardian",
