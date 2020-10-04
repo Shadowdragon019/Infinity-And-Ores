@@ -4310,6 +4310,11 @@
       "name": "spirits",
       "file": "spirits",
       "category": "music"
+    },
+    {
+      "name": "broken_connection",
+      "file": "broken_connection",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -4333,8 +4338,8 @@
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
       "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
-      "entity.infinity_and_ores.crawlant": "Crawlant",
       "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
+      "entity.infinity_and_ores.crawlant": "Crawlant",
       "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",
       "item.minecraft.splash_potion.effect.potion_of_decay": "Splash Potion of Decay",
       "block.infinity_and_ores.amendoim_log": "Amendoim Log",
@@ -4351,9 +4356,9 @@
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
-      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
-      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
       "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Straight from the source!",
       "block.infinity_and_ores.amendoim_door": "Amendoim Door",

@@ -2,14 +2,14 @@
   "_fv": 10,
   "_type": "musicdisc",
   "definition": {
-    "texture": "music_disc_spirits",
+    "texture": "music_disc_broken_connection",
     "name": "Music Disc",
     "description": "Thediamondcrystal - Broken Connection",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },
     "music": {
-      "value": "CUSTOM:spirits"
+      "value": "CUSTOM:broken_connection"
     },
     "specialInfo": [
       "WARNING: If you play this song in a YouTube video",

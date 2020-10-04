@@ -32,7 +32,7 @@ public class MusicDiscBrokenConnectionItem extends InfinityAndOresModElements.Mo
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, InfinityAndOresModElements.sounds.get(new ResourceLocation("infinity_and_ores:spirits")),
+			super(0, InfinityAndOresModElements.sounds.get(new ResourceLocation("infinity_and_ores:broken_connection")),
 					new Item.Properties().group(InfinityAndOresItemsTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("music_disc_broken_connection");
 		}
