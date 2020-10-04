@@ -4062,6 +4062,24 @@
       "registry_name": "glitched_dimension_musis_disc_drops"
     },
     {
+      "name": "AmendoimTreeReplacement9",
+      "type": "structure",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_9"
+    },
+    {
+      "name": "AmendoimTreeReplacement8",
+      "type": "structure",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_8"
+    },
+    {
       "name": "AmendoimTree13",
       "type": "structure",
       "sortid": 434,
@@ -4089,96 +4107,6 @@
       "registry_name": "amendoim_tree_15"
     },
     {
-      "name": "AmendoimTreeReplacement1",
-      "type": "structure",
-      "sortid": 437,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_1"
-    },
-    {
-      "name": "AmendoimTreeReplacement2",
-      "type": "structure",
-      "sortid": 438,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_2"
-    },
-    {
-      "name": "AmendoimTreeReplacement3",
-      "type": "structure",
-      "sortid": 439,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_3"
-    },
-    {
-      "name": "AmendoimTreeReplacement4",
-      "type": "structure",
-      "sortid": 440,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_4"
-    },
-    {
-      "name": "AmendoimTreeReplacement5",
-      "type": "structure",
-      "sortid": 441,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_5"
-    },
-    {
-      "name": "AmendoimTreeReplacement6",
-      "type": "structure",
-      "sortid": 442,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_6"
-    },
-    {
-      "name": "AmendoimTreeReplacement7",
-      "type": "structure",
-      "sortid": 443,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_7"
-    },
-    {
-      "name": "AmendoimTreeReplacement8",
-      "type": "structure",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_8"
-    },
-    {
-      "name": "AmendoimTreeReplacement9",
-      "type": "structure",
-      "sortid": 445,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_9"
-    },
-    {
-      "name": "AmendoimTreeReplacement10",
-      "type": "structure",
-      "sortid": 446,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amendoim_tree_replacement_10"
-    },
-    {
       "name": "AmendoimTreeReplacement11",
       "type": "structure",
       "sortid": 447,
@@ -4195,6 +4123,95 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "amendoim_tree_replacement_12"
+    },
+    {
+      "name": "AmendoimTreeReplacement3",
+      "type": "structure",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_3"
+    },
+    {
+      "name": "AmendoimTreeReplacement2",
+      "type": "structure",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_2"
+    },
+    {
+      "name": "AmendoimTreeReplacement1",
+      "type": "structure",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_1"
+    },
+    {
+      "name": "AmendoimTreeReplacement7",
+      "type": "structure",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_7"
+    },
+    {
+      "name": "AmendoimTreeReplacement6",
+      "type": "structure",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_6"
+    },
+    {
+      "name": "AmendoimTreeReplacement5",
+      "type": "structure",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_5"
+    },
+    {
+      "name": "AmendoimTreeReplacement4",
+      "type": "structure",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_4"
+    },
+    {
+      "name": "AmendoimTreeReplacement10",
+      "type": "structure",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_10"
+    },
+    {
+      "name": "EnchantedGlitchedAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_glitched_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
