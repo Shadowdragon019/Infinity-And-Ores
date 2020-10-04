@@ -43,7 +43,6 @@ import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.procedures.GlomperTeethAdditionalGenerationProcedureProcedure;
 import net.mcreator.infinityores.procedures.GlomperRevealProcedure2Procedure;
 import net.mcreator.infinityores.procedures.GlompeRevealProcedureProcedure;
-import net.mcreator.infinityores.itemgroup.InfinityAndOresDecorationBlocksTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -65,8 +64,7 @@ public class GlomperTeethBlockBlock extends InfinityAndOresModElements.ModElemen
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(InfinityAndOresDecorationBlocksTabItemGroup.tab))
-				.setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

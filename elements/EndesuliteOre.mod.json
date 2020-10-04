@@ -32,9 +32,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:EndesuliteShard"
+      "value": "Blocks.AIR"
     },
-    "dropAmount": 4,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -91,7 +91,20 @@
     "spawnWorldTypes": [
       "End"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "small_end_islands"
+      },
+      {
+        "value": "end_midlands"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_barrens"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.END_STONE"

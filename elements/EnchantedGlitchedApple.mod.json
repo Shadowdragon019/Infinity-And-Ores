@@ -17,6 +17,9 @@
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "eat",
-    "hasGlow": true
+    "hasGlow": true,
+    "onEaten": {
+      "name": "EnchantedGlitchedAppleFoodEaten"
+    }
   }
 }

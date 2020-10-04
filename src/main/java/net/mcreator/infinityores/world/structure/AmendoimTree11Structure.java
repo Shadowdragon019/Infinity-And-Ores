@@ -26,13 +26,10 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
-import net.mcreator.infinityores.procedures.AmendoimTreeAdditionalGenerationProcedure;
 import net.mcreator.infinityores.block.MantleAmendoimNyliumBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
-
-import com.google.common.collect.ImmutableMap;
 
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTree11Structure extends InfinityAndOresModElements.ModElement {
@@ -72,8 +69,6 @@ public class AmendoimTree11Structure extends InfinityAndOresModElements.ModEleme
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
-						if (!AmendoimTreeAdditionalGenerationProcedure.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-							continue;
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree_small"));
 						if (template == null)

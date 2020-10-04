@@ -22,7 +22,7 @@
       "value": "STONE"
     },
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "forceTicking": false,

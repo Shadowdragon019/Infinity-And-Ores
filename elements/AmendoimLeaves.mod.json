@@ -29,11 +29,11 @@
     "resistance": 0.2,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:InfinityAndOresBuildingBlocksTab"
+      "value": "CUSTOM:InfinityAndOresDecorationBlocksTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

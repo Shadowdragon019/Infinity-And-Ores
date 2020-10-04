@@ -5,9 +5,24 @@
   	  "rolls": 1,
   	  "entries": [
   	  	{
-  	  		"type": "minecraft:tag",
-  	  		"name": "infinity_and_ores:glitched_dimension_music_disc_drops",
-  	  		"expand": true
+  	  		"type": "minecraft:item",
+  	  		"weight":1,
+  	  		"name": "minecraft:music_disc_11"
+  	  	},
+  	  	{
+  	  		"type": "minecraft:item",
+  	  		"weight":1,
+  	  		"name": "minecraft:music_disc_13"
+  	  	},
+  	  	{
+  	  		"type": "minecraft:item",
+  	  		"weight":1,
+  	  		"name": "minecraft:music_disc_cat"
+  	  	},
+  	  	{
+  	  		"type": "minecraft:item",
+  	  		"weight":1,
+  	  		"name": "infinity_and_ores:music_disc_arcade"
   	  	}
   	  ]	
   	},

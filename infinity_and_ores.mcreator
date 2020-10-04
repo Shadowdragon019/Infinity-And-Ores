@@ -4060,6 +4060,203 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "glitched_dimension_musis_disc_drops"
+    },
+    {
+      "name": "AmendoimTreeReplacement9",
+      "type": "structure",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_9"
+    },
+    {
+      "name": "AmendoimTreeReplacement8",
+      "type": "structure",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_8"
+    },
+    {
+      "name": "AmendoimTree13",
+      "type": "structure",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_13"
+    },
+    {
+      "name": "AmendoimTree14",
+      "type": "structure",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_14"
+    },
+    {
+      "name": "AmendoimTree15",
+      "type": "structure",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_15"
+    },
+    {
+      "name": "AmendoimTreeReplacement11",
+      "type": "structure",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_11"
+    },
+    {
+      "name": "AmendoimTreeReplacement12",
+      "type": "structure",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_12"
+    },
+    {
+      "name": "AmendoimTreeReplacement3",
+      "type": "structure",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_3"
+    },
+    {
+      "name": "AmendoimTreeReplacement2",
+      "type": "structure",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_2"
+    },
+    {
+      "name": "AmendoimTreeReplacement1",
+      "type": "structure",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_1"
+    },
+    {
+      "name": "AmendoimTreeReplacement7",
+      "type": "structure",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_7"
+    },
+    {
+      "name": "AmendoimTreeReplacement6",
+      "type": "structure",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_6"
+    },
+    {
+      "name": "AmendoimTreeReplacement5",
+      "type": "structure",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_5"
+    },
+    {
+      "name": "AmendoimTreeReplacement4",
+      "type": "structure",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_4"
+    },
+    {
+      "name": "AmendoimTreeReplacement10",
+      "type": "structure",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_tree_replacement_10"
+    },
+    {
+      "name": "EnchantedGlitchedAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchanted_glitched_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusicDiscBrokenConnection",
+      "type": "musicdisc",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_broken_connection"
+    },
+    {
+      "name": "RuinedGlitchedPortalOverworld",
+      "type": "structure",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_overworld"
+    },
+    {
+      "name": "RuinedGlitchedPortalNether",
+      "type": "structure",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_nether"
+    },
+    {
+      "name": "RuinedGlitchedPortalGlitched",
+      "type": "structure",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_glitched"
+    },
+    {
+      "name": "RuinedGlitchedPortalEnd",
+      "type": "structure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruined_glitched_portal_end"
     }
   ],
   "variable_elements": [],
@@ -4113,6 +4310,11 @@
       "name": "spirits",
       "file": "spirits",
       "category": "music"
+    },
+    {
+      "name": "broken_connection",
+      "file": "broken_connection",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -4176,6 +4378,7 @@
       "item.infinity_and_ores.endesulite_chestplate": "Endesulite Chestplate",
       "item.infinity_and_ores.endesulite_crystal": "Endesulite Crystal",
       "advancements.unknown_chestplate.title": "Unknown [item.chestplate]",
+      "item.infinity_and_ores.music_disc_broken_connection.desc": "Thediamondcrystal - Broken Connection",
       "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
       "advancements.glitchiness.title": "Glitchiness",
       "block.infinity_and_ores.amendoim_leaves": "Amendoim Leaves",
@@ -4192,6 +4395,7 @@
       "item.infinity_and_ores.opristonium_boots": "Opristonium Boots",
       "item.infinity_and_ores.poison_urcus": "Poison Urcus Spawn Egg",
       "effect.potion_of_decay": "Wither",
+      "item.infinity_and_ores.music_disc_broken_connection": "Music Disc",
       "item.infinity_and_ores.music_disc_dimension_c_581.desc": "Thediamondcrystal - Dimension C-581",
       "item.infinity_and_ores.music_disc_parasidal_minds": "Music Disc",
       "advancements.dimensional_guardian.title": "Dimensional Guardian",

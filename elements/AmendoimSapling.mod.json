@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "amendoim_fungus",
+    "texture": "amendoim_sapling",
     "customModelName": "Cross model",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
