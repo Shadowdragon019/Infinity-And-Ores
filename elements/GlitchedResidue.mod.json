@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_residue",
     "customModelName": "Normal",
-    "name": "Glitched Residue",
+    "name": "§bGlitched Residue",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },

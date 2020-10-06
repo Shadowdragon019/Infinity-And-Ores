@@ -14,7 +14,10 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityClassification;
 
+import net.mcreator.infinityores.entity.GlomperEntity;
+import net.mcreator.infinityores.entity.CrawlantEntity;
 import net.mcreator.infinityores.block.GlitchedSoilBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -47,6 +50,8 @@ public class SpikyPlateauBiome extends InfinityAndOresModElements.ModElement {
 			DefaultBiomeFeatures.addOres(this);
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
 					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(CrawlantEntity.entity, 15, 3, 5));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(GlomperEntity.entity, 10, 1, 3));
 		}
 
 		@OnlyIn(Dist.CLIENT)

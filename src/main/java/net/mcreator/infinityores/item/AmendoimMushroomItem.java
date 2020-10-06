@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
-import net.mcreator.infinityores.itemgroup.InfinityAndOresItemsTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 @InfinityAndOresModElements.ModElement.Tag
@@ -25,8 +25,7 @@ public class AmendoimMushroomItem extends InfinityAndOresModElements.ModElement 
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(InfinityAndOresItemsTabItemGroup.tab).maxStackSize(64)
-					.food((new Food.Builder()).hunger(1).saturation(0.6f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(1).saturation(0.6f).build()));
 			setRegistryName("amendoim_mushroom");
 		}
 

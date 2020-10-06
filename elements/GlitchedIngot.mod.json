@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_ingot",
     "customModelName": "Normal",
-    "name": "Glitched Ingot",
+    "name": "§bGlitched Ingot",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },

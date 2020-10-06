@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_shard",
     "customModelName": "Normal",
-    "name": "Glitched Shard",
+    "name": "§eGlitched Shard",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },

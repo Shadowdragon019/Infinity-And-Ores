@@ -50,6 +50,25 @@
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Crawlant"
+        },
+        "minGroup": 3,
+        "maxGroup": 5,
+        "weight": 15,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Glomper"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 10,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "parent": "infinity_and_ores:custom/flower_pot_amendoim_roots_cross",
+  "textures": {
+    "all": "infinity_and_ores:blocks/flower_pot",
+    "particle": "infinity_and_ores:blocks/flower_pot",
+    "flowerpot": "infinity_and_ores:blocks/flower_pot",
+    "plant": "infinity_and_ores:blocks/amendoim_roots_pot",
+    "dirt": "infinity_and_ores:blocks/dirt"
+  }
+}

@@ -3,7 +3,6 @@ package net.mcreator.infinityores.procedures;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.GameType;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -14,7 +13,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
 import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.Minecraft;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -69,11 +67,10 @@ public class AmendoimSaplingBonemealProcedureProcedure extends InfinityAndOresMo
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BONE_MEAL, (int) (1)).getItem() == p.getItem(),
 						(int) 1);
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
+			}
 			if ((Math.random() < 0.875)) {
-				if (world instanceof ServerWorld) {
-					((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
-				}
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("x", x);
@@ -97,11 +94,10 @@ public class AmendoimSaplingBonemealProcedureProcedure extends InfinityAndOresMo
 			}
 		}.checkGamemode(entity)) && (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem()))) {
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
+			}
 			if ((Math.random() < 0.875)) {
-				if (world instanceof ServerWorld) {
-					((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
-				}
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("x", x);

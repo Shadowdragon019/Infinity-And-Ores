@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_pickaxe",
     "customModelName": "Normal",
-    "name": "Glitched Pickaxe",
+    "name": "§dGlitched Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"

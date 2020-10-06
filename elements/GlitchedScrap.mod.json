@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_scrap",
     "customModelName": "Normal",
-    "name": "Glitched Scrap",
+    "name": "§bGlitched Scrap",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },

@@ -4266,6 +4266,533 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tooth_bonemeal_recipe"
+    },
+    {
+      "name": "FlowerPotAmendoimFungi",
+      "type": "block",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_fungi"
+    },
+    {
+      "name": "FlowerPotAmendoimFungiOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_fungi_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimFungiRightClickPropcedure",
+      "type": "procedure",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_fungi_right_click_propcedure",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimFungiBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_fungi_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimSapling",
+      "type": "block",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_sapling"
+    },
+    {
+      "name": "FlowerPotAmendoimSaplingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_sapling_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimSaplingRightClickProcedure",
+      "type": "procedure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_sapling_right_click_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimSaplingBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_sapling_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimMushroom",
+      "type": "block",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_mushroom"
+    },
+    {
+      "name": "FlowerPotAmendoimMushroomOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_mushroom_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimMushroomRightClickProcedure",
+      "type": "procedure",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_mushroom_right_click_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimMushroomBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_mushroom_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimRoots",
+      "type": "block",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_roots"
+    },
+    {
+      "name": "FlowerPotAmendoimRootsOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_roots_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimRootsRightClickProcedure",
+      "type": "procedure",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_roots_right_click_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimRootsDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_roots_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimSaplingBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_sapling_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimFungiBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_fungi_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimMushroomBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_mushroom_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotAmendoimRootsBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_pot_amendoim_roots_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4340,9 +4867,10 @@
       "effect.fiddly_potion": "No Effect",
       "item.infinity_and_ores.glomper_tooth": "Glomper Tooth",
       "item.minecraft.lingering_potion.effect.fiddly_potion": "Fiddly Lingering Potion",
+      "block.infinity_and_ores.flower_pot_amendoim_fungi": "Potted Amendoim Fungus",
       "item.infinity_and_ores.opristonium_shovel": "Opristonium Shovel",
-      "item.infinity_and_ores.glitched_shovel": "Glitched Shovel",
-      "item.infinity_and_ores.glitched_boots": "Glitched Boots",
+      "item.infinity_and_ores.glitched_shovel": "§dGlitched Shovel",
+      "item.infinity_and_ores.glitched_boots": "§dGlitched Boots",
       "block.infinity_and_ores.end_glitched_ore": "End Glitched Ore",
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
@@ -4356,7 +4884,7 @@
       "item.infinity_and_ores.music_disc_dimension_c_581": "Music Disc",
       "block.infinity_and_ores.cracked_mantle_bricks": "Cracked Mantle Bricks",
       "advancements.impossible.title": "...Impossible.",
-      "item.infinity_and_ores.enchanted_glitched_apple": "Enchanted Glitched Apple",
+      "item.infinity_and_ores.enchanted_glitched_apple": "§4Enchanted Glitched Apple",
       "advancements.spatial_defense.title": "Spatial Defense",
       "advancements.opristonium_madness.title": "Opristonium Madness",
       "advancements.unknown_leggings.descr": "Craft a Glitched Leggings in the Glitched Station",
@@ -4398,9 +4926,9 @@
       "block.infinity_and_ores.endesulite_block": "Block of Endesulite",
       "item.infinity_and_ores.endesulite_shovel": "Endesulite Shovel",
       "item.minecraft.potion.effect.fiddly_potion": "Fiddly Potion",
-      "item.infinity_and_ores.glitched_crystal": "Glitched Crystal",
+      "item.infinity_and_ores.glitched_crystal": "§eGlitched Crystal",
       "advancements.glitchiness.descr": "Something\u0027s wrong I can feel it. Discover the weirdness of Minecraft.",
-      "item.infinity_and_ores.glitched_dimension": "Flint \u0026 Glitch",
+      "item.infinity_and_ores.glitched_dimension": "§dFlint \u0026 Glitch",
       "item.infinity_and_ores.opristonium_boots": "Opristonium Boots",
       "item.infinity_and_ores.poison_urcus": "Poison Urcus Spawn Egg",
       "effect.potion_of_decay": "Wither",
@@ -4411,7 +4939,7 @@
       "block.infinity_and_ores.mossy_mantle_brick_slab": "Mossy Mantle Brick Slab",
       "item.infinity_and_ores.opristonium_leggings": "Opristonium Leggings",
       "block.infinity_and_ores.smooth_mantle_slab": "Smooth Mantle Slab",
-      "block.infinity_and_ores.glitched_obsidian": "Glitched Obsidian",
+      "block.infinity_and_ores.glitched_obsidian": "§dGlitched Obsidian",
       "block.infinity_and_ores.mantle_slab": "Mantle Slab",
       "block.infinity_and_ores.stripped_amendoim_wood": "Stripped Amendoim Wood",
       "item.minecraft.tipped_arrow.effect.fiddly_potion": "Fiddly Arrow",
@@ -4438,7 +4966,7 @@
       "item.infinity_and_ores.wither_urcus": "Wither Urcus Spawn Egg",
       "block.infinity_and_ores.chiseled_mantle_bricks": "Chiseled Mantle Bricks",
       "advancements.wasteland_of_a_biome.title": "Wasteland of a Biome",
-      "item.infinity_and_ores.glitched_helmet": "Glitched Helmet",
+      "item.infinity_and_ores.glitched_helmet": "§dGlitched Helmet",
       "item.infinity_and_ores.music_disc_final_discoveries": "Music Disc",
       "advancements.a_bit_salty.title": "A bit salty",
       "item.infinity_and_ores.opristonium_chestplate": "Opristonium Chestplate",
@@ -4457,6 +4985,7 @@
       "item.infinity_and_ores.music_disc_ignitar_awakens.desc": "Thediamondcrystal - Ignitar Awakens",
       "item.infinity_and_ores.endesulite_shard": "Endesulite Shard",
       "block.infinity_and_ores.amendoim_stairs": "Amendoim Stairs",
+      "block.infinity_and_ores.flower_pot_amendoim_roots": "Potted Amendoim Roots",
       "advancements.spatial_defense.descr": "Craft a piece of Endesulite armor",
       "item.infinity_and_ores.endesulite_hoe": "Endesulite Hoe",
       "advancements.unknown_sword.descr": "Craft a Glitched Sword in the Glitched Station",
@@ -4465,15 +4994,15 @@
       "advancements.infected.title": "Infected!",
       "advancements.unknown_boots.descr": "Craft a Glitched Boots in the Glitched Station",
       "advancements.unknown_shovel.descr": "Craft a Glitched Shovel in the Glitched Station",
-      "item.infinity_and_ores.glitched_scrap": "Glitched Scrap",
+      "item.infinity_and_ores.glitched_scrap": "§bGlitched Scrap",
       "advancements.sharp_programming_bud.title": "Sharp programming, bud!",
       "block.infinity_and_ores.polished_mantle_stairs": "Polished Mantle Stairs",
       "advancements.unknown_axe.descr": "Craft a Glitched Axe in the Glitched Station",
-      "item.infinity_and_ores.glitched_ingot": "Glitched Ingot",
+      "item.infinity_and_ores.glitched_ingot": "§bGlitched Ingot",
       "block.infinity_and_ores.mantle_amendoim_nylium": "Mantle Amendoim Nylium",
       "item.infinity_and_ores.music_disc_arcade.desc": "Thediamondcrystal - Arcade (Fixed Version)",
       "itemGroup.tabinfinity_and_ores_building_blocks_tab": "Infinity \u0026 Ores: Building Blocks",
-      "item.infinity_and_ores.glitched_residue": "Glitched Residue",
+      "item.infinity_and_ores.glitched_residue": "§bGlitched Residue",
       "block.infinity_and_ores.polished_mantle_slab": "Polished Mantle Slab",
       "block.infinity_and_ores.mantle_glitched_ore": "Mantle Glitched Ore",
       "item.infinity_and_ores.opristonium_axe": "Opristonium Axe",
@@ -4481,8 +5010,8 @@
       "item.infinity_and_ores.opristonium_nugget": "Opristonium Nugget",
       "item.infinity_and_ores.endesulite_leggings": "Endesulite Leggings",
       "block.infinity_and_ores.glitched_ore": "Glitched Ore",
-      "item.infinity_and_ores.glitched_shard": "Glitched Shard",
-      "block.infinity_and_ores.glitched_block": "Glitched Block",
+      "item.infinity_and_ores.glitched_shard": "§eGlitched Shard",
+      "block.infinity_and_ores.glitched_block": "§4Glitched Block",
       "item.infinity_and_ores.endesulite_pickaxe": "Endesulite Pickaxe",
       "item.infinity_and_ores.endesulite_helmet": "Endesulite Helmet",
       "block.infinity_and_ores.mossy_mantle_wall": "Mossy Mantle Wall",
@@ -4494,12 +5023,13 @@
       "item.infinity_and_ores.opristonium_gem": "Opristonium Gem",
       "itemGroup.tabinfinity_and_ores_decoration_blocks_tab": "Infinity \u0026 Ores: Decoration Blocks",
       "item.infinity_and_ores.music_disc_parasidal_minds.desc": "Thediamondcrystal - Parasidal Minds",
-      "item.infinity_and_ores.glitched_sword": "Glitched Sword",
+      "item.infinity_and_ores.glitched_sword": "§dGlitched Sword",
+      "block.infinity_and_ores.flower_pot_amendoim_sapling": "Potted Amendoim Sapling",
       "advancements.freenium.descr": "Collect/craft an Endesulite Crystal",
       "advancements.unknown_pickaxe.title": "Unknown [item.pickaxe]",
       "block.infinity_and_ores.glitched_station": "Glitched Station",
       "block.infinity_and_ores.white_coal_block": "Block of White Coal",
-      "item.infinity_and_ores.glitched_chestplate": "Glitched Chestplate",
+      "item.infinity_and_ores.glitched_chestplate": "§dGlitched Chestplate",
       "advancements.unknown_pickaxe.descr": "Craft a Glitched Pickaxe in the Glitched Station",
       "block.infinity_and_ores.mossy_mantle_brick_wall": "Mossy Mantle Brick Wall",
       "item.infinity_and_ores.amendoim_stew": "Amendoim Stew",
@@ -4511,11 +5041,11 @@
       "block.infinity_and_ores.amendoim_planks": "Amendoim Planks",
       "item.infinity_and_ores.virus_nucleus": "Virus Nucleus",
       "advancements.straight_from_the_source.descr": "Kill a Glomper to get its\u0027 tooth... You maniac",
-      "item.infinity_and_ores.glitched_axe": "Glitched Axe",
+      "item.infinity_and_ores.glitched_axe": "§dGlitched Axe",
       "block.infinity_and_ores.mantle_opristonium_ore": "Mantle Opristonium Ore",
       "advancements.surprise_chomp.title": "Surprise chomp!",
       "advancements.opristonium_madness.descr": "Collect an Opristonium Gem",
-      "item.infinity_and_ores.glitched_leggings": "Glitched Leggings",
+      "item.infinity_and_ores.glitched_leggings": "§dGlitched Leggings",
       "advancements.unknown_helmet.descr": "Craft a Glitched Helmet in the Glitched Station",
       "item.infinity_and_ores.music_disc_arcade": "Music Disc",
       "block.infinity_and_ores.mantle_brick_slab": "Mantle Brick Slab",
@@ -4539,21 +5069,22 @@
       "advancements.unknown_sword.title": "Unknown [item.sword]",
       "advancements.let_a_new_era_begin.descr": "Join the world and start discovering what Infinity \u0026 Ores has to offer!",
       "item.infinity_and_ores.amendoim_slime_ball": "Amendoim Slime Ball",
-      "item.infinity_and_ores.glitched_apple": "Glitched Apple",
-      "item.infinity_and_ores.glitched_pickaxe": "Glitched Pickaxe",
-      "item.infinity_and_ores.glitched_hoe": "Glitched Hoe",
+      "item.infinity_and_ores.glitched_apple": "§dGlitched Apple",
+      "item.infinity_and_ores.glitched_pickaxe": "§dGlitched Pickaxe",
+      "item.infinity_and_ores.glitched_hoe": "§dGlitched Hoe",
       "item.infinity_and_ores.opristonium_sword": "Opristonium Sword",
       "advancements.a_bit_salty.descr": "Cook some Crawlan Meat and eat it",
       "block.infinity_and_ores.amendoim_stem": "Amendoim Stem",
       "item.minecraft.splash_potion.effect.fiddly_potion": "Fiddly Splash Potion",
       "itemGroup.tabinfinity_and_ores_items_tab": "Infinity \u0026 Ores: Items",
-      "block.infinity_and_ores.amendoim_fence_gate": "Amendoim Fence Gat",
+      "block.infinity_and_ores.amendoim_fence_gate": "Amendoim Fence Gate",
       "item.infinity_and_ores.endesulite_axe": "Endesulite Axe",
       "item.infinity_and_ores.music_disc_final_discoveries.desc": "Thediamondcrystal - Final Discoveries",
       "advancements.unleashing_the_corruption.title": "Unleashing the Corruption!",
       "item.infinity_and_ores.music_disc_hypertension": "Music Disc",
       "advancements.smooth_mineral.descr": "Craft a full set of Opristonium armor",
       "block.infinity_and_ores.mantle_stairs": "Mantle Stairs",
+      "block.infinity_and_ores.flower_pot_amendoim_mushroom": "Potted Amendoim Mushroom",
       "item.infinity_and_ores.weakness_urcus": "Weakness Urcus Spawn Egg",
       "advancements.the_hunter_becomes_the_hunted.descr": "Kill a Crawlant and collect its\u0027 meat",
       "item.infinity_and_ores.crawlant": "Crawlant Spawn Egg",

@@ -79,7 +79,7 @@ public class MantleAmendoimForestBiome extends InfinityAndOresModElements.ModEle
 							Feature.HUGE_BROWN_MUSHROOM.withConfiguration(DefaultBiomeFeatures.BIG_BROWN_MUSHROOM)))
 					.withPlacement(Placement.COUNT_HEIGHTMAP.configure(new FrequencyConfig(3))));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMAN, 10, 2, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMITE, 15, 4, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ENDERMITE, 5, 1, 6));
 		}
 
 		@OnlyIn(Dist.CLIENT)

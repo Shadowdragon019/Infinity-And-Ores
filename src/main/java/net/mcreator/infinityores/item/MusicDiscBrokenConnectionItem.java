@@ -41,7 +41,7 @@ public class MusicDiscBrokenConnectionItem extends InfinityAndOresModElements.Mo
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("\u00A7cWARNING: \u00A7fIf you play this song in a YouTube video"));
-			list.add(new StringTextComponent("you might get \u00A7edemonetized\u00A7f."));
+			list.add(new StringTextComponent("\u00A7fyou might get \u00A7edemonetized\u00A7f."));
 		}
 	}
 }

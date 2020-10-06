@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_axe",
     "customModelName": "Normal",
-    "name": "Glitched Axe",
+    "name": "§dGlitched Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"

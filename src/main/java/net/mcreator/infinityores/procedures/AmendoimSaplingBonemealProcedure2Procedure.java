@@ -3,7 +3,6 @@ package net.mcreator.infinityores.procedures;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.GameType;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -14,7 +13,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
 import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.Minecraft;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -73,7 +71,6 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 				((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
 			}
 			if ((Math.random() < 0.875)) {
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("x", x);
@@ -101,7 +98,6 @@ public class AmendoimSaplingBonemealProcedure2Procedure extends InfinityAndOresM
 				((ServerWorld) world).spawnParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, (int) 10, 1, 1, 1, 0);
 			}
 			if ((Math.random() < 0.875)) {
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("x", x);

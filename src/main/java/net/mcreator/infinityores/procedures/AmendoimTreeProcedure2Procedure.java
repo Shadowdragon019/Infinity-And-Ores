@@ -48,7 +48,7 @@ public class AmendoimTreeProcedure2Procedure extends InfinityAndOresModElements.
 				|| (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.VOID_AIR.getDefaultState().getBlock())
 						|| ((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == Blocks.CAVE_AIR.getDefaultState()
 								.getBlock())))) {
-			Tree = (double) ((new java.util.Random()).nextInt((int) 3 + 1));
+			Tree = (double) ((new java.util.Random()).nextInt((int) 6 + 1));
 			if (((Tree) == 0)) {
 				if (!world.getWorld().isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
@@ -70,13 +70,40 @@ public class AmendoimTreeProcedure2Procedure extends InfinityAndOresModElements.
 			} else if (((Tree) == 2)) {
 				if (!world.getWorld().isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree_tall"));
+							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree_average"));
 					if (template != null) {
 						template.addBlocksToWorld(world, new BlockPos((int) (x - 2), (int) y, (int) (z - 2)),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 					}
 				}
 			} else if (((Tree) == 3)) {
+				if (!world.getWorld().isRemote) {
+					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree_tallest"));
+					if (template != null) {
+						template.addBlocksToWorld(world, new BlockPos((int) (x - 7), (int) y, (int) (z - 3)),
+								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+					}
+				}
+			} else if (((Tree) == 4)) {
+				if (!world.getWorld().isRemote) {
+					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree_taller"));
+					if (template != null) {
+						template.addBlocksToWorld(world, new BlockPos((int) (x - 2), (int) y, (int) (z - 2)),
+								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+					}
+				}
+			} else if (((Tree) == 5)) {
+				if (!world.getWorld().isRemote) {
+					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_tree_tall"));
+					if (template != null) {
+						template.addBlocksToWorld(world, new BlockPos((int) (x - 2), (int) y, (int) (z - 2)),
+								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+					}
+				}
+			} else if (((Tree) == 6)) {
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), AmendoimSaplingBlock.block.getDefaultState(), 3);
 			}
 		}

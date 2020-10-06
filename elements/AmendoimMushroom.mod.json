@@ -8,7 +8,7 @@
     "name": "Amendoim Mushroom",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:InfinityAndOresItemsTab"
+      "value": "FOOD"
     },
     "stackSize": 64,
     "nutritionalValue": 1,

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_shovel",
     "customModelName": "Normal",
-    "name": "Glitched Shovel",
+    "name": "§dGlitched Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"

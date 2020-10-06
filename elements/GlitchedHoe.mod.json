@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_hoe",
     "customModelName": "Normal",
-    "name": "Glitched Hoe",
+    "name": "§dGlitched Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"

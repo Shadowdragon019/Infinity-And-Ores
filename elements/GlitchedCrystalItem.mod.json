@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_crystal_item",
     "customModelName": "Normal",
-    "name": "Glitched Crystal",
+    "name": "§eGlitched Crystal",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },

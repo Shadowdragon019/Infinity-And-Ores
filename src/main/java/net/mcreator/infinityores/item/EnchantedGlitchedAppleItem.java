@@ -33,7 +33,8 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(4).saturation(2.4f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
+					.food((new Food.Builder()).hunger(4).saturation(2.4f).setAlwaysEdible().build()));
 			setRegistryName("enchanted_glitched_apple");
 		}
 

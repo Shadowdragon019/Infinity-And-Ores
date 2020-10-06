@@ -106,7 +106,7 @@ public class AmendoimTreeProcedureProcedure extends InfinityAndOresModElements.M
 			} else if (((Tree) == 6)) {
 				if (!world.getWorld().isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_mushroom_tiny"));
+							.getTemplateDefaulted(new ResourceLocation("infinity_and_ores", "amendoim_fungi_tiny"));
 					if (template != null) {
 						template.addBlocksToWorld(world, new BlockPos((int) (x - 1), (int) y, (int) (z - 1)),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "test_ingot",
     "customModelName": "Normal",
-    "name": "Glitched Apple",
+    "name": "§dGlitched Apple",
     "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"

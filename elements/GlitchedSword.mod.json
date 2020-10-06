@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "glitched_sword",
     "customModelName": "Normal",
-    "name": "Glitched Sword",
+    "name": "§dGlitched Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
