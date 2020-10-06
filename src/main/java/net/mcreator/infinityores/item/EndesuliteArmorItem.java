@@ -29,7 +29,7 @@ public class EndesuliteArmorItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:endesulite_boots")
 	public static final Item boots = null;
 	public EndesuliteArmorItem(InfinityAndOresModElements instance) {
-		super(instance, 96);
+		super(instance, 101);
 	}
 
 	@Override

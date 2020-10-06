@@ -17,7 +17,7 @@ public class GlitchedSwordItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_sword")
 	public static final Item block = null;
 	public GlitchedSwordItem(InfinityAndOresModElements instance) {
-		super(instance, 103);
+		super(instance, 108);
 	}
 
 	@Override

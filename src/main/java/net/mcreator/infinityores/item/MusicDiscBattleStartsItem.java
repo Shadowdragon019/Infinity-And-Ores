@@ -16,7 +16,7 @@ public class MusicDiscBattleStartsItem extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:music_disc_battle_starts")
 	public static final Item block = null;
 	public MusicDiscBattleStartsItem(InfinityAndOresModElements instance) {
-		super(instance, 16);
+		super(instance, 15);
 	}
 
 	@Override

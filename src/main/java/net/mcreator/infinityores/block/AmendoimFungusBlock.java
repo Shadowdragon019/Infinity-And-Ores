@@ -60,7 +60,7 @@ public class AmendoimFungusBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_fungus")
 	public static final Block block = null;
 	public AmendoimFungusBlock(InfinityAndOresModElements instance) {
-		super(instance, 78);
+		super(instance, 83);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class AmendoimFenceGateBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:amendoim_fence_gate")
 	public static final Block block = null;
 	public AmendoimFenceGateBlock(InfinityAndOresModElements instance) {
-		super(instance, 88);
+		super(instance, 93);
 	}
 
 	@Override

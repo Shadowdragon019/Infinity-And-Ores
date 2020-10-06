@@ -12,8 +12,8 @@
       "value": "CUSTOM:broken_connection"
     },
     "specialInfo": [
-      "§cWARNING: §fIf you play this song in a YouTube video",
-      "§fyou might get §edemonetized§f."
+      "§cWARNING: §7If you play this song in a YouTube video",
+      "§7you might get §edemonetized§7."
     ],
     "hasGlow": false
   }

@@ -17,7 +17,7 @@ public class OpristoniumPickaxeItem extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:opristonium_pickaxe")
 	public static final Item block = null;
 	public OpristoniumPickaxeItem(InfinityAndOresModElements instance) {
-		super(instance, 92);
+		super(instance, 97);
 	}
 
 	@Override

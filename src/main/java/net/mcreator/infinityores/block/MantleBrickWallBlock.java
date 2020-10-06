@@ -33,7 +33,7 @@ public class MantleBrickWallBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:mantle_brick_wall")
 	public static final Block block = null;
 	public MantleBrickWallBlock(InfinityAndOresModElements instance) {
-		super(instance, 85);
+		super(instance, 90);
 	}
 
 	@Override

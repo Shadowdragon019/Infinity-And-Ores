@@ -27,7 +27,7 @@ public class AmendoimPlanksBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_planks")
 	public static final Block block = null;
 	public AmendoimPlanksBlock(InfinityAndOresModElements instance) {
-		super(instance, 71);
+		super(instance, 76);
 	}
 
 	@Override

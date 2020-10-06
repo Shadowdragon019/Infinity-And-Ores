@@ -25,7 +25,7 @@ public class PolishedMantleStairsBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:polished_mantle_stairs")
 	public static final Block block = null;
 	public PolishedMantleStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 61);
+		super(instance, 66);
 	}
 
 	@Override

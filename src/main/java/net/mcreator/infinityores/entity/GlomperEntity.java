@@ -52,7 +52,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public GlomperEntity(InfinityAndOresModElements instance) {
-		super(instance, 117);
+		super(instance, 122);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

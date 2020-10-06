@@ -22,7 +22,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimSaplingOnBlockRightClickedProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimSaplingOnBlockRightClickedProcedure(InfinityAndOresModElements instance) {
-		super(instance, 414);
+		super(instance, 415);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.error_block_not_found.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

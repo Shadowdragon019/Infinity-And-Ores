@@ -42,7 +42,7 @@ public class AmendoimSaplingBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:amendoim_sapling")
 	public static final Block block = null;
 	public AmendoimSaplingBlock(InfinityAndOresModElements instance) {
-		super(instance, 77);
+		super(instance, 82);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class GlitchedAppleItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_apple")
 	public static final Item block = null;
 	public GlitchedAppleItem(InfinityAndOresModElements instance) {
-		super(instance, 121);
+		super(instance, 34);
 	}
 
 	@Override
