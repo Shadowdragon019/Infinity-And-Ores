@@ -40,7 +40,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 60,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -55,7 +55,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 60,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -70,7 +70,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 60,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -172,6 +172,16 @@
             }
           ],
           "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
         },
         {
           "type": "minecraft:item",
