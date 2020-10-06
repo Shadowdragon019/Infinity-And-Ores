@@ -16,7 +16,7 @@ public class AmendoimAppleItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_apple")
 	public static final Item block = null;
 	public AmendoimAppleItem(InfinityAndOresModElements instance) {
-		super(instance, 118);
+		super(instance, 120);
 	}
 
 	@Override

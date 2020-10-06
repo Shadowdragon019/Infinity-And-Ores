@@ -33,7 +33,7 @@ public class AmendoimTrapdoorBlock extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:amendoim_trapdoor")
 	public static final Block block = null;
 	public AmendoimTrapdoorBlock(InfinityAndOresModElements instance) {
-		super(instance, 109);
+		super(instance, 110);
 	}
 
 	@Override

@@ -18,7 +18,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.List;
@@ -29,14 +28,13 @@ public class TestBlockBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:test_block")
 	public static final Block block = null;
 	public TestBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 43);
+		super(instance, 286);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(InfinityAndOresBuildingBlocksTabItemGroup.tab))
-				.setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

@@ -38,7 +38,7 @@ public class NetherGlitchedOreBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:nether_glitched_ore")
 	public static final Block block = null;
 	public NetherGlitchedOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 34);
+		super(instance, 35);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class NetherGlitchedOreBlock extends InfinityAndOresModElements.ModElemen
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 	}
 	@Override

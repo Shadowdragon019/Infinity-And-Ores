@@ -38,7 +38,7 @@ public class EndGlitchedOreBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:end_glitched_ore")
 	public static final Block block = null;
 	public EndGlitchedOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 35);
+		super(instance, 36);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class EndGlitchedOreBlock extends InfinityAndOresModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 	}
 	@Override

@@ -22,6 +22,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -38,7 +39,7 @@ public class MantleWhiteCoalOreBlock extends InfinityAndOresModElements.ModEleme
 	@ObjectHolder("infinity_and_ores:mantle_white_coal_ore")
 	public static final Block block = null;
 	public MantleWhiteCoalOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 37);
+		super(instance, 38);
 	}
 
 	@Override
@@ -59,7 +60,7 @@ public class MantleWhiteCoalOreBlock extends InfinityAndOresModElements.ModEleme
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 	}
 	@Override

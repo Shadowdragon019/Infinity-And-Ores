@@ -35,6 +35,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -53,7 +54,7 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:glitched_crystal_block")
 	public static final Block block = null;
 	public GlitchedCrystalBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 129);
+		super(instance, 131);
 	}
 
 	@Override
@@ -122,7 +123,7 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 
 		@Override

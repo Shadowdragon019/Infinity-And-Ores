@@ -22,6 +22,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -38,7 +39,7 @@ public class MantleOpristoniumOreBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:mantle_opristonium_ore")
 	public static final Block block = null;
 	public MantleOpristoniumOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 31);
+		super(instance, 32);
 	}
 
 	@Override
@@ -59,7 +60,7 @@ public class MantleOpristoniumOreBlock extends InfinityAndOresModElements.ModEle
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 	}
 	@Override

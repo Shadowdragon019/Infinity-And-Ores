@@ -19,16 +19,16 @@
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
-    "Mx": 1.0,
+    "Mx": 0.8,
     "My": 0.4,
-    "Mz": 1.0,
+    "Mz": 0.8,
     "name": "Glomper Teeth",
     "specialInfo": [],
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:InfinityAndOresDecorationBlocksTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {

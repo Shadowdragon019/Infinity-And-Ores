@@ -38,7 +38,7 @@ public class OpristoniumOreBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:opristonium_ore")
 	public static final Block block = null;
 	public OpristoniumOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 30);
+		super(instance, 31);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class OpristoniumOreBlock extends InfinityAndOresModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(Blocks.AIR, (int) (1)));
 		}
 	}
 	@Override

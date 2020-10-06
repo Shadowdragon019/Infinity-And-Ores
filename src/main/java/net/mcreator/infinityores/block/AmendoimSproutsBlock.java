@@ -28,6 +28,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
@@ -50,7 +51,7 @@ public class AmendoimSproutsBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:amendoim_sprouts")
 	public static final Block block = null;
 	public AmendoimSproutsBlock(InfinityAndOresModElements instance) {
-		super(instance, 85);
+		super(instance, 79);
 	}
 
 	@Override
@@ -103,6 +104,11 @@ public class AmendoimSproutsBlock extends InfinityAndOresModElements.ModElement 
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("amendoim_sprouts");
+		}
+
+		@Override
+		public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
+			return true;
 		}
 
 		@Override

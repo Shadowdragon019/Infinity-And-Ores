@@ -28,7 +28,7 @@
     "resistance": 0.5,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:InfinityAndOresBuildingBlocksTab"
+      "value": "CUSTOM:InfinityAndOresDecorationBlocksTab"
     },
     "destroyTool": "axe",
     "customDrop": {

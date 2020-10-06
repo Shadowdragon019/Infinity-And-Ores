@@ -55,7 +55,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class UrcusEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public UrcusEntity(InfinityAndOresModElements instance) {
-		super(instance, 110);
+		super(instance, 111);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

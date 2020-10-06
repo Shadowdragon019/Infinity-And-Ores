@@ -101,7 +101,7 @@ public class GlitchedDimensionDimension extends InfinityAndOresModElements.ModEl
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public GlitchedDimensionDimension(InfinityAndOresModElements instance) {
-		super(instance, 107);
+		super(instance, 108);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

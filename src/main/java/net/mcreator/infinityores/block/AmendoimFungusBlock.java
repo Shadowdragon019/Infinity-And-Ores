@@ -33,6 +33,7 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -59,7 +60,7 @@ public class AmendoimFungusBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_fungus")
 	public static final Block block = null;
 	public AmendoimFungusBlock(InfinityAndOresModElements instance) {
-		super(instance, 84);
+		super(instance, 78);
 	}
 
 	@Override
@@ -112,6 +113,11 @@ public class AmendoimFungusBlock extends InfinityAndOresModElements.ModElement {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).tickRandomly().doesNotBlockMovement().sound(SoundType.NETHER_WART)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("amendoim_fungus");
+		}
+
+		@Override
+		public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
+			return true;
 		}
 
 		@Override

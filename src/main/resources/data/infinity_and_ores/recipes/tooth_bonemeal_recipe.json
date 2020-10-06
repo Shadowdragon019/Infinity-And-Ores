@@ -1,0 +1,13 @@
+{
+  "group": "infinity_and_ores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:glomper_tooth"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone_meal",
+    "count": 1
+  }
+}

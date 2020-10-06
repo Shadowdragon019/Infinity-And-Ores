@@ -34,7 +34,7 @@ import java.util.Random;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTree15Structure extends InfinityAndOresModElements.ModElement {
 	public AmendoimTree15Structure(InfinityAndOresModElements instance) {
-		super(instance, 436);
+		super(instance, 393);
 	}
 
 	@Override

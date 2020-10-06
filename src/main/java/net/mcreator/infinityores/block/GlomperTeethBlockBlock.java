@@ -43,7 +43,6 @@ import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.procedures.GlomperTeethAdditionalGenerationProcedureProcedure;
 import net.mcreator.infinityores.procedures.GlomperRevealProcedure2Procedure;
 import net.mcreator.infinityores.procedures.GlompeRevealProcedureProcedure;
-import net.mcreator.infinityores.itemgroup.InfinityAndOresDecorationBlocksTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Random;
@@ -59,14 +58,13 @@ public class GlomperTeethBlockBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:glomper_teeth_block")
 	public static final Block block = null;
 	public GlomperTeethBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 413);
+		super(instance, 368);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(InfinityAndOresDecorationBlocksTabItemGroup.tab))
-				.setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -98,7 +96,7 @@ public class GlomperTeethBlockBlock extends InfinityAndOresModElements.ModElemen
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
-			return VoxelShapes.create(0D, 0D, 0D, 1D, 0.4D, 1D);
+			return VoxelShapes.create(0D, 0D, 0D, 0.8D, 0.4D, 0.8D);
 		}
 
 		@Override

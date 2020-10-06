@@ -28,7 +28,7 @@
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""

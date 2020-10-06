@@ -13,7 +13,6 @@ import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.infinityores.itemgroup.InfinityAndOresItemsTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.List;
@@ -23,7 +22,7 @@ public class TestIngotItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:test_ingot")
 	public static final Item block = null;
 	public TestIngotItem(InfinityAndOresModElements instance) {
-		super(instance, 25);
+		super(instance, 287);
 	}
 
 	@Override
@@ -32,7 +31,7 @@ public class TestIngotItem extends InfinityAndOresModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(InfinityAndOresItemsTabItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(null).maxStackSize(64));
 			setRegistryName("test_ingot");
 		}
 

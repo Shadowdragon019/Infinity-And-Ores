@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class SpatialDefenseProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public SpatialDefenseProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 213);
+		super(instance, 215);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
