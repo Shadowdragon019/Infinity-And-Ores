@@ -1,0 +1,39 @@
+{
+  "group": "mederium_chestplate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "2": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "3": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "4": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "5": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "6": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "7": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "8": {
+      "item": "infinity_and_ores:mederium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mederium_armor_chestplate",
+    "count": 1
+  }
+}

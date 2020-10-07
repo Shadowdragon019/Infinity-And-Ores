@@ -1,0 +1,36 @@
+{
+  "group": "shield",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:planks"
+    },
+    "1": {
+      "tag": "iron_ingot"
+    },
+    "2": {
+      "tag": ""
+    },
+    "3": {
+      "tag": "forge:planks"
+    },
+    "4": {
+      "tag": "forge:planks"
+    },
+    "5": {
+      "tag": "forge:planks"
+    },
+    "7": {
+      "tag": "forge:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield",
+    "count": 1
+  }
+}

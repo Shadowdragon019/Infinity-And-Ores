@@ -1,0 +1,36 @@
+{
+  "group": "crossbow",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "1": {
+      "tag": "iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "minecraft:string"
+    },
+    "4": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:crossbow",
+    "count": 1
+  }
+}

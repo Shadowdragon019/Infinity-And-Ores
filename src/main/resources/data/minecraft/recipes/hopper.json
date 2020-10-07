@@ -1,0 +1,33 @@
+{
+  "group": "hopper",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "iron_ingot"
+    },
+    "2": {
+      "tag": "iron_ingot"
+    },
+    "3": {
+      "tag": "iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "tag": "iron_ingot"
+    },
+    "7": {
+      "tag": "iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper",
+    "count": 1
+  }
+}

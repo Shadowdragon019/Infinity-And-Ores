@@ -1,0 +1,27 @@
+{
+  "group": "mederium_hoe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "1": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mederium_hoe",
+    "count": 1
+  }
+}

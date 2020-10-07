@@ -1,0 +1,13 @@
+{
+  "group": "mederium_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:mederium_block"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:mederium_ingot",
+    "count": 9
+  }
+}

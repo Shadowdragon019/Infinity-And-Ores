@@ -4793,6 +4793,489 @@
           }
         ]
       }
+    },
+    {
+      "name": "MederiumIngot",
+      "type": "item",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_ingot"
+    },
+    {
+      "name": "MederiumNugget",
+      "type": "item",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_nugget"
+    },
+    {
+      "name": "MederiumOre",
+      "type": "block",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_ore"
+    },
+    {
+      "name": "MederiumBlock",
+      "type": "block",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_block"
+    },
+    {
+      "name": "MederiumBars",
+      "type": "block",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_bars"
+    },
+    {
+      "name": "MederiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_block_recipe"
+    },
+    {
+      "name": "MederiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_ingot_recipe"
+    },
+    {
+      "name": "MederiumIngotRecipe2",
+      "type": "recipe",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_ingot_recipe_2"
+    },
+    {
+      "name": "MederiumIngotRecipe3",
+      "type": "recipe",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_ingot_recipe_3"
+    },
+    {
+      "name": "MederiumNuggetRecipe",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_nugget_recipe"
+    },
+    {
+      "name": "MederiumBarsRecipe",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_bars_recipe"
+    },
+    {
+      "name": "Iron",
+      "type": "tag",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron"
+    },
+    {
+      "name": "MinecartRecipe",
+      "type": "recipe",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecart_recipe"
+    },
+    {
+      "name": "PistonRecipe",
+      "type": "recipe",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piston_recipe"
+    },
+    {
+      "name": "ActivatorRailRecipe",
+      "type": "recipe",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "activator_rail_recipe"
+    },
+    {
+      "name": "Ironblock",
+      "type": "tag",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironblock"
+    },
+    {
+      "name": "AnvilRecipe",
+      "type": "recipe",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anvil_recipe"
+    },
+    {
+      "name": "SmoothStone",
+      "type": "tag",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_stone"
+    },
+    {
+      "name": "BlastFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_furnace_recipe"
+    },
+    {
+      "name": "BucketRecipe",
+      "type": "recipe",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_recipe"
+    },
+    {
+      "name": "CauldronRecipe",
+      "type": "recipe",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cauldron_recipe"
+    },
+    {
+      "name": "CompassRecipe",
+      "type": "recipe",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compass_recipe"
+    },
+    {
+      "name": "CrossbowRecipe",
+      "type": "recipe",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crossbow_recipe"
+    },
+    {
+      "name": "DetectorRailRecipe",
+      "type": "recipe",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "detector_rail_recipe"
+    },
+    {
+      "name": "HopperRecipe",
+      "type": "recipe",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hopper_recipe"
+    },
+    {
+      "name": "ShearsRecipe",
+      "type": "recipe",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shears_recipe"
+    },
+    {
+      "name": "ShieldRecipe",
+      "type": "recipe",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shield_recipe"
+    },
+    {
+      "name": "StonecutterRecipe",
+      "type": "recipe",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecutter_recipe"
+    },
+    {
+      "name": "StonecutterRecipe2",
+      "type": "recipe",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecutter_recipe_2"
+    },
+    {
+      "name": "SmithingTableRecipe",
+      "type": "recipe",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smithing_table_recipe"
+    },
+    {
+      "name": "TripwireHookRecipe",
+      "type": "recipe",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tripwire_hook_recipe"
+    },
+    {
+      "name": "MederiumDoor",
+      "type": "block",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_door"
+    },
+    {
+      "name": "MederiumTrapdoor",
+      "type": "block",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_trapdoor"
+    },
+    {
+      "name": "MederiumDoorRecipe",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_door_recipe"
+    },
+    {
+      "name": "MederiumTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_trapdoor_recipe"
+    },
+    {
+      "name": "MederiumAxe",
+      "type": "tool",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_axe"
+    },
+    {
+      "name": "MederiumHoe",
+      "type": "tool",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_hoe"
+    },
+    {
+      "name": "MederiumPickaxe",
+      "type": "tool",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_pickaxe"
+    },
+    {
+      "name": "MederiumShovel",
+      "type": "tool",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_shovel"
+    },
+    {
+      "name": "MederiumSword",
+      "type": "tool",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_sword"
+    },
+    {
+      "name": "MederiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_sword_recipe"
+    },
+    {
+      "name": "MederiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_pickaxe_recipe"
+    },
+    {
+      "name": "MederiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_shovel_recipe"
+    },
+    {
+      "name": "MederiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_axe_recipe"
+    },
+    {
+      "name": "MederiumAxeRecipe2",
+      "type": "recipe",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_axe_recipe_2"
+    },
+    {
+      "name": "MederiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_hoe_recipe"
+    },
+    {
+      "name": "MederiumHoeRecipe2",
+      "type": "recipe",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_hoe_recipe_2"
+    },
+    {
+      "name": "MederiumArmor",
+      "type": "armor",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MederiumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_helmet_recipe"
+    },
+    {
+      "name": "MederiumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_chestplate_recipe"
+    },
+    {
+      "name": "MederiumLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_leggings_recipe"
+    },
+    {
+      "name": "MederiumBootsRecipe",
+      "type": "recipe",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_boots_recipe"
+    },
+    {
+      "name": "MederiumIngotRecipe4",
+      "type": "recipe",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mederium_ingot_recipe_4"
     }
   ],
   "variable_elements": [],
@@ -4856,6 +5339,7 @@
   "language_map": {
     "fr_ca": {
       "item.infinity_and_ores.music_disc_ignitar_awakens": "Disque de musique",
+      "item.infinity_and_ores.mederium_armor_leggings": "Jambière en méderium",
       "advancements.miners_dream.title": "Rêve du mineur",
       "advancements.spitted_apart.title": "Séparé",
       "advancements.thats_one_for_the_tool_box.descr": "Fabriquer un outil en opristonium",
@@ -4866,7 +5350,10 @@
       "block.infinity_and_ores.opristonium_block": "Bloc d\u0027opristonium",
       "item.minecraft.potion.effect.potion_of_decay": "Potion de décomposition",
       "effect.fiddly_potion": "Sans effet",
+      "item.infinity_and_ores.mederium_armor_boots": "Bottes en méderium",
+      "block.infinity_and_ores.mederium_ore": "Minerai de méderium",
       "item.infinity_and_ores.glomper_tooth": "Dent de glomper",
+      "block.infinity_and_ores.mederium_door": "Porte en méderium",
       "item.minecraft.lingering_potion.effect.fiddly_potion": "Potion fastidieuse persistante",
       "block.infinity_and_ores.flower_pot_amendoim_fungi": "Fongus en amendoim en pot",
       "item.infinity_and_ores.opristonium_shovel": "Pelle en opristonium",
@@ -4876,8 +5363,8 @@
       "advancements.unknown_helmet.title": "[objet.casque] Inconnu",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Potion de décomposition persistante",
       "block.infinity_and_ores.ender_amendoim_nylium": "Nylium en amendoim de l\u0027ender",
-      "block.infinity_and_ores.mantle_bricks": "Briques de manteau",
       "entity.infinity_and_ores.crawlant": "Crawlant",
+      "block.infinity_and_ores.mantle_bricks": "Briques de manteau",
       "item.infinity_and_ores.opristonium_pickaxe": "Pioche en opristonium",
       "item.minecraft.splash_potion.effect.potion_of_decay": "Potion de décomposition jetable",
       "block.infinity_and_ores.amendoim_log": "Bûche en amendoim",
@@ -4920,6 +5407,7 @@
       "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
       "advancements.glitchiness.title": "Bug",
       "block.infinity_and_ores.amendoim_leaves": "Feuilles en amendoim",
+      "item.infinity_and_ores.mederium_pickaxe": "Pioche en méderium",
       "item.infinity_and_ores.music_disc_battle_starts": "Disque de musique",
       "block.infinity_and_ores.glitched_soil": "Terre buggée",
       "block.infinity_and_ores.amendoim_wart_block": "Bloc de verrues en amendoim",
@@ -4931,6 +5419,7 @@
       "advancements.glitchiness.descr": "Quelque chose ne va pas, je peux le sentir. Découvrez l\u0027étrangeté de Minecraft.",
       "item.infinity_and_ores.glitched_dimension": "§dBriquet buggée",
       "item.infinity_and_ores.opristonium_boots": "Bottes en opristonium",
+      "item.infinity_and_ores.mederium_shovel": "Pelle en méderium",
       "item.infinity_and_ores.poison_urcus": "Oeuf spawneur d\u0027urcus empoissoné",
       "effect.potion_of_decay": "Décomposition",
       "item.infinity_and_ores.music_disc_broken_connection": "Disque de musique",
@@ -4967,13 +5456,16 @@
       "item.infinity_and_ores.wither_urcus": "Oeuf spawneur d\u0027urcus de décomposition",
       "block.infinity_and_ores.chiseled_mantle_bricks": "Briques en manteau ciselées",
       "advancements.wasteland_of_a_biome.title": "Friche d\u0027un biome",
+      "item.infinity_and_ores.mederium_sword": "Épée en méderium",
       "item.infinity_and_ores.glitched_helmet": "§dCasque buggée",
       "item.infinity_and_ores.music_disc_final_discoveries": "Disque de musique",
+      "item.infinity_and_ores.mederium_armor_helmet": "Casque en méderium",
       "advancements.a_bit_salty.title": "Un peu salé",
       "item.infinity_and_ores.opristonium_chestplate": "Plastron en opristonium",
       "advancements.the_hunter_becomes_the_hunted.title": "Le chasseur devient le chassé",
       "advancements.error_block_not_found.title": "[ERREUR] Bloc Non Trouvé",
       "item.minecraft.tipped_arrow.effect.potion_of_decay": "Flèche de décomposition",
+      "item.infinity_and_ores.mederium_armor_chestplate": "Plastron en méderium",
       "item.infinity_and_ores.endesulite_sword": "Épée en endesulite",
       "item.infinity_and_ores.music_disc_calm_after_the_storm": "Disque de musique",
       "advancements.the_purple_forest.descr": "Entrez dans la mystérieuse forêt amendoim en manteau ou dans la forêt amendoim de l\u0027end",
@@ -4988,12 +5480,14 @@
       "item.infinity_and_ores.endesulite_shard": "Fragment en endesulite",
       "block.infinity_and_ores.amendoim_stairs": "Escaliers en amendoim",
       "block.infinity_and_ores.flower_pot_amendoim_roots": "Racine en amendoim en pot",
+      "block.infinity_and_ores.mederium_trapdoor": "Trappe en méderium",
       "advancements.spatial_defense.descr": "Fabriquer une pièce d\u0027armure en endesulite",
       "item.infinity_and_ores.endesulite_hoe": "Houe en endesulite",
       "advancements.unknown_sword.descr": "Fabriquer und epée buggée dans la station buggé",
       "block.infinity_and_ores.amendoim_roots": "Racines en amendoim",
       "advancements.dimensional_guardian.descr": "Fabriquer un ensemble complet d\u0027armure en endesulite",
       "advancements.infected.title": "Infecté!",
+      "block.infinity_and_ores.mederium_bars": "Barres en méderium",
       "advancements.unknown_boots.descr": "Fabriquer des bottes buggées dans la station buggé",
       "advancements.unknown_shovel.descr": "Fabriquer une pelle buggée dans la station buggé",
       "item.infinity_and_ores.glitched_scrap": "§bFerraille buggée",
@@ -5009,6 +5503,7 @@
       "block.infinity_and_ores.mantle_glitched_ore": "Minerai buggé en manteau",
       "item.infinity_and_ores.opristonium_axe": "Hache en opristonium",
       "block.infinity_and_ores.amendoim_wood": "Bois en amendoim",
+      "item.infinity_and_ores.mederium_hoe": "Houe en méderium",
       "item.infinity_and_ores.opristonium_nugget": "Pépite en opristonium",
       "item.infinity_and_ores.endesulite_leggings": "Jambière en endesulite",
       "block.infinity_and_ores.glitched_ore": "Minerai buggé",
@@ -5054,6 +5549,7 @@
       "advancements.huh_it_fits.title": "Huh, ça fite!",
       "block.infinity_and_ores.mossy_mantle_stairs": "Escaliers de manteau moussue",
       "advancements.unknown_axe.title": "[objet.hache] Inconnu",
+      "item.infinity_and_ores.mederium_nugget": "Pépite de méderium",
       "item.infinity_and_ores.slowness_urcus": "Oeuf spawneur d\u0027urcus de lenteur",
       "block.infinity_and_ores.test_block.tooltip1": "§7Un bloc de test. Comment l\u0027avez-vous eu aussi?",
       "item.infinity_and_ores.endesulite_boots": "Bottes en endesulite",
@@ -5062,6 +5558,8 @@
       "item.infinity_and_ores.test_ingot": "Lingot de test",
       "advancements.spitted_apart.descr": "Trouver, miner ou fabriquer un fragment d\u0027endesulite",
       "advancements.sharp_programming_bud.descr": "Minez un cristal buggé",
+      "item.infinity_and_ores.mederium_ingot": "Lingot de méderium",
+      "block.infinity_and_ores.mederium_block": "Bloc de méderium",
       "item.infinity_and_ores.opristonium_shard": "Fragment en opristonium",
       "item.infinity_and_ores.glomper": "Oeuf spawneur de glomper",
       "block.infinity_and_ores.glitched_crystal_block": "Cristal buggé",
@@ -5100,10 +5598,12 @@
       "advancements.unknown_hoe.title": "[objet.houe] Inconnu",
       "advancements.wasteland_of_a_biome.descr": "Entrez dans les terres désolées vides du royaume du manteau",
       "block.infinity_and_ores.opristonium_ore": "Minerai d\u0027opristonium",
-      "advancements.impossible.descr": "Créer un ensemble complet d\u0027armure buggé"
+      "advancements.impossible.descr": "Créer un ensemble complet d\u0027armure buggé",
+      "item.infinity_and_ores.mederium_axe": "Hache en méderium"
     },
     "en_us": {
       "item.infinity_and_ores.music_disc_ignitar_awakens": "Music Disc",
+      "item.infinity_and_ores.mederium_armor_leggings": "Mederium Leggings",
       "advancements.miners_dream.title": "Miner\u0027s Dream",
       "advancements.spitted_apart.title": "Spitted Apart",
       "advancements.thats_one_for_the_tool_box.descr": "Craft an Opristonium tool",
@@ -5114,7 +5614,10 @@
       "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
       "item.minecraft.potion.effect.potion_of_decay": "Potion of Decay",
       "effect.fiddly_potion": "No Effect",
+      "item.infinity_and_ores.mederium_armor_boots": "Mederium Boots",
+      "block.infinity_and_ores.mederium_ore": "Mederium Ore",
       "item.infinity_and_ores.glomper_tooth": "Glomper Tooth",
+      "block.infinity_and_ores.mederium_door": "Mederium Door",
       "item.minecraft.lingering_potion.effect.fiddly_potion": "Fiddly Lingering Potion",
       "block.infinity_and_ores.flower_pot_amendoim_fungi": "Potted Amendoim Fungus",
       "item.infinity_and_ores.opristonium_shovel": "Opristonium Shovel",
@@ -5124,8 +5627,8 @@
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
       "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
-      "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
       "entity.infinity_and_ores.crawlant": "Crawlant",
+      "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
       "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",
       "item.minecraft.splash_potion.effect.potion_of_decay": "Splash Potion of Decay",
       "block.infinity_and_ores.amendoim_log": "Amendoim Log",
@@ -5168,6 +5671,7 @@
       "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
       "advancements.glitchiness.title": "Glitchiness",
       "block.infinity_and_ores.amendoim_leaves": "Amendoim Leaves",
+      "item.infinity_and_ores.mederium_pickaxe": "Mederium Pickaxe",
       "item.infinity_and_ores.music_disc_battle_starts": "Music Disc",
       "block.infinity_and_ores.glitched_soil": "Glitched Soil",
       "block.infinity_and_ores.amendoim_wart_block": "Amendoim Wart Block",
@@ -5179,6 +5683,7 @@
       "advancements.glitchiness.descr": "Something\u0027s wrong I can feel it. Discover the weirdness of Minecraft.",
       "item.infinity_and_ores.glitched_dimension": "§dFlint \u0026 Glitch",
       "item.infinity_and_ores.opristonium_boots": "Opristonium Boots",
+      "item.infinity_and_ores.mederium_shovel": "Mederium Shovel",
       "item.infinity_and_ores.poison_urcus": "Poison Urcus Spawn Egg",
       "effect.potion_of_decay": "Wither",
       "item.infinity_and_ores.music_disc_broken_connection": "Music Disc",
@@ -5215,13 +5720,16 @@
       "item.infinity_and_ores.wither_urcus": "Wither Urcus Spawn Egg",
       "block.infinity_and_ores.chiseled_mantle_bricks": "Chiseled Mantle Bricks",
       "advancements.wasteland_of_a_biome.title": "Wasteland of a Biome",
+      "item.infinity_and_ores.mederium_sword": "Mederium Sword",
       "item.infinity_and_ores.glitched_helmet": "§dGlitched Helmet",
       "item.infinity_and_ores.music_disc_final_discoveries": "Music Disc",
+      "item.infinity_and_ores.mederium_armor_helmet": "MederiumHelmet",
       "advancements.a_bit_salty.title": "A bit salty",
       "item.infinity_and_ores.opristonium_chestplate": "Opristonium Chestplate",
       "advancements.the_hunter_becomes_the_hunted.title": "The Hunter becomes the Hunted",
       "advancements.error_block_not_found.title": "[ERROR] Block Not Found",
       "item.minecraft.tipped_arrow.effect.potion_of_decay": "Arrow of Decay",
+      "item.infinity_and_ores.mederium_armor_chestplate": "Mederium Chestplate",
       "item.infinity_and_ores.endesulite_sword": "Endesulite Sword",
       "item.infinity_and_ores.music_disc_calm_after_the_storm": "Music Disc",
       "advancements.the_purple_forest.descr": "Enter the mysterious Mantle Amendoim Forest or the Ender Amendoim Forest",
@@ -5236,12 +5744,14 @@
       "item.infinity_and_ores.endesulite_shard": "Endesulite Shard",
       "block.infinity_and_ores.amendoim_stairs": "Amendoim Stairs",
       "block.infinity_and_ores.flower_pot_amendoim_roots": "Potted Amendoim Roots",
+      "block.infinity_and_ores.mederium_trapdoor": "Mederium Trapdoor",
       "advancements.spatial_defense.descr": "Craft a piece of Endesulite armor",
       "item.infinity_and_ores.endesulite_hoe": "Endesulite Hoe",
       "advancements.unknown_sword.descr": "Craft a Glitched Sword in the Glitched Station",
       "block.infinity_and_ores.amendoim_roots": "Amendoim Roots",
       "advancements.dimensional_guardian.descr": "Craft a full set of Ezesulite armor",
       "advancements.infected.title": "Infected!",
+      "block.infinity_and_ores.mederium_bars": "Mederium Bars",
       "advancements.unknown_boots.descr": "Craft a Glitched Boots in the Glitched Station",
       "advancements.unknown_shovel.descr": "Craft a Glitched Shovel in the Glitched Station",
       "item.infinity_and_ores.glitched_scrap": "§bGlitched Scrap",
@@ -5257,6 +5767,7 @@
       "block.infinity_and_ores.mantle_glitched_ore": "Mantle Glitched Ore",
       "item.infinity_and_ores.opristonium_axe": "Opristonium Axe",
       "block.infinity_and_ores.amendoim_wood": "Amendoim Wood",
+      "item.infinity_and_ores.mederium_hoe": "Mederium Hoe",
       "item.infinity_and_ores.opristonium_nugget": "Opristonium Nugget",
       "item.infinity_and_ores.endesulite_leggings": "Endesulite Leggings",
       "block.infinity_and_ores.glitched_ore": "Glitched Ore",
@@ -5302,6 +5813,7 @@
       "advancements.huh_it_fits.title": "Huh, It Fits!",
       "block.infinity_and_ores.mossy_mantle_stairs": "Mossy Mantle Stairs",
       "advancements.unknown_axe.title": "Unknown [item.axe]",
+      "item.infinity_and_ores.mederium_nugget": "Mederium Nugget",
       "item.infinity_and_ores.slowness_urcus": "Slowness Urcus Spawn Egg",
       "block.infinity_and_ores.test_block.tooltip1": "A test block. How did you get it anyways?",
       "item.infinity_and_ores.endesulite_boots": "Endesulite Boots",
@@ -5310,6 +5822,8 @@
       "item.infinity_and_ores.test_ingot": "Test Ingot",
       "advancements.spitted_apart.descr": "Find, mine or craft some Endesulite Shards",
       "advancements.sharp_programming_bud.descr": "Mine a Glitched Crystal",
+      "item.infinity_and_ores.mederium_ingot": "Mederium Ingot",
+      "block.infinity_and_ores.mederium_block": "Mederium Block",
       "item.infinity_and_ores.opristonium_shard": "Opristonium Shard",
       "item.infinity_and_ores.glomper": "Glomper Spawn Egg",
       "block.infinity_and_ores.glitched_crystal_block": "Glitched Crystal",
@@ -5348,7 +5862,8 @@
       "advancements.unknown_hoe.title": "Unknown [item.hoe]",
       "advancements.wasteland_of_a_biome.descr": "Enter the empty wasteland of the Mantle Realm",
       "block.infinity_and_ores.opristonium_ore": "Opristonium Ore",
-      "advancements.impossible.descr": "Craft a full set of Glitched armor"
+      "advancements.impossible.descr": "Craft a full set of Glitched armor",
+      "item.infinity_and_ores.mederium_axe": "Mederium Axe"
     }
   },
   "workspaceSettings": {

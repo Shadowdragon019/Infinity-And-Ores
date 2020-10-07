@@ -1,0 +1,16 @@
+{
+  "group": "shears",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "iron_ingot"
+    },
+    {
+      "tag": "iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "minecraft:shears",
+    "count": 1
+  }
+}

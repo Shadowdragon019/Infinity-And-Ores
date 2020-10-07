@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MederiumBlock"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      }
+    ],
+    "functions": [],
+    "name": "iron_block",
+    "namespace": "forge"
+  }
+}

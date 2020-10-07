@@ -1,0 +1,42 @@
+{
+  "group": "mederium_ingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "1": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "2": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "3": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "4": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "5": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "6": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "7": {
+      "item": "infinity_and_ores:mederium_nugget"
+    },
+    "8": {
+      "item": "infinity_and_ores:mederium_nugget"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mederium_ingot",
+    "count": 1
+  }
+}

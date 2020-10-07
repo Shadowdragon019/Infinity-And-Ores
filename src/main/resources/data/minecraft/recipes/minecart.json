@@ -1,0 +1,29 @@
+{
+  "group": "minecart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "tag": "iron_ingot"
+    },
+    "2": {
+      "tag": "iron_ingot"
+    },
+    "3": {
+      "tag": "iron_ingot"
+    },
+    "4": {
+      "tag": "iron_ingot"
+    },
+    "5": {
+      "tag": "iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:minecart",
+    "count": 1
+  }
+}

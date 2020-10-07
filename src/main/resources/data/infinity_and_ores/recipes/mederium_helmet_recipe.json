@@ -1,0 +1,29 @@
+{
+  "group": "mederium_helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "1": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "2": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "3": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "5": {
+      "item": "infinity_and_ores:mederium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mederium_armor_helmet",
+    "count": 1
+  }
+}

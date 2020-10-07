@@ -1,0 +1,32 @@
+{
+  "group": "infinity_and_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "1": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "2": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "3": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "4": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "5": {
+      "item": "infinity_and_ores:mederium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mederium_bars",
+    "count": 16
+  }
+}

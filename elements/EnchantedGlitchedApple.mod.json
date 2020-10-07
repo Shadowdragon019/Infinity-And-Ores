@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "test_ingot",
+    "texture": "glitched_apple",
     "customModelName": "Normal",
     "name": "§4Enchanted Glitched Apple",
     "specialInfo": [],
