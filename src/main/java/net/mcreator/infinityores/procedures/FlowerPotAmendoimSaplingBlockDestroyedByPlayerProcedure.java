@@ -21,7 +21,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimSaplingBlockDestroyedByPlayerProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimSaplingBlockDestroyedByPlayerProcedure(InfinityAndOresModElements instance) {
-		super(instance, 416);
+		super(instance, 417);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

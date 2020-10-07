@@ -49,7 +49,7 @@ public class FlowerPotAmendoimMushroomBlock extends InfinityAndOresModElements.M
 	@ObjectHolder("infinity_and_ores:flower_pot_amendoim_mushroom")
 	public static final Block block = null;
 	public FlowerPotAmendoimMushroomBlock(InfinityAndOresModElements instance) {
-		super(instance, 417);
+		super(instance, 418);
 	}
 
 	@Override

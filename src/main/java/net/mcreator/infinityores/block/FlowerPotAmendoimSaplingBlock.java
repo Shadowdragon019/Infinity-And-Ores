@@ -48,7 +48,7 @@ public class FlowerPotAmendoimSaplingBlock extends InfinityAndOresModElements.Mo
 	@ObjectHolder("infinity_and_ores:flower_pot_amendoim_sapling")
 	public static final Block block = null;
 	public FlowerPotAmendoimSaplingBlock(InfinityAndOresModElements instance) {
-		super(instance, 413);
+		super(instance, 414);
 	}
 
 	@Override
