@@ -23,7 +23,7 @@ public class MusicDiscBrokenConnectionItem extends InfinityAndOresModElements.Mo
 	@ObjectHolder("infinity_and_ores:music_disc_broken_connection")
 	public static final Item block = null;
 	public MusicDiscBrokenConnectionItem(InfinityAndOresModElements instance) {
-		super(instance, 16);
+		super(instance, 17);
 	}
 
 	@Override

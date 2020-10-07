@@ -13,7 +13,7 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTrapdoorFuelFuel extends InfinityAndOresModElements.ModElement {
 	public AmendoimTrapdoorFuelFuel(InfinityAndOresModElements instance) {
-		super(instance, 270);
+		super(instance, 283);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

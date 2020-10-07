@@ -33,7 +33,7 @@ public class PolishedMantleWallBlock extends InfinityAndOresModElements.ModEleme
 	@ObjectHolder("infinity_and_ores:polished_mantle_wall")
 	public static final Block block = null;
 	public PolishedMantleWallBlock(InfinityAndOresModElements instance) {
-		super(instance, 92);
+		super(instance, 96);
 	}
 
 	@Override

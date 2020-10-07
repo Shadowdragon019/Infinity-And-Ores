@@ -31,7 +31,7 @@ import java.util.Random;
 @InfinityAndOresModElements.ModElement.Tag
 public class RuinedGlitchedPortalEndStructure extends InfinityAndOresModElements.ModElement {
 	public RuinedGlitchedPortalEndStructure(InfinityAndOresModElements instance) {
-		super(instance, 408);
+		super(instance, 421);
 	}
 
 	@Override

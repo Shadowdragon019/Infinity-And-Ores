@@ -32,7 +32,7 @@ public class StrippedAmendoimWoodBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:stripped_amendoim_wood")
 	public static final Block block = null;
 	public StrippedAmendoimWoodBlock(InfinityAndOresModElements instance) {
-		super(instance, 75);
+		super(instance, 77);
 	}
 
 	@Override

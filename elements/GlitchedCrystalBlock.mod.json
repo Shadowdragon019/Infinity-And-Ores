@@ -41,7 +41,8 @@
     "spawnWorldTypes": [
       "Surface",
       "Nether",
-      "End"
+      "End",
+      "CUSTOM:GlitchedDimension"
     ],
     "restrictionBiomes": [],
     "generateCondition": {

@@ -22,7 +22,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimSaplingBonemealProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimSaplingBonemealProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 283);
+		super(instance, 296);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

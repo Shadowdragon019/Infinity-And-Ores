@@ -17,7 +17,7 @@ public class GlitchedAxeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_axe")
 	public static final Item block = null;
 	public GlitchedAxeItem(InfinityAndOresModElements instance) {
-		super(instance, 110);
+		super(instance, 121);
 	}
 
 	@Override

@@ -15,8 +15,11 @@
     "saturation": 2.4,
     "eatingSpeed": 32,
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": false
+    "hasGlow": false,
+    "onEaten": {
+      "name": "GlitchedAppleProcedure"
+    }
   }
 }

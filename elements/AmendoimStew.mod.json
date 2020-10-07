@@ -6,9 +6,11 @@
     "texture": "amendoim_stew",
     "customModelName": "Normal",
     "name": "Amendoim Stew",
-    "specialInfo": [],
+    "specialInfo": [
+      "This food doesn't give a bowl when eaten as of now. This will change once Infinity & Ores will be updated to MCreator 2020.5."
+    ],
     "creativeTab": {
-      "value": "CUSTOM:InfinityAndOresItemsTab"
+      "value": "FOOD"
     },
     "stackSize": 1,
     "nutritionalValue": 6,

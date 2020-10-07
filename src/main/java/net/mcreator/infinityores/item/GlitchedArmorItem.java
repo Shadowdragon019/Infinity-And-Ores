@@ -29,7 +29,7 @@ public class GlitchedArmorItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_boots")
 	public static final Item boots = null;
 	public GlitchedArmorItem(InfinityAndOresModElements instance) {
-		super(instance, 107);
+		super(instance, 118);
 	}
 
 	@Override

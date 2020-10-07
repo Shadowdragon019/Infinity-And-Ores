@@ -15,7 +15,7 @@ public class OpristoniumShardItem extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:opristonium_shard")
 	public static final Item block = null;
 	public OpristoniumShardItem(InfinityAndOresModElements instance) {
-		super(instance, 4);
+		super(instance, 6);
 	}
 
 	@Override

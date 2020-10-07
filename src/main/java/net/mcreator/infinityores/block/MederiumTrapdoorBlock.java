@@ -32,7 +32,7 @@ public class MederiumTrapdoorBlock extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:mederium_trapdoor")
 	public static final Block block = null;
 	public MederiumTrapdoorBlock(InfinityAndOresModElements instance) {
-		super(instance, 434);
+		super(instance, 128);
 	}
 
 	@Override

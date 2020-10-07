@@ -19,7 +19,7 @@ public class MantleRealmsBiome extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mantle_realms")
 	public static final CustomBiome biome = null;
 	public MantleRealmsBiome(InfinityAndOresModElements instance) {
-		super(instance, 256);
+		super(instance, 269);
 	}
 
 	@Override

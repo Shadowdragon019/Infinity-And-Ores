@@ -25,7 +25,7 @@ public class AmendoimMushroomBlockBlock extends InfinityAndOresModElements.ModEl
 	@ObjectHolder("infinity_and_ores:amendoim_mushroom_block")
 	public static final Block block = null;
 	public AmendoimMushroomBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 87);
+		super(instance, 91);
 	}
 
 	@Override

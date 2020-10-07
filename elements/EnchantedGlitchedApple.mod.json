@@ -6,7 +6,9 @@
     "texture": "glitched_apple",
     "customModelName": "Normal",
     "name": "§4Enchanted Glitched Apple",
-    "specialInfo": [],
+    "specialInfo": [
+      "This food doesn't give itself when eaten as of now. This will change once Infinity & Ores will be updated to MCreator 2020.5."
+    ],
     "creativeTab": {
       "value": "FOOD"
     },

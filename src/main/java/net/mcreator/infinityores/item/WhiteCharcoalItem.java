@@ -15,7 +15,7 @@ public class WhiteCharcoalItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:white_charcoal")
 	public static final Item block = null;
 	public WhiteCharcoalItem(InfinityAndOresModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

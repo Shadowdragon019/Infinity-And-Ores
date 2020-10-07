@@ -15,7 +15,7 @@ public class MederiumNuggetItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_nugget")
 	public static final Item block = null;
 	public MederiumNuggetItem(InfinityAndOresModElements instance) {
-		super(instance, 431);
+		super(instance, 2);
 	}
 
 	@Override

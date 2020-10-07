@@ -39,6 +39,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.procedures.GlitchedCrystalBlockAdditionalGenerationConditionProcedure;
 import net.mcreator.infinityores.item.GlitchedCrystalItemItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
@@ -54,7 +55,7 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:glitched_crystal_block")
 	public static final Block block = null;
 	public GlitchedCrystalBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 131);
+		super(instance, 144);
 	}
 
 	@Override
@@ -86,6 +87,8 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 				if (dimensionType == DimensionType.THE_NETHER)
 					dimensionCriteria = true;
 				if (dimensionType == DimensionType.THE_END)
+					dimensionCriteria = true;
+				if (dimensionType == GlitchedDimensionDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;

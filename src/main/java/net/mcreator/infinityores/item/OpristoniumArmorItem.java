@@ -29,7 +29,7 @@ public class OpristoniumArmorItem extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:opristonium_boots")
 	public static final Item boots = null;
 	public OpristoniumArmorItem(InfinityAndOresModElements instance) {
-		super(instance, 95);
+		super(instance, 106);
 	}
 
 	@Override

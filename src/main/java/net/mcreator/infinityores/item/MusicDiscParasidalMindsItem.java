@@ -16,7 +16,7 @@ public class MusicDiscParasidalMindsItem extends InfinityAndOresModElements.ModE
 	@ObjectHolder("infinity_and_ores:music_disc_parasidal_minds")
 	public static final Item block = null;
 	public MusicDiscParasidalMindsItem(InfinityAndOresModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

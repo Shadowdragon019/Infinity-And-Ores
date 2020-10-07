@@ -15,7 +15,7 @@ public class EndesuliteCrystalItem extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:endesulite_crystal")
 	public static final Item block = null;
 	public EndesuliteCrystalItem(InfinityAndOresModElements instance) {
-		super(instance, 5);
+		super(instance, 7);
 	}
 
 	@Override

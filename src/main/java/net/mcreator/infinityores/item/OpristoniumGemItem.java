@@ -15,7 +15,7 @@ public class OpristoniumGemItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:opristonium_gem")
 	public static final Item block = null;
 	public OpristoniumGemItem(InfinityAndOresModElements instance) {
-		super(instance, 1);
+		super(instance, 3);
 	}
 
 	@Override

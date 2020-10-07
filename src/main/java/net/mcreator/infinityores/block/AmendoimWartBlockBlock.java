@@ -38,7 +38,7 @@ public class AmendoimWartBlockBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:amendoim_wart_block")
 	public static final Block block = null;
 	public AmendoimWartBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 79);
+		super(instance, 81);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class MusicDiscFinalDiscoveriesItem extends InfinityAndOresModElements.Mo
 	@ObjectHolder("infinity_and_ores:music_disc_final_discoveries")
 	public static final Item block = null;
 	public MusicDiscFinalDiscoveriesItem(InfinityAndOresModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override

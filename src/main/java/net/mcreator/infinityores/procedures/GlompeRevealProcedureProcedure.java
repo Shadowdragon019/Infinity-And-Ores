@@ -28,7 +28,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlompeRevealProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlompeRevealProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 369);
+		super(instance, 382);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

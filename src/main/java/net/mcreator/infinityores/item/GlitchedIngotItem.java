@@ -15,7 +15,7 @@ public class GlitchedIngotItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_ingot")
 	public static final Item block = null;
 	public GlitchedIngotItem(InfinityAndOresModElements instance) {
-		super(instance, 9);
+		super(instance, 11);
 	}
 
 	@Override

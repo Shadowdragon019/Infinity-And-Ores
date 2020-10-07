@@ -16,7 +16,7 @@ public class MusicDiscSpiritsItem extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:music_disc_spirits")
 	public static final Item block = null;
 	public MusicDiscSpiritsItem(InfinityAndOresModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override

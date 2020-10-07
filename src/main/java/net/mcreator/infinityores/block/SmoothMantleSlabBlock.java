@@ -26,7 +26,7 @@ public class SmoothMantleSlabBlock extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:smooth_mantle_slab")
 	public static final Block block = null;
 	public SmoothMantleSlabBlock(InfinityAndOresModElements instance) {
-		super(instance, 64);
+		super(instance, 66);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class MantleWhiteCoalOreBlock extends InfinityAndOresModElements.ModEleme
 	@ObjectHolder("infinity_and_ores:mantle_white_coal_ore")
 	public static final Block block = null;
 	public MantleWhiteCoalOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 43);
+		super(instance, 45);
 	}
 
 	@Override
