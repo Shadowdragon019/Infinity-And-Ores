@@ -1,0 +1,26 @@
+{
+  "group": "infinity_and_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "1": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "2": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "3": {
+      "item": "infinity_and_ores:mederium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:mederium_trapdoor",
+    "count": 1
+  }
+}

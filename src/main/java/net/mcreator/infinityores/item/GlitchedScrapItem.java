@@ -15,7 +15,7 @@ public class GlitchedScrapItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_scrap")
 	public static final Item block = null;
 	public GlitchedScrapItem(InfinityAndOresModElements instance) {
-		super(instance, 10);
+		super(instance, 12);
 	}
 
 	@Override

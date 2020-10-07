@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "detector_rail",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:iron_ingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:iron_ingot"
+      },
+      {
+        "value": "TAG:iron_ingot"
+      },
+      {
+        "value": "Blocks.STONE_PRESSURE_PLATE"
+      },
+      {
+        "value": "TAG:iron_ingot"
+      },
+      {
+        "value": "TAG:iron_ingot"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "TAG:iron_ingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.DETECTOR_RAIL"
+    },
+    "name": "detector_rail",
+    "namespace": "minecraft"
+  }
+}

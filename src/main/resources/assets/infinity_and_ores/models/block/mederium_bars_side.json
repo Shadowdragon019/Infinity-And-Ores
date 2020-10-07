@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "infinity_and_ores:blocks/mederium_bars",
+    "pane": "infinity_and_ores:blocks/mederium_bars"
+  }
+}

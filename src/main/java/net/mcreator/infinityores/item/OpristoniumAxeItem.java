@@ -17,7 +17,7 @@ public class OpristoniumAxeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:opristonium_axe")
 	public static final Item block = null;
 	public OpristoniumAxeItem(InfinityAndOresModElements instance) {
-		super(instance, 98);
+		super(instance, 109);
 	}
 
 	@Override

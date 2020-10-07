@@ -15,7 +15,7 @@ public class OpristoniumNuggetItem extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:opristonium_nugget")
 	public static final Item block = null;
 	public OpristoniumNuggetItem(InfinityAndOresModElements instance) {
-		super(instance, 3);
+		super(instance, 5);
 	}
 
 	@Override

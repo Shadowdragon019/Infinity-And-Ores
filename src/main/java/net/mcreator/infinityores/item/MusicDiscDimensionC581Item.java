@@ -16,7 +16,7 @@ public class MusicDiscDimensionC581Item extends InfinityAndOresModElements.ModEl
 	@ObjectHolder("infinity_and_ores:music_disc_dimension_c_581")
 	public static final Item block = null;
 	public MusicDiscDimensionC581Item(InfinityAndOresModElements instance) {
-		super(instance, 18);
+		super(instance, 19);
 	}
 
 	@Override

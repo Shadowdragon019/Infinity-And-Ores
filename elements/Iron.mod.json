@@ -1,0 +1,19 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:MederiumIngot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "iron_ingot",
+    "namespace": "forge"
+  }
+}

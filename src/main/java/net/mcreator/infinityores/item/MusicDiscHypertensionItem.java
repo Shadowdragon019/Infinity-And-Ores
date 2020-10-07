@@ -16,7 +16,7 @@ public class MusicDiscHypertensionItem extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:music_disc_hypertension")
 	public static final Item block = null;
 	public MusicDiscHypertensionItem(InfinityAndOresModElements instance) {
-		super(instance, 20);
+		super(instance, 21);
 	}
 
 	@Override

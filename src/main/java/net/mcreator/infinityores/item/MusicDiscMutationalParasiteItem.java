@@ -16,7 +16,7 @@ public class MusicDiscMutationalParasiteItem extends InfinityAndOresModElements.
 	@ObjectHolder("infinity_and_ores:music_disc_mutational_parasite")
 	public static final Item block = null;
 	public MusicDiscMutationalParasiteItem(InfinityAndOresModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override

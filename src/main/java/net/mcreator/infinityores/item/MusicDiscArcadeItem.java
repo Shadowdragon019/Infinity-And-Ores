@@ -16,7 +16,7 @@ public class MusicDiscArcadeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:music_disc_arcade")
 	public static final Item block = null;
 	public MusicDiscArcadeItem(InfinityAndOresModElements instance) {
-		super(instance, 14);
+		super(instance, 15);
 	}
 
 	@Override

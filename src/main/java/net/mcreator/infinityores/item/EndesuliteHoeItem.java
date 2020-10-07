@@ -17,7 +17,7 @@ public class EndesuliteHoeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:endesulite_hoe")
 	public static final Item block = null;
 	public EndesuliteHoeItem(InfinityAndOresModElements instance) {
-		super(instance, 106);
+		super(instance, 117);
 	}
 
 	@Override

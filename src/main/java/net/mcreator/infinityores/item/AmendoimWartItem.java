@@ -15,7 +15,7 @@ public class AmendoimWartItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_wart")
 	public static final Item block = null;
 	public AmendoimWartItem(InfinityAndOresModElements instance) {
-		super(instance, 27);
+		super(instance, 28);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class MusicDiscCalmAfterTheStormItem extends InfinityAndOresModElements.M
 	@ObjectHolder("infinity_and_ores:music_disc_calm_after_the_storm")
 	public static final Item block = null;
 	public MusicDiscCalmAfterTheStormItem(InfinityAndOresModElements instance) {
-		super(instance, 17);
+		super(instance, 18);
 	}
 
 	@Override

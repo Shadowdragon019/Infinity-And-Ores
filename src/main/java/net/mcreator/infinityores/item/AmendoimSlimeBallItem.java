@@ -15,7 +15,7 @@ public class AmendoimSlimeBallItem extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:amendoim_slime_ball")
 	public static final Item block = null;
 	public AmendoimSlimeBallItem(InfinityAndOresModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 	}
 
 	@Override

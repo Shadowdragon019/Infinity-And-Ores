@@ -16,7 +16,7 @@ public class MusicDiscIgnitarAwakensItem extends InfinityAndOresModElements.ModE
 	@ObjectHolder("infinity_and_ores:music_disc_ignitar_awakens")
 	public static final Item block = null;
 	public MusicDiscIgnitarAwakensItem(InfinityAndOresModElements instance) {
-		super(instance, 21);
+		super(instance, 22);
 	}
 
 	@Override

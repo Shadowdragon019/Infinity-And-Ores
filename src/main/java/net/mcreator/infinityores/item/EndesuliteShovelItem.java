@@ -17,7 +17,7 @@ public class EndesuliteShovelItem extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:endesulite_shovel")
 	public static final Item block = null;
 	public EndesuliteShovelItem(InfinityAndOresModElements instance) {
-		super(instance, 105);
+		super(instance, 116);
 	}
 
 	@Override

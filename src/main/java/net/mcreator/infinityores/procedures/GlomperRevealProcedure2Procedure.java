@@ -22,7 +22,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlomperRevealProcedure2Procedure extends InfinityAndOresModElements.ModElement {
 	public GlomperRevealProcedure2Procedure(InfinityAndOresModElements instance) {
-		super(instance, 370);
+		super(instance, 383);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

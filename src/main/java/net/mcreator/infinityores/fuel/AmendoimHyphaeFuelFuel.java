@@ -13,7 +13,7 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimHyphaeFuelFuel extends InfinityAndOresModElements.ModElement {
 	public AmendoimHyphaeFuelFuel(InfinityAndOresModElements instance) {
-		super(instance, 335);
+		super(instance, 348);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

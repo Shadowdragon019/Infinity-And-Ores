@@ -1,0 +1,36 @@
+{
+  "group": "cauldron",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "iron_ingot"
+    },
+    "2": {
+      "tag": "iron_ingot"
+    },
+    "3": {
+      "tag": "iron_ingot"
+    },
+    "5": {
+      "tag": "iron_ingot"
+    },
+    "6": {
+      "tag": "iron_ingot"
+    },
+    "7": {
+      "tag": "iron_ingot"
+    },
+    "8": {
+      "tag": "iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:cauldron",
+    "count": 1
+  }
+}

@@ -6,17 +6,21 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.infinityores.procedures.EnchantedGlitchedAppleFoodEatenProcedure;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Map;
+import java.util.List;
 import java.util.HashMap;
 
 @InfinityAndOresModElements.ModElement.Tag
@@ -24,7 +28,7 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 	@ObjectHolder("infinity_and_ores:enchanted_glitched_apple")
 	public static final Item block = null;
 	public EnchantedGlitchedAppleItem(InfinityAndOresModElements instance) {
-		super(instance, 35);
+		super(instance, 37);
 	}
 
 	@Override
@@ -47,6 +51,13 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 		@Override
 		public UseAction getUseAction(ItemStack par1ItemStack) {
 			return UseAction.EAT;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent(
+					"This food doesn't give itself when eaten as of now. This will change once Infinity & Ores will be updated to MCreator 2020.5."));
 		}
 
 		@Override

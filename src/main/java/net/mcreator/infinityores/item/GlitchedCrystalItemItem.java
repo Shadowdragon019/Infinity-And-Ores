@@ -25,7 +25,7 @@ public class GlitchedCrystalItemItem extends InfinityAndOresModElements.ModEleme
 	@ObjectHolder("infinity_and_ores:glitched_crystal")
 	public static final Item block = null;
 	public GlitchedCrystalItemItem(InfinityAndOresModElements instance) {
-		super(instance, 7);
+		super(instance, 9);
 	}
 
 	@Override

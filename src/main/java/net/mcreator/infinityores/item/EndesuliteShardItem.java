@@ -15,7 +15,7 @@ public class EndesuliteShardItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:endesulite_shard")
 	public static final Item block = null;
 	public EndesuliteShardItem(InfinityAndOresModElements instance) {
-		super(instance, 6);
+		super(instance, 8);
 	}
 
 	@Override

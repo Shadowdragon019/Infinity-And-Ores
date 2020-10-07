@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "test_ingot",
+    "texture": "amendoim_apple",
     "customModelName": "Normal",
     "name": "Amendoim Apple",
     "specialInfo": [],

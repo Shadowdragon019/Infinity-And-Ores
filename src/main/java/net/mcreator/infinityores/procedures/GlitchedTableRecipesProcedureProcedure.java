@@ -10,7 +10,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedTableRecipesProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedTableRecipesProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 303);
+		super(instance, 316);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

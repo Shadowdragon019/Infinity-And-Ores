@@ -20,7 +20,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedCrystalProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedCrystalProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 146);
+		super(instance, 159);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -15,7 +15,7 @@ public class GlitchedShardItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_shard")
 	public static final Item block = null;
 	public GlitchedShardItem(InfinityAndOresModElements instance) {
-		super(instance, 8);
+		super(instance, 10);
 	}
 
 	@Override

@@ -38,7 +38,7 @@ public class EndGlitchedOreBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:end_glitched_ore")
 	public static final Block block = null;
 	public EndGlitchedOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 41);
+		super(instance, 43);
 	}
 
 	@Override

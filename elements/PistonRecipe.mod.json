@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "piston",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:planks"
+      },
+      {
+        "value": "TAG:forge:planks"
+      },
+      {
+        "value": "TAG:forge:planks"
+      },
+      {
+        "value": "TAG:forge:cobblestone"
+      },
+      {
+        "value": "TAG:iron_ingot"
+      },
+      {
+        "value": "TAG:forge:cobblestone"
+      },
+      {
+        "value": "TAG:forge:cobblestone"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "TAG:forge:cobblestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.PISTON"
+    },
+    "name": "piston_recipe",
+    "namespace": "mod"
+  }
+}

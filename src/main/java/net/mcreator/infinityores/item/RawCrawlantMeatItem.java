@@ -16,7 +16,7 @@ public class RawCrawlantMeatItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:raw_crawlant_meat")
 	public static final Item block = null;
 	public RawCrawlantMeatItem(InfinityAndOresModElements instance) {
-		super(instance, 31);
+		super(instance, 33);
 	}
 
 	@Override

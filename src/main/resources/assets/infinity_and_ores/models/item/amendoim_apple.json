@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "infinity_and_ores:items/test_ingot"
+    "layer0": "infinity_and_ores:items/amendoim_apple"
   }
 }

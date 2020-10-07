@@ -13,7 +13,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTreeAdditionalGenerationProcedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimTreeAdditionalGenerationProcedure(InfinityAndOresModElements instance) {
-		super(instance, 273);
+		super(instance, 286);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
