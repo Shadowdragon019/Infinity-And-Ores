@@ -11,7 +11,14 @@
         "value": "Blocks.SMOOTH_STONE"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SmoothMantle"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      }
+    ],
     "functions": [],
     "name": "smooth_stone",
     "namespace": "forge"
