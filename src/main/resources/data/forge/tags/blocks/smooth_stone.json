@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "infinity_and_ores:smooth_mantle",
+    "minecraft:smooth_stone"
+  ]
 }

@@ -19,17 +19,17 @@ import net.mcreator.infinityores.itemgroup.InfinityAndOresToolsAndArmorsTabItemG
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 @InfinityAndOresModElements.ModElement.Tag
-public class MederiumArmorItem extends InfinityAndOresModElements.ModElement {
-	@ObjectHolder("infinity_and_ores:mederium_armor_helmet")
+public class MederiumItem extends InfinityAndOresModElements.ModElement {
+	@ObjectHolder("infinity_and_ores:mederium_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("infinity_and_ores:mederium_armor_chestplate")
+	@ObjectHolder("infinity_and_ores:mederium_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("infinity_and_ores:mederium_armor_leggings")
+	@ObjectHolder("infinity_and_ores:mederium_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("infinity_and_ores:mederium_armor_boots")
+	@ObjectHolder("infinity_and_ores:mederium_boots")
 	public static final Item boots = null;
-	public MederiumArmorItem(InfinityAndOresModElements instance) {
-		super(instance, 100);
+	public MederiumItem(InfinityAndOresModElements instance) {
+		super(instance, 495);
 	}
 
 	@Override
@@ -57,7 +57,7 @@ public class MederiumArmorItem extends InfinityAndOresModElements.ModElement {
 
 			@OnlyIn(Dist.CLIENT)
 			public String getName() {
-				return "mederium_armor";
+				return "mederium";
 			}
 
 			public float getToughness() {
@@ -70,27 +70,27 @@ public class MederiumArmorItem extends InfinityAndOresModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "infinity_and_ores:textures/models/armor/mederium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("mederium_armor_helmet"));
+		}.setRegistryName("mederium_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST,
 				new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "infinity_and_ores:textures/models/armor/mederium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("mederium_armor_chestplate"));
+		}.setRegistryName("mederium_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS,
 				new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "infinity_and_ores:textures/models/armor/mederium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("mederium_armor_leggings"));
+		}.setRegistryName("mederium_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET,
 				new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "infinity_and_ores:textures/models/armor/mederium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("mederium_armor_boots"));
+		}.setRegistryName("mederium_boots"));
 	}
 }

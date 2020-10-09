@@ -1,0 +1,27 @@
+{
+  "group": "glomper_tooth_neckless",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "7": {
+      "item": "infinity_and_ores:glomper_tooth"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:glomper_tooth_chestplate",
+    "count": 1
+  }
+}

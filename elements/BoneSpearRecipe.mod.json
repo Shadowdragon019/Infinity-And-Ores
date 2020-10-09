@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "bone_spear",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "CUSTOM:GlomperTooth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BoneSpear"
+    },
+    "name": "bone_spear_recipe",
+    "namespace": "mod"
+  }
+}

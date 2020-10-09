@@ -1,0 +1,63 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "glomper_tooth_necklace",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "GlomperToothArmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresItemsTab"
+    },
+    "armorTextureFile": "mederium_",
+    "helmetName": "Glomper Tooth",
+    "bodyName": "Glomper Tooth Necklace",
+    "leggingsName": "Glomper Tooth",
+    "bootsName": "Glomper Tooth",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "glomper_necklace_layer_1.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 0,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 100,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "CUSTOM:GlomperTooth"
+      }
+    ]
+  }
+}

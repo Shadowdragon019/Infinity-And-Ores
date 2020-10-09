@@ -1,0 +1,39 @@
+{
+  "_fv": 10,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "bone_spear_reinforced",
+    "customModelName": "Normal",
+    "name": "Reinforced Bone Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 410,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 6.5,
+    "onRangedItemUsed": {
+      "name": "BoneSpearRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 8.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ReinforcedBoneSpear"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

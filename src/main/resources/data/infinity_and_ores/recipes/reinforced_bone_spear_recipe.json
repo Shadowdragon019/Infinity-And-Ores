@@ -1,0 +1,30 @@
+{
+  "group": "bone_spear",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "3": {
+      "item": "minecraft:bone"
+    },
+    "4": {
+      "item": "infinity_and_ores:bone_spear"
+    },
+    "5": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "infinity_and_ores:mederium_ingot"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:reinforced_bone_spear",
+    "count": 1
+  }
+}

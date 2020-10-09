@@ -1,0 +1,30 @@
+{
+  "group": "bone_spear",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "infinity_and_ores:glomper_tooth"
+    },
+    "4": {
+      "item": "minecraft:bone"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:bone_spear",
+    "count": 1
+  }
+}
