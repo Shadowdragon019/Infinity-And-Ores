@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MederiumArmor.legs"
+      "value": "CUSTOM:Mederium.legs"
     },
     "name": "mederium_leggings_recipe",
     "namespace": "mod"

@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MederiumArmor.helmet"
+      "value": "CUSTOM:Mederium.helmet"
     },
     "name": "mederium_helmet_recipe",
     "namespace": "mod"

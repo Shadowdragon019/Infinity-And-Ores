@@ -5,10 +5,10 @@
     "type": "Items",
     "items": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:MederiumIngot"
       },
       {
-        "value": "CUSTOM:MederiumIngot"
+        "value": "Items.IRON_INGOT"
       }
     ],
     "blocks": [],

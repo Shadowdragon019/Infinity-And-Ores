@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MederiumArmor.body"
+      "value": "CUSTOM:Mederium.body"
     },
     "name": "mederium_chestplate_recipe",
     "namespace": "mod"
