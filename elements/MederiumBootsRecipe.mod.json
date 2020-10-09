@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MederiumArmor.boots"
+      "value": "CUSTOM:Mederium.boots"
     },
     "name": "mederium_boots_recipe",
     "namespace": "mod"
