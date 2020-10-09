@@ -34,7 +34,7 @@ import java.util.Random;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedSpikeSmallStructure extends InfinityAndOresModElements.ModElement {
 	public GlitchedSpikeSmallStructure(InfinityAndOresModElements instance) {
-		super(instance, 333);
+		super(instance, 347);
 	}
 
 	@Override

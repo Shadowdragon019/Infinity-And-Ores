@@ -26,7 +26,7 @@ public class MederiumBlockBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_block")
 	public static final Block block = null;
 	public MederiumBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 84);
+		super(instance, 85);
 	}
 
 	@Override

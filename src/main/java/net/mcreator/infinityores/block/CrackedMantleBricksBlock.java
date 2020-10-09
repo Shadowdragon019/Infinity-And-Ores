@@ -24,7 +24,7 @@ public class CrackedMantleBricksBlock extends InfinityAndOresModElements.ModElem
 	@ObjectHolder("infinity_and_ores:cracked_mantle_bricks")
 	public static final Block block = null;
 	public CrackedMantleBricksBlock(InfinityAndOresModElements instance) {
-		super(instance, 61);
+		super(instance, 62);
 	}
 
 	@Override

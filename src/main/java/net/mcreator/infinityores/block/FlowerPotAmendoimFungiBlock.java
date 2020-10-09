@@ -48,7 +48,7 @@ public class FlowerPotAmendoimFungiBlock extends InfinityAndOresModElements.ModE
 	@ObjectHolder("infinity_and_ores:flower_pot_amendoim_fungi")
 	public static final Block block = null;
 	public FlowerPotAmendoimFungiBlock(InfinityAndOresModElements instance) {
-		super(instance, 423);
+		super(instance, 437);
 	}
 
 	@Override

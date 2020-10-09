@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class StoneAgeMantleAdvancementProcedure extends InfinityAndOresModElements.ModElement {
 	public StoneAgeMantleAdvancementProcedure(InfinityAndOresModElements instance) {
-		super(instance, 267);
+		super(instance, 281);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

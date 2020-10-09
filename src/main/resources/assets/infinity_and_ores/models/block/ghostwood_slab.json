@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "infinity_and_ores:blocks/ghostwood_planks",
+    "top": "infinity_and_ores:blocks/ghostwood_planks",
+    "side": "infinity_and_ores:blocks/ghostwood_planks"
+  }
+}

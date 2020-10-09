@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class DimensionalGuardianProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public DimensionalGuardianProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 245);
+		super(instance, 259);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

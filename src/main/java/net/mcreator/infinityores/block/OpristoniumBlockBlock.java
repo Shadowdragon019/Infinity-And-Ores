@@ -26,7 +26,7 @@ public class OpristoniumBlockBlock extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:opristonium_block")
 	public static final Block block = null;
 	public OpristoniumBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 46);
+		super(instance, 47);
 	}
 
 	@Override

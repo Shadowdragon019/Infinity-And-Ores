@@ -71,7 +71,7 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:glitched_station")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public GlitchedStationBlock(InfinityAndOresModElements instance) {
-		super(instance, 98);
+		super(instance, 106);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

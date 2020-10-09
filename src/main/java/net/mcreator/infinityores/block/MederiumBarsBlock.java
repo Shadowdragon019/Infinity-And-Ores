@@ -32,7 +32,7 @@ public class MederiumBarsBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_bars")
 	public static final Block block = null;
 	public MederiumBarsBlock(InfinityAndOresModElements instance) {
-		super(instance, 99);
+		super(instance, 107);
 	}
 
 	@Override

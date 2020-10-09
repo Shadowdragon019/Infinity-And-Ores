@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
@@ -29,6 +30,7 @@ import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.PanicGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.goal.AvoidEntityGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
@@ -52,7 +54,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public GlomperEntity(InfinityAndOresModElements instance) {
-		super(instance, 135);
+		super(instance, 149);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -118,6 +120,7 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 			this.goalSelector.addGoal(4, new SwimGoal(this));
 			this.goalSelector.addGoal(5,
 					new TemptGoal(this, 1, Ingredient.fromItems(new ItemStack(AmendoimWartItem.block, (int) (1)).getItem()), false));
+			this.goalSelector.addGoal(6, new AvoidEntityGoal(this, CrawlantEntity.CustomEntity.class, (float) 6, 1, 1.2));
 		}
 
 		@Override
@@ -174,49 +177,70 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 	// Paste this class into your mod and generate all required imports
 	public static class Modelchomper extends EntityModel<Entity> {
 		private final ModelRenderer Mouth;
-		private final ModelRenderer bone;
+		private final ModelRenderer BottomMouth;
+		private final ModelRenderer TopMouth;
 		private final ModelRenderer Teeth;
-		private final ModelRenderer bb_main;
+		private final ModelRenderer Legs;
+		private final ModelRenderer TopLeftLeg;
+		private final ModelRenderer BottomLeftLeg;
+		private final ModelRenderer BottomRightLeg;
+		private final ModelRenderer TopRightLeg;
 		public Modelchomper() {
 			textureWidth = 64;
 			textureHeight = 64;
 			Mouth = new ModelRenderer(this);
 			Mouth.setRotationPoint(8.0F, 15.0F, -8.0F);
-			Mouth.setTextureOffset(0, 0).addBox(-16.0F, 0.0F, 0.0F, 16.0F, 4.0F, 16.0F, 0.0F, false);
-			bone = new ModelRenderer(this);
-			bone.setRotationPoint(0.0F, -4.0F, 1.0F);
-			Mouth.addChild(bone);
-			setRotationAngle(bone, -0.2618F, 0.0F, 0.0F);
-			bone.setTextureOffset(0, 20).addBox(-16.0F, -4.0F, -0.5F, 16.0F, 4.0F, 16.0F, 0.0F, false);
+			BottomMouth = new ModelRenderer(this);
+			BottomMouth.setRotationPoint(0.0F, 4.0F, 0.0F);
+			Mouth.addChild(BottomMouth);
+			BottomMouth.setTextureOffset(0, 0).addBox(-16.0F, -4.0F, 0.0F, 16.0F, 4.0F, 16.0F, 0.0F, false);
+			TopMouth = new ModelRenderer(this);
+			TopMouth.setRotationPoint(-8.0F, 1.0F, 16.0F);
+			Mouth.addChild(TopMouth);
+			TopMouth.setTextureOffset(0, 20).addBox(-8.0F, -4.9F, -16.0F, 16.0F, 4.0F, 16.0F, 0.0F, false);
 			Teeth = new ModelRenderer(this);
-			Teeth.setRotationPoint(-16.0F, 3.1566F, -0.1895F);
-			bone.addChild(Teeth);
-			setRotationAngle(Teeth, 0.0F, 0.0F, -3.1416F);
-			Teeth.setTextureOffset(0, 40).addBox(-15.0F, -0.1022F, 0.7765F, 14.0F, 3.0F, 15.0F, 0.0F, false);
-			bb_main = new ModelRenderer(this);
-			bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
-			bb_main.setTextureOffset(48, 40).addBox(3.0F, -5.0F, -7.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
-			bb_main.setTextureOffset(48, 40).addBox(-7.0F, -5.0F, -7.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
-			bb_main.setTextureOffset(48, 40).addBox(-7.0F, -5.0F, 3.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
-			bb_main.setTextureOffset(48, 40).addBox(3.0F, -5.0F, 3.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
-		}
-
-		@Override
-		public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-			// previously the render function, render code was moved to a method below
+			Teeth.setRotationPoint(8.0F, 0.9133F, -16.9582F);
+			TopMouth.addChild(Teeth);
+			setRotationAngle(Teeth, 3.1416F, 0.0F, 0.0F);
+			Teeth.setTextureOffset(0, 40).addBox(-15.0F, -0.9313F, -17.0418F, 14.0F, 4.0F, 15.0F, 0.0F, false);
+			Legs = new ModelRenderer(this);
+			Legs.setRotationPoint(7.0F, 24.0F, -7.0F);
+			TopLeftLeg = new ModelRenderer(this);
+			TopLeftLeg.setRotationPoint(-2.0F, -5.0F, 2.0F);
+			Legs.addChild(TopLeftLeg);
+			TopLeftLeg.setTextureOffset(48, 40).addBox(-2.0F, 0.0F, -2.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
+			BottomLeftLeg = new ModelRenderer(this);
+			BottomLeftLeg.setRotationPoint(-12.0F, -5.0F, 12.0F);
+			Legs.addChild(BottomLeftLeg);
+			BottomLeftLeg.setTextureOffset(48, 40).addBox(8.0F, 0.0F, -2.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
+			BottomRightLeg = new ModelRenderer(this);
+			BottomRightLeg.setRotationPoint(-2.0F, -5.0F, 12.0F);
+			Legs.addChild(BottomRightLeg);
+			BottomRightLeg.setTextureOffset(48, 40).addBox(-12.0F, 0.0F, -2.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
+			TopRightLeg = new ModelRenderer(this);
+			TopRightLeg.setRotationPoint(-12.0F, -5.0F, 2.0F);
+			Legs.addChild(TopRightLeg);
+			TopRightLeg.setTextureOffset(48, 40).addBox(-2.0F, 0.0F, -2.0F, 4.0F, 5.0F, 4.0F, 0.0F, false);
 		}
 
 		@Override
 		public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue,
 				float alpha) {
 			Mouth.render(matrixStack, buffer, packedLight, packedOverlay);
-			bb_main.render(matrixStack, buffer, packedLight, packedOverlay);
+			Legs.render(matrixStack, buffer, packedLight, packedOverlay);
 		}
 
 		public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
 			modelRenderer.rotateAngleX = x;
 			modelRenderer.rotateAngleY = y;
 			modelRenderer.rotateAngleZ = z;
+		}
+
+		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
+			this.TopRightLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+			this.BottomLeftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+			this.BottomRightLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+			this.TopLeftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 		}
 	}
 }

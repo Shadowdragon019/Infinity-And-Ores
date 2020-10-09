@@ -52,7 +52,7 @@ public class BoneSpearItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:entitybulletbone_spear")
 	public static final EntityType arrow = null;
 	public BoneSpearItem(InfinityAndOresModElements instance) {
-		super(instance, 101);
+		super(instance, 110);
 	}
 
 	@Override

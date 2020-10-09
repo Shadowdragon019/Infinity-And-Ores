@@ -31,7 +31,7 @@ import java.util.Random;
 @InfinityAndOresModElements.ModElement.Tag
 public class RuinedGlitchedPortalOverworldStructure extends InfinityAndOresModElements.ModElement {
 	public RuinedGlitchedPortalOverworldStructure(InfinityAndOresModElements instance) {
-		super(instance, 418);
+		super(instance, 432);
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class RuinedGlitchedPortalOverworldStructure extends InfinityAndOresModEl
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 10000) {
+				if ((random.nextInt(1000000) + 1) <= 1000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);

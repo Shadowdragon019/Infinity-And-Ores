@@ -29,7 +29,7 @@ public class EnderAmendoimNyliumBlock extends InfinityAndOresModElements.ModElem
 	@ObjectHolder("infinity_and_ores:ender_amendoim_nylium")
 	public static final Block block = null;
 	public EnderAmendoimNyliumBlock(InfinityAndOresModElements instance) {
-		super(instance, 71);
+		super(instance, 72);
 	}
 
 	@Override

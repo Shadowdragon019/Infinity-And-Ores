@@ -17,7 +17,7 @@ public class MederiumSwordItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_sword")
 	public static final Item block = null;
 	public MederiumSwordItem(InfinityAndOresModElements instance) {
-		super(instance, 101);
+		super(instance, 113);
 	}
 
 	@Override

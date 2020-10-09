@@ -36,7 +36,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class StrippedAmendoimWoodProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public StrippedAmendoimWoodProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 258);
+		super(instance, 272);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -1,0 +1,32 @@
+{
+  "group": "amendoim_trapdoor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "1": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "2": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "3": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "4": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "5": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:ghostwood_trapdoor",
+    "count": 2
+  }
+}

@@ -17,7 +17,7 @@ public class GlitchedShovelItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_shovel")
 	public static final Item block = null;
 	public GlitchedShovelItem(InfinityAndOresModElements instance) {
-		super(instance, 122);
+		super(instance, 134);
 	}
 
 	@Override

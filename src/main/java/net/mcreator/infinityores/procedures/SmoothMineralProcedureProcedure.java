@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class SmoothMineralProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public SmoothMineralProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 225);
+		super(instance, 239);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

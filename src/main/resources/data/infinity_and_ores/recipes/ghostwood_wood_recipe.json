@@ -1,0 +1,22 @@
+{
+  "group": "ghostwood_wood",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:ghostwood_log"
+    },
+    {
+      "item": "infinity_and_ores:ghostwood_log"
+    },
+    {
+      "item": "infinity_and_ores:ghostwood_log"
+    },
+    {
+      "item": "infinity_and_ores:ghostwood_log"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:ghostwood_wood",
+    "count": 4
+  }
+}

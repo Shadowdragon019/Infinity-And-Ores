@@ -17,7 +17,7 @@ public class EndesulitePickaxeItem extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:endesulite_pickaxe")
 	public static final Item block = null;
 	public EndesulitePickaxeItem(InfinityAndOresModElements instance) {
-		super(instance, 114);
+		super(instance, 126);
 	}
 
 	@Override

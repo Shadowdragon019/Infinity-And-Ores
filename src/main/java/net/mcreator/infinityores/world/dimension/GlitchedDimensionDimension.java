@@ -101,7 +101,7 @@ public class GlitchedDimensionDimension extends InfinityAndOresModElements.ModEl
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public GlitchedDimensionDimension(InfinityAndOresModElements instance) {
-		super(instance, 124);
+		super(instance, 136);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -114,7 +114,7 @@ public class GlitchedDimensionDimension extends InfinityAndOresModElements.ModEl
 	@SubscribeEvent
 	public void onRegisterDimensionsEvent(RegisterDimensionsEvent event) {
 		if (DimensionType.byName(new ResourceLocation("infinity_and_ores:glitched_dimension")) == null) {
-			DimensionManager.registerDimension(new ResourceLocation("infinity_and_ores:glitched_dimension"), dimension, null, true);
+			DimensionManager.registerDimension(new ResourceLocation("infinity_and_ores:glitched_dimension"), dimension, null, false);
 		}
 		type = DimensionType.byName(new ResourceLocation("infinity_and_ores:glitched_dimension"));
 	}

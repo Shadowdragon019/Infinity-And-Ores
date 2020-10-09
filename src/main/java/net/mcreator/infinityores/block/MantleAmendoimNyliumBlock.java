@@ -28,7 +28,7 @@ public class MantleAmendoimNyliumBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:mantle_amendoim_nylium")
 	public static final Block block = null;
 	public MantleAmendoimNyliumBlock(InfinityAndOresModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 	}
 
 	@Override

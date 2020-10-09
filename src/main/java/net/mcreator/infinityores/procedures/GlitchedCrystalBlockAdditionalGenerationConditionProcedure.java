@@ -15,7 +15,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedCrystalBlockAdditionalGenerationConditionProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedCrystalBlockAdditionalGenerationConditionProcedure(InfinityAndOresModElements instance) {
-		super(instance, 146);
+		super(instance, 160);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

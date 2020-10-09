@@ -1,8 +1,12 @@
 {
   "replace": false,
   "values": [
-    "infinity_and_ores:polished_mantle_wall",
+    "infinity_and_ores:ghostwood_log",
+    "infinity_and_ores:stripped_ghostwood_log",
+    "infinity_and_ores:ghostwood_wood",
+    "infinity_and_ores:stripped_ghostwood_wood",
     "infinity_and_ores:amendoim_log",
+    "infinity_and_ores:amendoim_wood",
     "infinity_and_ores:amendoim_wood",
     "infinity_and_ores:stripped_amendoim_log",
     "infinity_and_ores:stripped_amendoim_wood"

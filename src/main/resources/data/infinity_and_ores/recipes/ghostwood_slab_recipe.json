@@ -1,0 +1,22 @@
+{
+  "group": "amendoim_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "1": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "2": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:ghostwood_slab",
+    "count": 6
+  }
+}

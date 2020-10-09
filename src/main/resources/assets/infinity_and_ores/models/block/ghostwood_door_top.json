@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "infinity_and_ores:blocks/ghostwood_door_bottom",
+    "top": "infinity_and_ores:blocks/ghostwood_door_top"
+  }
+}

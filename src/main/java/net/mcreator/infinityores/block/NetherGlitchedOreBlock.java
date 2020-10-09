@@ -38,7 +38,7 @@ public class NetherGlitchedOreBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:nether_glitched_ore")
 	public static final Block block = null;
 	public NetherGlitchedOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 42);
+		super(instance, 43);
 	}
 
 	@Override

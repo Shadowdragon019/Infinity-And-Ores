@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/ghostwood_planks",
+    "up": "infinity_and_ores:blocks/ghostwood_planks",
+    "north": "infinity_and_ores:blocks/ghostwood_planks",
+    "east": "infinity_and_ores:blocks/ghostwood_planks",
+    "south": "infinity_and_ores:blocks/ghostwood_planks",
+    "west": "infinity_and_ores:blocks/ghostwood_planks",
+    "particle": "infinity_and_ores:blocks/ghostwood_planks"
+  }
+}

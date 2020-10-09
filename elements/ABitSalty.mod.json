@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "A bit salty",
-    "achievementDescription": "Cook some Crawlan Meat and eat it",
+    "achievementDescription": "Cook some Crawlant Meat and eat it",
     "achievementIcon": {
       "value": "CUSTOM:CookedCrawlantMeat"
     },

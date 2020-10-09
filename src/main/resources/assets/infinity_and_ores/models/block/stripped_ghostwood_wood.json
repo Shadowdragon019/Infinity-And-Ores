@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/stripped_ghostwood_log",
+    "up": "infinity_and_ores:blocks/stripped_ghostwood_log",
+    "north": "infinity_and_ores:blocks/stripped_ghostwood_log",
+    "east": "infinity_and_ores:blocks/stripped_ghostwood_log",
+    "south": "infinity_and_ores:blocks/stripped_ghostwood_log",
+    "west": "infinity_and_ores:blocks/stripped_ghostwood_log",
+    "particle": "infinity_and_ores:blocks/stripped_ghostwood_log"
+  }
+}

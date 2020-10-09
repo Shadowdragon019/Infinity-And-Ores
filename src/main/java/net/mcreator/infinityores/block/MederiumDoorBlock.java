@@ -34,7 +34,7 @@ public class MederiumDoorBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_door")
 	public static final Block block = null;
 	public MederiumDoorBlock(InfinityAndOresModElements instance) {
-		super(instance, 127);
+		super(instance, 139);
 	}
 
 	@Override

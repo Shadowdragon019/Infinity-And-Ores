@@ -1,0 +1,33 @@
+{
+  "group": "amendoim_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "3": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "4": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "6": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "7": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    },
+    "8": {
+      "item": "infinity_and_ores:ghostwood_planks"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:ghostwood_stairs",
+    "count": 4
+  }
+}

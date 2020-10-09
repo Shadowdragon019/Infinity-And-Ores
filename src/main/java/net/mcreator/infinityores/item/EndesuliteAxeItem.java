@@ -17,7 +17,7 @@ public class EndesuliteAxeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:endesulite_axe")
 	public static final Item block = null;
 	public EndesuliteAxeItem(InfinityAndOresModElements instance) {
-		super(instance, 115);
+		super(instance, 127);
 	}
 
 	@Override

@@ -18,7 +18,7 @@
     "rewardXP": 1,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:LunarPower"
+      "value": "CUSTOM:Freenium"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"25\" y=\"50\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }

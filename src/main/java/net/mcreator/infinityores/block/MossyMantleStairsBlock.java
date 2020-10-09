@@ -25,7 +25,7 @@ public class MossyMantleStairsBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:mossy_mantle_stairs")
 	public static final Block block = null;
 	public MossyMantleStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 55);
+		super(instance, 56);
 	}
 
 	@Override

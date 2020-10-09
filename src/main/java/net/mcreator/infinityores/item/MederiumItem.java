@@ -29,7 +29,7 @@ public class MederiumItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_boots")
 	public static final Item boots = null;
 	public MederiumItem(InfinityAndOresModElements instance) {
-		super(instance, 495);
+		super(instance, 112);
 	}
 
 	@Override

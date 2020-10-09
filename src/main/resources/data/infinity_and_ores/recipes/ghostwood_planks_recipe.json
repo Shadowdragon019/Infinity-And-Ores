@@ -1,0 +1,13 @@
+{
+  "group": "ghostwood_planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ghostwood_logs"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:ghostwood_planks",
+    "count": 4
+  }
+}

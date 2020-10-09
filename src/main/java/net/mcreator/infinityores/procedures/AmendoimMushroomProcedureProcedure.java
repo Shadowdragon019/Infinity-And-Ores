@@ -30,7 +30,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimMushroomProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimMushroomProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 494);
+		super(instance, 499);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -12,7 +12,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedAppleProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedAppleProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 483);
+		super(instance, 497);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

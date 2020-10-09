@@ -1,0 +1,25 @@
+{
+  "_fv": 10,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodWood"
+      },
+      {
+        "value": "CUSTOM:GhostwoodWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "ghostwood_logs",
+    "namespace": "forge"
+  }
+}

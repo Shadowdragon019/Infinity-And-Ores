@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "stripped_ghostwood_wood",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedGhostwoodWood"
+    },
+    "name": "stripped_ghostwood_wood_recipe",
+    "namespace": "mod"
+  }
+}

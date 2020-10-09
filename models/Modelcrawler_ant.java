@@ -53,33 +53,33 @@ public static class Modelcrawler_ant extends EntityModel<Entity> {
 		Legs2.addChild(Left4);
 
 		LeftLeg5 = new ModelRenderer(this);
-		LeftLeg5.setRotationPoint(-1.0F, 0.0F, 0.0F);
+		LeftLeg5.setRotationPoint(6.0F, 1.0F, 9.0F);
 		Left4.addChild(LeftLeg5);
 
 		Top5 = new ModelRenderer(this);
-		Top5.setRotationPoint(0.0F, 0.0F, 0.0F);
+		Top5.setRotationPoint(-7.0F, -1.0F, -9.0F);
 		LeftLeg5.addChild(Top5);
 		setRotationAngle(Top5, 0.0F, 0.0F, -0.7854F);
 		Top5.setTextureOffset(0, 34).addBox(3.5061F, 4.5355F, 8.0F, 14.0F, 2.0F, 2.0F, 0.0F, false);
 
 		Bottom5 = new ModelRenderer(this);
-		Bottom5.setRotationPoint(30.0F, 18.0F, 0.0F);
+		Bottom5.setRotationPoint(23.0F, 17.0F, -9.0F);
 		LeftLeg5.addChild(Bottom5);
 		setRotationAngle(Bottom5, 0.0F, 0.0F, 1.2217F);
 		Bottom5.setTextureOffset(0, 0).addBox(-28.65F, 3.405F, 8.0F, 18.0F, 2.0F, 2.0F, 0.0F, false);
 
 		LeftLeg6 = new ModelRenderer(this);
-		LeftLeg6.setRotationPoint(0.0F, 0.0F, 12.0F);
+		LeftLeg6.setRotationPoint(7.0F, 0.0F, 21.0F);
 		Left4.addChild(LeftLeg6);
 
 		Top6 = new ModelRenderer(this);
-		Top6.setRotationPoint(0.0F, 0.0F, 0.0F);
+		Top6.setRotationPoint(-7.0F, 0.0F, -9.0F);
 		LeftLeg6.addChild(Top6);
 		setRotationAngle(Top6, 0.0F, 0.0F, -0.7854F);
 		Top6.setTextureOffset(0, 34).addBox(3.5061F, 4.5355F, 8.0F, 14.0F, 2.0F, 2.0F, 0.0F, false);
 
 		Bottom6 = new ModelRenderer(this);
-		Bottom6.setRotationPoint(30.0F, 18.0F, 0.0F);
+		Bottom6.setRotationPoint(23.0F, 18.0F, -9.0F);
 		LeftLeg6.addChild(Bottom6);
 		setRotationAngle(Bottom6, 0.0F, 0.0F, 1.2217F);
 		Bottom6.setTextureOffset(0, 0).addBox(-28.65F, 3.405F, 8.0F, 18.0F, 2.0F, 2.0F, 0.0F, false);
@@ -89,33 +89,33 @@ public static class Modelcrawler_ant extends EntityModel<Entity> {
 		Legs2.addChild(Right4);
 
 		LeftLeg7 = new ModelRenderer(this);
-		LeftLeg7.setRotationPoint(1.0F, 0.0F, 0.0F);
+		LeftLeg7.setRotationPoint(-6.0F, 0.0F, 9.0F);
 		Right4.addChild(LeftLeg7);
 
 		Top7 = new ModelRenderer(this);
-		Top7.setRotationPoint(0.0F, 0.0F, 0.0F);
+		Top7.setRotationPoint(7.0F, 0.0F, -9.0F);
 		LeftLeg7.addChild(Top7);
 		setRotationAngle(Top7, 0.0F, 0.0F, 0.7854F);
 		Top7.setTextureOffset(0, 34).addBox(-17.5061F, 4.5355F, 8.0F, 14.0F, 2.0F, 2.0F, 0.0F, true);
 
 		Bottom7 = new ModelRenderer(this);
-		Bottom7.setRotationPoint(-30.0F, 18.0F, 0.0F);
+		Bottom7.setRotationPoint(-23.0F, 18.0F, -9.0F);
 		LeftLeg7.addChild(Bottom7);
 		setRotationAngle(Bottom7, 0.0F, 0.0F, -1.2217F);
 		Bottom7.setTextureOffset(0, 0).addBox(10.65F, 3.405F, 8.0F, 18.0F, 2.0F, 2.0F, 0.0F, true);
 
 		LeftLeg8 = new ModelRenderer(this);
-		LeftLeg8.setRotationPoint(0.0F, 0.0F, 12.0F);
+		LeftLeg8.setRotationPoint(-7.0F, 1.0F, 21.0F);
 		Right4.addChild(LeftLeg8);
 
 		Top8 = new ModelRenderer(this);
-		Top8.setRotationPoint(0.0F, 0.0F, 0.0F);
+		Top8.setRotationPoint(7.0F, -1.0F, -9.0F);
 		LeftLeg8.addChild(Top8);
 		setRotationAngle(Top8, 0.0F, 0.0F, 0.7854F);
 		Top8.setTextureOffset(0, 34).addBox(-17.5061F, 4.5355F, 8.0F, 14.0F, 2.0F, 2.0F, 0.0F, true);
 
 		Bottom8 = new ModelRenderer(this);
-		Bottom8.setRotationPoint(-30.0F, 18.0F, 0.0F);
+		Bottom8.setRotationPoint(-23.0F, 17.0F, -9.0F);
 		LeftLeg8.addChild(Bottom8);
 		setRotationAngle(Bottom8, 0.0F, 0.0F, -1.2217F);
 		Bottom8.setTextureOffset(0, 0).addBox(10.65F, 3.405F, 8.0F, 18.0F, 2.0F, 2.0F, 0.0F, true);
@@ -213,12 +213,6 @@ public static class Modelcrawler_ant extends EntityModel<Entity> {
 	}
 
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks,
-			float netHeadYaw, float headPitch) {
-		// previously the render function, render code was moved to a method below
-	}
-
-	@Override
 	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red,
 			float green, float blue, float alpha) {
 		Creature1.render(matrixStack, buffer, packedLight, packedOverlay);
@@ -228,5 +222,13 @@ public static class Modelcrawler_ant extends EntityModel<Entity> {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;
 		modelRenderer.rotateAngleZ = z;
+	}
+
+	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
+		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
+		this.LeftLeg6.rotateAngleY = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.LeftLeg5.rotateAngleY = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.LeftLeg8.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
+		this.LeftLeg7.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 	}
 }

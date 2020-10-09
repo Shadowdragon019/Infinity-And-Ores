@@ -5,10 +5,22 @@
     "type": "Items",
     "items": [
       {
-        "value": "CUSTOM:PolishedMantleWall"
+        "value": "CUSTOM:GhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:GhostwoodWood"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodWood"
       },
       {
         "value": "CUSTOM:AmendoimLog"
+      },
+      {
+        "value": "CUSTOM:AmendoimWood"
       },
       {
         "value": "CUSTOM:AmendoimWood"

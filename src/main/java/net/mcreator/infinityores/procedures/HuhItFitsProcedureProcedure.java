@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class HuhItFitsProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public HuhItFitsProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 221);
+		super(instance, 235);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -18,7 +18,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class ImpossibleProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public ImpossibleProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 234);
+		super(instance, 248);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
