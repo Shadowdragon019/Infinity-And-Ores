@@ -9,6 +9,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -70,6 +73,25 @@ public class GlowCrystalGroundBlock extends InfinityAndOresModElements.ModElemen
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			switch ((Direction) state.get(FACING)) {
+				case SOUTH :
+				default :
+					return VoxelShapes.create(0.8125D, 0.188D, 0.75D, 0.1875D, 0.812D, 0D);
+				case NORTH :
+					return VoxelShapes.create(0.1875D, 0.188D, 0.25D, 0.8125D, 0.812D, 1D);
+				case WEST :
+					return VoxelShapes.create(0.25D, 0.188D, 0.8125D, 1D, 0.812D, 0.1875D);
+				case EAST :
+					return VoxelShapes.create(0.75D, 0.188D, 0.1875D, 0D, 0.812D, 0.8125D);
+				case UP :
+					return VoxelShapes.create(0.1875D, 0.75D, 0.188D, 0.8125D, 0D, 0.812D);
+				case DOWN :
+					return VoxelShapes.create(0.1875D, 0.25D, 0.812D, 0.8125D, 1D, 0.188D);
+			}
 		}
 
 		@Override
