@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Ground Glow Crystal": "ground_glow_crystal"
+      },
+      "name": "default"
+    }
+  }
+}

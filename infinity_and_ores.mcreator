@@ -5810,6 +5810,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "GlowCrystalGround",
+      "type": "block",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_crystal_ground"
     }
   ],
   "variable_elements": [],
@@ -5877,12 +5886,12 @@
       "advancements.spitted_apart.title": "Séparé",
       "advancements.thats_one_for_the_tool_box.descr": "Fabriquer un outil en opristonium",
       "item.infinity_and_ores.music_disc_broken_connection.tooltip1": "§cAttention: §7Si vous jouez cette chanson dans une video YouTube,§7vous pouvez vous faire §edémonetizé§7.",
-      "block.infinity_and_ores.mantle_wall": "Muret de manteau",
       "block.infinity_and_ores.ghostwood_wood": "Bois de ghostwood",
+      "block.infinity_and_ores.mantle_wall": "Muret de manteau",
       "advancements.huh_it_fits.descr": "Fabriquer une pièce d\u0027armure en opristonium",
-      "item.minecraft.potion.effect.potion_of_decay": "Potion de décomposition",
-      "block.infinity_and_ores.opristonium_block": "Bloc d\u0027opristonium",
       "block.infinity_and_ores.amendoim_hyphae": "Hyphe d\u0027amendoim",
+      "block.infinity_and_ores.opristonium_block": "Bloc d\u0027opristonium",
+      "item.minecraft.potion.effect.potion_of_decay": "Potion de décomposition",
       "effect.fiddly_potion": "Sans effet",
       "block.infinity_and_ores.mederium_ore": "Minerai de méderium",
       "item.infinity_and_ores.glomper_tooth": "Dent de Glompeur",
@@ -5916,9 +5925,9 @@
       "advancements.lunar_power.descr": "Fabriquer un outil en endesulite",
       "item.infinity_and_ores.amendoim_apple": "Pomme d\u0027amendoim",
       "block.infinity_and_ores.smooth_mantle": "Manteau lisse",
-      "item.infinity_and_ores.urcus": "Oeuf spawneur d\u0027Urcus",
-      "block.infinity_and_ores.amendoim_sprouts": "Germes d\u0027amendoim",
       "advancements.what_could_go_wrong.descr": "Fabriquer une station buggée",
+      "block.infinity_and_ores.amendoim_sprouts": "Germes d\u0027amendoim",
+      "item.infinity_and_ores.urcus": "Oeuf spawneur d\u0027Urcus",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Depuis la source!",
       "block.infinity_and_ores.amendoim_door": "Porte d\u0027amendoim",
@@ -6151,7 +6160,8 @@
       "advancements.wasteland_of_a_biome.descr": "Entrez dans les terres désolées vides du royaume du manteau",
       "block.infinity_and_ores.opristonium_ore": "Minerai d\u0027opristonium",
       "advancements.impossible.descr": "Créer un ensemble complet d\u0027armure buggé",
-      "item.infinity_and_ores.mederium_axe": "Hache en méderium"
+      "item.infinity_and_ores.mederium_axe": "Hache en méderium",
+      "block.infinity_and_ores.glow_crystal_ground": "Glow Crystal Ground"
     },
     "en_us": {
       "item.infinity_and_ores.music_disc_ignitar_awakens": "Music Disc",
@@ -6159,12 +6169,12 @@
       "advancements.spitted_apart.title": "Spitted Apart",
       "advancements.thats_one_for_the_tool_box.descr": "Craft an Opristonium tool",
       "item.infinity_and_ores.music_disc_broken_connection.tooltip1": "§cWARNING: §7If you play this song in a YouTube video,§7you might get §edemonetized§7.",
-      "block.infinity_and_ores.ghostwood_wood": "Ghostwood Wood",
       "block.infinity_and_ores.mantle_wall": "Mantle Wall",
+      "block.infinity_and_ores.ghostwood_wood": "Ghostwood Wood",
       "advancements.huh_it_fits.descr": "Craft a piece of Opristonium Armor",
-      "block.infinity_and_ores.amendoim_hyphae": "Amendoim Hyphae",
-      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
       "item.minecraft.potion.effect.potion_of_decay": "Potion of Decay",
+      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
+      "block.infinity_and_ores.amendoim_hyphae": "Amendoim Hyphae",
       "effect.fiddly_potion": "No Effect",
       "block.infinity_and_ores.mederium_ore": "Mederium Ore",
       "item.infinity_and_ores.glomper_tooth": "Glomper Tooth",
@@ -6198,9 +6208,9 @@
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
-      "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
-      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
       "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Straight from the source!",
       "block.infinity_and_ores.amendoim_door": "Amendoim Door",
@@ -6433,7 +6443,8 @@
       "advancements.wasteland_of_a_biome.descr": "Enter the empty wasteland of the Mantle Realm",
       "block.infinity_and_ores.opristonium_ore": "Opristonium Ore",
       "advancements.impossible.descr": "Craft a full set of Glitched armor",
-      "item.infinity_and_ores.mederium_axe": "Mederium Axe"
+      "item.infinity_and_ores.mederium_axe": "Mederium Axe",
+      "block.infinity_and_ores.glow_crystal_ground": "Glow Crystal Ground"
     }
   },
   "workspaceSettings": {
