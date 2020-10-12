@@ -1,37 +1,11 @@
 package net.mcreator.infinityores.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.IWorld;
-import net.minecraft.world.GameType;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.Vec2f;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.command.ICommandSource;
-import net.minecraft.command.CommandSource;
-import net.minecraft.client.network.play.NetworkPlayerInfo;
-import net.minecraft.client.entity.player.ClientPlayerEntity;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.infinityores.item.ChargedSoulLinkerItem;
-import net.mcreator.infinityores.InfinityAndOresModElements;
-
-import java.util.Random;
-import java.util.Map;
-
 @InfinityAndOresModElements.ModElement.Tag
 public class ChargedSoulLinkerRightClickedInAirProcedure extends InfinityAndOresModElements.ModElement {
+
 	public ChargedSoulLinkerRightClickedInAirProcedure(InfinityAndOresModElements instance) {
 		super(instance, 533);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -59,12 +33,14 @@ public class ChargedSoulLinkerRightClickedInAirProcedure extends InfinityAndOres
 			System.err.println("Failed to load dependency world for procedure ChargedSoulLinkerRightClickedInAir!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if (((new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
@@ -88,7 +64,7 @@ public class ChargedSoulLinkerRightClickedInAirProcedure extends InfinityAndOres
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.elder_guardian.curse")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
-			Minecraft.getInstance().gameRenderer.displayItemActivation(/* @ItemStack */(itemstack));
+			Minecraft.getInstance().gameRenderer.displayItemActivation(/*@ItemStack*/(itemstack));
 			{
 				ItemStack _ist = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
 				if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
@@ -124,12 +100,14 @@ public class ChargedSoulLinkerRightClickedInAirProcedure extends InfinityAndOres
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.elder_guardian.curse")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
-			Minecraft.getInstance().gameRenderer.displayItemActivation(/* @ItemStack */(itemstack));
+			Minecraft.getInstance().gameRenderer.displayItemActivation(/*@ItemStack*/(itemstack));
 			if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 				world.getWorld().getServer().getCommandManager().handleCommand(new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO,
 						(ServerWorld) world, 4, "", new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
 						"spawnpoint");
 			}
 		}
+
 	}
+
 }
