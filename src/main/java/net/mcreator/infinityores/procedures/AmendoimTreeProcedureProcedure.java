@@ -19,7 +19,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTreeProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimTreeProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 311);
+		super(instance, 313);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -13,7 +13,7 @@
     {
       "name": "OpristoniumOre",
       "type": "block",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "OpristoniumBlock",
       "type": "block",
-      "sortid": 47,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "OpristoniumBlockRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "GlitchedOre",
       "type": "block",
-      "sortid": 42,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "NetherGlitchedOre",
       "type": "block",
-      "sortid": 43,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "EndGlitchedOre",
       "type": "block",
-      "sortid": 44,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "GlitchedBlock",
       "type": "block",
-      "sortid": 49,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "GlitchedStation",
       "type": "block",
-      "sortid": 106,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "EndesuliteOre",
       "type": "block",
-      "sortid": 41,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "EndesuliteBlock",
       "type": "block",
-      "sortid": 48,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "OpristoniumIngotRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "OpristoniumIngotRecipe2",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "OpristoniumGemRecipe2",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "OpristoniumIngotRecipe4",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +175,7 @@
     {
       "name": "OpristoniumGemRecipe3",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "OpristoniumNuggetRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +193,7 @@
     {
       "name": "OpristoniumShardRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,7 +211,7 @@
     {
       "name": "GlitchedCrystalBlock",
       "type": "plant",
-      "sortid": 158,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -220,7 +220,7 @@
     {
       "name": "GlitchedStationRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "OpristoniumSword",
       "type": "tool",
-      "sortid": 119,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -238,7 +238,7 @@
     {
       "name": "OpristoniumPickaxe",
       "type": "tool",
-      "sortid": 120,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -247,7 +247,7 @@
     {
       "name": "GlitchedCrystalBlockAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -277,7 +277,7 @@
     {
       "name": "OpristoniumAxe",
       "type": "tool",
-      "sortid": 121,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -286,7 +286,7 @@
     {
       "name": "OpristoniumShovel",
       "type": "tool",
-      "sortid": 122,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -295,7 +295,7 @@
     {
       "name": "OpristoniumHoe",
       "type": "tool",
-      "sortid": 123,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -304,7 +304,7 @@
     {
       "name": "OpristoniumArmor",
       "type": "armor",
-      "sortid": 118,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -319,7 +319,7 @@
     {
       "name": "OpristoniumHelmetRecipe",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -328,7 +328,7 @@
     {
       "name": "OpristoniumChestplateRecipe",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -337,7 +337,7 @@
     {
       "name": "OpristoniumLeggingsRecipe",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -346,7 +346,7 @@
     {
       "name": "OpristoniumBootsRecipe",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -355,7 +355,7 @@
     {
       "name": "GlitchedStationGUI",
       "type": "gui",
-      "sortid": 165,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -364,7 +364,7 @@
     {
       "name": "OpristoniumSwordRecipe",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -373,7 +373,7 @@
     {
       "name": "OpristoniumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -382,7 +382,7 @@
     {
       "name": "OpristoniumShovelRecipe",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -391,7 +391,7 @@
     {
       "name": "OpristoniumAxeRecipe",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -400,7 +400,7 @@
     {
       "name": "OpristoniumHoeRecipe",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -409,7 +409,7 @@
     {
       "name": "OpristoniumAxeRecipe2",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -418,7 +418,7 @@
     {
       "name": "OpristoniumHoeRecipe2",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -454,7 +454,7 @@
     {
       "name": "GlitchedCrystalProcedure",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -487,7 +487,7 @@
     {
       "name": "GlitchedSword",
       "type": "tool",
-      "sortid": 131,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -496,7 +496,7 @@
     {
       "name": "GlitchedPickaxe",
       "type": "tool",
-      "sortid": 132,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -505,7 +505,7 @@
     {
       "name": "GlitchedAxe",
       "type": "tool",
-      "sortid": 133,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -514,7 +514,7 @@
     {
       "name": "GlitchedShovel",
       "type": "tool",
-      "sortid": 134,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -523,7 +523,7 @@
     {
       "name": "GlitchedHoe",
       "type": "tool",
-      "sortid": 135,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -532,7 +532,7 @@
     {
       "name": "GlitchedArmor",
       "type": "armor",
-      "sortid": 130,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -556,7 +556,7 @@
     {
       "name": "EndesuliteSwordRecipe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -565,7 +565,7 @@
     {
       "name": "EndesuliteArmor",
       "type": "armor",
-      "sortid": 124,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -580,7 +580,7 @@
     {
       "name": "EndesuliteSword",
       "type": "tool",
-      "sortid": 125,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -589,7 +589,7 @@
     {
       "name": "EndesulitePickaxe",
       "type": "tool",
-      "sortid": 126,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -598,7 +598,7 @@
     {
       "name": "EndesuliteAxe",
       "type": "tool",
-      "sortid": 127,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -607,7 +607,7 @@
     {
       "name": "EndesuliteShovel",
       "type": "tool",
-      "sortid": 128,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -616,7 +616,7 @@
     {
       "name": "EndesuliteHoe",
       "type": "tool",
-      "sortid": 129,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -625,7 +625,7 @@
     {
       "name": "EndesulitePickaxeRecipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -634,7 +634,7 @@
     {
       "name": "EndesuliteShovelRecipe",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -643,7 +643,7 @@
     {
       "name": "EndesuliteAxeRecipe",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -652,7 +652,7 @@
     {
       "name": "EndesuliteHoeRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -670,7 +670,7 @@
     {
       "name": "EnderPearlRecipe",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -679,7 +679,7 @@
     {
       "name": "EnderEyePearl",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -688,7 +688,7 @@
     {
       "name": "EndesuliteCrystalRecipe",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -697,7 +697,7 @@
     {
       "name": "EndesuliteShardRecipe1",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -706,7 +706,7 @@
     {
       "name": "EndesuliteShardRecipe2",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -715,7 +715,7 @@
     {
       "name": "EndesuliteShardRecipe3",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -724,7 +724,7 @@
     {
       "name": "EndesuliteCrystalRecipe2",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -733,7 +733,7 @@
     {
       "name": "EndesuliteBlockRecipe",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -742,7 +742,7 @@
     {
       "name": "EndesuliteCrystalRecipe3",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -751,7 +751,7 @@
     {
       "name": "GlitchedIngotRecipe",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -760,7 +760,7 @@
     {
       "name": "GlitchedBlockRecipe",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -769,7 +769,7 @@
     {
       "name": "GlitchedIngotRecipe2",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -778,7 +778,7 @@
     {
       "name": "GlitchedShardRecipe",
       "type": "recipe",
-      "sortid": 191,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -877,7 +877,7 @@
     {
       "name": "Mantle",
       "type": "block",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -886,7 +886,7 @@
     {
       "name": "MantleStairs",
       "type": "block",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -895,7 +895,7 @@
     {
       "name": "MantleSlab",
       "type": "block",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -904,7 +904,7 @@
     {
       "name": "MantleWall",
       "type": "block",
-      "sortid": 100,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -913,7 +913,7 @@
     {
       "name": "MantleBricks",
       "type": "block",
-      "sortid": 58,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -922,7 +922,7 @@
     {
       "name": "MantleBrickStairs",
       "type": "block",
-      "sortid": 59,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -931,7 +931,7 @@
     {
       "name": "MantleBrickSlab",
       "type": "block",
-      "sortid": 60,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -940,7 +940,7 @@
     {
       "name": "MantleBrickWall",
       "type": "block",
-      "sortid": 102,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -949,7 +949,7 @@
     {
       "name": "SmoothMantle",
       "type": "block",
-      "sortid": 66,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -958,7 +958,7 @@
     {
       "name": "SmoothMantleSlab",
       "type": "block",
-      "sortid": 67,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -967,7 +967,7 @@
     {
       "name": "PolishedMantle",
       "type": "block",
-      "sortid": 68,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -976,7 +976,7 @@
     {
       "name": "PolishedMantleStairs",
       "type": "block",
-      "sortid": 69,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -985,7 +985,7 @@
     {
       "name": "PolishedMantleSlab",
       "type": "block",
-      "sortid": 70,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -994,7 +994,7 @@
     {
       "name": "PolishedMantleWall",
       "type": "block",
-      "sortid": 104,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1003,7 +1003,7 @@
     {
       "name": "MantleStairsRecipe",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1012,7 +1012,7 @@
     {
       "name": "PolishedMantleStairsRecipe",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1021,7 +1021,7 @@
     {
       "name": "MantleBrickStairsRecipe",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1030,7 +1030,7 @@
     {
       "name": "MantleSlabRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1039,7 +1039,7 @@
     {
       "name": "PolishedMantleSlabRecipe",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1048,7 +1048,7 @@
     {
       "name": "MantleBrickSlabRecipe",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1057,7 +1057,7 @@
     {
       "name": "MantleWallRecipe",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1066,7 +1066,7 @@
     {
       "name": "PolishedMantleWallRecipe",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1075,7 +1075,7 @@
     {
       "name": "MantleBrickWallRecipe",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1084,7 +1084,7 @@
     {
       "name": "SmoothMantleSlabRecipe",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1093,7 +1093,7 @@
     {
       "name": "MantleBricksRecipe",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1102,7 +1102,7 @@
     {
       "name": "SmoothMantleRecipe",
       "type": "recipe",
-      "sortid": 203,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1111,7 +1111,7 @@
     {
       "name": "PolishedMantleRecipe",
       "type": "recipe",
-      "sortid": 204,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1120,7 +1120,7 @@
     {
       "name": "MantleStairsStonecutterRecipe",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1129,7 +1129,7 @@
     {
       "name": "PolishedMantleStairsStonecutterRecipe",
       "type": "recipe",
-      "sortid": 206,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1138,7 +1138,7 @@
     {
       "name": "MantleBrickStairsStonecutterRecipe",
       "type": "recipe",
-      "sortid": 207,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1147,7 +1147,7 @@
     {
       "name": "PolishedMantleStairsStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 208,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1156,7 +1156,7 @@
     {
       "name": "MantleBrickStairsStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 209,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1165,7 +1165,7 @@
     {
       "name": "MantleSlabStonecutterRecipe",
       "type": "recipe",
-      "sortid": 210,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1174,7 +1174,7 @@
     {
       "name": "PolishedMantleSlabStonecutterRecipe",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1183,7 +1183,7 @@
     {
       "name": "MantleBrickSlabStonecutterRecipe",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1192,7 +1192,7 @@
     {
       "name": "SmoothMantleSlabStonecutterRecipe",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1201,7 +1201,7 @@
     {
       "name": "PolishedMantleSlabStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1210,7 +1210,7 @@
     {
       "name": "MantleBrickSlabStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1219,7 +1219,7 @@
     {
       "name": "SmoothMantleSlabStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1228,7 +1228,7 @@
     {
       "name": "MantleWalllStonecutterRecipe",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1237,7 +1237,7 @@
     {
       "name": "PolishedMantleWallStonecutterRecipe",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1246,7 +1246,7 @@
     {
       "name": "MantleBrickWallStonecutterRecipe",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1255,7 +1255,7 @@
     {
       "name": "MantleWallStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1264,7 +1264,7 @@
     {
       "name": "PolishedMantleWallStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1273,7 +1273,7 @@
     {
       "name": "MantleBrickWallStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1282,7 +1282,7 @@
     {
       "name": "InfinityAndOresBuildingBlocksTab",
       "type": "tab",
-      "sortid": 223,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1291,7 +1291,7 @@
     {
       "name": "InfinityAndOresDecorationBlocksTab",
       "type": "tab",
-      "sortid": 224,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1300,7 +1300,7 @@
     {
       "name": "InfinityAndOresToolsAndArmorsTab",
       "type": "tab",
-      "sortid": 225,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1309,7 +1309,7 @@
     {
       "name": "InfinityAndOresItemsTab",
       "type": "tab",
-      "sortid": 226,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1318,7 +1318,7 @@
     {
       "name": "OpristoniumMadness",
       "type": "achievement",
-      "sortid": 227,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1327,7 +1327,7 @@
     {
       "name": "MinersDream",
       "type": "achievement",
-      "sortid": 228,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1336,7 +1336,7 @@
     {
       "name": "LetANewEraBegin",
       "type": "achievement",
-      "sortid": 229,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1345,7 +1345,7 @@
     {
       "name": "Freenium",
       "type": "achievement",
-      "sortid": 230,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1354,7 +1354,7 @@
     {
       "name": "SpittedApart",
       "type": "achievement",
-      "sortid": 231,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1363,7 +1363,7 @@
     {
       "name": "EndPower",
       "type": "achievement",
-      "sortid": 232,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1372,7 +1372,7 @@
     {
       "name": "LunarPower",
       "type": "achievement",
-      "sortid": 233,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1381,7 +1381,7 @@
     {
       "name": "HuhItFits",
       "type": "achievement",
-      "sortid": 234,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1390,7 +1390,7 @@
     {
       "name": "HuhItFitsProcedure",
       "type": "procedure",
-      "sortid": 235,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1407,7 +1407,7 @@
     {
       "name": "ThatsOneForTheToolBox",
       "type": "achievement",
-      "sortid": 236,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1416,7 +1416,7 @@
     {
       "name": "ThatsOneForTheToolBoxProcedure",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1433,7 +1433,7 @@
     {
       "name": "SmoothMineral",
       "type": "achievement",
-      "sortid": 238,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1442,7 +1442,7 @@
     {
       "name": "SmoothMineralProcedure",
       "type": "procedure",
-      "sortid": 239,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1459,7 +1459,7 @@
     {
       "name": "LunarPowerProcedure",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1476,7 +1476,7 @@
     {
       "name": "SpatialDefense",
       "type": "achievement",
-      "sortid": 241,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1485,7 +1485,7 @@
     {
       "name": "SpatialDefenseProcedure",
       "type": "procedure",
-      "sortid": 242,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1502,7 +1502,7 @@
     {
       "name": "SharpProgrammingBud",
       "type": "achievement",
-      "sortid": 243,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1511,7 +1511,7 @@
     {
       "name": "WhatCouldGoWrong",
       "type": "achievement",
-      "sortid": 244,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1520,7 +1520,7 @@
     {
       "name": "MissingABracket",
       "type": "achievement",
-      "sortid": 245,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1529,7 +1529,7 @@
     {
       "name": "ERRORBlockNotFound",
       "type": "achievement",
-      "sortid": 246,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1538,7 +1538,7 @@
     {
       "name": "Impossible",
       "type": "achievement",
-      "sortid": 247,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1547,7 +1547,7 @@
     {
       "name": "ImpossibleProcedure",
       "type": "procedure",
-      "sortid": 248,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1564,7 +1564,7 @@
     {
       "name": "UnknownSword",
       "type": "achievement",
-      "sortid": 249,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1573,7 +1573,7 @@
     {
       "name": "UnknownPickaxe",
       "type": "achievement",
-      "sortid": 250,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1582,7 +1582,7 @@
     {
       "name": "UnknownAxe",
       "type": "achievement",
-      "sortid": 251,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1591,7 +1591,7 @@
     {
       "name": "UnknownShovel",
       "type": "achievement",
-      "sortid": 252,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1600,7 +1600,7 @@
     {
       "name": "UnknownHoe",
       "type": "achievement",
-      "sortid": 253,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1609,7 +1609,7 @@
     {
       "name": "UnknownHelmet",
       "type": "achievement",
-      "sortid": 254,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1618,7 +1618,7 @@
     {
       "name": "UnknownChestplate",
       "type": "achievement",
-      "sortid": 255,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1627,7 +1627,7 @@
     {
       "name": "UnknownLeggings",
       "type": "achievement",
-      "sortid": 256,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1636,7 +1636,7 @@
     {
       "name": "UnknownBoots",
       "type": "achievement",
-      "sortid": 257,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1645,7 +1645,7 @@
     {
       "name": "DimensionalGuardian",
       "type": "achievement",
-      "sortid": 258,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1654,7 +1654,7 @@
     {
       "name": "DimensionalGuardianProcedure",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1671,7 +1671,7 @@
     {
       "name": "MantleBricksRecipe2",
       "type": "recipe",
-      "sortid": 260,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1680,7 +1680,7 @@
     {
       "name": "PolishedMantleRecipe2",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1689,7 +1689,7 @@
     {
       "name": "SmoothMantleRecipe2",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1698,7 +1698,7 @@
     {
       "name": "AmendoimLog",
       "type": "block",
-      "sortid": 73,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1707,7 +1707,7 @@
     {
       "name": "AmendoimWood",
       "type": "block",
-      "sortid": 74,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1716,7 +1716,7 @@
     {
       "name": "StrippedAmendoimLog",
       "type": "block",
-      "sortid": 77,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1725,7 +1725,7 @@
     {
       "name": "StrippedAmendoimWood",
       "type": "block",
-      "sortid": 78,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1734,7 +1734,7 @@
     {
       "name": "AmendoimPlanks",
       "type": "block",
-      "sortid": 79,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1743,7 +1743,7 @@
     {
       "name": "AmendoimStairs",
       "type": "block",
-      "sortid": 80,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1752,7 +1752,7 @@
     {
       "name": "AmendoimSlab",
       "type": "block",
-      "sortid": 81,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1761,7 +1761,7 @@
     {
       "name": "AmendoimFence",
       "type": "block",
-      "sortid": 98,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1770,7 +1770,7 @@
     {
       "name": "AmendoimFenceGate",
       "type": "block",
-      "sortid": 105,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1779,7 +1779,7 @@
     {
       "name": "AmendoimDoor",
       "type": "block",
-      "sortid": 137,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1788,7 +1788,7 @@
     {
       "name": "AmendoimTrapdoor",
       "type": "block",
-      "sortid": 138,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1797,7 +1797,7 @@
     {
       "name": "MantleAmendoimNylium",
       "type": "block",
-      "sortid": 71,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1806,7 +1806,7 @@
     {
       "name": "EnderAmendoimNylium",
       "type": "block",
-      "sortid": 72,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1815,7 +1815,7 @@
     {
       "name": "AmendoimMushroomBlock",
       "type": "block",
-      "sortid": 99,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1824,7 +1824,7 @@
     {
       "name": "AmendoimWartBlock",
       "type": "block",
-      "sortid": 82,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1842,7 +1842,7 @@
     {
       "name": "AmendoimPlanksRecipe",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1851,7 +1851,7 @@
     {
       "name": "AmendoimDoorRecipe",
       "type": "recipe",
-      "sortid": 264,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1860,7 +1860,7 @@
     {
       "name": "AmendoimTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 265,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1869,7 +1869,7 @@
     {
       "name": "AmendoimSlimeBlockRecipe",
       "type": "recipe",
-      "sortid": 266,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1878,7 +1878,7 @@
     {
       "name": "AmendoimSlabRecipe",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1887,7 +1887,7 @@
     {
       "name": "AmendoimStairsRecipe",
       "type": "recipe",
-      "sortid": 268,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1896,7 +1896,7 @@
     {
       "name": "AmendoimFenceRecipe",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1905,7 +1905,7 @@
     {
       "name": "AmendoimFenceGateRecipe",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1914,7 +1914,7 @@
     {
       "name": "AmendoimSlimeBallRecipe",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1923,7 +1923,7 @@
     {
       "name": "StrippedAmendoimWoodProcedure",
       "type": "procedure",
-      "sortid": 272,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1956,7 +1956,7 @@
     {
       "name": "AmendoimWoodRecipe",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1965,7 +1965,7 @@
     {
       "name": "GlitchedSoil",
       "type": "block",
-      "sortid": 83,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1974,7 +1974,7 @@
     {
       "name": "MantleAmendoimSpreadProcedure",
       "type": "procedure",
-      "sortid": 274,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2007,7 +2007,7 @@
     {
       "name": "EnderAmendoimSpreadProcedure",
       "type": "procedure",
-      "sortid": 275,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2040,7 +2040,7 @@
     {
       "name": "AmendoimMushroom",
       "type": "food",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2049,7 +2049,7 @@
     {
       "name": "AmendoimMushroomBlockRecipe",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2058,7 +2058,7 @@
     {
       "name": "MantleGlitchedOre",
       "type": "block",
-      "sortid": 45,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2067,7 +2067,7 @@
     {
       "name": "GlitchedObsidian",
       "type": "block",
-      "sortid": 51,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2076,7 +2076,7 @@
     {
       "name": "AmendoimStew",
       "type": "food",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2085,7 +2085,7 @@
     {
       "name": "AmendoimStewRecipe",
       "type": "recipe",
-      "sortid": 277,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2094,7 +2094,7 @@
     {
       "name": "ChiseledMantleBricks",
       "type": "block",
-      "sortid": 61,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2103,7 +2103,7 @@
     {
       "name": "ChiseledMantleBricksRecipe",
       "type": "recipe",
-      "sortid": 278,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2112,7 +2112,7 @@
     {
       "name": "ChiseledMantleBricksRecipe2",
       "type": "recipe",
-      "sortid": 279,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2121,7 +2121,7 @@
     {
       "name": "ChiseledMantleBricks3",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2130,7 +2130,7 @@
     {
       "name": "StoneAgeMantleAdvancement",
       "type": "procedure",
-      "sortid": 281,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2147,7 +2147,7 @@
     {
       "name": "MantleAmendoimForest",
       "type": "biome",
-      "sortid": 282,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2156,7 +2156,7 @@
     {
       "name": "MantleRealms",
       "type": "biome",
-      "sortid": 283,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2165,7 +2165,7 @@
     {
       "name": "GlitchedDimension",
       "type": "dimension",
-      "sortid": 136,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2174,7 +2174,7 @@
     {
       "name": "AmendoimStewProcedure",
       "type": "procedure",
-      "sortid": 284,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2191,7 +2191,7 @@
     {
       "name": "AmendoimCharcoalRecipe",
       "type": "recipe",
-      "sortid": 285,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2200,7 +2200,7 @@
     {
       "name": "AmendoimFungus",
       "type": "plant",
-      "sortid": 95,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2209,7 +2209,7 @@
     {
       "name": "AmendoimPlanksFuel",
       "type": "fuel",
-      "sortid": 286,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2218,7 +2218,7 @@
     {
       "name": "AmendoimLogFuel",
       "type": "fuel",
-      "sortid": 287,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2227,7 +2227,7 @@
     {
       "name": "AmendoimWoodFuel",
       "type": "fuel",
-      "sortid": 288,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2236,7 +2236,7 @@
     {
       "name": "StrippedAmendoimLogFuel",
       "type": "fuel",
-      "sortid": 289,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2245,7 +2245,7 @@
     {
       "name": "StrippedAmendoimWoodFuel",
       "type": "fuel",
-      "sortid": 290,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2254,7 +2254,7 @@
     {
       "name": "AmendoimMushroomBlockFuel",
       "type": "fuel",
-      "sortid": 291,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2263,7 +2263,7 @@
     {
       "name": "AmendoimStairsFuel",
       "type": "fuel",
-      "sortid": 292,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2272,7 +2272,7 @@
     {
       "name": "AmendoimSlabFuel",
       "type": "fuel",
-      "sortid": 293,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2281,7 +2281,7 @@
     {
       "name": "AmendoimFenceFuel",
       "type": "fuel",
-      "sortid": 294,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2290,7 +2290,7 @@
     {
       "name": "AmendoimFenceGateFuel",
       "type": "fuel",
-      "sortid": 295,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2299,7 +2299,7 @@
     {
       "name": "AmendoimDoorFuel",
       "type": "fuel",
-      "sortid": 296,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2308,7 +2308,7 @@
     {
       "name": "AmendoimTrapdoorFuel",
       "type": "fuel",
-      "sortid": 297,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2317,7 +2317,7 @@
     {
       "name": "AmendoimFungiFuel",
       "type": "fuel",
-      "sortid": 298,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2326,7 +2326,7 @@
     {
       "name": "AmendoimSlimeBallRecipe2",
       "type": "recipe",
-      "sortid": 299,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2335,7 +2335,7 @@
     {
       "name": "AmendoimTreeAdditionalGeneration",
       "type": "procedure",
-      "sortid": 300,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2365,7 +2365,7 @@
     {
       "name": "AmendoimTree1",
       "type": "structure",
-      "sortid": 301,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2374,7 +2374,7 @@
     {
       "name": "AmendoimTree2",
       "type": "structure",
-      "sortid": 302,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2383,7 +2383,7 @@
     {
       "name": "AmendoimTree3",
       "type": "structure",
-      "sortid": 303,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2392,7 +2392,7 @@
     {
       "name": "AmendoimTree4",
       "type": "structure",
-      "sortid": 304,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2401,7 +2401,7 @@
     {
       "name": "AmendoimTree5",
       "type": "structure",
-      "sortid": 305,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2410,7 +2410,7 @@
     {
       "name": "AmendoimTree6",
       "type": "structure",
-      "sortid": 306,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2419,7 +2419,7 @@
     {
       "name": "AmendoimTree7",
       "type": "structure",
-      "sortid": 307,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2428,7 +2428,7 @@
     {
       "name": "AmendoimTree8",
       "type": "structure",
-      "sortid": 308,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2437,7 +2437,7 @@
     {
       "name": "AmendoimTree9",
       "type": "structure",
-      "sortid": 309,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2446,7 +2446,7 @@
     {
       "name": "AmendoimSaplingBonemealProcedure",
       "type": "procedure",
-      "sortid": 310,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2479,7 +2479,7 @@
     {
       "name": "AmendoimTreeProcedure",
       "type": "procedure",
-      "sortid": 311,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2508,7 +2508,7 @@
     {
       "name": "GlitchAndSteelRecipe",
       "type": "recipe",
-      "sortid": 312,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2517,7 +2517,7 @@
     {
       "name": "TestBlock",
       "type": "block",
-      "sortid": 313,
+      "sortid": 315,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2526,7 +2526,7 @@
     {
       "name": "TestIngot",
       "type": "item",
-      "sortid": 314,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2535,7 +2535,7 @@
     {
       "name": "WhiteCoalBlock",
       "type": "block",
-      "sortid": 50,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2562,7 +2562,7 @@
     {
       "name": "WhiteCoalRecipe",
       "type": "recipe",
-      "sortid": 315,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2571,7 +2571,7 @@
     {
       "name": "WhiteCharcoalRecipe",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2580,7 +2580,7 @@
     {
       "name": "WhiteCoalRecipe2",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2589,7 +2589,7 @@
     {
       "name": "WhiteCoalBlockRecipe",
       "type": "recipe",
-      "sortid": 318,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2598,7 +2598,7 @@
     {
       "name": "MantleWhiteCoalOre",
       "type": "block",
-      "sortid": 46,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2607,7 +2607,7 @@
     {
       "name": "WhiteCoalFuel",
       "type": "fuel",
-      "sortid": 319,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2616,7 +2616,7 @@
     {
       "name": "WhiteCharcoalFuel",
       "type": "fuel",
-      "sortid": 320,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2625,7 +2625,7 @@
     {
       "name": "WhiteCoalBlockFuel",
       "type": "fuel",
-      "sortid": 321,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2634,7 +2634,7 @@
     {
       "name": "MantleWhiteCoalOreRecipe",
       "type": "recipe",
-      "sortid": 322,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2652,7 +2652,7 @@
     {
       "name": "FiddlePotionBrewingRecipe",
       "type": "code",
-      "sortid": 323,
+      "sortid": 325,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2661,7 +2661,7 @@
     {
       "name": "AmendoimWartRecipe",
       "type": "recipe",
-      "sortid": 324,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2670,7 +2670,7 @@
     {
       "name": "AmendoimWartBlockRecipe",
       "type": "recipe",
-      "sortid": 325,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2679,7 +2679,7 @@
     {
       "name": "FiddlyPotion",
       "type": "potion",
-      "sortid": 326,
+      "sortid": 328,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2688,7 +2688,7 @@
     {
       "name": "GlitchedIngotRecipeProcedure",
       "type": "procedure",
-      "sortid": 327,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2717,7 +2717,7 @@
     {
       "name": "GlitchedToolsRecipeProcedure",
       "type": "procedure",
-      "sortid": 328,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2746,7 +2746,7 @@
     {
       "name": "GlitchedArmorAndItemsRecipeProcedure",
       "type": "procedure",
-      "sortid": 329,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2775,7 +2775,7 @@
     {
       "name": "GlitchedTableRecipesProcedure",
       "type": "procedure",
-      "sortid": 330,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2804,7 +2804,7 @@
     {
       "name": "AmendoimTreeWorldGenerationProcedure",
       "type": "procedure",
-      "sortid": 331,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2833,7 +2833,7 @@
     {
       "name": "AmendoimSprouts",
       "type": "plant",
-      "sortid": 96,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2842,7 +2842,7 @@
     {
       "name": "AmendoimRoots",
       "type": "plant",
-      "sortid": 97,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2851,7 +2851,7 @@
     {
       "name": "AmendoimDyesRecipe",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2860,7 +2860,7 @@
     {
       "name": "Urcus",
       "type": "mob",
-      "sortid": 143,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2869,7 +2869,7 @@
     {
       "name": "WeaknessUrcus",
       "type": "mob",
-      "sortid": 145,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2878,7 +2878,7 @@
     {
       "name": "WitherUrcus",
       "type": "mob",
-      "sortid": 146,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2887,7 +2887,7 @@
     {
       "name": "PoisonUrcusCollidingProcedure",
       "type": "procedure",
-      "sortid": 333,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2908,7 +2908,7 @@
     {
       "name": "WeaknessUrcusCollideProcedure",
       "type": "procedure",
-      "sortid": 334,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2929,7 +2929,7 @@
     {
       "name": "SlownessUrcusCollideProcedure",
       "type": "procedure",
-      "sortid": 335,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2950,7 +2950,7 @@
     {
       "name": "WitherUrcusCollideProcedure",
       "type": "procedure",
-      "sortid": 336,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2971,7 +2971,7 @@
     {
       "name": "PoisonUrcusHitProcedure",
       "type": "procedure",
-      "sortid": 337,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2988,7 +2988,7 @@
     {
       "name": "WeaknessUrcusHitProcedure",
       "type": "procedure",
-      "sortid": 338,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3005,7 +3005,7 @@
     {
       "name": "SlownessUrcusHitProcedure",
       "type": "procedure",
-      "sortid": 339,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3022,7 +3022,7 @@
     {
       "name": "WitherUrcusHitProcedure",
       "type": "procedure",
-      "sortid": 340,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3039,7 +3039,7 @@
     {
       "name": "SlownessUrcus",
       "type": "mob",
-      "sortid": 147,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3048,7 +3048,7 @@
     {
       "name": "PoisonUrcus",
       "type": "mob",
-      "sortid": 144,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3066,7 +3066,7 @@
     {
       "name": "PotionOfDecayPotionStartedapplied",
       "type": "procedure",
-      "sortid": 341,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3083,7 +3083,7 @@
     {
       "name": "PotionOfDecay",
       "type": "potion",
-      "sortid": 342,
+      "sortid": 344,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -3092,7 +3092,7 @@
     {
       "name": "PotionOfDecayBrewingRecipe",
       "type": "code",
-      "sortid": 343,
+      "sortid": 345,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -3101,7 +3101,7 @@
     {
       "name": "UrcusCollideProcedure",
       "type": "procedure",
-      "sortid": 344,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3118,7 +3118,7 @@
     {
       "name": "Crawlant",
       "type": "mob",
-      "sortid": 148,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3127,7 +3127,7 @@
     {
       "name": "RawCrawlantMeat",
       "type": "food",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3136,7 +3136,7 @@
     {
       "name": "CookedCrawlantMeat",
       "type": "food",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3145,7 +3145,7 @@
     {
       "name": "CrawlantMeatRecipe",
       "type": "recipe",
-      "sortid": 345,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3154,7 +3154,7 @@
     {
       "name": "SpikyPlateau",
       "type": "biome",
-      "sortid": 346,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3163,7 +3163,7 @@
     {
       "name": "GlitchedSpikeSmall",
       "type": "structure",
-      "sortid": 347,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3172,7 +3172,7 @@
     {
       "name": "GlitchedSpikeMedium",
       "type": "structure",
-      "sortid": 348,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3181,7 +3181,7 @@
     {
       "name": "GlitchedSpikeLarge",
       "type": "structure",
-      "sortid": 349,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3190,7 +3190,7 @@
     {
       "name": "AmendoimStem",
       "type": "block",
-      "sortid": 75,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3199,7 +3199,7 @@
     {
       "name": "AmendoimPlanksRecipe2",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3208,7 +3208,7 @@
     {
       "name": "AmendoimLeaves",
       "type": "block",
-      "sortid": 93,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3217,7 +3217,7 @@
     {
       "name": "VanillaLogs",
       "type": "tag",
-      "sortid": 351,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3226,7 +3226,7 @@
     {
       "name": "VanillaCoals",
       "type": "tag",
-      "sortid": 352,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3235,7 +3235,7 @@
     {
       "name": "ForgeCobblestone",
       "type": "tag",
-      "sortid": 353,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3244,7 +3244,7 @@
     {
       "name": "VanillaPlanks",
       "type": "tag",
-      "sortid": 354,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3253,7 +3253,7 @@
     {
       "name": "Opristonium",
       "type": "tag",
-      "sortid": 355,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3262,7 +3262,7 @@
     {
       "name": "EndesuliteAxeRecipe2",
       "type": "recipe",
-      "sortid": 356,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3271,7 +3271,7 @@
     {
       "name": "MantleStairsRecipe2",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3280,7 +3280,7 @@
     {
       "name": "PolishedMantleStairsRecipe2",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3289,7 +3289,7 @@
     {
       "name": "MantleBrickStairsRecipe2",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3298,7 +3298,7 @@
     {
       "name": "MantleOpristoniumOre",
       "type": "block",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3307,7 +3307,7 @@
     {
       "name": "AmendoimStemFuel",
       "type": "fuel",
-      "sortid": 360,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3316,7 +3316,7 @@
     {
       "name": "AmendoimHyphaeRecipe",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3325,7 +3325,7 @@
     {
       "name": "AmendoimHyphaeFuel",
       "type": "fuel",
-      "sortid": 362,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3334,7 +3334,7 @@
     {
       "name": "GlitchedAppleRecipe",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3343,7 +3343,7 @@
     {
       "name": "GlomperTeethAdditionalGenerationProcedure",
       "type": "procedure",
-      "sortid": 364,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3373,7 +3373,7 @@
     {
       "name": "OpristoniumIngotRecipe3",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3382,7 +3382,7 @@
     {
       "name": "AmendoimApple",
       "type": "food",
-      "sortid": 36,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3391,7 +3391,7 @@
     {
       "name": "GlitchedApple",
       "type": "food",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3400,7 +3400,7 @@
     {
       "name": "EnchantedGlitchedAppleRecipe",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3409,7 +3409,7 @@
     {
       "name": "AmendoimStairsRecipe2",
       "type": "recipe",
-      "sortid": 367,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3418,7 +3418,7 @@
     {
       "name": "EnchantedGlitchedApple",
       "type": "food",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3427,7 +3427,7 @@
     {
       "name": "AmendoimHyphae",
       "type": "block",
-      "sortid": 76,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3436,7 +3436,7 @@
     {
       "name": "GlitchedAppleRecipe2",
       "type": "recipe",
-      "sortid": 368,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3445,7 +3445,7 @@
     {
       "name": "EnchantedGlitchedAppleRecipe2",
       "type": "recipe",
-      "sortid": 369,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3454,7 +3454,7 @@
     {
       "name": "MossyMantle",
       "type": "block",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3463,7 +3463,7 @@
     {
       "name": "MossyMantleStairs",
       "type": "block",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3472,7 +3472,7 @@
     {
       "name": "MossyMantleSlab",
       "type": "block",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3481,7 +3481,7 @@
     {
       "name": "MossyMantleWall",
       "type": "block",
-      "sortid": 101,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3490,7 +3490,7 @@
     {
       "name": "MossyMantleBricks",
       "type": "block",
-      "sortid": 63,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3499,7 +3499,7 @@
     {
       "name": "MossyMantleBrickStairs",
       "type": "block",
-      "sortid": 64,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3508,7 +3508,7 @@
     {
       "name": "MossyMantleBrickSlab",
       "type": "block",
-      "sortid": 65,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3517,7 +3517,7 @@
     {
       "name": "MossyMantleBrickWall",
       "type": "block",
-      "sortid": 103,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3526,7 +3526,7 @@
     {
       "name": "CrackedMantleBricks",
       "type": "block",
-      "sortid": 62,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3535,7 +3535,7 @@
     {
       "name": "MossyMantleStairsRecipe",
       "type": "recipe",
-      "sortid": 370,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3544,7 +3544,7 @@
     {
       "name": "MossyMantleStairsRecipe2",
       "type": "recipe",
-      "sortid": 371,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3553,7 +3553,7 @@
     {
       "name": "MossyMantleSlabRecipe",
       "type": "recipe",
-      "sortid": 372,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3562,7 +3562,7 @@
     {
       "name": "MossyMantleWallRecipe",
       "type": "recipe",
-      "sortid": 373,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3571,7 +3571,7 @@
     {
       "name": "MossyMantleRecipe",
       "type": "recipe",
-      "sortid": 374,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3580,7 +3580,7 @@
     {
       "name": "MossyMantleBrickSlabRecipe",
       "type": "recipe",
-      "sortid": 375,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3589,7 +3589,7 @@
     {
       "name": "MossyMantleBrickStairsRecipe",
       "type": "recipe",
-      "sortid": 376,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3598,7 +3598,7 @@
     {
       "name": "MossyMantleBrickStairsRecipe2",
       "type": "recipe",
-      "sortid": 377,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3607,7 +3607,7 @@
     {
       "name": "MossyMantleBrickWallRecipe",
       "type": "recipe",
-      "sortid": 378,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3616,7 +3616,7 @@
     {
       "name": "MossyMantleBrickStairsStonecutterRecipe",
       "type": "recipe",
-      "sortid": 379,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3625,7 +3625,7 @@
     {
       "name": "MossyMantleBrickSlabStonecutterRecipe",
       "type": "recipe",
-      "sortid": 380,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3634,7 +3634,7 @@
     {
       "name": "MossyMantleBrickWallStonecutterRecipe",
       "type": "recipe",
-      "sortid": 381,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3643,7 +3643,7 @@
     {
       "name": "MossyMantleBricksStonecutterRecipe",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3652,7 +3652,7 @@
     {
       "name": "MossyMantleBrickStairsStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3661,7 +3661,7 @@
     {
       "name": "MossyMantleBrickSlabStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3670,7 +3670,7 @@
     {
       "name": "MossyMantleBrickWallStonecutterRecipe2",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3679,7 +3679,7 @@
     {
       "name": "MossyMantleStairsStonecutterRecipe",
       "type": "recipe",
-      "sortid": 386,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3688,7 +3688,7 @@
     {
       "name": "MossyMantleSlabStonecutterRecipe",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3697,7 +3697,7 @@
     {
       "name": "MossyMantleWallStonecutterRecipe",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3706,7 +3706,7 @@
     {
       "name": "EndesuliteHelmetRecipe",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3715,7 +3715,7 @@
     {
       "name": "EndesuliteChestplateRecipe",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3724,7 +3724,7 @@
     {
       "name": "EndesuliteLeggingsRecipe",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3733,7 +3733,7 @@
     {
       "name": "EndesuliteBootsRecipe",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3742,7 +3742,7 @@
     {
       "name": "CrackedMantleBricksRecipe",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3751,7 +3751,7 @@
     {
       "name": "MossyMantleBricksRecipe",
       "type": "recipe",
-      "sortid": 394,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3760,7 +3760,7 @@
     {
       "name": "Glomper",
       "type": "mob",
-      "sortid": 149,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3769,7 +3769,7 @@
     {
       "name": "GlomperTeethBlock",
       "type": "block",
-      "sortid": 395,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3778,7 +3778,7 @@
     {
       "name": "GlompeRevealProcedure",
       "type": "procedure",
-      "sortid": 396,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3811,7 +3811,7 @@
     {
       "name": "GlomperRevealProcedure2",
       "type": "procedure",
-      "sortid": 397,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3849,7 +3849,7 @@
     {
       "name": "ThePurpleForest",
       "type": "achievement",
-      "sortid": 398,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3858,7 +3858,7 @@
     {
       "name": "Glitchiness",
       "type": "achievement",
-      "sortid": 399,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3867,7 +3867,7 @@
     {
       "name": "UnleashingTheCorruption",
       "type": "achievement",
-      "sortid": 400,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3876,7 +3876,7 @@
     {
       "name": "LandOfTheSpirits",
       "type": "achievement",
-      "sortid": 401,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3885,7 +3885,7 @@
     {
       "name": "TheHunterBecomesTheHunted",
       "type": "achievement",
-      "sortid": 402,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3894,7 +3894,7 @@
     {
       "name": "ABitSalty",
       "type": "achievement",
-      "sortid": 403,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3903,7 +3903,7 @@
     {
       "name": "Infected",
       "type": "achievement",
-      "sortid": 404,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3912,7 +3912,7 @@
     {
       "name": "AmendoimTree10",
       "type": "structure",
-      "sortid": 405,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3921,7 +3921,7 @@
     {
       "name": "AmendoimTree11",
       "type": "structure",
-      "sortid": 406,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3930,7 +3930,7 @@
     {
       "name": "AmendoimTree12",
       "type": "structure",
-      "sortid": 407,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3939,7 +3939,7 @@
     {
       "name": "SurpriseChomp",
       "type": "achievement",
-      "sortid": 408,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3948,7 +3948,7 @@
     {
       "name": "StraightFromTheSource",
       "type": "achievement",
-      "sortid": 409,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3957,7 +3957,7 @@
     {
       "name": "WastelandOfABiome",
       "type": "achievement",
-      "sortid": 410,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3966,7 +3966,7 @@
     {
       "name": "AmendoimSapling",
       "type": "plant",
-      "sortid": 94,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3975,7 +3975,7 @@
     {
       "name": "AmendoimSaplingBonemealProcedure2",
       "type": "procedure",
-      "sortid": 411,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4008,7 +4008,7 @@
     {
       "name": "AmendoimTreeProcedure2",
       "type": "procedure",
-      "sortid": 412,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4037,7 +4037,7 @@
     {
       "name": "EndesuliteHoeRecipe2",
       "type": "recipe",
-      "sortid": 413,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4046,7 +4046,7 @@
     {
       "name": "AmendoimLogs",
       "type": "tag",
-      "sortid": 414,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4055,7 +4055,7 @@
     {
       "name": "GlitchedDimensionMusisDiscDrops",
       "type": "tag",
-      "sortid": 415,
+      "sortid": 417,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -4064,7 +4064,7 @@
     {
       "name": "AmendoimTreeReplacement9",
       "type": "structure",
-      "sortid": 416,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4073,7 +4073,7 @@
     {
       "name": "AmendoimTreeReplacement8",
       "type": "structure",
-      "sortid": 417,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4082,7 +4082,7 @@
     {
       "name": "AmendoimTree13",
       "type": "structure",
-      "sortid": 418,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4091,7 +4091,7 @@
     {
       "name": "AmendoimTree14",
       "type": "structure",
-      "sortid": 419,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4100,7 +4100,7 @@
     {
       "name": "AmendoimTree15",
       "type": "structure",
-      "sortid": 420,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4109,7 +4109,7 @@
     {
       "name": "AmendoimTreeReplacement11",
       "type": "structure",
-      "sortid": 421,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4118,7 +4118,7 @@
     {
       "name": "AmendoimTreeReplacement12",
       "type": "structure",
-      "sortid": 422,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4127,7 +4127,7 @@
     {
       "name": "AmendoimTreeReplacement3",
       "type": "structure",
-      "sortid": 423,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4136,7 +4136,7 @@
     {
       "name": "AmendoimTreeReplacement2",
       "type": "structure",
-      "sortid": 424,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4145,7 +4145,7 @@
     {
       "name": "AmendoimTreeReplacement1",
       "type": "structure",
-      "sortid": 425,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4154,7 +4154,7 @@
     {
       "name": "AmendoimTreeReplacement7",
       "type": "structure",
-      "sortid": 426,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4163,7 +4163,7 @@
     {
       "name": "AmendoimTreeReplacement6",
       "type": "structure",
-      "sortid": 427,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4172,7 +4172,7 @@
     {
       "name": "AmendoimTreeReplacement5",
       "type": "structure",
-      "sortid": 428,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4181,7 +4181,7 @@
     {
       "name": "AmendoimTreeReplacement4",
       "type": "structure",
-      "sortid": 429,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4190,7 +4190,7 @@
     {
       "name": "AmendoimTreeReplacement10",
       "type": "structure",
-      "sortid": 430,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4199,7 +4199,7 @@
     {
       "name": "EnchantedGlitchedAppleFoodEaten",
       "type": "procedure",
-      "sortid": 431,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4225,7 +4225,7 @@
     {
       "name": "RuinedGlitchedPortalOverworld",
       "type": "structure",
-      "sortid": 432,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4234,7 +4234,7 @@
     {
       "name": "RuinedGlitchedPortalNether",
       "type": "structure",
-      "sortid": 433,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4243,7 +4243,7 @@
     {
       "name": "RuinedGlitchedPortalGlitched",
       "type": "structure",
-      "sortid": 434,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4252,7 +4252,7 @@
     {
       "name": "RuinedGlitchedPortalEnd",
       "type": "structure",
-      "sortid": 435,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4261,7 +4261,7 @@
     {
       "name": "ToothBonemealRecipe",
       "type": "recipe",
-      "sortid": 436,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4270,7 +4270,7 @@
     {
       "name": "FlowerPotAmendoimFungi",
       "type": "block",
-      "sortid": 437,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4279,7 +4279,7 @@
     {
       "name": "FlowerPotAmendoimFungiOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 438,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4312,7 +4312,7 @@
     {
       "name": "FlowerPotAmendoimFungiRightClickPropcedure",
       "type": "procedure",
-      "sortid": 439,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4324,7 +4324,7 @@
     {
       "name": "FlowerPotAmendoimFungiBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 440,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4357,7 +4357,7 @@
     {
       "name": "FlowerPotAmendoimSapling",
       "type": "block",
-      "sortid": 441,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4366,7 +4366,7 @@
     {
       "name": "FlowerPotAmendoimSaplingOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 442,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4399,7 +4399,7 @@
     {
       "name": "FlowerPotAmendoimSaplingRightClickProcedure",
       "type": "procedure",
-      "sortid": 443,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4432,7 +4432,7 @@
     {
       "name": "FlowerPotAmendoimSaplingBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 444,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4465,7 +4465,7 @@
     {
       "name": "FlowerPotAmendoimMushroom",
       "type": "block",
-      "sortid": 445,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4474,7 +4474,7 @@
     {
       "name": "FlowerPotAmendoimMushroomOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 446,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4507,7 +4507,7 @@
     {
       "name": "FlowerPotAmendoimMushroomRightClickProcedure",
       "type": "procedure",
-      "sortid": 447,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4540,7 +4540,7 @@
     {
       "name": "FlowerPotAmendoimMushroomBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 448,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4573,7 +4573,7 @@
     {
       "name": "FlowerPotAmendoimRoots",
       "type": "block",
-      "sortid": 449,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4582,7 +4582,7 @@
     {
       "name": "FlowerPotAmendoimRootsOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 450,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4615,7 +4615,7 @@
     {
       "name": "FlowerPotAmendoimRootsRightClickProcedure",
       "type": "procedure",
-      "sortid": 451,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4648,7 +4648,7 @@
     {
       "name": "FlowerPotAmendoimRootsDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 452,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4681,7 +4681,7 @@
     {
       "name": "FlowerPotAmendoimSaplingBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 453,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4710,7 +4710,7 @@
     {
       "name": "FlowerPotAmendoimFungiBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 454,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4739,7 +4739,7 @@
     {
       "name": "FlowerPotAmendoimMushroomBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 455,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4768,7 +4768,7 @@
     {
       "name": "FlowerPotAmendoimRootsBlockDestroyedByExplosion",
       "type": "procedure",
-      "sortid": 456,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4815,7 +4815,7 @@
     {
       "name": "MederiumOre",
       "type": "block",
-      "sortid": 84,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4824,7 +4824,7 @@
     {
       "name": "MederiumBlock",
       "type": "block",
-      "sortid": 85,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4833,7 +4833,7 @@
     {
       "name": "MederiumBars",
       "type": "block",
-      "sortid": 107,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4842,7 +4842,7 @@
     {
       "name": "MederiumBlockRecipe",
       "type": "recipe",
-      "sortid": 457,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4851,7 +4851,7 @@
     {
       "name": "MederiumIngotRecipe",
       "type": "recipe",
-      "sortid": 458,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4860,7 +4860,7 @@
     {
       "name": "MederiumIngotRecipe2",
       "type": "recipe",
-      "sortid": 459,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4869,7 +4869,7 @@
     {
       "name": "MederiumIngotRecipe3",
       "type": "recipe",
-      "sortid": 460,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4878,7 +4878,7 @@
     {
       "name": "MederiumNuggetRecipe",
       "type": "recipe",
-      "sortid": 461,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4887,7 +4887,7 @@
     {
       "name": "MederiumBarsRecipe",
       "type": "recipe",
-      "sortid": 462,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4896,7 +4896,7 @@
     {
       "name": "Iron",
       "type": "tag",
-      "sortid": 463,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4905,7 +4905,7 @@
     {
       "name": "MinecartRecipe",
       "type": "recipe",
-      "sortid": 464,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4914,7 +4914,7 @@
     {
       "name": "PistonRecipe",
       "type": "recipe",
-      "sortid": 465,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4923,7 +4923,7 @@
     {
       "name": "ActivatorRailRecipe",
       "type": "recipe",
-      "sortid": 466,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4932,7 +4932,7 @@
     {
       "name": "Ironblock",
       "type": "tag",
-      "sortid": 467,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4941,7 +4941,7 @@
     {
       "name": "AnvilRecipe",
       "type": "recipe",
-      "sortid": 468,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4950,7 +4950,7 @@
     {
       "name": "SmoothStone",
       "type": "tag",
-      "sortid": 469,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4959,7 +4959,7 @@
     {
       "name": "BlastFurnaceRecipe",
       "type": "recipe",
-      "sortid": 470,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4968,7 +4968,7 @@
     {
       "name": "BucketRecipe",
       "type": "recipe",
-      "sortid": 471,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4977,7 +4977,7 @@
     {
       "name": "CauldronRecipe",
       "type": "recipe",
-      "sortid": 472,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4986,7 +4986,7 @@
     {
       "name": "CompassRecipe",
       "type": "recipe",
-      "sortid": 473,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4995,7 +4995,7 @@
     {
       "name": "CrossbowRecipe",
       "type": "recipe",
-      "sortid": 474,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5004,7 +5004,7 @@
     {
       "name": "DetectorRailRecipe",
       "type": "recipe",
-      "sortid": 475,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5013,7 +5013,7 @@
     {
       "name": "HopperRecipe",
       "type": "recipe",
-      "sortid": 476,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5022,7 +5022,7 @@
     {
       "name": "ShearsRecipe",
       "type": "recipe",
-      "sortid": 477,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5031,7 +5031,7 @@
     {
       "name": "ShieldRecipe",
       "type": "recipe",
-      "sortid": 478,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5040,7 +5040,7 @@
     {
       "name": "StonecutterRecipe",
       "type": "recipe",
-      "sortid": 479,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5049,7 +5049,7 @@
     {
       "name": "StonecutterRecipe2",
       "type": "recipe",
-      "sortid": 480,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5058,7 +5058,7 @@
     {
       "name": "SmithingTableRecipe",
       "type": "recipe",
-      "sortid": 481,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5067,7 +5067,7 @@
     {
       "name": "TripwireHookRecipe",
       "type": "recipe",
-      "sortid": 482,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5076,7 +5076,7 @@
     {
       "name": "MederiumDoor",
       "type": "block",
-      "sortid": 139,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5085,7 +5085,7 @@
     {
       "name": "MederiumTrapdoor",
       "type": "block",
-      "sortid": 140,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5094,7 +5094,7 @@
     {
       "name": "MederiumDoorRecipe",
       "type": "recipe",
-      "sortid": 483,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5103,7 +5103,7 @@
     {
       "name": "MederiumTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 484,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5112,7 +5112,7 @@
     {
       "name": "MederiumAxe",
       "type": "tool",
-      "sortid": 115,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5121,7 +5121,7 @@
     {
       "name": "MederiumHoe",
       "type": "tool",
-      "sortid": 117,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5130,7 +5130,7 @@
     {
       "name": "MederiumPickaxe",
       "type": "tool",
-      "sortid": 114,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5139,7 +5139,7 @@
     {
       "name": "MederiumShovel",
       "type": "tool",
-      "sortid": 116,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5148,7 +5148,7 @@
     {
       "name": "MederiumSword",
       "type": "tool",
-      "sortid": 113,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5157,7 +5157,7 @@
     {
       "name": "MederiumSwordRecipe",
       "type": "recipe",
-      "sortid": 485,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5166,7 +5166,7 @@
     {
       "name": "MederiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 486,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5175,7 +5175,7 @@
     {
       "name": "MederiumShovelRecipe",
       "type": "recipe",
-      "sortid": 487,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5184,7 +5184,7 @@
     {
       "name": "MederiumAxeRecipe",
       "type": "recipe",
-      "sortid": 488,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5193,7 +5193,7 @@
     {
       "name": "MederiumAxeRecipe2",
       "type": "recipe",
-      "sortid": 489,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5202,7 +5202,7 @@
     {
       "name": "MederiumHoeRecipe",
       "type": "recipe",
-      "sortid": 490,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5211,7 +5211,7 @@
     {
       "name": "MederiumHoeRecipe2",
       "type": "recipe",
-      "sortid": 491,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5220,7 +5220,7 @@
     {
       "name": "MederiumHelmetRecipe",
       "type": "recipe",
-      "sortid": 492,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5229,7 +5229,7 @@
     {
       "name": "MederiumChestplateRecipe",
       "type": "recipe",
-      "sortid": 493,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5238,7 +5238,7 @@
     {
       "name": "MederiumLeggingsRecipe",
       "type": "recipe",
-      "sortid": 494,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5247,7 +5247,7 @@
     {
       "name": "MederiumBootsRecipe",
       "type": "recipe",
-      "sortid": 495,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5256,7 +5256,7 @@
     {
       "name": "MederiumIngotRecipe4",
       "type": "recipe",
-      "sortid": 496,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5265,7 +5265,7 @@
     {
       "name": "GlitchedAppleProcedure",
       "type": "procedure",
-      "sortid": 497,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5282,7 +5282,7 @@
     {
       "name": "IronIngotMederiumRecipe",
       "type": "recipe",
-      "sortid": 498,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5291,7 +5291,7 @@
     {
       "name": "BoneSpear",
       "type": "gun",
-      "sortid": 110,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5300,7 +5300,7 @@
     {
       "name": "AmendoimMushroomProcedure",
       "type": "procedure",
-      "sortid": 499,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5348,7 +5348,7 @@
     {
       "name": "ReinforcedBoneSpearRecipe",
       "type": "recipe",
-      "sortid": 500,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5357,7 +5357,7 @@
     {
       "name": "GlomperToothNecklessRecipe",
       "type": "recipe",
-      "sortid": 501,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5366,7 +5366,7 @@
     {
       "name": "ReinforcedBoneSpear",
       "type": "gun",
-      "sortid": 111,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5375,7 +5375,7 @@
     {
       "name": "GlomperToothArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 502,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5392,7 +5392,7 @@
     {
       "name": "BoneSpearRecipe",
       "type": "recipe",
-      "sortid": 503,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5401,7 +5401,7 @@
     {
       "name": "BoneSpearRangedItemUsed",
       "type": "procedure",
-      "sortid": 504,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5418,7 +5418,7 @@
     {
       "name": "AmendoimMushroomPlant",
       "type": "plant",
-      "sortid": 505,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5427,7 +5427,7 @@
     {
       "name": "Mederium",
       "type": "armor",
-      "sortid": 112,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5442,7 +5442,7 @@
     {
       "name": "GhostwoodLog",
       "type": "block",
-      "sortid": 86,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5451,7 +5451,7 @@
     {
       "name": "StrippedGhostwoodLog",
       "type": "block",
-      "sortid": 87,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5460,7 +5460,7 @@
     {
       "name": "GhostwoodLogFuel",
       "type": "fuel",
-      "sortid": 506,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5469,7 +5469,7 @@
     {
       "name": "StrippedGhostwoodLogFuel",
       "type": "fuel",
-      "sortid": 507,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5478,7 +5478,7 @@
     {
       "name": "GhostwoodWood",
       "type": "block",
-      "sortid": 88,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5487,7 +5487,7 @@
     {
       "name": "StrippedGhostwoodWood",
       "type": "block",
-      "sortid": 89,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5496,7 +5496,7 @@
     {
       "name": "GhostwoodWoodRecipe",
       "type": "recipe",
-      "sortid": 508,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5505,7 +5505,7 @@
     {
       "name": "GhostwoodWoodFuel",
       "type": "fuel",
-      "sortid": 509,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5514,7 +5514,7 @@
     {
       "name": "StrippedGhostwoodWoodFuel",
       "type": "fuel",
-      "sortid": 510,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5523,7 +5523,7 @@
     {
       "name": "GhostwoodPlanks",
       "type": "block",
-      "sortid": 90,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5532,7 +5532,7 @@
     {
       "name": "GhostwoodPlanksFuel",
       "type": "fuel",
-      "sortid": 511,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5541,7 +5541,7 @@
     {
       "name": "GhostwoodPlanksRecipe",
       "type": "recipe",
-      "sortid": 512,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5550,7 +5550,7 @@
     {
       "name": "GhostwoodStairs",
       "type": "block",
-      "sortid": 91,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5559,7 +5559,7 @@
     {
       "name": "GhostwoodStairsRecipe",
       "type": "recipe",
-      "sortid": 513,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5568,7 +5568,7 @@
     {
       "name": "GhostwoodStairsFuel",
       "type": "fuel",
-      "sortid": 514,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5577,7 +5577,7 @@
     {
       "name": "GhostwoodStairsRecipe2",
       "type": "recipe",
-      "sortid": 515,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5586,7 +5586,7 @@
     {
       "name": "GhostwoodSlabRecipe",
       "type": "recipe",
-      "sortid": 516,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5595,7 +5595,7 @@
     {
       "name": "GhostwoodSlab",
       "type": "block",
-      "sortid": 92,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5604,7 +5604,7 @@
     {
       "name": "GhostwoodSlabFuel",
       "type": "fuel",
-      "sortid": 517,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5613,7 +5613,7 @@
     {
       "name": "StrippedGhostwoodWoodRecipe",
       "type": "recipe",
-      "sortid": 518,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5622,7 +5622,7 @@
     {
       "name": "GhostwoodLogs",
       "type": "tag",
-      "sortid": 519,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5631,7 +5631,7 @@
     {
       "name": "StrippedAmendoimWoodRecipe",
       "type": "recipe",
-      "sortid": 520,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5640,7 +5640,7 @@
     {
       "name": "GhostwoodFence",
       "type": "block",
-      "sortid": 108,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5649,7 +5649,7 @@
     {
       "name": "GhostwoodFenceGate",
       "type": "block",
-      "sortid": 109,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5658,7 +5658,7 @@
     {
       "name": "GhostwoodFenceRecipe",
       "type": "recipe",
-      "sortid": 521,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5667,7 +5667,7 @@
     {
       "name": "GhostwoodFenceGateRecipe",
       "type": "recipe",
-      "sortid": 522,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5676,7 +5676,7 @@
     {
       "name": "GhostwoodFenceFuel",
       "type": "fuel",
-      "sortid": 523,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5685,7 +5685,7 @@
     {
       "name": "GhostwoodFenceGateFuel",
       "type": "fuel",
-      "sortid": 524,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5694,7 +5694,7 @@
     {
       "name": "GhostwoodDoor",
       "type": "block",
-      "sortid": 141,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5703,7 +5703,7 @@
     {
       "name": "GhostwoodTrapdoor",
       "type": "block",
-      "sortid": 142,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5712,7 +5712,7 @@
     {
       "name": "GhostwoodDoorRecipe",
       "type": "recipe",
-      "sortid": 525,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5721,7 +5721,7 @@
     {
       "name": "GhostwoodTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 526,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5730,7 +5730,7 @@
     {
       "name": "GhostwoodDoorFuel",
       "type": "fuel",
-      "sortid": 527,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5739,7 +5739,7 @@
     {
       "name": "GhostwoodTrapdoorFuel",
       "type": "fuel",
-      "sortid": 528,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5748,7 +5748,7 @@
     {
       "name": "StrippedGhostwoodProcedure",
       "type": "procedure",
-      "sortid": 529,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5781,7 +5781,7 @@
     {
       "name": "UnleashTheCorruptionProcedure",
       "type": "procedure",
-      "sortid": 530,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5810,6 +5810,70 @@
           }
         ]
       }
+    },
+    {
+      "name": "ChargedSoulLinker",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_soul_linker"
+    },
+    {
+      "name": "ChargedSoulLinkerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_soul_linker_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnchargedSoulLinker",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncharged_soul_linker"
+    },
+    {
+      "name": "RedGlowCrystalBlock",
+      "type": "block",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_glow_crystal_block"
     }
   ],
   "variable_elements": [],
@@ -6042,6 +6106,7 @@
       "block.infinity_and_ores.mantle_amendoim_nylium": "Nylium d\u0027amendoim de manteau",
       "item.infinity_and_ores.music_disc_arcade.desc": "Thediamondcrystal - Arcade (Fixed Version)",
       "itemGroup.tabinfinity_and_ores_building_blocks_tab": "Infinity \u0026 Ores: Blocs de constructions",
+      "item.infinity_and_ores.uncharged_soul_linker": "Lien ameux déchargé",
       "item.infinity_and_ores.glitched_residue": "§bRésidue buggé",
       "block.infinity_and_ores.polished_mantle_slab": "Dalle de manteau poli",
       "block.infinity_and_ores.mantle_glitched_ore": "Minerai buggé de manteau",
@@ -6104,6 +6169,7 @@
       "item.infinity_and_ores.endesulite_boots": "Bottes en endesulite",
       "advancements.end_power.title": "Pouvoir de l\u0027End",
       "block.infinity_and_ores.polished_mantle_wall": "Muret de manteau poli",
+      "item.infinity_and_ores.charged_soul_linker": "Lien ameux chargé",
       "item.infinity_and_ores.test_ingot": "Lingot de test",
       "advancements.spitted_apart.descr": "Trouver, miner ou fabriquer un fragment d\u0027endesulite",
       "advancements.sharp_programming_bud.descr": "Minez un cristal buggé",
@@ -6116,6 +6182,7 @@
       "item.infinity_and_ores.reinforced_bone_spear": "Lance d\u0027os renforcé",
       "block.infinity_and_ores.polished_mantle": "Manteau poli",
       "advancements.land_of_the_spirits.title": "Territoire des esprits",
+      "block.infinity_and_ores.red_glow_crystal_block": "Bloc de cristal brillant rouge",
       "block.infinity_and_ores.mossy_mantle_slab": "Dalle de manteau moussue",
       "advancements.unknown_sword.title": "[objet.épée] Inconnu",
       "advancements.let_a_new_era_begin.descr": "Apparaître dans le monde puis commencer à découvrir ce que Infinity \u0026 Ores a à vous offrir!",
@@ -6159,12 +6226,12 @@
       "advancements.spitted_apart.title": "Spitted Apart",
       "advancements.thats_one_for_the_tool_box.descr": "Craft an Opristonium tool",
       "item.infinity_and_ores.music_disc_broken_connection.tooltip1": "§cWARNING: §7If you play this song in a YouTube video,§7you might get §edemonetized§7.",
-      "block.infinity_and_ores.ghostwood_wood": "Ghostwood Wood",
       "block.infinity_and_ores.mantle_wall": "Mantle Wall",
+      "block.infinity_and_ores.ghostwood_wood": "Ghostwood Wood",
       "advancements.huh_it_fits.descr": "Craft a piece of Opristonium Armor",
-      "block.infinity_and_ores.amendoim_hyphae": "Amendoim Hyphae",
-      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
       "item.minecraft.potion.effect.potion_of_decay": "Potion of Decay",
+      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
+      "block.infinity_and_ores.amendoim_hyphae": "Amendoim Hyphae",
       "effect.fiddly_potion": "No Effect",
       "block.infinity_and_ores.mederium_ore": "Mederium Ore",
       "item.infinity_and_ores.glomper_tooth": "Glomper Tooth",
@@ -6198,9 +6265,9 @@
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
-      "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
-      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
       "item.infinity_and_ores.urcus": "Urcus Spawn Egg",
+      "block.infinity_and_ores.amendoim_sprouts": "Amendoim Sprouts",
+      "advancements.what_could_go_wrong.descr": "Craft a Glitched Station",
       "item.infinity_and_ores.music_disc_hypertension.desc": "Thediamondcrystal - Hypertension",
       "advancements.straight_from_the_source.title": "Straight from the source!",
       "block.infinity_and_ores.amendoim_door": "Amendoim Door",
@@ -6324,6 +6391,7 @@
       "block.infinity_and_ores.mantle_amendoim_nylium": "Mantle Amendoim Nylium",
       "item.infinity_and_ores.music_disc_arcade.desc": "Thediamondcrystal - Arcade (Fixed Version)",
       "itemGroup.tabinfinity_and_ores_building_blocks_tab": "Infinity \u0026 Ores: Building Blocks",
+      "item.infinity_and_ores.uncharged_soul_linker": "Uncharged Soul Linker",
       "item.infinity_and_ores.glitched_residue": "§bGlitched Residue",
       "block.infinity_and_ores.polished_mantle_slab": "Polished Mantle Slab",
       "block.infinity_and_ores.mantle_glitched_ore": "Mantle Glitched Ore",
@@ -6386,6 +6454,7 @@
       "item.infinity_and_ores.endesulite_boots": "Endesulite Boots",
       "advancements.end_power.title": "End Power",
       "block.infinity_and_ores.polished_mantle_wall": "Polished Mantle Wall",
+      "item.infinity_and_ores.charged_soul_linker": "Charged Soul Linker",
       "item.infinity_and_ores.test_ingot": "Test Ingot",
       "advancements.spitted_apart.descr": "Find, mine or craft some Endesulite Shards",
       "advancements.sharp_programming_bud.descr": "Mine a Glitched Crystal",
@@ -6398,6 +6467,7 @@
       "item.infinity_and_ores.reinforced_bone_spear": "Reinforced Bone Spear",
       "block.infinity_and_ores.polished_mantle": "Polished Mantle",
       "advancements.land_of_the_spirits.title": "Land of the Spirits",
+      "block.infinity_and_ores.red_glow_crystal_block": "Red Glow Crystal Block",
       "block.infinity_and_ores.mossy_mantle_slab": "Mossy Mantle Slab",
       "advancements.unknown_sword.title": "Unknown [item.sword]",
       "advancements.let_a_new_era_begin.descr": "Join the world and start discovering what Infinity \u0026 Ores has to offer!",

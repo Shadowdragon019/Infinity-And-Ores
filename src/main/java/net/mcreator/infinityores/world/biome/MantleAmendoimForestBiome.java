@@ -47,7 +47,7 @@ public class MantleAmendoimForestBiome extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:mantle_amendoim_forest")
 	public static final CustomBiome biome = null;
 	public MantleAmendoimForestBiome(InfinityAndOresModElements instance) {
-		super(instance, 282);
+		super(instance, 284);
 	}
 
 	@Override

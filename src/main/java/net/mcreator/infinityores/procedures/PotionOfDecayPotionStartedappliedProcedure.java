@@ -12,7 +12,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class PotionOfDecayPotionStartedappliedProcedure extends InfinityAndOresModElements.ModElement {
 	public PotionOfDecayPotionStartedappliedProcedure(InfinityAndOresModElements instance) {
-		super(instance, 341);
+		super(instance, 343);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

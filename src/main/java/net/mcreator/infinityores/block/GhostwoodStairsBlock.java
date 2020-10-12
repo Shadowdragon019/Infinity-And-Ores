@@ -28,7 +28,7 @@ public class GhostwoodStairsBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:ghostwood_stairs")
 	public static final Block block = null;
 	public GhostwoodStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 91);
+		super(instance, 93);
 	}
 
 	@Override

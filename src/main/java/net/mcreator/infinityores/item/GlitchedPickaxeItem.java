@@ -17,7 +17,7 @@ public class GlitchedPickaxeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_pickaxe")
 	public static final Item block = null;
 	public GlitchedPickaxeItem(InfinityAndOresModElements instance) {
-		super(instance, 132);
+		super(instance, 134);
 	}
 
 	@Override

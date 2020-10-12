@@ -26,7 +26,7 @@ public class AmendoimStewItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_stew")
 	public static final Item block = null;
 	public AmendoimStewItem(InfinityAndOresModElements instance) {
-		super(instance, 32);
+		super(instance, 34);
 	}
 
 	@Override

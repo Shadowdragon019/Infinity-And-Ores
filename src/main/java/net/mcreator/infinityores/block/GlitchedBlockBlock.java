@@ -26,7 +26,7 @@ public class GlitchedBlockBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_block")
 	public static final Block block = null;
 	public GlitchedBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 49);
+		super(instance, 51);
 	}
 
 	@Override

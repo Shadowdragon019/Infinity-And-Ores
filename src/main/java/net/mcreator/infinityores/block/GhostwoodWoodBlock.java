@@ -40,7 +40,7 @@ public class GhostwoodWoodBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:ghostwood_wood")
 	public static final Block block = null;
 	public GhostwoodWoodBlock(InfinityAndOresModElements instance) {
-		super(instance, 88);
+		super(instance, 90);
 	}
 
 	@Override

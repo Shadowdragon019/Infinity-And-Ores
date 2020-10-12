@@ -22,7 +22,7 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class LunarPowerProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public LunarPowerProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 240);
+		super(instance, 242);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

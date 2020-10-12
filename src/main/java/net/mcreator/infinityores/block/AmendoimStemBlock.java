@@ -32,7 +32,7 @@ public class AmendoimStemBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_stem")
 	public static final Block block = null;
 	public AmendoimStemBlock(InfinityAndOresModElements instance) {
-		super(instance, 75);
+		super(instance, 77);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class GhostwoodLogBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:ghostwood_log")
 	public static final Block block = null;
 	public GhostwoodLogBlock(InfinityAndOresModElements instance) {
-		super(instance, 86);
+		super(instance, 88);
 	}
 
 	@Override

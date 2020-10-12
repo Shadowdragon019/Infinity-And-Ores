@@ -10,7 +10,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class UrcusCollideProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public UrcusCollideProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 344);
+		super(instance, 346);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

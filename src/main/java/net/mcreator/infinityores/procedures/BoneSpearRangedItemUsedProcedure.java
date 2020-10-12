@@ -13,7 +13,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class BoneSpearRangedItemUsedProcedure extends InfinityAndOresModElements.ModElement {
 	public BoneSpearRangedItemUsedProcedure(InfinityAndOresModElements instance) {
-		super(instance, 504);
+		super(instance, 506);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

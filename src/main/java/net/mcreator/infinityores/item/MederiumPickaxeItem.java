@@ -17,7 +17,7 @@ public class MederiumPickaxeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_pickaxe")
 	public static final Item block = null;
 	public MederiumPickaxeItem(InfinityAndOresModElements instance) {
-		super(instance, 114);
+		super(instance, 116);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class GhostwoodSlabBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:ghostwood_slab")
 	public static final Block block = null;
 	public GhostwoodSlabBlock(InfinityAndOresModElements instance) {
-		super(instance, 92);
+		super(instance, 94);
 	}
 
 	@Override

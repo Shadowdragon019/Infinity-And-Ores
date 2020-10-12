@@ -35,7 +35,7 @@ public class AmendoimDoorBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_door")
 	public static final Block block = null;
 	public AmendoimDoorBlock(InfinityAndOresModElements instance) {
-		super(instance, 137);
+		super(instance, 139);
 	}
 
 	@Override

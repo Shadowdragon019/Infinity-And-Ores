@@ -12,7 +12,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlomperToothArmorBodyTickEventProcedure extends InfinityAndOresModElements.ModElement {
 	public GlomperToothArmorBodyTickEventProcedure(InfinityAndOresModElements instance) {
-		super(instance, 502);
+		super(instance, 504);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

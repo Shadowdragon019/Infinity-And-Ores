@@ -58,7 +58,7 @@ public class GlomperTeethBlockBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:glomper_teeth_block")
 	public static final Block block = null;
 	public GlomperTeethBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 395);
+		super(instance, 397);
 	}
 
 	@Override

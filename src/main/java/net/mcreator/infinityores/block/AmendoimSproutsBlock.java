@@ -51,7 +51,7 @@ public class AmendoimSproutsBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:amendoim_sprouts")
 	public static final Block block = null;
 	public AmendoimSproutsBlock(InfinityAndOresModElements instance) {
-		super(instance, 96);
+		super(instance, 98);
 	}
 
 	@Override

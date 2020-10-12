@@ -24,7 +24,7 @@ public class MantleBricksBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mantle_bricks")
 	public static final Block block = null;
 	public MantleBricksBlock(InfinityAndOresModElements instance) {
-		super(instance, 58);
+		super(instance, 60);
 	}
 
 	@Override

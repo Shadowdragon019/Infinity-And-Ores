@@ -17,7 +17,7 @@ public class GlitchedHoeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_hoe")
 	public static final Item block = null;
 	public GlitchedHoeItem(InfinityAndOresModElements instance) {
-		super(instance, 135);
+		super(instance, 137);
 	}
 
 	@Override

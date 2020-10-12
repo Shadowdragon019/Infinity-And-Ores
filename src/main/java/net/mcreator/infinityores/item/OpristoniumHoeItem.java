@@ -17,7 +17,7 @@ public class OpristoniumHoeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:opristonium_hoe")
 	public static final Item block = null;
 	public OpristoniumHoeItem(InfinityAndOresModElements instance) {
-		super(instance, 123);
+		super(instance, 125);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class UnleashTheCorruptionProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public UnleashTheCorruptionProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 530);
+		super(instance, 532);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -36,7 +36,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class StrippedGhostwoodProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public StrippedGhostwoodProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 529);
+		super(instance, 531);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -13,7 +13,7 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlomperTeethAdditionalGenerationProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlomperTeethAdditionalGenerationProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 364);
+		super(instance, 366);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

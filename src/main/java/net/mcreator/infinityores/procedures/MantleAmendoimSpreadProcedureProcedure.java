@@ -27,7 +27,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class MantleAmendoimSpreadProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public MantleAmendoimSpreadProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 274);
+		super(instance, 276);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

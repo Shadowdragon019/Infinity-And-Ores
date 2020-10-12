@@ -28,7 +28,7 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimRootsRightClickProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimRootsRightClickProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 451);
+		super(instance, 453);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

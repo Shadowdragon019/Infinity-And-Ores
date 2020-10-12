@@ -47,7 +47,7 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public GlitchedStationGUIGui(InfinityAndOresModElements instance) {
-		super(instance, 165);
+		super(instance, 167);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

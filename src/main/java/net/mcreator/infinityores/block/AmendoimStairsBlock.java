@@ -28,7 +28,7 @@ public class AmendoimStairsBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_stairs")
 	public static final Block block = null;
 	public AmendoimStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 80);
+		super(instance, 82);
 	}
 
 	@Override

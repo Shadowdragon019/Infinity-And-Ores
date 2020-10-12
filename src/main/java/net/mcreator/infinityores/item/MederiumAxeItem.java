@@ -17,7 +17,7 @@ public class MederiumAxeItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:mederium_axe")
 	public static final Item block = null;
 	public MederiumAxeItem(InfinityAndOresModElements instance) {
-		super(instance, 115);
+		super(instance, 117);
 	}
 
 	@Override

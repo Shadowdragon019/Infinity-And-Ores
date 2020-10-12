@@ -22,7 +22,7 @@ public class GlitchedAppleItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:glitched_apple")
 	public static final Item block = null;
 	public GlitchedAppleItem(InfinityAndOresModElements instance) {
-		super(instance, 37);
+		super(instance, 39);
 	}
 
 	@Override
