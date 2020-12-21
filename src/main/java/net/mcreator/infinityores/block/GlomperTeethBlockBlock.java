@@ -24,6 +24,7 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Direction;
@@ -58,7 +59,7 @@ public class GlomperTeethBlockBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:glomper_teeth_block")
 	public static final Block block = null;
 	public GlomperTeethBlockBlock(InfinityAndOresModElements instance) {
-		super(instance, 397);
+		super(instance, 395);
 	}
 
 	@Override
@@ -96,7 +97,8 @@ public class GlomperTeethBlockBlock extends InfinityAndOresModElements.ModElemen
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
-			return VoxelShapes.create(0D, 0D, 0D, 0.8D, 0.4D, 0.8D);
+			Vec3d offset = state.getOffset(world, pos);
+			return VoxelShapes.create(0D, 0D, 0D, 0.8D, 0.4D, 0.8D).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

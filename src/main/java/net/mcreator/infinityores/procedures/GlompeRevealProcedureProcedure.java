@@ -28,28 +28,33 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlompeRevealProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlompeRevealProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 398);
+		super(instance, 396);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure GlompeRevealProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure GlompeRevealProcedure!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure GlompeRevealProcedure!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure GlompeRevealProcedure!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure GlompeRevealProcedure!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure GlompeRevealProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

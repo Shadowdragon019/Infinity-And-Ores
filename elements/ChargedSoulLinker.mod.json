@@ -1,11 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "soul_linker_charged",
     "customModelName": "Normal",
     "name": "Charged Soul Linker",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },
@@ -14,6 +15,9 @@
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 4,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
@@ -28,6 +32,9 @@
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "ChargedSoulLinkerRightClickedInAir"
+    },
+    "onItemInUseTick": {
+      "name": "SoulLinkerConsumedProcedure"
     }
   }
 }

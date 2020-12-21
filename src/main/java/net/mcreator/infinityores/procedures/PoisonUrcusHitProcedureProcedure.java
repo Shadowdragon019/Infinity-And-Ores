@@ -18,12 +18,13 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class PoisonUrcusHitProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public PoisonUrcusHitProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 339);
+		super(instance, 337);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("sourceentity") == null) {
-			System.err.println("Failed to load dependency sourceentity for procedure PoisonUrcusHitProcedure!");
+			if (!dependencies.containsKey("sourceentity"))
+				System.err.println("Failed to load dependency sourceentity for procedure PoisonUrcusHitProcedure!");
 			return;
 		}
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");

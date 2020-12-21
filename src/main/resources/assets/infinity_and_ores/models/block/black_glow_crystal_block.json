@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/glow_crystal_black",
+    "up": "infinity_and_ores:blocks/glow_crystal_black",
+    "north": "infinity_and_ores:blocks/glow_crystal_black",
+    "east": "infinity_and_ores:blocks/glow_crystal_black",
+    "south": "infinity_and_ores:blocks/glow_crystal_black",
+    "west": "infinity_and_ores:blocks/glow_crystal_black",
+    "particle": "infinity_and_ores:blocks/glow_crystal_black"
+  }
+}

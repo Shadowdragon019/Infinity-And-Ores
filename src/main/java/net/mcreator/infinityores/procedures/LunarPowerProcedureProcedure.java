@@ -22,12 +22,13 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class LunarPowerProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public LunarPowerProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 242);
+		super(instance, 240);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure LunarPowerProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure LunarPowerProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

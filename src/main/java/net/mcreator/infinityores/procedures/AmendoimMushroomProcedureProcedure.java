@@ -30,29 +30,34 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimMushroomProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimMushroomProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 501);
+		super(instance, 499);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure AmendoimMushroomProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure AmendoimMushroomProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure AmendoimMushroomProcedure!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure AmendoimMushroomProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure AmendoimMushroomProcedure!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure AmendoimMushroomProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure AmendoimMushroomProcedure!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure AmendoimMushroomProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure AmendoimMushroomProcedure!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure AmendoimMushroomProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -103,9 +108,10 @@ public class AmendoimMushroomProcedureProcedure extends InfinityAndOresModElemen
 						|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z)))
 								.getMaterial() == net.minecraft.block.material.Material.ORGANIC))))) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), AmendoimMushroomPlantBlock.block.getDefaultState(), 3);
-			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).inventory
-						.clearMatchingItems(p -> new ItemStack(AmendoimMushroomItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(AmendoimMushroomItem.block, (int) (1));
+				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+			}
 			if (!world.getWorld().isRemote) {
 				world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grass.place")),

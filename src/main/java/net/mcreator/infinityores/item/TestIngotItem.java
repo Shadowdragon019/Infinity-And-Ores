@@ -8,6 +8,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
@@ -22,7 +23,7 @@ public class TestIngotItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:test_ingot")
 	public static final Item block = null;
 	public TestIngotItem(InfinityAndOresModElements instance) {
-		super(instance, 316);
+		super(instance, 314);
 	}
 
 	@Override
@@ -31,7 +32,7 @@ public class TestIngotItem extends InfinityAndOresModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(64));
+			super(new Item.Properties().group(null).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("test_ingot");
 		}
 

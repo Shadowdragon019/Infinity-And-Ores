@@ -61,7 +61,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class WeaknessUrcusEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public WeaknessUrcusEntity(InfinityAndOresModElements instance) {
-		super(instance, 147);
+		super(instance, 145);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -71,8 +71,8 @@ public class WeaknessUrcusEntity extends InfinityAndOresModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.4f, 0.4f))
 						.build("weakness_urcus").setRegistryName("weakness_urcus");
 		elements.entities.add(() -> entity);
-		elements.items.add(
-				() -> new SpawnEggItem(entity, -15592942, -10000537, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("weakness_urcus"));
+		elements.items.add(() -> new SpawnEggItem(entity, -15592942, -10000537, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("weakness_urcus_spawn_egg"));
 	}
 
 	@Override

@@ -1,14 +1,13 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "amendoim_stew",
     "customModelName": "Normal",
     "name": "Amendoim Stew",
-    "specialInfo": [
-      "This food doesn't give a bowl when eaten as of now. This will change once Infinity & Ores will be updated to MCreator 2020.5."
-    ],
+    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
@@ -16,6 +15,9 @@
     "nutritionalValue": 6,
     "saturation": 1.6,
     "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.BOWL"
+    },
     "forDogs": false,
     "isAlwaysEdible": false,
     "animation": "drink",

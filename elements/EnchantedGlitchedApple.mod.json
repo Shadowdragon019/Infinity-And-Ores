@@ -1,14 +1,13 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "glitched_apple",
     "customModelName": "Normal",
     "name": "§4Enchanted Glitched Apple",
-    "specialInfo": [
-      "This food doesn't give itself when eaten as of now. This will change once Infinity & Ores will be updated to MCreator 2020.5."
-    ],
+    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
@@ -16,6 +15,9 @@
     "nutritionalValue": 4,
     "saturation": 2.4,
     "eatingSpeed": 32,
+    "resultItem": {
+      "value": "CUSTOM:EnchantedGlitchedApple"
+    },
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "eat",

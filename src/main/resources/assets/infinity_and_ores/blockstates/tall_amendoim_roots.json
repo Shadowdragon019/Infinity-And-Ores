@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "infinity_and_ores:block/tall_amendoim_roots"
+    },
+    "half=lower": {
+      "model": "infinity_and_ores:block/tall_amendoim_roots_bottom"
+    }
+  }
+}

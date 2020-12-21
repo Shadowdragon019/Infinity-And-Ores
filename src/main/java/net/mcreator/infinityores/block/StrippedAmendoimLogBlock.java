@@ -32,7 +32,7 @@ public class StrippedAmendoimLogBlock extends InfinityAndOresModElements.ModElem
 	@ObjectHolder("infinity_and_ores:stripped_amendoim_log")
 	public static final Block block = null;
 	public StrippedAmendoimLogBlock(InfinityAndOresModElements instance) {
-		super(instance, 79);
+		super(instance, 77);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class StrippedAmendoimLogBlock extends InfinityAndOresModElements.ModElem
 			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
 				facing = Direction.EAST;
 			else
-				facing = Direction.SOUTH;
+				facing = Direction.SOUTH;;
 			return this.getDefaultState().with(FACING, facing);
 		}
 

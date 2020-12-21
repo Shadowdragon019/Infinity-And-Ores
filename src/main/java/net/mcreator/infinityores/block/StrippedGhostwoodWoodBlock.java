@@ -32,7 +32,7 @@ public class StrippedGhostwoodWoodBlock extends InfinityAndOresModElements.ModEl
 	@ObjectHolder("infinity_and_ores:stripped_ghostwood_wood")
 	public static final Block block = null;
 	public StrippedGhostwoodWoodBlock(InfinityAndOresModElements instance) {
-		super(instance, 91);
+		super(instance, 89);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class StrippedGhostwoodWoodBlock extends InfinityAndOresModElements.ModEl
 			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
 				facing = Direction.EAST;
 			else
-				facing = Direction.SOUTH;
+				facing = Direction.SOUTH;;
 			return this.getDefaultState().with(FACING, facing);
 		}
 

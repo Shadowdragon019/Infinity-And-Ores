@@ -1,0 +1,13 @@
+{
+  "group": "glow_crystal",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:glow_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:glow_crystal",
+    "count": 4
+  }
+}

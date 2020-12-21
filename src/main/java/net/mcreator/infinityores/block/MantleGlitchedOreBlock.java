@@ -39,7 +39,7 @@ public class MantleGlitchedOreBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:mantle_glitched_ore")
 	public static final Block block = null;
 	public MantleGlitchedOreBlock(InfinityAndOresModElements instance) {
-		super(instance, 47);
+		super(instance, 45);
 	}
 
 	@Override

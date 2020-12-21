@@ -13,7 +13,7 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 @InfinityAndOresModElements.ModElement.Tag
 public class InfinityAndOresBuildingBlocksTabItemGroup extends InfinityAndOresModElements.ModElement {
 	public InfinityAndOresBuildingBlocksTabItemGroup(InfinityAndOresModElements instance) {
-		super(instance, 225);
+		super(instance, 223);
 	}
 
 	@Override

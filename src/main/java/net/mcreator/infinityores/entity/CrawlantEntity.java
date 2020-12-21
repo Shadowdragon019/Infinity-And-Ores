@@ -51,7 +51,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public CrawlantEntity(InfinityAndOresModElements instance) {
-		super(instance, 150);
+		super(instance, 148);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -61,8 +61,8 @@ public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.8f, 0.8f)).build("crawlant")
 						.setRegistryName("crawlant");
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -9153748, -14149366, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("crawlant"));
+		elements.items.add(() -> new SpawnEggItem(entity, -9153748, -14149366, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("crawlant_spawn_egg"));
 	}
 
 	@Override
@@ -122,10 +122,6 @@ public class CrawlantEntity extends InfinityAndOresModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
-		}
-
-		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
-			super.dropSpecialItems(source, looting, recentlyHitIn);
 		}
 
 		@Override

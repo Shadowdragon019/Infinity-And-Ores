@@ -18,16 +18,18 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class SlownessUrcusCollideProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public SlownessUrcusCollideProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 337);
+		super(instance, 335);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure SlownessUrcusCollideProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure SlownessUrcusCollideProcedure!");
 			return;
 		}
 		if (dependencies.get("sourceentity") == null) {
-			System.err.println("Failed to load dependency sourceentity for procedure SlownessUrcusCollideProcedure!");
+			if (!dependencies.containsKey("sourceentity"))
+				System.err.println("Failed to load dependency sourceentity for procedure SlownessUrcusCollideProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -1,14 +1,18 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "plant",
   "definition": {
     "renderType": 12,
     "texture": "glitched_crystal_block",
+    "textureBottom": "",
     "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
     "name": "Glitched Crystal",
     "specialInfo": [],
     "creativeTab": {
@@ -21,6 +25,7 @@
     "soundOnStep": {
       "value": "STONE"
     },
+    "useLootTableForDrops": false,
     "customDrop": {
       "value": "Blocks.AIR"
     },

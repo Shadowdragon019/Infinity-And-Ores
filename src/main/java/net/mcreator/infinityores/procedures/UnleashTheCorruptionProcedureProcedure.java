@@ -24,29 +24,34 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class UnleashTheCorruptionProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public UnleashTheCorruptionProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 532);
+		super(instance, 530);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure UnleashTheCorruptionProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure UnleashTheCorruptionProcedure!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure UnleashTheCorruptionProcedure!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure UnleashTheCorruptionProcedure!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure UnleashTheCorruptionProcedure!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -25,7 +25,7 @@ public class MantleBrickStairsBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:mantle_brick_stairs")
 	public static final Block block = null;
 	public MantleBrickStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 61);
+		super(instance, 59);
 	}
 
 	@Override
@@ -36,8 +36,9 @@ public class MantleBrickStairsBlock extends InfinityAndOresModElements.ModElemen
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(), Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
-					.hardnessAndResistance(1.5f, 6f).lightValue(0).harvestLevel(0).harvestTool(ToolType.PICKAXE));
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6f)).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).lightValue(0).harvestLevel(0)
+							.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mantle_brick_stairs");
 		}
 

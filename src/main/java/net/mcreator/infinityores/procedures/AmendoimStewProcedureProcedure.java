@@ -19,12 +19,13 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimStewProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public AmendoimStewProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 286);
+		super(instance, 284);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure AmendoimStewProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure AmendoimStewProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "block",
   "definition": {
     "texture": "glow_crystal_red",
@@ -12,7 +12,9 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": true,
+    "displayFluidOverlay": false,
     "itemTexture": "",
+    "particleTexture": "",
     "hasTransparency": true,
     "connectedSides": true,
     "transparencyType": "TRANSLUCENT",
@@ -27,21 +29,23 @@
     "hardness": 0.3,
     "resistance": 0.3,
     "hasGravity": false,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresBuildingBlocksTab"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:GlowCrystal"
     },
-    "dropAmount": 1,
+    "dropAmount": 4,
+    "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "REDSTONE_LIGHT"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -52,6 +56,10 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -65536,
+      "falpha": 0.0
+    },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,

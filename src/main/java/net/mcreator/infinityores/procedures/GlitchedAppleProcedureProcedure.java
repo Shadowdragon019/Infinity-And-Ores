@@ -12,12 +12,13 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedAppleProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedAppleProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 499);
+		super(instance, 497);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure GlitchedAppleProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure GlitchedAppleProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

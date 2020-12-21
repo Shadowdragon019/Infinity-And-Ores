@@ -1,11 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "amendoim_slime_ball",
     "customModelName": "Normal",
     "name": "Amendoim Slime Ball",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"
     },

@@ -32,7 +32,7 @@ public class AmendoimStemBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_stem")
 	public static final Block block = null;
 	public AmendoimStemBlock(InfinityAndOresModElements instance) {
-		super(instance, 77);
+		super(instance, 75);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class AmendoimStemBlock extends InfinityAndOresModElements.ModElement {
 			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
 				facing = Direction.EAST;
 			else
-				facing = Direction.SOUTH;
+				facing = Direction.SOUTH;;
 			return this.getDefaultState().with(FACING, facing);
 		}
 

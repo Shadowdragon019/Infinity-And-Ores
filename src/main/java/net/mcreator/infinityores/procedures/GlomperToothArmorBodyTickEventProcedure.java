@@ -12,12 +12,13 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlomperToothArmorBodyTickEventProcedure extends InfinityAndOresModElements.ModElement {
 	public GlomperToothArmorBodyTickEventProcedure(InfinityAndOresModElements instance) {
-		super(instance, 504);
+		super(instance, 502);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure GlomperToothArmorBodyTickEvent!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure GlomperToothArmorBodyTickEvent!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

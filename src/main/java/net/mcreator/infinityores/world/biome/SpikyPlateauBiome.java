@@ -10,6 +10,9 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.FrequencyConfig;
+import net.minecraft.world.gen.feature.structure.MineshaftStructure;
+import net.minecraft.world.gen.feature.structure.MineshaftConfig;
+import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
@@ -26,7 +29,7 @@ public class SpikyPlateauBiome extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:spiky_plateau")
 	public static final CustomBiome biome = null;
 	public SpikyPlateauBiome(InfinityAndOresModElements instance) {
-		super(instance, 348);
+		super(instance, 346);
 	}
 
 	@Override
@@ -45,9 +48,13 @@ public class SpikyPlateauBiome extends InfinityAndOresModElements.ModElement {
 							GlitchedSoilBlock.block.getDefaultState(), GlitchedSoilBlock.block.getDefaultState())));
 			setRegistryName("spiky_plateau");
 			DefaultBiomeFeatures.addCarvers(this);
-			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
+			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
+			DefaultBiomeFeatures.addLakes(this);
+			this.addStructure(Feature.STRONGHOLD.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
+			this.addStructure(Feature.MINESHAFT.withConfiguration(new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL)));
+			this.addStructure(Feature.PILLAGER_OUTPOST.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
 					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(CrawlantEntity.entity, 15, 3, 5));

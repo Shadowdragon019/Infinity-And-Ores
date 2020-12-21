@@ -52,7 +52,7 @@ public class BoneSpearItem extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:entitybulletbone_spear")
 	public static final EntityType arrow = null;
 	public BoneSpearItem(InfinityAndOresModElements instance) {
-		super(instance, 112);
+		super(instance, 110);
 	}
 
 	@Override
@@ -76,14 +76,14 @@ public class BoneSpearItem extends InfinityAndOresModElements.ModElement {
 		}
 
 		@Override
-		public UseAction getUseAction(ItemStack stack) {
-			return UseAction.BOW;
-		}
-
-		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			entity.setActiveHand(hand);
 			return new ActionResult(ActionResultType.SUCCESS, entity.getHeldItem(hand));
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.BOW;
 		}
 
 		@Override

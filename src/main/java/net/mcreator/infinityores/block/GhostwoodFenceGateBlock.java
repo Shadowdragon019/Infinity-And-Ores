@@ -28,7 +28,7 @@ public class GhostwoodFenceGateBlock extends InfinityAndOresModElements.ModEleme
 	@ObjectHolder("infinity_and_ores:ghostwood_fence_gate")
 	public static final Block block = null;
 	public GhostwoodFenceGateBlock(InfinityAndOresModElements instance) {
-		super(instance, 111);
+		super(instance, 109);
 	}
 
 	@Override

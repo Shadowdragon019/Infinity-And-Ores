@@ -25,7 +25,7 @@ public class PolishedMantleStairsBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:polished_mantle_stairs")
 	public static final Block block = null;
 	public PolishedMantleStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 71);
+		super(instance, 69);
 	}
 
 	@Override
@@ -36,8 +36,9 @@ public class PolishedMantleStairsBlock extends InfinityAndOresModElements.ModEle
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(), Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
-					.hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(0).harvestTool(ToolType.PICKAXE));
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 6f)).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).lightValue(0).harvestLevel(0)
+							.harvestTool(ToolType.PICKAXE));
 			setRegistryName("polished_mantle_stairs");
 		}
 

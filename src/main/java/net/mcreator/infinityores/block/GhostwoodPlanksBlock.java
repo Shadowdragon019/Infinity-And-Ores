@@ -27,7 +27,7 @@ public class GhostwoodPlanksBlock extends InfinityAndOresModElements.ModElement 
 	@ObjectHolder("infinity_and_ores:ghostwood_planks")
 	public static final Block block = null;
 	public GhostwoodPlanksBlock(InfinityAndOresModElements instance) {
-		super(instance, 92);
+		super(instance, 90);
 	}
 
 	@Override

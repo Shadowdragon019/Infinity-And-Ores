@@ -17,7 +17,7 @@ public class OpristoniumShovelItem extends InfinityAndOresModElements.ModElement
 	@ObjectHolder("infinity_and_ores:opristonium_shovel")
 	public static final Item block = null;
 	public OpristoniumShovelItem(InfinityAndOresModElements instance) {
-		super(instance, 124);
+		super(instance, 122);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ import java.util.Random;
 @InfinityAndOresModElements.ModElement.Tag
 public class AmendoimTree12Structure extends InfinityAndOresModElements.ModElement {
 	public AmendoimTree12Structure(InfinityAndOresModElements instance) {
-		super(instance, 409);
+		super(instance, 407);
 	}
 
 	@Override
@@ -65,7 +65,7 @@ public class AmendoimTree12Structure extends InfinityAndOresModElements.ModEleme
 							continue;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 0, k);
+						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();

@@ -22,28 +22,33 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimFungiOnBlockRightClickedProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimFungiOnBlockRightClickedProcedure(InfinityAndOresModElements instance) {
-		super(instance, 440);
+		super(instance, 438);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimFungiOnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -21,28 +21,33 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimRootsDestroyedByPlayerProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimRootsDestroyedByPlayerProcedure(InfinityAndOresModElements instance) {
-		super(instance, 454);
+		super(instance, 452);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimRootsDestroyedByPlayer!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -64,7 +69,7 @@ public class FlowerPotAmendoimRootsDestroyedByPlayerProcedure extends InfinityAn
 		}.checkGamemode(entity))) {
 			if (!world.getWorld().isRemote) {
 				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(Blocks.AIR, (int) (1)));
-				entityToSpawn.setPickupDelay(10);
+				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}
 		} else if ((new Object() {
@@ -81,12 +86,12 @@ public class FlowerPotAmendoimRootsDestroyedByPlayerProcedure extends InfinityAn
 		}.checkGamemode(entity))) {
 			if (!world.getWorld().isRemote) {
 				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(Items.FLOWER_POT, (int) (1)));
-				entityToSpawn.setPickupDelay(10);
+				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}
 			if (!world.getWorld().isRemote) {
 				ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(AmendoimRootsBlock.block, (int) (1)));
-				entityToSpawn.setPickupDelay(10);
+				entityToSpawn.setPickupDelay((int) 10);
 				world.addEntity(entityToSpawn);
 			}
 		}

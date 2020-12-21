@@ -1921,39 +1921,6 @@
       "registry_name": "amendoim_slime_ball_recipe"
     },
     {
-      "name": "StrippedAmendoimWoodProcedure",
-      "type": "procedure",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stripped_amendoim_wood_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "AmendoimWoodRecipe",
       "type": "recipe",
       "sortid": 273,
@@ -4894,186 +4861,6 @@
       "registry_name": "mederium_bars_recipe"
     },
     {
-      "name": "Iron",
-      "type": "tag",
-      "sortid": 463,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "iron"
-    },
-    {
-      "name": "MinecartRecipe",
-      "type": "recipe",
-      "sortid": 464,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "minecart_recipe"
-    },
-    {
-      "name": "PistonRecipe",
-      "type": "recipe",
-      "sortid": 465,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "piston_recipe"
-    },
-    {
-      "name": "ActivatorRailRecipe",
-      "type": "recipe",
-      "sortid": 466,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "activator_rail_recipe"
-    },
-    {
-      "name": "Ironblock",
-      "type": "tag",
-      "sortid": 467,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ironblock"
-    },
-    {
-      "name": "AnvilRecipe",
-      "type": "recipe",
-      "sortid": 468,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "anvil_recipe"
-    },
-    {
-      "name": "SmoothStone",
-      "type": "tag",
-      "sortid": 469,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "smooth_stone"
-    },
-    {
-      "name": "BlastFurnaceRecipe",
-      "type": "recipe",
-      "sortid": 470,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blast_furnace_recipe"
-    },
-    {
-      "name": "BucketRecipe",
-      "type": "recipe",
-      "sortid": 471,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bucket_recipe"
-    },
-    {
-      "name": "CauldronRecipe",
-      "type": "recipe",
-      "sortid": 472,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cauldron_recipe"
-    },
-    {
-      "name": "CompassRecipe",
-      "type": "recipe",
-      "sortid": 473,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "compass_recipe"
-    },
-    {
-      "name": "CrossbowRecipe",
-      "type": "recipe",
-      "sortid": 474,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crossbow_recipe"
-    },
-    {
-      "name": "DetectorRailRecipe",
-      "type": "recipe",
-      "sortid": 475,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "detector_rail_recipe"
-    },
-    {
-      "name": "HopperRecipe",
-      "type": "recipe",
-      "sortid": 476,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hopper_recipe"
-    },
-    {
-      "name": "ShearsRecipe",
-      "type": "recipe",
-      "sortid": 477,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "shears_recipe"
-    },
-    {
-      "name": "ShieldRecipe",
-      "type": "recipe",
-      "sortid": 478,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "shield_recipe"
-    },
-    {
-      "name": "StonecutterRecipe",
-      "type": "recipe",
-      "sortid": 479,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stonecutter_recipe"
-    },
-    {
-      "name": "StonecutterRecipe2",
-      "type": "recipe",
-      "sortid": 480,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stonecutter_recipe_2"
-    },
-    {
-      "name": "SmithingTableRecipe",
-      "type": "recipe",
-      "sortid": 481,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "smithing_table_recipe"
-    },
-    {
-      "name": "TripwireHookRecipe",
-      "type": "recipe",
-      "sortid": 482,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "tripwire_hook_recipe"
-    },
-    {
       "name": "MederiumDoor",
       "type": "block",
       "sortid": 139,
@@ -5746,39 +5533,6 @@
       "registry_name": "ghostwood_trapdoor_fuel"
     },
     {
-      "name": "StrippedGhostwoodProcedure",
-      "type": "procedure",
-      "sortid": 529,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stripped_ghostwood_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "UnleashTheCorruptionProcedure",
       "type": "procedure",
       "sortid": 530,
@@ -5876,75 +5630,530 @@
       "registry_name": "charged_soul_linker"
     },
     {
-      "name": "GlowCrystalGround",
-      "type": "block",
-      "sortid": 531,
+      "name": "TallAmendoimRoots",
+      "type": "plant",
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "glow_crystal_ground"
+      "registry_name": "tall_amendoim_roots"
+    },
+    {
+      "name": "AmendoimRootsPlantRightClicked",
+      "type": "procedure",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amendoim_roots_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrippedGhostwoodWoodProcedure",
+      "type": "procedure",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_ghostwood_wood_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchedResidueRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_residue_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulLinkerConsumedProcedure",
+      "type": "procedure",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_linker_consumed_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeGlowCrystalBlock",
+      "type": "block",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_glow_crystal_block"
+    },
+    {
+      "name": "YellowGlowCrystalBlock",
+      "type": "block",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_glow_crystal_block"
+    },
+    {
+      "name": "LimeGlowCrystalBlock",
+      "type": "block",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_glow_crystal_block"
+    },
+    {
+      "name": "GreenGlowCrystalBlock",
+      "type": "block",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_glow_crystal_block"
+    },
+    {
+      "name": "LightBlueGlowCrystalBlock",
+      "type": "block",
+      "sortid": 543,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_glow_crystal_block"
+    },
+    {
+      "name": "BlueGlowCrystalBlock",
+      "type": "block",
+      "sortid": 544,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_glow_crystal_block"
+    },
+    {
+      "name": "MagentaGlowCrystalBlock",
+      "type": "block",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_glow_crystal_block"
+    },
+    {
+      "name": "PurpleGlowCrystalBlock",
+      "type": "block",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_glow_crystal_block"
+    },
+    {
+      "name": "PinkGlowCrystalBlock",
+      "type": "block",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_glow_crystal_block"
+    },
+    {
+      "name": "CyanGlowCrystalBlock",
+      "type": "block",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_glow_crystal_block"
+    },
+    {
+      "name": "WhiteGlowCrystalBlock",
+      "type": "block",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_glow_crystal_block"
+    },
+    {
+      "name": "LightGrayGlowCrystalBlock",
+      "type": "block",
+      "sortid": 550,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_gray_glow_crystal_block"
+    },
+    {
+      "name": "GrayGlowCrystalBlock",
+      "type": "block",
+      "sortid": 551,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gray_glow_crystal_block"
+    },
+    {
+      "name": "BrownGlowCrystalBlock",
+      "type": "block",
+      "sortid": 552,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_glow_crystal_block"
+    },
+    {
+      "name": "BlackGlowCrystalBlock",
+      "type": "block",
+      "sortid": 553,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_glow_crystal_block"
+    },
+    {
+      "name": "GlowCrystal",
+      "type": "item",
+      "sortid": 555,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_crystal"
+    },
+    {
+      "name": "GlowCrystalBlock",
+      "type": "block",
+      "sortid": 556,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_crystal_block"
+    },
+    {
+      "name": "GlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_crystal_block_recipe"
+    },
+    {
+      "name": "GlowCrystalRecipe",
+      "type": "recipe",
+      "sortid": 558,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glow_crystal_recipe"
+    },
+    {
+      "name": "RedGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_glow_crystal_block_recipe"
+    },
+    {
+      "name": "OrangeGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_glow_crystal_block_recipe"
+    },
+    {
+      "name": "YellowGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_glow_crystal_block_recipe"
+    },
+    {
+      "name": "LimeGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_glow_crystal_block_recipe"
+    },
+    {
+      "name": "GreenGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 563,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_glow_crystal_block_recipe"
+    },
+    {
+      "name": "LightBlueGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_blue_glow_crystal_block_recipe"
+    },
+    {
+      "name": "BlueGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_glow_crystal_block_recipe"
+    },
+    {
+      "name": "MagentaGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magenta_glow_crystal_block_recipe"
+    },
+    {
+      "name": "PurpleGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_glow_crystal_block_recipe"
+    },
+    {
+      "name": "PinkGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_glow_crystal_block_recipe"
+    },
+    {
+      "name": "LightGrayGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_gray_glow_crystal_block_recipe"
+    },
+    {
+      "name": "GrayGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gray_glow_crystal_block_recipe"
+    },
+    {
+      "name": "WhiteGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_glow_crystal_block_recipe"
+    },
+    {
+      "name": "BlackGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_glow_crystal_block_recipe"
+    },
+    {
+      "name": "CyanGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cyan_glow_crystal_block_recipe"
+    },
+    {
+      "name": "BrownGlowCrystalBlockRecipe",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brown_glow_crystal_block_recipe"
+    },
+    {
+      "name": "GlitchedCrystalBlockTag",
+      "type": "tag",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glitched_crystal_block_tag"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
       "name": "arcade",
-      "file": "arcade",
+      "files": [
+        "arcade"
+      ],
       "category": "record"
     },
     {
       "name": "battle_starts",
-      "file": "battle_starts",
+      "files": [
+        "battle_starts"
+      ],
       "category": "record"
     },
     {
       "name": "calm_after_the_storm",
-      "file": "calm_after_the_storm",
+      "files": [
+        "calm_after_the_storm"
+      ],
       "category": "record"
     },
     {
       "name": "dimension_c-581",
-      "file": "dimension_c-581",
+      "files": [
+        "dimension_c-581"
+      ],
       "category": "record"
     },
     {
       "name": "final_discoveries",
-      "file": "final_discoveries",
+      "files": [
+        "final_discoveries"
+      ],
       "category": "record"
     },
     {
       "name": "hypertension",
-      "file": "hypertension",
+      "files": [
+        "hypertension"
+      ],
       "category": "record"
     },
     {
       "name": "ignitar_awakens",
-      "file": "ignitar_awakens",
+      "files": [
+        "ignitar_awakens"
+      ],
       "category": "record"
     },
     {
       "name": "mutational_parasite",
-      "file": "mutational_parasite",
+      "files": [
+        "mutational_parasite"
+      ],
       "category": "record"
     },
     {
       "name": "parasidal_minds",
-      "file": "parasidal_minds",
+      "files": [
+        "parasidal_minds"
+      ],
       "category": "record"
     },
     {
       "name": "spirits",
-      "file": "spirits",
+      "files": [
+        "spirits"
+      ],
       "category": "music"
     },
     {
       "name": "broken_connection",
-      "file": "broken_connection",
+      "files": [
+        "broken_connection"
+      ],
       "category": "record"
     }
   ],
   "language_map": {
     "fr_ca": {
+      "block.infinity_and_ores.orange_glow_crystal_block": "Red Glow Crystal Block",
       "item.infinity_and_ores.music_disc_ignitar_awakens": "Disque de musique",
       "advancements.miners_dream.title": "Rêve du mineur",
       "advancements.spitted_apart.title": "Séparé",
@@ -5965,6 +6174,7 @@
       "block.infinity_and_ores.stripped_ghostwood_wood": "Bois de ghostwood écorcée",
       "item.infinity_and_ores.opristonium_shovel": "Pelle en opristonium",
       "item.infinity_and_ores.glitched_shovel": "§dPelle buggée",
+      "block.infinity_and_ores.black_glow_crystal_block": "Brown Glow Crystal Block",
       "item.infinity_and_ores.glitched_boots": "§dBottes buggée",
       "block.infinity_and_ores.end_glitched_ore": "Minerai buggé de l\u0027End",
       "advancements.unknown_helmet.title": "[objet.casque] Inconnu",
@@ -5986,6 +6196,7 @@
       "advancements.unknown_leggings.descr": "Fabriquer des jambières buggés dans la station buggé",
       "block.infinity_and_ores.mossy_mantle_brick_stairs": "Escaliers de briques de manteau moussues",
       "block.infinity_and_ores.stripped_amendoim_log": "Bûche d\u0027amendoim écorcée",
+      "block.infinity_and_ores.blue_glow_crystal_block": "Light Blue Glow Crystal Block",
       "advancements.lunar_power.descr": "Fabriquer un outil en endesulite",
       "item.infinity_and_ores.amendoim_apple": "Pomme d\u0027amendoim",
       "block.infinity_and_ores.smooth_mantle": "Manteau lisse",
@@ -6000,6 +6211,7 @@
       "item.infinity_and_ores.mederium_chestplate": "Plastron en méderium",
       "item.infinity_and_ores.music_disc_spirits.desc": "Thediamondcrystal - Spirits",
       "entity.infinity_and_ores.weakness_urcus": "Urcus de faiblesse",
+      "item.infinity_and_ores.urcus_spawn_egg": "Urcus Spawn Egg",
       "advancements.missing_a_bracket.descr": "Fabriquer un lingot buggé avec la station buggé",
       "block.infinity_and_ores.mossy_mantle": "Manteau moussue",
       "block.infinity_and_ores.nether_glitched_ore": "Minerai buggé du Nether",
@@ -6014,6 +6226,7 @@
       "advancements.unknown_chestplate.title": "[objet.plastron] Inconnu",
       "item.infinity_and_ores.music_disc_broken_connection.desc": "Thediamondcrystal - Broken Connection",
       "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
+      "item.infinity_and_ores.wither_urcus_spawn_egg": "Wither Urcus Spawn Egg",
       "advancements.glitchiness.title": "Bug",
       "block.infinity_and_ores.amendoim_leaves": "Feuilles d\u0027amendoim",
       "item.infinity_and_ores.mederium_pickaxe": "Pioche en méderium",
@@ -6026,6 +6239,7 @@
       "item.infinity_and_ores.endesulite_shovel": "Pelle en endesulite",
       "item.minecraft.potion.effect.fiddly_potion": "Potion fastidieuse",
       "item.infinity_and_ores.glitched_crystal": "§eCristal buggée",
+      "block.infinity_and_ores.light_blue_glow_crystal_block": "Red Glow Crystal Block",
       "advancements.glitchiness.descr": "Quelque chose ne va pas, je peux le sentir. Découvrez l\u0027étrangeté de Minecraft.",
       "item.infinity_and_ores.glitched_dimension": "§dBriquet buggé",
       "item.infinity_and_ores.opristonium_boots": "Bottes en opristonium",
@@ -6040,6 +6254,7 @@
       "block.infinity_and_ores.mossy_mantle_brick_slab": "Dalle de briques de manteau moussues",
       "item.infinity_and_ores.opristonium_leggings": "Jambières en opristonium",
       "item.infinity_and_ores.glomper_tooth_boots": "Dent de Glompeur (Ignore)",
+      "block.infinity_and_ores.glow_crystal_block": "Uncolored Glow Crystal Block",
       "block.infinity_and_ores.smooth_mantle_slab": "Dalle de manteau lisse",
       "block.infinity_and_ores.glitched_obsidian": "§dObsidienne buggée",
       "block.infinity_and_ores.mantle_slab": "Dalle de manteau",
@@ -6057,6 +6272,7 @@
       "block.infinity_and_ores.mantle_white_coal_ore": "Minerai de charbon blanc de manteau",
       "advancements.unknown_shovel.title": "[objet.pelle] Inconnu",
       "block.infinity_and_ores.endesulite_ore": "Minerai d\u0027endesulite",
+      "biome.infinity_and_ores.spiky_plateau": "Spiky Plateau",
       "advancements.unleashing_the_corruption.descr": "Créer un portail buggé puis entrer la dimension la plus difficile: La dimension buggée",
       "advancements.miners_dream.descr": "Fabriquer un bloc d\u0027opristonium",
       "block.infinity_and_ores.amendoim_slab": "Dalle d\u0027amendoim",
@@ -6080,10 +6296,12 @@
       "advancements.the_hunter_becomes_the_hunted.title": "Le chasseur devient le chassé",
       "advancements.error_block_not_found.title": "[ERREUR] Bloc Non Trouvé",
       "item.minecraft.tipped_arrow.effect.potion_of_decay": "Flèche de décomposition",
+      "block.infinity_and_ores.lime_glow_crystal_block": "Red Glow Crystal Block",
       "item.infinity_and_ores.endesulite_sword": "Épée en endesulite",
       "item.infinity_and_ores.music_disc_calm_after_the_storm": "Disque de musique",
       "advancements.the_purple_forest.descr": "Entrez dans la mystérieuse forêt d\u0027amendoim en manteau ou dans la forêt d\u0027amendoim de l\u0027End",
       "block.infinity_and_ores.amendoim_mushroom_block": "Bloc de champignon d\u0027amendoim",
+      "block.infinity_and_ores.cyan_glow_crystal_block": "Light Blue Glow Crystal Block",
       "item.infinity_and_ores.test_ingot.tooltip1": "§7Un lingot de test. Comment l\u0027avez-vous eu aussi?",
       "advancements.end_power.descr": "Fabriquer un bloc d\u0027endesulite",
       "item.infinity_and_ores.glomper_tooth_leggings": "Dent de Glompeur (Ignore)",
@@ -6098,6 +6316,8 @@
       "block.infinity_and_ores.flower_pot_amendoim_roots": "Racines d\u0027amendoim en pot",
       "block.infinity_and_ores.mederium_trapdoor": "Trappe en méderium",
       "advancements.spatial_defense.descr": "Fabriquer une pièce d\u0027armure en endesulite",
+      "block.infinity_and_ores.purple_glow_crystal_block": "Magenta Glow Crystal Block",
+      "block.infinity_and_ores.brown_glow_crystal_block": "Gray Glow Crystal Block",
       "item.infinity_and_ores.endesulite_hoe": "Houe en endesulite",
       "advancements.unknown_sword.descr": "Fabriquer und epée buggée dans la station buggé",
       "block.infinity_and_ores.amendoim_roots": "Racines d\u0027amendoim",
@@ -6115,15 +6335,20 @@
       "block.infinity_and_ores.mantle_amendoim_nylium": "Nylium d\u0027amendoim de manteau",
       "item.infinity_and_ores.music_disc_arcade.desc": "Thediamondcrystal - Arcade (Fixed Version)",
       "itemGroup.tabinfinity_and_ores_building_blocks_tab": "Infinity \u0026 Ores: Blocs de constructions",
+      "block.infinity_and_ores.green_glow_crystal_block": "Red Glow Crystal Block",
       "item.infinity_and_ores.uncharged_soul_linker": "Lien ameux déchargé",
       "item.infinity_and_ores.glitched_residue": "§bRésidue buggé",
       "block.infinity_and_ores.polished_mantle_slab": "Dalle de manteau poli",
       "block.infinity_and_ores.mantle_glitched_ore": "Minerai buggé de manteau",
+      "block.infinity_and_ores.yellow_glow_crystal_block": "Red Glow Crystal Block",
       "item.infinity_and_ores.opristonium_axe": "Hache en opristonium",
       "block.infinity_and_ores.amendoim_wood": "Bois d\u0027amendoim",
       "item.infinity_and_ores.mederium_hoe": "Houe en méderium",
+      "block.infinity_and_ores.pink_glow_crystal_block": "Purple Glow Crystal Block",
+      "block.infinity_and_ores.light_gray_glow_crystal_block": "White Glow Crystal Block",
       "item.infinity_and_ores.opristonium_nugget": "Pépite d\u0027opristonium",
       "item.infinity_and_ores.endesulite_leggings": "Jambières en endesulite",
+      "block.infinity_and_ores.gray_glow_crystal_block": "Light Gray Glow Crystal Block",
       "block.infinity_and_ores.glitched_ore": "Minerai buggé",
       "item.infinity_and_ores.glitched_shard": "§eFragment buggé",
       "block.infinity_and_ores.glitched_block": "§4Bloc buggé",
@@ -6134,6 +6359,7 @@
       "item.infinity_and_ores.opristonium_helmet": "Casque en opristonium",
       "block.infinity_and_ores.ghostwood_trapdoor": "Porte en ghostwood",
       "block.infinity_and_ores.amendoim_fence": "Porte d\u0027amendoim",
+      "item.infinity_and_ores.glomper_spawn_egg": "Glomper Spawn Egg",
       "advancements.surprise_chomp.descr": "Se faire mordre par un Glompeur",
       "entity.infinity_and_ores.glomper": "Glompeur",
       "item.infinity_and_ores.opristonium_gem": "Gemme d\u0027opristonium",
@@ -6155,6 +6381,7 @@
       "item.infinity_and_ores.music_disc_mutational_parasite": "Disque de musique",
       "advancements.let_a_new_era_begin.title": "Qu\u0027une nouvelle era commence!",
       "entity.infinity_and_ores.slowness_urcus": "Urcus de lenteur",
+      "biome.infinity_and_ores.mantle_amendoim_forest": "Mantle Amendoim Forest",
       "block.infinity_and_ores.ghostwood_door": "Trappe en ghostwood",
       "block.infinity_and_ores.amendoim_planks": "Planches d\u0027amendoim",
       "item.infinity_and_ores.virus_nucleus": "Noyau du virus",
@@ -6169,6 +6396,7 @@
       "block.infinity_and_ores.mantle_brick_slab": "Dalles de briques de manteau",
       "advancements.huh_it_fits.title": "Huh, ça fite!",
       "block.infinity_and_ores.mossy_mantle_stairs": "Escaliers de manteau moussue",
+      "item.infinity_and_ores.weakness_urcus_spawn_egg": "Weakness Urcus Spawn Egg",
       "advancements.unknown_axe.title": "[objet.hache] Inconnu",
       "item.infinity_and_ores.mederium_nugget": "Pépite de méderium",
       "item.infinity_and_ores.slowness_urcus": "Oeuf spawneur d\u0027Urcus de lenteur",
@@ -6179,11 +6407,14 @@
       "advancements.end_power.title": "Pouvoir de l\u0027End",
       "block.infinity_and_ores.polished_mantle_wall": "Muret de manteau poli",
       "item.infinity_and_ores.charged_soul_linker": "Lien ameux chargé",
+      "item.infinity_and_ores.crawlant_spawn_egg": "Crawlant Spawn Egg",
       "item.infinity_and_ores.test_ingot": "Lingot de test",
       "advancements.spitted_apart.descr": "Trouver, miner ou fabriquer un fragment d\u0027endesulite",
+      "biome.infinity_and_ores.mantle_realms": "Mantle Realms",
       "advancements.sharp_programming_bud.descr": "Minez un cristal buggé",
       "item.infinity_and_ores.mederium_ingot": "Lingot de méderium",
       "block.infinity_and_ores.mederium_block": "Bloc de méderium",
+      "block.infinity_and_ores.tall_amendoim_roots": "Amendoim Roots",
       "item.infinity_and_ores.opristonium_shard": "Fragment d\u0027opristonium",
       "item.infinity_and_ores.glomper": "Oeuf spawneur de Glompeur",
       "block.infinity_and_ores.glitched_crystal_block": "Cristal buggé",
@@ -6191,6 +6422,7 @@
       "item.infinity_and_ores.reinforced_bone_spear": "Lance d\u0027os renforcé",
       "block.infinity_and_ores.polished_mantle": "Manteau poli",
       "advancements.land_of_the_spirits.title": "Territoire des esprits",
+      "block.infinity_and_ores.white_glow_crystal_block": "Cyan Glow Crystal Block",
       "block.infinity_and_ores.red_glow_crystal_block": "Bloc de cristal brillant rouge",
       "block.infinity_and_ores.mossy_mantle_slab": "Dalle de manteau moussue",
       "advancements.unknown_sword.title": "[objet.épée] Inconnu",
@@ -6202,12 +6434,14 @@
       "item.infinity_and_ores.opristonium_sword": "Épée en opristonium",
       "advancements.a_bit_salty.descr": "Cruir de la viande de Crawlant puis manger-là",
       "block.infinity_and_ores.amendoim_stem": "Tige d\u0027amendoim",
+      "item.infinity_and_ores.slowness_urcus_spawn_egg": "Slowness Urcus Spawn Egg",
       "item.minecraft.splash_potion.effect.fiddly_potion": "Potion fastidieuse jetable",
       "itemGroup.tabinfinity_and_ores_items_tab": "Infinity \u0026 Ores: Objets",
       "block.infinity_and_ores.amendoim_fence_gate": "Porte de clôture d\u0027amendoim",
       "item.infinity_and_ores.endesulite_axe": "Hache en endesulite",
       "item.infinity_and_ores.music_disc_final_discoveries.desc": "Thediamondcrystal - Final Discoveries",
       "advancements.unleashing_the_corruption.title": "Libérer la corruption!",
+      "item.infinity_and_ores.poison_urcus_spawn_egg": "Poison Urcus Spawn Egg",
       "item.infinity_and_ores.music_disc_hypertension": "Disque de musique",
       "item.infinity_and_ores.mederium_leggings": "Jambières en méderium",
       "advancements.smooth_mineral.descr": "Fabriquer un ensemble complet d\u0027armure en opristonium",
@@ -6216,11 +6450,13 @@
       "item.infinity_and_ores.weakness_urcus": "Oeuf spawneur d\u0027Urcus de faiblesse",
       "advancements.the_hunter_becomes_the_hunted.descr": "Tuez un Crawlant et récupérez sa viande",
       "item.infinity_and_ores.crawlant": "Oeuf spawneur de Crawlant",
+      "item.infinity_and_ores.glow_crystal": "Glow Crystal",
       "item.infinity_and_ores.amendoim_mushroom": "Champingon d\u0027amendoim",
       "advancements.lunar_power.title": "Pouvoir lunaire",
       "item.infinity_and_ores.bone_spear": "Lance d\u0027os",
       "advancements.error_block_not_found.descr": "Fabriquer un bloc buggé",
       "advancements.thats_one_for_the_tool_box.title": "Voilà une pour la boîte à outils!",
+      "block.infinity_and_ores.magenta_glow_crystal_block": "Blue Glow Crystal Block",
       "block.infinity_and_ores.amendoim_fungus": "Fongus d\u0027amendoim",
       "advancements.infected.descr": "Recevez un effeft de potion négative par un Urcus",
       "advancements.unknown_hoe.title": "[objet.houe] Inconnu",
@@ -6230,6 +6466,7 @@
       "item.infinity_and_ores.mederium_axe": "Hache en méderium"
     },
     "en_us": {
+      "block.infinity_and_ores.orange_glow_crystal_block": "Orange Glow Crystal Block",
       "item.infinity_and_ores.music_disc_ignitar_awakens": "Music Disc",
       "advancements.miners_dream.title": "Miner\u0027s Dream",
       "advancements.spitted_apart.title": "Spitted Apart",
@@ -6250,6 +6487,7 @@
       "block.infinity_and_ores.stripped_ghostwood_wood": "Stripped Ghostwood Wood",
       "item.infinity_and_ores.opristonium_shovel": "Opristonium Shovel",
       "item.infinity_and_ores.glitched_shovel": "§dGlitched Shovel",
+      "block.infinity_and_ores.black_glow_crystal_block": "Black Glow Crystal Block",
       "item.infinity_and_ores.glitched_boots": "§dGlitched Boots",
       "block.infinity_and_ores.end_glitched_ore": "End Glitched Ore",
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
@@ -6271,6 +6509,7 @@
       "advancements.unknown_leggings.descr": "Craft a Glitched Leggings in the Glitched Station",
       "block.infinity_and_ores.mossy_mantle_brick_stairs": "Mossy Mantle Brick Stairs",
       "block.infinity_and_ores.stripped_amendoim_log": "Stripped Amendoim Log",
+      "block.infinity_and_ores.blue_glow_crystal_block": "Blue Glow Crystal Block",
       "advancements.lunar_power.descr": "Craft an Endesulite tool",
       "item.infinity_and_ores.amendoim_apple": "Amendoim Apple",
       "block.infinity_and_ores.smooth_mantle": "Smooth Mantle",
@@ -6285,6 +6524,7 @@
       "item.infinity_and_ores.mederium_chestplate": "Mederium Chestplate",
       "item.infinity_and_ores.music_disc_spirits.desc": "Thediamondcrystal - Spirits",
       "entity.infinity_and_ores.weakness_urcus": "Weakness Urcus",
+      "item.infinity_and_ores.urcus_spawn_egg": "Urcus Spawn Egg",
       "advancements.missing_a_bracket.descr": "Craft a Glitched Ingot using the Glitched Station",
       "block.infinity_and_ores.mossy_mantle": "Mossy Mantle",
       "block.infinity_and_ores.nether_glitched_ore": "Nether Glitched Ore",
@@ -6299,6 +6539,7 @@
       "advancements.unknown_chestplate.title": "Unknown [item.chestplate]",
       "item.infinity_and_ores.music_disc_broken_connection.desc": "Thediamondcrystal - Broken Connection",
       "item.infinity_and_ores.music_disc_battle_starts.desc": "Thediamondcrystal - Battle Starts",
+      "item.infinity_and_ores.wither_urcus_spawn_egg": "Wither Urcus Spawn Egg",
       "advancements.glitchiness.title": "Glitchiness",
       "block.infinity_and_ores.amendoim_leaves": "Amendoim Leaves",
       "item.infinity_and_ores.mederium_pickaxe": "Mederium Pickaxe",
@@ -6311,6 +6552,7 @@
       "item.infinity_and_ores.endesulite_shovel": "Endesulite Shovel",
       "item.minecraft.potion.effect.fiddly_potion": "Fiddly Potion",
       "item.infinity_and_ores.glitched_crystal": "§eGlitched Crystal",
+      "block.infinity_and_ores.light_blue_glow_crystal_block": "Light Blue Glow Crystal Block",
       "advancements.glitchiness.descr": "Something\u0027s wrong I can feel it. Discover the weirdness of Minecraft.",
       "item.infinity_and_ores.glitched_dimension": "§dFlint \u0026 Glitch",
       "item.infinity_and_ores.opristonium_boots": "Opristonium Boots",
@@ -6325,6 +6567,7 @@
       "block.infinity_and_ores.mossy_mantle_brick_slab": "Mossy Mantle Brick Slab",
       "item.infinity_and_ores.opristonium_leggings": "Opristonium Leggings",
       "item.infinity_and_ores.glomper_tooth_boots": "Glomper Tooth",
+      "block.infinity_and_ores.glow_crystal_block": "Glow Crystal Block",
       "block.infinity_and_ores.smooth_mantle_slab": "Smooth Mantle Slab",
       "block.infinity_and_ores.glitched_obsidian": "§dGlitched Obsidian",
       "block.infinity_and_ores.mantle_slab": "Mantle Slab",
@@ -6342,6 +6585,7 @@
       "block.infinity_and_ores.mantle_white_coal_ore": "Mantle White Coal Ore",
       "advancements.unknown_shovel.title": "Unknown [item.shovel]",
       "block.infinity_and_ores.endesulite_ore": "Endesulite Ore",
+      "biome.infinity_and_ores.spiky_plateau": "Spiky Plateau",
       "advancements.unleashing_the_corruption.descr": "Create a Glitched portal and enter the hardest dimension: The Glitched dimension",
       "advancements.miners_dream.descr": "Craft a Block of Opristonium",
       "block.infinity_and_ores.amendoim_slab": "Amendoim Slab",
@@ -6365,10 +6609,12 @@
       "advancements.the_hunter_becomes_the_hunted.title": "The Hunter becomes the Hunted",
       "advancements.error_block_not_found.title": "[ERROR] Block Not Found",
       "item.minecraft.tipped_arrow.effect.potion_of_decay": "Arrow of Decay",
+      "block.infinity_and_ores.lime_glow_crystal_block": "Lime Glow Crystal Block",
       "item.infinity_and_ores.endesulite_sword": "Endesulite Sword",
       "item.infinity_and_ores.music_disc_calm_after_the_storm": "Music Disc",
       "advancements.the_purple_forest.descr": "Enter the mysterious Mantle Amendoim Forest or the Ender Amendoim Forest",
       "block.infinity_and_ores.amendoim_mushroom_block": "Amendoim Mushroom Block",
+      "block.infinity_and_ores.cyan_glow_crystal_block": "Cyan Glow Crystal Block",
       "item.infinity_and_ores.test_ingot.tooltip1": "A test ingot. How did you get it anyways?",
       "advancements.end_power.descr": "Craft an Endesulite Block",
       "item.infinity_and_ores.glomper_tooth_leggings": "Glomper Tooth",
@@ -6383,6 +6629,8 @@
       "block.infinity_and_ores.flower_pot_amendoim_roots": "Potted Amendoim Roots",
       "block.infinity_and_ores.mederium_trapdoor": "Mederium Trapdoor",
       "advancements.spatial_defense.descr": "Craft a piece of Endesulite armor",
+      "block.infinity_and_ores.purple_glow_crystal_block": "Purple Glow Crystal Block",
+      "block.infinity_and_ores.brown_glow_crystal_block": "Brown Glow Crystal Block",
       "item.infinity_and_ores.endesulite_hoe": "Endesulite Hoe",
       "advancements.unknown_sword.descr": "Craft a Glitched Sword in the Glitched Station",
       "block.infinity_and_ores.amendoim_roots": "Amendoim Roots",
@@ -6400,14 +6648,20 @@
       "block.infinity_and_ores.mantle_amendoim_nylium": "Mantle Amendoim Nylium",
       "item.infinity_and_ores.music_disc_arcade.desc": "Thediamondcrystal - Arcade (Fixed Version)",
       "itemGroup.tabinfinity_and_ores_building_blocks_tab": "Infinity \u0026 Ores: Building Blocks",
+      "block.infinity_and_ores.green_glow_crystal_block": "Green Glow Crystal Block",
+      "item.infinity_and_ores.uncharged_soul_linker": "Uncharged Soul Linker",
       "item.infinity_and_ores.glitched_residue": "§bGlitched Residue",
       "block.infinity_and_ores.polished_mantle_slab": "Polished Mantle Slab",
       "block.infinity_and_ores.mantle_glitched_ore": "Mantle Glitched Ore",
+      "block.infinity_and_ores.yellow_glow_crystal_block": "Yellow Glow Crystal Block",
       "item.infinity_and_ores.opristonium_axe": "Opristonium Axe",
       "block.infinity_and_ores.amendoim_wood": "Amendoim Wood",
       "item.infinity_and_ores.mederium_hoe": "Mederium Hoe",
+      "block.infinity_and_ores.pink_glow_crystal_block": "Pink Glow Crystal Block",
+      "block.infinity_and_ores.light_gray_glow_crystal_block": "Light Gray Glow Crystal Block",
       "item.infinity_and_ores.opristonium_nugget": "Opristonium Nugget",
       "item.infinity_and_ores.endesulite_leggings": "Endesulite Leggings",
+      "block.infinity_and_ores.gray_glow_crystal_block": "Gray Glow Crystal Block",
       "block.infinity_and_ores.glitched_ore": "Glitched Ore",
       "item.infinity_and_ores.glitched_shard": "§eGlitched Shard",
       "block.infinity_and_ores.glitched_block": "§4Glitched Block",
@@ -6418,6 +6672,7 @@
       "item.infinity_and_ores.opristonium_helmet": "Opristonium Helmet",
       "block.infinity_and_ores.ghostwood_trapdoor": "Ghostwood Trapdoor",
       "block.infinity_and_ores.amendoim_fence": "Amendoim Fence",
+      "item.infinity_and_ores.glomper_spawn_egg": "Glomper Spawn Egg",
       "advancements.surprise_chomp.descr": "Get bit by a Glomper",
       "entity.infinity_and_ores.glomper": "Glomper",
       "item.infinity_and_ores.opristonium_gem": "Opristonium Gem",
@@ -6439,6 +6694,7 @@
       "item.infinity_and_ores.music_disc_mutational_parasite": "Music Disc",
       "advancements.let_a_new_era_begin.title": "Let a new Era begin!",
       "entity.infinity_and_ores.slowness_urcus": "Slowness Urcus",
+      "biome.infinity_and_ores.mantle_amendoim_forest": "Mantle Amendoim Forest",
       "block.infinity_and_ores.ghostwood_door": "Ghostwood Door",
       "block.infinity_and_ores.amendoim_planks": "Amendoim Planks",
       "item.infinity_and_ores.virus_nucleus": "Virus Nucleus",
@@ -6453,6 +6709,7 @@
       "block.infinity_and_ores.mantle_brick_slab": "Mantle Brick Slab",
       "advancements.huh_it_fits.title": "Huh, It Fits!",
       "block.infinity_and_ores.mossy_mantle_stairs": "Mossy Mantle Stairs",
+      "item.infinity_and_ores.weakness_urcus_spawn_egg": "Weakness Urcus Spawn Egg",
       "advancements.unknown_axe.title": "Unknown [item.axe]",
       "item.infinity_and_ores.mederium_nugget": "Mederium Nugget",
       "item.infinity_and_ores.slowness_urcus": "Slowness Urcus Spawn Egg",
@@ -6462,11 +6719,15 @@
       "item.infinity_and_ores.endesulite_boots": "Endesulite Boots",
       "advancements.end_power.title": "End Power",
       "block.infinity_and_ores.polished_mantle_wall": "Polished Mantle Wall",
+      "item.infinity_and_ores.charged_soul_linker": "Charged Soul Linker",
+      "item.infinity_and_ores.crawlant_spawn_egg": "Crawlant Spawn Egg",
       "item.infinity_and_ores.test_ingot": "Test Ingot",
       "advancements.spitted_apart.descr": "Find, mine or craft some Endesulite Shards",
+      "biome.infinity_and_ores.mantle_realms": "Mantle Realms",
       "advancements.sharp_programming_bud.descr": "Mine a Glitched Crystal",
       "item.infinity_and_ores.mederium_ingot": "Mederium Ingot",
       "block.infinity_and_ores.mederium_block": "Mederium Block",
+      "block.infinity_and_ores.tall_amendoim_roots": "Tall Amendoim Roots",
       "item.infinity_and_ores.opristonium_shard": "Opristonium Shard",
       "item.infinity_and_ores.glomper": "Glomper Spawn Egg",
       "block.infinity_and_ores.glitched_crystal_block": "Glitched Crystal",
@@ -6474,6 +6735,8 @@
       "item.infinity_and_ores.reinforced_bone_spear": "Reinforced Bone Spear",
       "block.infinity_and_ores.polished_mantle": "Polished Mantle",
       "advancements.land_of_the_spirits.title": "Land of the Spirits",
+      "block.infinity_and_ores.white_glow_crystal_block": "White Glow Crystal Block",
+      "block.infinity_and_ores.red_glow_crystal_block": "Red Glow Crystal Block",
       "block.infinity_and_ores.mossy_mantle_slab": "Mossy Mantle Slab",
       "advancements.unknown_sword.title": "Unknown [item.sword]",
       "advancements.let_a_new_era_begin.descr": "Join the world and start discovering what Infinity \u0026 Ores has to offer!",
@@ -6484,12 +6747,14 @@
       "item.infinity_and_ores.opristonium_sword": "Opristonium Sword",
       "advancements.a_bit_salty.descr": "Cook some Crawlant Meat and eat it",
       "block.infinity_and_ores.amendoim_stem": "Amendoim Stem",
+      "item.infinity_and_ores.slowness_urcus_spawn_egg": "Slowness Urcus Spawn Egg",
       "item.minecraft.splash_potion.effect.fiddly_potion": "Fiddly Splash Potion",
       "itemGroup.tabinfinity_and_ores_items_tab": "Infinity \u0026 Ores: Items",
       "block.infinity_and_ores.amendoim_fence_gate": "Amendoim Fence Gate",
       "item.infinity_and_ores.endesulite_axe": "Endesulite Axe",
       "item.infinity_and_ores.music_disc_final_discoveries.desc": "Thediamondcrystal - Final Discoveries",
       "advancements.unleashing_the_corruption.title": "Unleashing the Corruption!",
+      "item.infinity_and_ores.poison_urcus_spawn_egg": "Poison Urcus Spawn Egg",
       "item.infinity_and_ores.music_disc_hypertension": "Music Disc",
       "item.infinity_and_ores.mederium_leggings": "Mederium Leggings",
       "advancements.smooth_mineral.descr": "Craft a full set of Opristonium armor",
@@ -6498,11 +6763,13 @@
       "item.infinity_and_ores.weakness_urcus": "Weakness Urcus Spawn Egg",
       "advancements.the_hunter_becomes_the_hunted.descr": "Kill a Crawlant and collect its\u0027 meat",
       "item.infinity_and_ores.crawlant": "Crawlant Spawn Egg",
+      "item.infinity_and_ores.glow_crystal": "Glow Crystal",
       "item.infinity_and_ores.amendoim_mushroom": "Amendoim Mushroom",
       "advancements.lunar_power.title": "Lunar Power",
       "item.infinity_and_ores.bone_spear": "Bone Spear",
       "advancements.error_block_not_found.descr": "Craft a Glitched Block",
       "advancements.thats_one_for_the_tool_box.title": "That\u0027s one for the Toolbox!",
+      "block.infinity_and_ores.magenta_glow_crystal_block": "Magenta Glow Crystal Block",
       "block.infinity_and_ores.amendoim_fungus": "Amendoim Fungus",
       "advancements.infected.descr": "Receive a negative potion effect from an Urcus",
       "advancements.unknown_hoe.title": "Unknown [item.hoe]",
@@ -6531,5 +6798,5 @@
     "modElementsPackage": "net.mcreator.infinityores",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202000546519
 }

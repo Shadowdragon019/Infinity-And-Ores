@@ -13,24 +13,28 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimMushroomBlockDestroyedByExplosionProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimMushroomBlockDestroyedByExplosionProcedure(InfinityAndOresModElements instance) {
-		super(instance, 457);
+		super(instance, 455);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimMushroomBlockDestroyedByExplosion!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -39,12 +43,12 @@ public class FlowerPotAmendoimMushroomBlockDestroyedByExplosionProcedure extends
 		IWorld world = (IWorld) dependencies.get("world");
 		if (!world.getWorld().isRemote) {
 			ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(Items.FLOWER_POT, (int) (1)));
-			entityToSpawn.setPickupDelay(10);
+			entityToSpawn.setPickupDelay((int) 10);
 			world.addEntity(entityToSpawn);
 		}
 		if (!world.getWorld().isRemote) {
 			ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(AmendoimMushroomItem.block, (int) (1)));
-			entityToSpawn.setPickupDelay(10);
+			entityToSpawn.setPickupDelay((int) 10);
 			world.addEntity(entityToSpawn);
 		}
 	}

@@ -6,21 +6,19 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.UseAction;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.infinityores.procedures.EnchantedGlitchedAppleFoodEatenProcedure;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 
 @InfinityAndOresModElements.ModElement.Tag
@@ -28,7 +26,7 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 	@ObjectHolder("infinity_and_ores:enchanted_glitched_apple")
 	public static final Item block = null;
 	public EnchantedGlitchedAppleItem(InfinityAndOresModElements instance) {
-		super(instance, 40);
+		super(instance, 38);
 	}
 
 	@Override
@@ -37,7 +35,7 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(4).saturation(2.4f).setAlwaysEdible().build()));
 			setRegistryName("enchanted_glitched_apple");
 		}
@@ -49,20 +47,14 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 		}
 
 		@Override
-		public UseAction getUseAction(ItemStack par1ItemStack) {
+		public UseAction getUseAction(ItemStack itemstack) {
 			return UseAction.EAT;
 		}
 
 		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent(
-					"This food doesn't give itself when eaten as of now. This will change once Infinity & Ores will be updated to MCreator 2020.5."));
-		}
-
-		@Override
-		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
-			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
+		public ItemStack onItemUseFinish(ItemStack itemstack, World world, LivingEntity entity) {
+			ItemStack retval = new ItemStack(EnchantedGlitchedAppleItem.block, (int) (1));
+			super.onItemUseFinish(itemstack, world, entity);
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
@@ -71,7 +63,16 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 				$_dependencies.put("entity", entity);
 				EnchantedGlitchedAppleFoodEatenProcedure.executeProcedure($_dependencies);
 			}
-			return retval;
+			if (itemstack.isEmpty()) {
+				return retval;
+			} else {
+				if (entity instanceof PlayerEntity) {
+					PlayerEntity player = (PlayerEntity) entity;
+					if (!player.isCreative() && !player.inventory.addItemStackToInventory(retval))
+						player.dropItem(retval, false);
+				}
+				return itemstack;
+			}
 		}
 	}
 }

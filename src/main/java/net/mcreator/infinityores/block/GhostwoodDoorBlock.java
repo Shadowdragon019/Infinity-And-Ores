@@ -35,7 +35,7 @@ public class GhostwoodDoorBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:ghostwood_door")
 	public static final Block block = null;
 	public GhostwoodDoorBlock(InfinityAndOresModElements instance) {
-		super(instance, 143);
+		super(instance, 141);
 	}
 
 	@Override

@@ -11,7 +11,10 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
+import net.minecraft.world.gen.feature.structure.MineshaftStructure;
+import net.minecraft.world.gen.feature.structure.MineshaftConfig;
 import net.minecraft.world.gen.feature.TwoFeatureChoiceConfig;
+import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.feature.AbstractTreeFeature;
@@ -47,7 +50,7 @@ public class MantleAmendoimForestBiome extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:mantle_amendoim_forest")
 	public static final CustomBiome biome = null;
 	public MantleAmendoimForestBiome(InfinityAndOresModElements instance) {
-		super(instance, 284);
+		super(instance, 282);
 	}
 
 	@Override
@@ -66,9 +69,13 @@ public class MantleAmendoimForestBiome extends InfinityAndOresModElements.ModEle
 							MantleBlock.block.getDefaultState(), MantleBlock.block.getDefaultState())));
 			setRegistryName("mantle_amendoim_forest");
 			DefaultBiomeFeatures.addCarvers(this);
-			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
+			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
+			DefaultBiomeFeatures.addLakes(this);
+			this.addStructure(Feature.STRONGHOLD.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
+			this.addStructure(Feature.MINESHAFT.withConfiguration(new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL)));
+			this.addStructure(Feature.PILLAGER_OUTPOST.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, new CustomTreeFeature()
 					.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(AmendoimLogBlock.block.getDefaultState()),
 							new SimpleBlockStateProvider(AmendoimLeavesBlock.block.getDefaultState()))).baseHeight(5)

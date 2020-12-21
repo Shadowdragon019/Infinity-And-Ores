@@ -28,29 +28,34 @@ import java.util.HashMap;
 @InfinityAndOresModElements.ModElement.Tag
 public class FlowerPotAmendoimMushroomRightClickProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public FlowerPotAmendoimMushroomRightClickProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 449);
+		super(instance, 447);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimMushroomRightClickProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -73,10 +78,10 @@ public class FlowerPotAmendoimMushroomRightClickProcedureProcedure extends Infin
 				&& (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.FLOWER_POT.getDefaultState().getBlock())
 						&& (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 								.getItem() == new ItemStack(AmendoimMushroomItem.block, (int) (1)).getItem())))) {
-			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).inventory
-						.clearMatchingItems(p -> ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-								.getItem() == p.getItem(), (int) 1);
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
+				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+			}
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), FlowerPotAmendoimMushroomBlock.block.getDefaultState(), 3);
 		} else if (((new Object() {

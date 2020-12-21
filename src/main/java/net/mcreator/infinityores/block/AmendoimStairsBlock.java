@@ -28,7 +28,7 @@ public class AmendoimStairsBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_stairs")
 	public static final Block block = null;
 	public AmendoimStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 82);
+		super(instance, 80);
 	}
 
 	@Override
@@ -39,8 +39,9 @@ public class AmendoimStairsBlock extends InfinityAndOresModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(), Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)
-					.hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0).harvestTool(ToolType.AXE));
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 3f)).getDefaultState(),
+					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).lightValue(0).harvestLevel(0)
+							.harvestTool(ToolType.AXE));
 			setRegistryName("amendoim_stairs");
 		}
 

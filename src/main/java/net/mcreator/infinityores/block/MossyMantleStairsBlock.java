@@ -25,7 +25,7 @@ public class MossyMantleStairsBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:mossy_mantle_stairs")
 	public static final Block block = null;
 	public MossyMantleStairsBlock(InfinityAndOresModElements instance) {
-		super(instance, 58);
+		super(instance, 56);
 	}
 
 	@Override
@@ -36,8 +36,9 @@ public class MossyMantleStairsBlock extends InfinityAndOresModElements.ModElemen
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK)).getDefaultState(), Block.Properties.create(Material.ROCK).sound(SoundType.STONE)
-					.hardnessAndResistance(1f, 6f).lightValue(0).harvestLevel(0).harvestTool(ToolType.PICKAXE));
+			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1f, 6f)).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 6f).lightValue(0).harvestLevel(0)
+							.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mossy_mantle_stairs");
 		}
 

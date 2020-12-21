@@ -32,7 +32,7 @@ public class StrippedAmendoimWoodBlock extends InfinityAndOresModElements.ModEle
 	@ObjectHolder("infinity_and_ores:stripped_amendoim_wood")
 	public static final Block block = null;
 	public StrippedAmendoimWoodBlock(InfinityAndOresModElements instance) {
-		super(instance, 80);
+		super(instance, 78);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class StrippedAmendoimWoodBlock extends InfinityAndOresModElements.ModEle
 			else if (facing == Direction.NORTH || facing == Direction.SOUTH)
 				facing = Direction.EAST;
 			else
-				facing = Direction.SOUTH;
+				facing = Direction.SOUTH;;
 			return this.getDefaultState().with(FACING, facing);
 		}
 

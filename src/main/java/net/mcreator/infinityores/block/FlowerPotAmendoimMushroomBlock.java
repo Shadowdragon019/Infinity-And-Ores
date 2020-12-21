@@ -14,6 +14,7 @@ import net.minecraft.world.Explosion;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
@@ -49,7 +50,7 @@ public class FlowerPotAmendoimMushroomBlock extends InfinityAndOresModElements.M
 	@ObjectHolder("infinity_and_ores:flower_pot_amendoim_mushroom")
 	public static final Block block = null;
 	public FlowerPotAmendoimMushroomBlock(InfinityAndOresModElements instance) {
-		super(instance, 447);
+		super(instance, 445);
 	}
 
 	@Override
@@ -82,7 +83,8 @@ public class FlowerPotAmendoimMushroomBlock extends InfinityAndOresModElements.M
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
-			return VoxelShapes.create(0.312D, 0D, 0.312D, 0.688D, 0.375D, 0.688D);
+			Vec3d offset = state.getOffset(world, pos);
+			return VoxelShapes.create(0.312D, 0D, 0.312D, 0.688D, 0.375D, 0.688D).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/glow_crystal_purple",
+    "up": "infinity_and_ores:blocks/glow_crystal_purple",
+    "north": "infinity_and_ores:blocks/glow_crystal_purple",
+    "east": "infinity_and_ores:blocks/glow_crystal_purple",
+    "south": "infinity_and_ores:blocks/glow_crystal_purple",
+    "west": "infinity_and_ores:blocks/glow_crystal_purple",
+    "particle": "infinity_and_ores:blocks/glow_crystal_purple"
+  }
+}

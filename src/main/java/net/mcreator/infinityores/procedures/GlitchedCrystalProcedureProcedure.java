@@ -20,28 +20,33 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedCrystalProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedCrystalProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 175);
+		super(instance, 173);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure GlitchedCrystalProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure GlitchedCrystalProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure GlitchedCrystalProcedure!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure GlitchedCrystalProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure GlitchedCrystalProcedure!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure GlitchedCrystalProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure GlitchedCrystalProcedure!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure GlitchedCrystalProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure GlitchedCrystalProcedure!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure GlitchedCrystalProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -62,9 +67,10 @@ public class GlitchedCrystalProcedureProcedure extends InfinityAndOresModElement
 			}
 		}.checkGamemode(entity))) {
 			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), GlitchedCrystalBlockBlock.block.getDefaultState(), 3);
-			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).inventory
-						.clearMatchingItems(p -> new ItemStack(GlitchedCrystalItemItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
+			if (entity instanceof PlayerEntity) {
+				ItemStack _stktoremove = new ItemStack(GlitchedCrystalItemItem.block, (int) (1));
+				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+			}
 		}
 		if ((new Object() {
 			public boolean checkGamemode(Entity _ent) {

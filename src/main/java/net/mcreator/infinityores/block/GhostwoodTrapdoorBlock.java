@@ -33,7 +33,7 @@ public class GhostwoodTrapdoorBlock extends InfinityAndOresModElements.ModElemen
 	@ObjectHolder("infinity_and_ores:ghostwood_trapdoor")
 	public static final Block block = null;
 	public GhostwoodTrapdoorBlock(InfinityAndOresModElements instance) {
-		super(instance, 144);
+		super(instance, 142);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class AmendoimSlabBlock extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:amendoim_slab")
 	public static final Block block = null;
 	public AmendoimSlabBlock(InfinityAndOresModElements instance) {
-		super(instance, 83);
+		super(instance, 81);
 	}
 
 	@Override

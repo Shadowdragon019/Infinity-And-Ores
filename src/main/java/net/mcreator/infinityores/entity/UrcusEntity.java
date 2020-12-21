@@ -55,7 +55,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class UrcusEntity extends InfinityAndOresModElements.ModElement {
 	public static EntityType entity = null;
 	public UrcusEntity(InfinityAndOresModElements instance) {
-		super(instance, 145);
+		super(instance, 143);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -65,8 +65,8 @@ public class UrcusEntity extends InfinityAndOresModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.4f, 0.4f)).build("urcus")
 						.setRegistryName("urcus");
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -15592942, -11534145, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("urcus"));
+		elements.items.add(
+				() -> new SpawnEggItem(entity, -15592942, -11534145, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("urcus_spawn_egg"));
 	}
 
 	@SubscribeEvent

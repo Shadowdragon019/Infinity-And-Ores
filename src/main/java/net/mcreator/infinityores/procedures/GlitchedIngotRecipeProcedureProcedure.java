@@ -24,24 +24,28 @@ import java.util.Map;
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public GlitchedIngotRecipeProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 329);
+		super(instance, 327);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure GlitchedIngotRecipeProcedure!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure GlitchedIngotRecipeProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure GlitchedIngotRecipeProcedure!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure GlitchedIngotRecipeProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure GlitchedIngotRecipeProcedure!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure GlitchedIngotRecipeProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure GlitchedIngotRecipeProcedure!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure GlitchedIngotRecipeProcedure!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

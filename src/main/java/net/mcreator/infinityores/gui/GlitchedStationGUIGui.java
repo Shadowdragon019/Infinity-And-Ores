@@ -47,7 +47,7 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public GlitchedStationGUIGui(InfinityAndOresModElements instance) {
-		super(instance, 167);
+		super(instance, 165);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -120,47 +120,47 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 					}
 				}
 			}
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 22) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 23) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 40) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 41) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 61, 40) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 61, 41) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 40) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 41) {
 			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 61, 58) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 61, 59) {
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 115, 22) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 115, 23) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 58) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 22) {
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 23) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(GlitchedCrystalItemItem.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 79, 22) {
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 79, 23) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(GlitchedCrystalItemItem.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 43, 58) {
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 43, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(GlitchedCrystalItemItem.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 79, 58) {
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 79, 59) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(GlitchedCrystalItemItem.block, (int) (1)).getItem() == stack.getItem());
@@ -352,9 +352,9 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
-			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			GL11.glColor4f(1, 1, 1, 1);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infinity_and_ores:textures/glitched_station_gui2.png"));
-			this.blit(this.guiLeft + 0, this.guiTop + 1, 0, 0, 256, 256);
+			this.blit(this.guiLeft + 0, this.guiTop + 1, 0, 0, 256, 256, 256, 256);
 		}
 
 		@Override

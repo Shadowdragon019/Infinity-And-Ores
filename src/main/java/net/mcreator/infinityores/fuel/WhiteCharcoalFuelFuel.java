@@ -13,7 +13,7 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 @InfinityAndOresModElements.ModElement.Tag
 public class WhiteCharcoalFuelFuel extends InfinityAndOresModElements.ModElement {
 	public WhiteCharcoalFuelFuel(InfinityAndOresModElements instance) {
-		super(instance, 322);
+		super(instance, 320);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -18,12 +18,13 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class SpatialDefenseProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public SpatialDefenseProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 244);
+		super(instance, 242);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure SpatialDefenseProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure SpatialDefenseProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

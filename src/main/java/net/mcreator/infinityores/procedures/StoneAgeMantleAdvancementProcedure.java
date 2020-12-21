@@ -18,12 +18,13 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class StoneAgeMantleAdvancementProcedure extends InfinityAndOresModElements.ModElement {
 	public StoneAgeMantleAdvancementProcedure(InfinityAndOresModElements instance) {
-		super(instance, 283);
+		super(instance, 281);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure StoneAgeMantleAdvancement!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure StoneAgeMantleAdvancement!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

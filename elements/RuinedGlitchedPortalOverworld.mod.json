@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "structure",
   "definition": {
     "structure": "ruined_glitched_portal_overworld",
@@ -10,6 +10,8 @@
     "maxCountPerChunk": 1,
     "spawnLocation": "Air",
     "spawnHeightOffset": 6,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
     "spawnWorldTypes": [
       "Surface"
     ],

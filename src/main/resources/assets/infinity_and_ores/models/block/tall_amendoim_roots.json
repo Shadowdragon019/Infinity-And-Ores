@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "infinity_and_ores:blocks/tall_amendoim_roots_top",
+    "particle": "infinity_and_ores:blocks/tall_amendoim_roots_top"
+  }
+}

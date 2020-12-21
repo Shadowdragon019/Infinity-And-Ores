@@ -18,12 +18,13 @@ import java.util.Iterator;
 @InfinityAndOresModElements.ModElement.Tag
 public class DimensionalGuardianProcedureProcedure extends InfinityAndOresModElements.ModElement {
 	public DimensionalGuardianProcedureProcedure(InfinityAndOresModElements instance) {
-		super(instance, 261);
+		super(instance, 259);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure DimensionalGuardianProcedure!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure DimensionalGuardianProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

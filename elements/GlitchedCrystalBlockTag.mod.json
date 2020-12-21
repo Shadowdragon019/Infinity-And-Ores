@@ -1,0 +1,115 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Mantle"
+      },
+      {
+        "value": "CUSTOM:MantleAmendoimNylium"
+      },
+      {
+        "value": "CUSTOM:EnderAmendoimNylium"
+      },
+      {
+        "value": "CUSTOM:GlitchedSoil"
+      },
+      {
+        "value": "CUSTOM:MantleWhiteCoalOre"
+      },
+      {
+        "value": "CUSTOM:OpristoniumOre"
+      },
+      {
+        "value": "CUSTOM:GlitchedOre"
+      },
+      {
+        "value": "CUSTOM:NetherGlitchedOre"
+      },
+      {
+        "value": "CUSTOM:EndGlitchedOre"
+      },
+      {
+        "value": "CUSTOM:EndesuliteOre"
+      },
+      {
+        "value": "CUSTOM:MantleGlitchedOre"
+      },
+      {
+        "value": "CUSTOM:MantleOpristoniumOre"
+      },
+      {
+        "value": "CUSTOM:MederiumOre"
+      },
+      {
+        "value": "CUSTOM:MantleWhiteCoalOre"
+      },
+      {
+        "value": "CUSTOM:MantleOpristoniumOre"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.COAL_ORE"
+      },
+      {
+        "value": "Blocks.IRON_ORE"
+      },
+      {
+        "value": "Blocks.REDSTONE_ORE"
+      },
+      {
+        "value": "Blocks.GOLD_ORE"
+      },
+      {
+        "value": "Blocks.LAPIS_ORE"
+      },
+      {
+        "value": "Blocks.DIAMOND_ORE"
+      },
+      {
+        "value": "Blocks.EMERALD_ORE"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.SOUL_SAND"
+      }
+    ],
+    "functions": [],
+    "name": "glitched_crystal_block_tag",
+    "namespace": "mod"
+  }
+}
