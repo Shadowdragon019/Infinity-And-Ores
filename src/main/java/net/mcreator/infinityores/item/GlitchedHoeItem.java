@@ -46,7 +46,7 @@ public class GlitchedHoeItem extends InfinityAndOresModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GlitchedIngotItem.block, (int) (1)));
 			}
-		}, 0f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
+		}, 0, 0f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 		}.setRegistryName("glitched_hoe"));
 	}
 }

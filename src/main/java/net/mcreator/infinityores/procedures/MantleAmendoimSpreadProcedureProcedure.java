@@ -20,6 +20,7 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.infinityores.block.MantleBlock;
 import net.mcreator.infinityores.block.MantleAmendoimNyliumBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -34,27 +35,27 @@ public class MantleAmendoimSpreadProcedureProcedure extends InfinityAndOresModEl
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure MantleAmendoimSpreadProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure MantleAmendoimSpreadProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure MantleAmendoimSpreadProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency x for procedure MantleAmendoimSpreadProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure MantleAmendoimSpreadProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency y for procedure MantleAmendoimSpreadProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure MantleAmendoimSpreadProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency z for procedure MantleAmendoimSpreadProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure MantleAmendoimSpreadProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency world for procedure MantleAmendoimSpreadProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -66,7 +67,7 @@ public class MantleAmendoimSpreadProcedureProcedure extends InfinityAndOresModEl
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
 					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SURVIVAL;
-				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote) {
+				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
 							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
 					return _npi != null && _npi.getGameType() == GameType.SURVIVAL;
@@ -100,14 +101,15 @@ public class MantleAmendoimSpreadProcedureProcedure extends InfinityAndOresModEl
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MantleAmendoimNyliumBlock.block.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity) {
 				ItemStack _stktoremove = new ItemStack(Items.BONE_MEAL, (int) (1));
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 1);
+				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
+						((PlayerEntity) entity).container.func_234641_j_());
 			}
 		}
 		if (((world.isAirBlock(new BlockPos((int) x, (int) (y + 1), (int) z))) && ((new Object() {
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
 					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
-				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote) {
+				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
 							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
 					return _npi != null && _npi.getGameType() == GameType.CREATIVE;
@@ -145,9 +147,9 @@ public class MantleAmendoimSpreadProcedureProcedure extends InfinityAndOresModEl
 	@SubscribeEvent
 	public void onBonemeal(BonemealEvent event) {
 		PlayerEntity entity = event.getPlayer();
-		int i = event.getPos().getX();
-		int j = event.getPos().getY();
-		int k = event.getPos().getZ();
+		double i = event.getPos().getX();
+		double j = event.getPos().getY();
+		double k = event.getPos().getZ();
 		World world = event.getWorld();
 		ItemStack itemstack = event.getStack();
 		Map<String, Object> dependencies = new HashMap<>();

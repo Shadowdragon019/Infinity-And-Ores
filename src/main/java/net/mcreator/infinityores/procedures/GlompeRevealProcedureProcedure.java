@@ -2,6 +2,7 @@ package net.mcreator.infinityores.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
@@ -21,6 +22,7 @@ import net.minecraft.advancements.Advancement;
 
 import net.mcreator.infinityores.entity.GlomperEntity;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -34,27 +36,27 @@ public class GlompeRevealProcedureProcedure extends InfinityAndOresModElements.M
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure GlompeRevealProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure GlompeRevealProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency x for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure GlompeRevealProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency y for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure GlompeRevealProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency z for procedure GlompeRevealProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure GlompeRevealProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency world for procedure GlompeRevealProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -63,21 +65,21 @@ public class GlompeRevealProcedureProcedure extends InfinityAndOresModElements.M
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) 2);
-		if (!world.getWorld().isRemote) {
-			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+		if (world instanceof World && !world.isRemote()) {
+			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.evoker_fangs.attack")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		} else {
-			world.getWorld().playSound(x, y, z,
+			((World) world).playSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.evoker_fangs.attack")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 		}
 		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
-		if (world instanceof World && !world.getWorld().isRemote) {
-			Entity entityToSpawn = new GlomperEntity.CustomEntity(GlomperEntity.entity, world.getWorld());
+		if (world instanceof ServerWorld) {
+			Entity entityToSpawn = new GlomperEntity.CustomEntity(GlomperEntity.entity, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}

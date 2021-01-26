@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "infinity_and_ores:blocks/glow_crystal_white",
-    "up": "infinity_and_ores:blocks/glow_crystal_white",
-    "north": "infinity_and_ores:blocks/glow_crystal_white",
-    "east": "infinity_and_ores:blocks/glow_crystal_white",
-    "south": "infinity_and_ores:blocks/glow_crystal_white",
-    "west": "infinity_and_ores:blocks/glow_crystal_white",
-    "particle": "infinity_and_ores:blocks/glow_crystal_white"
+    "down": "infinity_and_ores:blocks/white_glow_crystal",
+    "up": "infinity_and_ores:blocks/white_glow_crystal",
+    "north": "infinity_and_ores:blocks/white_glow_crystal",
+    "east": "infinity_and_ores:blocks/white_glow_crystal",
+    "south": "infinity_and_ores:blocks/white_glow_crystal",
+    "west": "infinity_and_ores:blocks/white_glow_crystal",
+    "particle": "infinity_and_ores:blocks/white_glow_crystal"
   }
 }

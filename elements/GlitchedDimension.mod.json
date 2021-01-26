@@ -1,24 +1,7 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "dimension",
   "definition": {
-    "portalFrame": {
-      "value": "CUSTOM:GlitchedObsidian"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
-    "portalLuminance": 1.0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
-    "igniterName": "§dFlint & Glitch",
-    "igniterTab": {
-      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
-    },
-    "texture": "flint_and_glitch",
-    "portalTexture": "glitched_portal",
-    "enablePortal": true,
     "biomesInDimension": [
       {
         "value": "CUSTOM:MantleAmendoimForest"
@@ -41,13 +24,29 @@
       "value": -13434829,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": true,
-    "hasWeather": true,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": true
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:GlitchedObsidian"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "§dFlint & Glitch",
+    "igniterTab": {
+      "value": "CUSTOM:InfinityAndOresToolsAndArmorsTab"
+    },
+    "texture": "flint_and_glitch",
+    "portalTexture": "glitched_portal",
+    "enablePortal": true
   }
 }

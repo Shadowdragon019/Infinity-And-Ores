@@ -46,7 +46,7 @@ public class MederiumHoeItem extends InfinityAndOresModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(MederiumIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
+		}, 0, -3f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 		}.setRegistryName("mederium_hoe"));
 	}
 }

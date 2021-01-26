@@ -13,7 +13,6 @@ import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
@@ -32,6 +31,7 @@ import net.minecraft.network.play.server.SUpdateTileEntityPacket;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -72,7 +72,7 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public GlitchedStationBlock(InfinityAndOresModElements instance) {
 		super(instance, 106);
-		FMLJavaModLoadingContext.get().getModEventBus().register(this);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
 	@Override
@@ -81,14 +81,16 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(InfinityAndOresDecorationBlocksTabItemGroup.tab))
 				.setRegistryName(block.getRegistryName()));
 	}
-
-	@SubscribeEvent
-	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("glitched_station"));
+	private static class TileEntityRegisterHandler {
+		@SubscribeEvent
+		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
+			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("glitched_station"));
+		}
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(10f, 10f).lightValue(0).harvestLevel(4)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(10f, 10f).setLightLevel(s -> 0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("glitched_station");
 		}
@@ -107,7 +109,7 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 10);
 		}
 
 		@Override
@@ -124,7 +126,7 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 				$_dependencies.put("world", world);
 				GlitchedTableRecipesProcedureProcedure.executeProcedure($_dependencies);
 			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 10);
 		}
 
 		@Override
@@ -194,8 +196,8 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 		}
 
 		@Override
-		public void read(CompoundNBT compound) {
-			super.read(compound);
+		public void read(BlockState blockState, CompoundNBT compound) {
+			super.read(blockState, compound);
 			if (!this.checkLootAndRead(compound)) {
 				this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
 			}
@@ -223,7 +225,7 @@ public class GlitchedStationBlock extends InfinityAndOresModElements.ModElement 
 
 		@Override
 		public void onDataPacket(NetworkManager net, SUpdateTileEntityPacket pkt) {
-			this.read(pkt.getNbtCompound());
+			this.read(this.getBlockState(), pkt.getNbtCompound());
 		}
 
 		@Override

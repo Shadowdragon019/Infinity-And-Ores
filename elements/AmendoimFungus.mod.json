@@ -1,10 +1,13 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "plant",
   "definition": {
     "renderType": 12,
     "texture": "amendoim_fungus",
+    "textureBottom": "",
     "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "growapableSpawnType": "Nether",
@@ -17,7 +20,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 0.0,
+    "luminance": 0,
     "unbreakable": false,
     "soundOnStep": {
       "value": "NETHER_WART"
@@ -30,7 +33,7 @@
     "forceTicking": true,
     "emissiveRendering": false,
     "hasTileEntity": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -47,9 +50,6 @@
       {
         "value": "CUSTOM:MantleAmendoimForest"
       }
-    ],
-    "onRightClicked": {
-      "name": "AmendoimSaplingBonemealProcedure"
-    }
+    ]
   }
 }

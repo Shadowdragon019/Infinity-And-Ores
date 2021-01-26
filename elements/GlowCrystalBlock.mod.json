@@ -1,13 +1,13 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "mederium_bars",
-    "textureTop": "mederium_bars",
-    "textureLeft": "mederium_bars",
-    "textureFront": "mederium_bars",
-    "textureRight": "mederium_bars",
-    "textureBack": "mederium_bars",
+    "texture": "glow_crystal",
+    "textureTop": "glow_crystal",
+    "textureLeft": "glow_crystal",
+    "textureFront": "glow_crystal",
+    "textureRight": "glow_crystal",
+    "textureBack": "glow_crystal",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -39,7 +39,6 @@
     },
     "dropAmount": 4,
     "useLootTableForDrops": false,
-    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -65,7 +64,7 @@
     "soundOnStep": {
       "value": "GLASS"
     },
-    "luminance": 1.0,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[35,)"
+license="Not specified"
 
 [[mods]]
 modId="infinity_and_ores"
@@ -16,7 +17,7 @@ Infinity & Ores is a mod created by Thediamondcrystal in order to enhance the va
 [[dependencies.infinity_and_ores]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
 

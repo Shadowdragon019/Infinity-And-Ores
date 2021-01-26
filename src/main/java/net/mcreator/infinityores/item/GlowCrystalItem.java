@@ -13,7 +13,7 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 
 @InfinityAndOresModElements.ModElement.Tag
 public class GlowCrystalItem extends InfinityAndOresModElements.ModElement {
-	@ObjectHolder("infinity_and_ores:glow_crystal")
+	@ObjectHolder("infinity_and_ores:glow_crystal_shards")
 	public static final Item block = null;
 	public GlowCrystalItem(InfinityAndOresModElements instance) {
 		super(instance, 555);
@@ -26,7 +26,7 @@ public class GlowCrystalItem extends InfinityAndOresModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(InfinityAndOresItemsTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("glow_crystal");
+			setRegistryName("glow_crystal_shards");
 		}
 
 		@Override

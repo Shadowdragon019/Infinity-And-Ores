@@ -4,7 +4,7 @@ package net.mcreator.infinityores.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -37,7 +37,7 @@ public class MossyMantleStairsBlock extends InfinityAndOresModElements.ModElemen
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1f, 6f)).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 6f).lightValue(0).harvestLevel(0)
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 6f).setLightLevel(s -> 0).harvestLevel(0)
 							.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mossy_mantle_stairs");
 		}

@@ -7,6 +7,7 @@ import net.minecraft.entity.Entity;
 import net.mcreator.infinityores.item.ReinforcedBoneSpearItem;
 import net.mcreator.infinityores.item.BoneSpearItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 
@@ -19,7 +20,7 @@ public class BoneSpearRangedItemUsedProcedure extends InfinityAndOresModElements
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure BoneSpearRangedItemUsed!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure BoneSpearRangedItemUsed!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

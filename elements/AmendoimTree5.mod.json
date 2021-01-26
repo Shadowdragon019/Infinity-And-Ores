@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "structure",
   "definition": {
     "structure": "amendoim_mushroom_medium",
@@ -8,7 +8,7 @@
     "spawnProbability": 1000000,
     "minCountPerChunk": 16,
     "maxCountPerChunk": 16,
-    "spawnLocation": "Underground",
+    "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
     "spawnXOffset": 0,
     "spawnZOffset": 0,

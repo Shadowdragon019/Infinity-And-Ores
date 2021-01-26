@@ -2,30 +2,33 @@
 package net.mcreator.infinityores.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.common.PlantType;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.NoiseDependant;
 import net.minecraft.world.gen.feature.RandomPatchFeature;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.blockplacer.DoublePlantBlockPlacer;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
-import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.IWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.ISeedReader;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.RegistryKey;
 import net.minecraft.state.properties.DoubleBlockHalf;
 import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.TallBlockItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -38,7 +41,6 @@ import net.minecraft.block.DoublePlantBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.itemgroup.InfinityAndOresDecorationBlocksTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -52,6 +54,7 @@ public class TallAmendoimRootsBlock extends InfinityAndOresModElements.ModElemen
 	public static final Block block = null;
 	public TallAmendoimRootsBlock(InfinityAndOresModElements instance) {
 		super(instance, 535);
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	@Override
@@ -67,42 +70,41 @@ public class TallAmendoimRootsBlock extends InfinityAndOresModElements.ModElemen
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 
-	@Override
-	public void init(FMLCommonSetupEvent event) {
-		RandomPatchFeature feature = new RandomPatchFeature(BlockClusterFeatureConfig::deserialize) {
+	@SubscribeEvent
+	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("infinity_and_ores:mantle_amendoim_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		RandomPatchFeature feature = new RandomPatchFeature(BlockClusterFeatureConfig.field_236587_a_) {
 			@Override
-			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
-				DimensionType dimensionType = world.getDimension().getType();
+			public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
+				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 				boolean dimensionCriteria = false;
-				if (dimensionType == GlitchedDimensionDimension.type)
+				if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("infinity_and_ores:glitched_dimension")))
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				return super.place(world, generator, random, pos, config);
+				return super.generate(world, generator, random, pos, config);
 			}
 		};
-		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("infinity_and_ores:mantle_amendoim_forest")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
-			biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, feature.withConfiguration(
-					(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new DoublePlantBlockPlacer()))
-							.tries(64).build())
-					.withPlacement(Placement.NOISE_HEIGHTMAP_32.configure(new NoiseDependant(-0.8, 0, 30))));
-		}
+		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION)
+				.add(() -> (ConfiguredFeature<?, ?>) feature.withConfiguration(
+						(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new DoublePlantBlockPlacer()))
+								.tries(64).build())
+						.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8, 0, 3))));
 	}
 	public static class BlockCustomFlower extends DoublePlantBlock {
 		public BlockCustomFlower() {
 			super(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.GROUND).hardnessAndResistance(0f, 0f)
-					.lightValue(0));
+					.setLightLevel(s -> 0));
 			setRegistryName("tall_amendoim_roots");
 		}
 
 		@Override
 		public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
-			return true;
+			return useContext.getItem().getItem() != this.asItem();
 		}
 
 		@Override
@@ -117,7 +119,7 @@ public class TallAmendoimRootsBlock extends InfinityAndOresModElements.ModElemen
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.Plains;
+			return PlantType.CAVE;
 		}
 	}
 }

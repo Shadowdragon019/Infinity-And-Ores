@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "infinity_and_ores:blocks/glow_crystal_cyan",
-    "up": "infinity_and_ores:blocks/glow_crystal_cyan",
-    "north": "infinity_and_ores:blocks/glow_crystal_cyan",
-    "east": "infinity_and_ores:blocks/glow_crystal_cyan",
-    "south": "infinity_and_ores:blocks/glow_crystal_cyan",
-    "west": "infinity_and_ores:blocks/glow_crystal_cyan",
-    "particle": "infinity_and_ores:blocks/glow_crystal_cyan"
+    "down": "infinity_and_ores:blocks/cyan_glow_crystal",
+    "up": "infinity_and_ores:blocks/cyan_glow_crystal",
+    "north": "infinity_and_ores:blocks/cyan_glow_crystal",
+    "east": "infinity_and_ores:blocks/cyan_glow_crystal",
+    "south": "infinity_and_ores:blocks/cyan_glow_crystal",
+    "west": "infinity_and_ores:blocks/cyan_glow_crystal",
+    "particle": "infinity_and_ores:blocks/cyan_glow_crystal"
   }
 }

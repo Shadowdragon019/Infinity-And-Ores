@@ -16,6 +16,7 @@ import net.minecraft.block.Blocks;
 
 import net.mcreator.infinityores.block.AmendoimRootsBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 
@@ -28,27 +29,27 @@ public class FlowerPotAmendoimRootsOnBlockRightClickedProcedure extends Infinity
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency x for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency y for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency z for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency world for procedure FlowerPotAmendoimRootsOnBlockRightClicked!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -60,7 +61,7 @@ public class FlowerPotAmendoimRootsOnBlockRightClickedProcedure extends Infinity
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
 					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SURVIVAL;
-				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote) {
+				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
 							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
 					return _npi != null && _npi.getGameType() == GameType.SURVIVAL;
@@ -82,7 +83,7 @@ public class FlowerPotAmendoimRootsOnBlockRightClickedProcedure extends Infinity
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
 					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
-				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote) {
+				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
 							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
 					return _npi != null && _npi.getGameType() == GameType.CREATIVE;

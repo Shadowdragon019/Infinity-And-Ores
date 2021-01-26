@@ -13,6 +13,7 @@ import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 
@@ -25,7 +26,7 @@ public class AmendoimStewProcedureProcedure extends InfinityAndOresModElements.M
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure AmendoimStewProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure AmendoimStewProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -33,7 +34,7 @@ public class AmendoimStewProcedureProcedure extends InfinityAndOresModElements.M
 			public boolean checkGamemode(Entity _ent) {
 				if (_ent instanceof ServerPlayerEntity) {
 					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SURVIVAL;
-				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote) {
+				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
 							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
 					return _npi != null && _npi.getGameType() == GameType.SURVIVAL;

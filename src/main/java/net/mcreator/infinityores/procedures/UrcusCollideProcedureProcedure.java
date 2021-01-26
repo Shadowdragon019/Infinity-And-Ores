@@ -4,6 +4,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 
@@ -16,7 +17,7 @@ public class UrcusCollideProcedureProcedure extends InfinityAndOresModElements.M
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure UrcusCollideProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure UrcusCollideProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

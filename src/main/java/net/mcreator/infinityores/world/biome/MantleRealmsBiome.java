@@ -1,18 +1,18 @@
 
 package net.mcreator.infinityores.world.biome;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
-import net.minecraft.world.gen.feature.structure.MineshaftStructure;
-import net.minecraft.world.gen.feature.structure.MineshaftConfig;
-import net.minecraft.world.gen.feature.IFeatureConfig;
-import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.structure.StructureFeatures;
+import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
+import net.minecraft.world.biome.BiomeGenerationSettings;
+import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
 
 import net.mcreator.infinityores.block.MantleBlock;
@@ -20,41 +20,36 @@ import net.mcreator.infinityores.InfinityAndOresModElements;
 
 @InfinityAndOresModElements.ModElement.Tag
 public class MantleRealmsBiome extends InfinityAndOresModElements.ModElement {
-	@ObjectHolder("infinity_and_ores:mantle_realms")
-	public static final CustomBiome biome = null;
+	public static Biome biome;
 	public MantleRealmsBiome(InfinityAndOresModElements instance) {
 		super(instance, 283);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
-
-	@Override
-	public void initElements() {
-		elements.biomes.add(() -> new CustomBiome());
+	private static class BiomeRegisterHandler {
+		@SubscribeEvent
+		public void registerBiomes(RegistryEvent.Register<Biome> event) {
+			if (biome == null) {
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13421773).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(-13421773).withFoliageColor(10387789).withGrassColor(9470285).build();
+				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(MantleBlock.block.getDefaultState(),
+								MantleBlock.block.getDefaultState(), MantleBlock.block.getDefaultState())));
+				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
+				DefaultBiomeFeatures.withMonsterRoom(biomeGenerationSettings);
+				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
+				DefaultBiomeFeatures.withLavaAndWaterLakes(biomeGenerationSettings);
+				biomeGenerationSettings.withStructure(StructureFeatures.STRONGHOLD);
+				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
+				biomeGenerationSettings.withStructure(StructureFeatures.PILLAGER_OUTPOST);
+				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0f)
+						.downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+						.withGenerationSettings(biomeGenerationSettings.build()).build();
+				event.getRegistry().register(biome.setRegistryName("infinity_and_ores:mantle_realms"));
+			}
+		}
 	}
-
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-	}
-	static class CustomBiome extends Biome {
-		public CustomBiome() {
-			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(0.2f).temperature(0f).precipitation(Biome.RainType.NONE)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
-					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(MantleBlock.block.getDefaultState(),
-							MantleBlock.block.getDefaultState(), MantleBlock.block.getDefaultState())));
-			setRegistryName("mantle_realms");
-			DefaultBiomeFeatures.addCarvers(this);
-			DefaultBiomeFeatures.addMonsterRooms(this);
-			DefaultBiomeFeatures.addStructures(this);
-			DefaultBiomeFeatures.addOres(this);
-			DefaultBiomeFeatures.addLakes(this);
-			this.addStructure(Feature.STRONGHOLD.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
-			this.addStructure(Feature.MINESHAFT.withConfiguration(new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL)));
-			this.addStructure(Feature.PILLAGER_OUTPOST.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public int getSkyColor() {
-			return -13421773;
-		}
 	}
 }

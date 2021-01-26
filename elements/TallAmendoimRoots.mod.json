@@ -1,5 +1,5 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -10,7 +10,7 @@
     "particleTexture": "",
     "plantType": "double",
     "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Grass",
     "name": "Tall Amendoim Roots",
@@ -20,7 +20,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 0.0,
+    "luminance": 0,
     "unbreakable": false,
     "soundOnStep": {
       "value": "GROUND"
@@ -42,7 +42,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 30,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "CUSTOM:GlitchedDimension"
     ],

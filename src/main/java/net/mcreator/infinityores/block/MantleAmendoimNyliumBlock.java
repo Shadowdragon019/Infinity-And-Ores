@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.IPlantable;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -39,7 +39,7 @@ public class MantleAmendoimNyliumBlock extends InfinityAndOresModElements.ModEle
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.STONE).hardnessAndResistance(1f, 6f).lightValue(0).harvestLevel(0)
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.STONE).hardnessAndResistance(1f, 6f).setLightLevel(s -> 0).harvestLevel(0)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mantle_amendoim_nylium");
 		}

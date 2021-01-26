@@ -1,15 +1,18 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "plant",
   "definition": {
     "renderType": 12,
     "texture": "amendoim_sprouts",
+    "textureBottom": "",
     "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "growapableSpawnType": "Nether",
     "growapableMaxHeight": 3,
-    "doublePlantGenerationType": "Flower",
+    "doublePlantGenerationType": "Grass",
     "name": "Amendoim Sprouts",
     "specialInfo": [],
     "creativeTab": {
@@ -17,7 +20,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 0.0,
+    "luminance": 0,
     "unbreakable": false,
     "soundOnStep": {
       "value": "PLANT"
@@ -39,7 +42,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 30,
+    "frequencyOnChunks": 10,
     "spawnWorldTypes": [
       "CUSTOM:GlitchedDimension"
     ],

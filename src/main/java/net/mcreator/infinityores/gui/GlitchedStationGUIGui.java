@@ -42,6 +42,8 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+import com.mojang.blaze3d.matrix.MatrixStack;
+
 @InfinityAndOresModElements.ModElement.Tag
 public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement {
 	public static HashMap guistate = new HashMap();
@@ -320,7 +322,7 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 		}
 
 		private void slotChanged(int slotid, int ctype, int meta) {
-			if (this.world != null && this.world.isRemote) {
+			if (this.world != null && this.world.isRemote()) {
 				InfinityAndOresMod.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
 				handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 			}
@@ -344,17 +346,17 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 		}
 
 		@Override
-		public void render(int mouseX, int mouseY, float partialTicks) {
-			this.renderBackground();
-			super.render(mouseX, mouseY, partialTicks);
-			this.renderHoveredToolTip(mouseX, mouseY);
+		public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
+			this.renderBackground(ms);
+			super.render(ms, mouseX, mouseY, partialTicks);
+			this.renderHoveredTooltip(ms, mouseX, mouseY);
 		}
 
 		@Override
-		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
+		protected void drawGuiContainerBackgroundLayer(MatrixStack ms, float par1, int par2, int par3) {
 			GL11.glColor4f(1, 1, 1, 1);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("infinity_and_ores:textures/glitched_station_gui2.png"));
-			this.blit(this.guiLeft + 0, this.guiTop + 1, 0, 0, 256, 256, 256, 256);
+			this.blit(ms, this.guiLeft + 0, this.guiTop + 1, 0, 0, 256, 256, 256, 256);
 		}
 
 		@Override
@@ -372,12 +374,12 @@ public class GlitchedStationGUIGui extends InfinityAndOresModElements.ModElement
 		}
 
 		@Override
-		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
+		protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		}
 
 		@Override
-		public void removed() {
-			super.removed();
+		public void onClose() {
+			super.onClose();
 			Minecraft.getInstance().keyboardListener.enableRepeatEvents(false);
 		}
 

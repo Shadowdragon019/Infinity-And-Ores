@@ -11,6 +11,7 @@ import net.minecraft.advancements.Advancement;
 
 import net.mcreator.infinityores.item.GlitchedArmorItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -24,7 +25,7 @@ public class ImpossibleProcedureProcedure extends InfinityAndOresModElements.Mod
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure ImpossibleProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure ImpossibleProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

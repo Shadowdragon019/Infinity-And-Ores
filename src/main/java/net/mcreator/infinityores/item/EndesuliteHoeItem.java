@@ -46,7 +46,7 @@ public class EndesuliteHoeItem extends InfinityAndOresModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(EndesuliteCrystalItem.block, (int) (1)));
 			}
-		}, 0f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
+		}, 0, 0f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 		}.setRegistryName("endesulite_hoe"));
 	}
 }

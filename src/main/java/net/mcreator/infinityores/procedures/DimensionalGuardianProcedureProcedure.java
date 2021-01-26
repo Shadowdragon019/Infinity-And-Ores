@@ -11,6 +11,7 @@ import net.minecraft.advancements.Advancement;
 
 import net.mcreator.infinityores.item.EndesuliteArmorItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -24,7 +25,7 @@ public class DimensionalGuardianProcedureProcedure extends InfinityAndOresModEle
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure DimensionalGuardianProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure DimensionalGuardianProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

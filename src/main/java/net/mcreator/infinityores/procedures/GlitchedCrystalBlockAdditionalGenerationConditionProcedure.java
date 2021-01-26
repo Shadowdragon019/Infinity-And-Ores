@@ -7,6 +7,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 
@@ -19,22 +20,22 @@ public class GlitchedCrystalBlockAdditionalGenerationConditionProcedure extends 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency x for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
 			return false;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency y for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
 			return false;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency z for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
 			return false;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency world for procedure GlitchedCrystalBlockAdditionalGenerationCondition!");
 			return false;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -42,7 +43,7 @@ public class GlitchedCrystalBlockAdditionalGenerationConditionProcedure extends 
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		return ((BlockTags.getCollection()
-				.getOrCreate(new ResourceLocation(("infinity_and_ores:glitched_crystal_block_tag").toLowerCase(java.util.Locale.ENGLISH)))
+				.getTagByID(new ResourceLocation(("infinity_and_ores:glitched_crystal_block_tag").toLowerCase(java.util.Locale.ENGLISH)))
 				.contains((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock()))
 				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()));
 	}

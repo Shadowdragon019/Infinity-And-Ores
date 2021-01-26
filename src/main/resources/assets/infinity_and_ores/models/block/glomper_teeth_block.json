@@ -1,8 +1,0 @@
-{
-  "parent": "infinity_and_ores:custom/glomper_teeth_block",
-  "textures": {
-    "all": "infinity_and_ores:blocks/glomper_teeth_block",
-    "particle": "infinity_and_ores:blocks/glomper_teeth_block",
-    "0": "infinity_and_ores:blocks/glomper_teeth_block"
-  }
-}

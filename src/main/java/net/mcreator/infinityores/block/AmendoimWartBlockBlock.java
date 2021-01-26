@@ -2,21 +2,23 @@
 package net.mcreator.infinityores.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.common.MinecraftForge;
 
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.CountRangeConfig;
+import net.minecraft.world.gen.feature.template.IRuleTestType;
+import net.minecraft.world.gen.feature.template.BlockMatchRuleTest;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.feature.OreFeature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
-import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.IWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.ISeedReader;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -25,7 +27,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.infinityores.world.dimension.GlitchedDimensionDimension;
 import net.mcreator.infinityores.itemgroup.InfinityAndOresBuildingBlocksTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -39,6 +40,7 @@ public class AmendoimWartBlockBlock extends InfinityAndOresModElements.ModElemen
 	public static final Block block = null;
 	public AmendoimWartBlockBlock(InfinityAndOresModElements instance) {
 		super(instance, 82);
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	@Override
@@ -49,7 +51,7 @@ public class AmendoimWartBlockBlock extends InfinityAndOresModElements.ModElemen
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.NETHER_WART).hardnessAndResistance(1f, 1f).lightValue(0));
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.NETHER_WART).hardnessAndResistance(1f, 1f).setLightLevel(s -> 0));
 			setRegistryName("amendoim_wart_block");
 		}
 
@@ -61,36 +63,39 @@ public class AmendoimWartBlockBlock extends InfinityAndOresModElements.ModElemen
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
-	@Override
-	public void init(FMLCommonSetupEvent event) {
-		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("infinity_and_ores:mantle_amendoim_forest")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
-			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
-				@Override
-				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
-					DimensionType dimensionType = world.getDimension().getType();
-					boolean dimensionCriteria = false;
-					if (dimensionType == DimensionType.THE_END)
-						dimensionCriteria = true;
-					if (dimensionType == GlitchedDimensionDimension.type)
-						dimensionCriteria = true;
-					if (!dimensionCriteria)
-						return false;
-					return super.place(world, generator, rand, pos, config);
-				}
-			}.withConfiguration(
-					new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("amendoim_wart_block", "amendoim_wart_block", blockAt -> {
-						boolean blockCriteria = false;
-						if (blockAt.getBlock() == EnderAmendoimNyliumBlock.block.getDefaultState().getBlock())
-							blockCriteria = true;
-						if (blockAt.getBlock() == MantleAmendoimNyliumBlock.block.getDefaultState().getBlock())
-							blockCriteria = true;
-						return blockCriteria;
-					}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 0, 0, 256))));
-		}
+	@SubscribeEvent
+	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("infinity_and_ores:mantle_amendoim_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
+		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> new OreFeature(OreFeatureConfig.CODEC) {
+			@Override
+			public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
+				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
+				boolean dimensionCriteria = false;
+				if (dimensionType == World.THE_END)
+					dimensionCriteria = true;
+				if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("infinity_and_ores:glitched_dimension")))
+					dimensionCriteria = true;
+				if (!dimensionCriteria)
+					return false;
+				return super.generate(world, generator, rand, pos, config);
+			}
+		}.withConfiguration(new OreFeatureConfig(new BlockMatchRuleTest(EnderAmendoimNyliumBlock.block.getDefaultState().getBlock()) {
+			public boolean test(BlockState blockAt, Random random) {
+				boolean blockCriteria = false;
+				if (blockAt.getBlock() == EnderAmendoimNyliumBlock.block.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == MantleAmendoimNyliumBlock.block.getDefaultState().getBlock())
+					blockCriteria = true;
+				return blockCriteria;
+			}
+
+			protected IRuleTestType<?> getType() {
+				return IRuleTestType.BLOCK_MATCH;
+			}
+		}, block.getDefaultState(), 7)).range(256).square().func_242731_b(5));
 	}
 }

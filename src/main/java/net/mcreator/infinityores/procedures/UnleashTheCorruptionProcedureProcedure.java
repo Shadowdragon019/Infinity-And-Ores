@@ -1,6 +1,5 @@
 package net.mcreator.infinityores.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.EntityTravelToDimensionEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,6 +15,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -31,27 +31,27 @@ public class UnleashTheCorruptionProcedureProcedure extends InfinityAndOresModEl
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure UnleashTheCorruptionProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure UnleashTheCorruptionProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency x for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure UnleashTheCorruptionProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency y for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure UnleashTheCorruptionProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency z for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure UnleashTheCorruptionProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency world for procedure UnleashTheCorruptionProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -59,12 +59,15 @@ public class UnleashTheCorruptionProcedureProcedure extends InfinityAndOresModEl
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((ForgeRegistries.BIOMES.getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
-				.equals(new ResourceLocation("infinity_and_ores:mantle_amendoim_forest")))
-				|| ((ForgeRegistries.BIOMES.getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
-						.equals(new ResourceLocation("infinity_and_ores:mantle_realms")))
-						|| (ForgeRegistries.BIOMES.getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
-								.equals(new ResourceLocation("infinity_and_ores:spiky_plateau")))))) {
+		if (((world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getRegistryName() != null
+				&& world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getRegistryName()
+						.equals(new ResourceLocation("infinity_and_ores:mantle_amendoim_forest")))
+				|| ((world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getRegistryName() != null
+						&& world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getRegistryName()
+								.equals(new ResourceLocation("infinity_and_ores:mantle_realms")))
+						|| (world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getRegistryName() != null
+								&& world.getBiome(new BlockPos((int) x, (int) y, (int) z)).getRegistryName()
+										.equals(new ResourceLocation("infinity_and_ores:spiky_plateau")))))) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
 						.getAdvancement(new ResourceLocation("infinity_and_ores:unleashing_the_corruption"));
@@ -82,7 +85,6 @@ public class UnleashTheCorruptionProcedureProcedure extends InfinityAndOresModEl
 
 	@SubscribeEvent
 	public void onEntityTravelToDimension(EntityTravelToDimensionEvent event) {
-		int dimension = event.getDimension().getId();
 		Entity entity = event.getEntity();
 		World world = entity.world;
 		double i = entity.getPosX();
@@ -92,7 +94,7 @@ public class UnleashTheCorruptionProcedureProcedure extends InfinityAndOresModEl
 		dependencies.put("x", i);
 		dependencies.put("y", j);
 		dependencies.put("z", k);
-		dependencies.put("dimension", dimension);
+		dependencies.put("dimension", event.getDimension());
 		dependencies.put("world", world);
 		dependencies.put("entity", entity);
 		dependencies.put("event", event);

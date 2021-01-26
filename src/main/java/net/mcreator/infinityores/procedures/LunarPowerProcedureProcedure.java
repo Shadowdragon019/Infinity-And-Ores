@@ -15,6 +15,7 @@ import net.mcreator.infinityores.item.EndesulitePickaxeItem;
 import net.mcreator.infinityores.item.EndesuliteHoeItem;
 import net.mcreator.infinityores.item.EndesuliteAxeItem;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -28,7 +29,7 @@ public class LunarPowerProcedureProcedure extends InfinityAndOresModElements.Mod
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure LunarPowerProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency entity for procedure LunarPowerProcedure!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

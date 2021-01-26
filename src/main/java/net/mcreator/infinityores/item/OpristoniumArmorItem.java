@@ -35,34 +35,46 @@ public class OpristoniumArmorItem extends InfinityAndOresModElements.ModElement 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
+			@Override
 			public int getDurability(EquipmentSlotType slot) {
 				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 44;
 			}
 
+			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
 				return new int[]{5, 8, 9, 5}[slot.getIndex()];
 			}
 
+			@Override
 			public int getEnchantability() {
 				return 25;
 			}
 
+			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
 				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_generic"));
 			}
 
+			@Override
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(OpristoniumGemItem.block, (int) (1)),
 						new ItemStack(OpristoniumIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
+			@Override
 			public String getName() {
 				return "opristonium";
 			}
 
+			@Override
 			public float getToughness() {
 				return 3f;
+			}
+
+			@Override
+			public float getKnockbackResistance() {
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD,

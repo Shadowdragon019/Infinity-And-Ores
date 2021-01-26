@@ -7,6 +7,7 @@ import net.minecraft.block.Blocks;
 import net.mcreator.infinityores.block.MantleBlock;
 import net.mcreator.infinityores.block.GlitchedSoilBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 
@@ -19,22 +20,22 @@ public class GlomperTeethAdditionalGenerationProcedureProcedure extends Infinity
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure GlomperTeethAdditionalGenerationProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency x for procedure GlomperTeethAdditionalGenerationProcedure!");
 			return false;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure GlomperTeethAdditionalGenerationProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency y for procedure GlomperTeethAdditionalGenerationProcedure!");
 			return false;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure GlomperTeethAdditionalGenerationProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency z for procedure GlomperTeethAdditionalGenerationProcedure!");
 			return false;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure GlomperTeethAdditionalGenerationProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency world for procedure GlomperTeethAdditionalGenerationProcedure!");
 			return false;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

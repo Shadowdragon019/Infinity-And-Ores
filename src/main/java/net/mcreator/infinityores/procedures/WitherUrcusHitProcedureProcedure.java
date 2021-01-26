@@ -11,6 +11,7 @@ import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
+import net.mcreator.infinityores.InfinityAndOresMod;
 
 import java.util.Map;
 import java.util.Iterator;
@@ -24,7 +25,7 @@ public class WitherUrcusHitProcedureProcedure extends InfinityAndOresModElements
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("sourceentity") == null) {
 			if (!dependencies.containsKey("sourceentity"))
-				System.err.println("Failed to load dependency sourceentity for procedure WitherUrcusHitProcedure!");
+				InfinityAndOresMod.LOGGER.warn("Failed to load dependency sourceentity for procedure WitherUrcusHitProcedure!");
 			return;
 		}
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");

@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "infinity_and_ores:blocks/smooth_mantle",
     "top": "infinity_and_ores:blocks/smooth_mantle",
-    "side": "infinity_and_ores:blocks/smooth_mantle_slab_side"
+    "side": "infinity_and_ores:blocks/smooth_mantle_slab"
   }
 }

@@ -4,7 +4,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.common.MinecraftForge;
 
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.entity.player.PlayerEntity;
 
 import net.mcreator.infinityores.InfinityAndOresModElements;
@@ -25,12 +25,13 @@ public class FlowerPotAmendoimFungiRightClickPropcedureProcedure extends Infinit
 	@SubscribeEvent
 	public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 		PlayerEntity entity = event.getPlayer();
-		if (event.getHand() != entity.getActiveHand())
+		if (event.getHand() != entity.getActiveHand()) {
 			return;
-		int i = event.getPos().getX();
-		int j = event.getPos().getY();
-		int k = event.getPos().getZ();
-		World world = event.getWorld();
+		}
+		double i = event.getPos().getX();
+		double j = event.getPos().getY();
+		double k = event.getPos().getZ();
+		IWorld world = event.getWorld();
 		Map<String, Object> dependencies = new HashMap<>();
 		dependencies.put("x", i);
 		dependencies.put("y", j);

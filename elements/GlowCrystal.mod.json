@@ -1,11 +1,11 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "test_ingot",
+    "texture": "glow_crystal_shard",
     "customModelName": "Normal",
-    "name": "Glow Crystal",
+    "name": "Glow Crystal Shards",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:InfinityAndOresItemsTab"

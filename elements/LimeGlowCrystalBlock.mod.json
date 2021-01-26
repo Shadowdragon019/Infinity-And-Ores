@@ -1,13 +1,13 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "glow_crystal_lime",
-    "textureTop": "glow_crystal_lime",
-    "textureLeft": "glow_crystal_lime",
-    "textureFront": "glow_crystal_lime",
-    "textureRight": "glow_crystal_lime",
-    "textureBack": "glow_crystal_lime",
+    "texture": "lime_glow_crystal",
+    "textureTop": "lime_glow_crystal",
+    "textureLeft": "lime_glow_crystal",
+    "textureFront": "lime_glow_crystal",
+    "textureRight": "lime_glow_crystal",
+    "textureBack": "lime_glow_crystal",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -39,7 +39,6 @@
     },
     "dropAmount": 4,
     "useLootTableForDrops": false,
-    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -69,7 +68,7 @@
     "soundOnStep": {
       "value": "GLASS"
     },
-    "luminance": 1.0,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

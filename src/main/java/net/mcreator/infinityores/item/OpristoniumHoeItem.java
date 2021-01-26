@@ -47,7 +47,7 @@ public class OpristoniumHoeItem extends InfinityAndOresModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(OpristoniumGemItem.block, (int) (1)),
 						new ItemStack(OpristoniumIngotItem.block, (int) (1)));
 			}
-		}, 0f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
+		}, 0, 0f, new Item.Properties().group(InfinityAndOresToolsAndArmorsTabItemGroup.tab)) {
 		}.setRegistryName("opristonium_hoe"));
 	}
 }

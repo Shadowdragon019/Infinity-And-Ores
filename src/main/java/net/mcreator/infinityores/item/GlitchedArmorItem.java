@@ -35,33 +35,45 @@ public class GlitchedArmorItem extends InfinityAndOresModElements.ModElement {
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
+			@Override
 			public int getDurability(EquipmentSlotType slot) {
 				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 80;
 			}
 
+			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
 				return new int[]{8, 11, 12, 8}[slot.getIndex()];
 			}
 
+			@Override
 			public int getEnchantability() {
 				return 75;
 			}
 
+			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
 				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_generic"));
 			}
 
+			@Override
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GlitchedIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
+			@Override
 			public String getName() {
 				return "glitched";
 			}
 
+			@Override
 			public float getToughness() {
 				return 5f;
+			}
+
+			@Override
+			public float getKnockbackResistance() {
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD,
