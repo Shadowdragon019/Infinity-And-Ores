@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "name": "leaves",
+    "namespace": "minecraft"
+  }
+}

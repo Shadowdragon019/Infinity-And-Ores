@@ -1,0 +1,42 @@
+{
+  "group": "infinity_and_ores",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinity_and_ores:mantle"
+    },
+    "1": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "2": {
+      "item": "infinity_and_ores:mantle"
+    },
+    "3": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "4": {
+      "item": "infinity_and_ores:mederium_ingot"
+    },
+    "5": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "6": {
+      "item": "infinity_and_ores:mantle"
+    },
+    "7": {
+      "item": "infinity_and_ores:glitched_crystal"
+    },
+    "8": {
+      "item": "infinity_and_ores:mantle"
+    }
+  },
+  "result": {
+    "item": "infinity_and_ores:uncharged_soul_linker",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "infinity_and_ores:mantle_wall",
+    "infinity_and_ores:mantle_brick_wall",
+    "infinity_and_ores:polished_mantle_wall",
+    "infinity_and_ores:mossy_mantle_wall",
+    "infinity_and_ores:mossy_mantle_brick_wall"
+  ]
+}

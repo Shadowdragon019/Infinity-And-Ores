@@ -1,0 +1,16 @@
+{
+  "group": "charged_soul_linker",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinity_and_ores:glow_crystal_shards"
+    },
+    {
+      "item": "infinity_and_ores:uncharged_soul_linker"
+    }
+  ],
+  "result": {
+    "item": "infinity_and_ores:charged_soul_linker",
+    "count": 1
+  }
+}

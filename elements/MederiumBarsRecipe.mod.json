@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 16,
-    "group": "",
+    "group": "iron_bars",
     "recipeShapeless": false,
     "recipeSlots": [
       {

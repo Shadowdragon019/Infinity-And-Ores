@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 4,
     "group": "amendoim_wood",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": "CUSTOM:AmendoimLog"

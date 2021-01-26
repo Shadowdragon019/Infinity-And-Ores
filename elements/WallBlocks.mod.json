@@ -1,0 +1,28 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MantleWall"
+      },
+      {
+        "value": "CUSTOM:MantleBrickWall"
+      },
+      {
+        "value": "CUSTOM:PolishedMantleWall"
+      },
+      {
+        "value": "CUSTOM:MossyMantleWall"
+      },
+      {
+        "value": "CUSTOM:MossyMantleBrickWall"
+      }
+    ],
+    "functions": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

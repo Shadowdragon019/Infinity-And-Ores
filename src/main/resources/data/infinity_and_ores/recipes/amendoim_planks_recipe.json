@@ -1,9 +1,9 @@
 {
-  "group": "amendoim_planks",
+  "group": "wooden_planks",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:amendoim_logs"
+      "tag": "tag/amendoim_logs"
     }
   ],
   "result": {

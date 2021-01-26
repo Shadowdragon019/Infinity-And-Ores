@@ -1,0 +1,26 @@
+{
+  "group": "crafting_table",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "tag": "tag/planks"
+    },
+    "1": {
+      "tag": "tag/planks"
+    },
+    "2": {
+      "tag": "tag/planks"
+    },
+    "3": {
+      "tag": "tag/planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

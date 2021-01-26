@@ -6,19 +6,10 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 2,
-    "group": "",
+    "group": "iron_trapdoor",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:MederiumIngot"
       },
       {
@@ -32,6 +23,15 @@
       },
       {
         "value": "CUSTOM:MederiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""

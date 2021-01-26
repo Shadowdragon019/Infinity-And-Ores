@@ -1,20 +1,24 @@
 {
   "group": "mantle_bricks",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
       "item": "infinity_and_ores:mantle"
     },
-    {
+    "1": {
       "item": "infinity_and_ores:mantle"
     },
-    {
+    "2": {
       "item": "infinity_and_ores:mantle"
     },
-    {
+    "3": {
       "item": "infinity_and_ores:mantle"
     }
-  ],
+  },
   "result": {
     "item": "infinity_and_ores:mantle_bricks",
     "count": 4

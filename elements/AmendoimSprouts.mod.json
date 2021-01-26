@@ -9,7 +9,7 @@
     "itemTexture": "",
     "particleTexture": "",
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
+    "staticPlantGenerationType": "Grass",
     "growapableSpawnType": "Nether",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Grass",
@@ -42,7 +42,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 10,
+    "frequencyOnChunks": 20,
     "spawnWorldTypes": [
       "CUSTOM:GlitchedDimension"
     ],

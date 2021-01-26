@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "name": "flowers",
+    "namespace": "minecraft"
+  }
+}

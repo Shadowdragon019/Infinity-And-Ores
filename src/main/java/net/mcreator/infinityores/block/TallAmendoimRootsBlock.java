@@ -119,7 +119,7 @@ public class TallAmendoimRootsBlock extends InfinityAndOresModElements.ModElemen
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.CAVE;
+			return PlantType.WATER;
 		}
 	}
 }

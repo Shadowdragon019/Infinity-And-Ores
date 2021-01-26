@@ -75,9 +75,6 @@ public static class Modelchomper extends EntityModel<Entity> {
 
 	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
 		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
-		this.TopRightLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-		this.BottomLeftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-		this.BottomRightLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-		this.TopLeftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.TopMouth.rotateAngleY = f4 / (180F / (float) Math.PI);
 	}
 }

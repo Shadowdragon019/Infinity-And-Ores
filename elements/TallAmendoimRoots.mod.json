@@ -10,7 +10,7 @@
     "particleTexture": "",
     "plantType": "double",
     "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Cave",
+    "growapableSpawnType": "Water",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Grass",
     "name": "Tall Amendoim Roots",

@@ -10,9 +10,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.gen.feature.FlowersFeature;
-import net.minecraft.world.gen.feature.Features;
-import net.minecraft.world.gen.feature.DefaultFlowersFeature;
+import net.minecraft.world.gen.placement.Placement;
+import net.minecraft.world.gen.placement.NoiseDependant;
+import net.minecraft.world.gen.feature.RandomPatchFeature;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
@@ -76,12 +76,7 @@ public class AmendoimSproutsBlock extends InfinityAndOresModElements.ModElement 
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig.field_236587_a_) {
-			@Override
-			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
-				return block.getDefaultState();
-			}
-
+		RandomPatchFeature feature = new RandomPatchFeature(BlockClusterFeatureConfig.field_236587_a_) {
 			@Override
 			public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
@@ -93,11 +88,11 @@ public class AmendoimSproutsBlock extends InfinityAndOresModElements.ModElement 
 				return super.generate(world, generator, random, pos, config);
 			}
 		};
-		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> (ConfiguredFeature<?, ?>) feature
-				.withConfiguration(
+		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION)
+				.add(() -> (ConfiguredFeature<?, ?>) feature.withConfiguration(
 						(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 								.tries(64).build())
-				.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(10));
+						.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8, 0, 20))));
 	}
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {

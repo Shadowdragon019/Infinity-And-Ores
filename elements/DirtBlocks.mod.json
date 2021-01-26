@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MantleAmendoimNylium"
+      },
+      {
+        "value": "CUSTOM:EnderAmendoimNylium"
+      }
+    ],
+    "functions": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

@@ -6,7 +6,7 @@
     "xpReward": 1.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "mederium_ingot",
+    "group": "iron_ingot",
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "CUSTOM:MederiumOre"

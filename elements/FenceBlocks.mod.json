@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:AmendoimFence"
+      },
+      {
+        "value": "CUSTOM:GhostwoodFence"
+      }
+    ],
+    "functions": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

@@ -41,7 +41,7 @@ public class ChargedSoulLinkerItem extends InfinityAndOresModElements.ModElement
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(InfinityAndOresItemsTabItemGroup.tab).maxDamage(4).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(InfinityAndOresItemsTabItemGroup.tab).maxDamage(2).rarity(Rarity.COMMON));
 			setRegistryName("charged_soul_linker");
 		}
 
@@ -102,6 +102,7 @@ public class ChargedSoulLinkerItem extends InfinityAndOresModElements.ModElement
 			if (selected) {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("itemstack", itemstack);
 				SoulLinkerConsumedProcedureProcedure.executeProcedure($_dependencies);
 			}
 		}

@@ -4186,7 +4186,28 @@
       "ids": {},
       "registry_name": "flower_pot_amendoim_fungi_right_click_propcedure",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
@@ -5506,6 +5527,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -5869,6 +5894,177 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enchanted_glitched_apple"
+    },
+    {
+      "name": "CjdabombPainting",
+      "type": "painting",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cjdabomb_painting"
+    },
+    {
+      "name": "Dtrw191Painting",
+      "type": "painting",
+      "sortid": 581,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dtrw_191_painting"
+    },
+    {
+      "name": "PythagoriasPainting",
+      "type": "painting",
+      "sortid": 582,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pythagorias_painting"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 583,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fence_blocks"
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wall_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_items"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_flower_items"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_flower_blocks"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_flower_blocks"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valid_spawn_blocks"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plank_items"
+    },
+    {
+      "name": "DiamenyPainting",
+      "type": "painting",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diameny_painting"
+    },
+    {
+      "name": "ChargedSoulLinkerRecipe",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_soul_linker_recipe"
+    },
+    {
+      "name": "SoulLinkerRecipe",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_linker_recipe"
+    },
+    {
+      "name": "SticksRecipe",
+      "type": "recipe",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sticks_recipe"
+    },
+    {
+      "name": "RecipeCraftingTable",
+      "type": "recipe",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_crafting_table"
     }
   ],
   "variable_elements": [],
@@ -5959,12 +6155,12 @@
       "advancements.spitted_apart.title": "Séparé",
       "advancements.thats_one_for_the_tool_box.descr": "Fabriquer un outil en opristonium",
       "item.infinity_and_ores.music_disc_broken_connection.tooltip1": "§cAttention: §7Si vous jouez cette chanson dans une video YouTube,§7vous pouvez vous faire §edémonetizé§7.",
-      "block.infinity_and_ores.mantle_wall": "Muret de manteau",
       "block.infinity_and_ores.ghostwood_wood": "Bois de ghostwood",
+      "block.infinity_and_ores.mantle_wall": "Muret de manteau",
       "advancements.huh_it_fits.descr": "Fabriquer une pièce d\u0027armure en opristonium",
-      "item.minecraft.potion.effect.potion_of_decay": "Potion de décomposition",
-      "block.infinity_and_ores.opristonium_block": "Bloc d\u0027opristonium",
       "block.infinity_and_ores.amendoim_hyphae": "Hyphe d\u0027amendoim",
+      "block.infinity_and_ores.opristonium_block": "Bloc d\u0027opristonium",
+      "item.minecraft.potion.effect.potion_of_decay": "Potion de décomposition",
       "effect.fiddly_potion": "Sans effet",
       "block.infinity_and_ores.mederium_ore": "Minerai de méderium",
       "item.infinity_and_ores.glomper_tooth": "Dent de Glompeur",
@@ -5979,8 +6175,8 @@
       "block.infinity_and_ores.end_glitched_ore": "Minerai buggé de l\u0027End",
       "advancements.unknown_helmet.title": "[objet.casque] Inconnu",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Potion de décomposition persistante",
-      "block.infinity_and_ores.ender_amendoim_nylium": "Nylium d\u0027amendoim de l\u0027End",
       "item.infinity_and_ores.glomper_tooth_chestplate": "Collier de dent de Glompeur ",
+      "block.infinity_and_ores.ender_amendoim_nylium": "Nylium d\u0027amendoim de l\u0027End",
       "entity.infinity_and_ores.crawlant": "Crawlant",
       "block.infinity_and_ores.mantle_bricks": "Briques de manteau",
       "item.infinity_and_ores.opristonium_pickaxe": "Pioche en opristonium",
@@ -6268,12 +6464,12 @@
       "advancements.spitted_apart.title": "Spitted Apart",
       "advancements.thats_one_for_the_tool_box.descr": "Craft an Opristonium tool",
       "item.infinity_and_ores.music_disc_broken_connection.tooltip1": "§cWARNING: §7If you play this song in a YouTube video,§7you might get §edemonetized§7.",
-      "block.infinity_and_ores.mantle_wall": "Mantle Wall",
       "block.infinity_and_ores.ghostwood_wood": "Ghostwood Wood",
+      "block.infinity_and_ores.mantle_wall": "Mantle Wall",
       "advancements.huh_it_fits.descr": "Craft a piece of Opristonium Armor",
-      "item.minecraft.potion.effect.potion_of_decay": "Potion of Decay",
-      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
       "block.infinity_and_ores.amendoim_hyphae": "Amendoim Hyphae",
+      "block.infinity_and_ores.opristonium_block": "Block of Opristonium",
+      "item.minecraft.potion.effect.potion_of_decay": "Potion of Decay",
       "effect.fiddly_potion": "No Effect",
       "block.infinity_and_ores.mederium_ore": "Mederium Ore",
       "item.infinity_and_ores.glomper_tooth": "Glomper Tooth",
@@ -6288,8 +6484,8 @@
       "block.infinity_and_ores.end_glitched_ore": "End Glitched Ore",
       "advancements.unknown_helmet.title": "Unknown [item.helmet]",
       "item.minecraft.lingering_potion.effect.potion_of_decay": "Lingering Potion of Decay",
-      "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
       "item.infinity_and_ores.glomper_tooth_chestplate": "Glomper Tooth Necklace",
+      "block.infinity_and_ores.ender_amendoim_nylium": "Ender Amendoim Nylium",
       "entity.infinity_and_ores.crawlant": "Crawlant",
       "block.infinity_and_ores.mantle_bricks": "Mantle Bricks",
       "item.infinity_and_ores.opristonium_pickaxe": "Opristonium Pickaxe",

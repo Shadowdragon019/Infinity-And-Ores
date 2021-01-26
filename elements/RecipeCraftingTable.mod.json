@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "crafting_table",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:tag/planks"
+      },
+      {
+        "value": "TAG:tag/planks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:tag/planks"
+      },
+      {
+        "value": "TAG:tag/planks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "name": "recipe_crafting_table",
+    "namespace": "mod"
+  }
+}

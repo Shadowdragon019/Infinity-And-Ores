@@ -1,0 +1,20 @@
+{
+  "group": "sticks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "tag": "tag/planks"
+    },
+    "1": {
+      "tag": "tag/planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}
