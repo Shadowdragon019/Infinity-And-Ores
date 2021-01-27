@@ -27,6 +27,7 @@
         "value": "CUSTOM:OpristoniumIngot"
       }
     ],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

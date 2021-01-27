@@ -24,6 +24,7 @@
         "value": "CUSTOM:MederiumIngot"
       }
     ],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

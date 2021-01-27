@@ -20,11 +20,11 @@
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "spear",
     "enableMeleeDamage": true,
     "damageVsEntity": 6.5,
     "onRangedItemUsed": {
-      "name": "BoneSpearRangedItemUsed"
+      "name": "SpearCooldownProcedure"
     },
     "bulletPower": 1.0,
     "bulletDamage": 8.0,

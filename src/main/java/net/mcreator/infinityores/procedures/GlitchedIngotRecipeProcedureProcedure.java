@@ -54,7 +54,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if ((((new Object() {
-			public int getAmount(BlockPos pos, int sltid) {
+			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
 				if (_ent != null) {
@@ -64,7 +64,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 				}
 				return _retval.get();
 			}
-		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) < 64) && ((((new Object() {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) < 64) && ((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -183,7 +183,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 																				.getItem() == new ItemStack(OpristoniumGemItem.block, (int) (1))
 																						.getItem())))))))))
 				&& (((((new Object() {
-					public int getAmount(BlockPos pos, int sltid) {
+					public int getAmount(IWorld world, BlockPos pos, int sltid) {
 						AtomicInteger _retval = new AtomicInteger(0);
 						TileEntity _ent = world.getTileEntity(pos);
 						if (_ent != null) {
@@ -193,7 +193,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 						}
 						return _retval.get();
 					}
-				}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) <= 63) && ((new Object() {
+				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) <= 63) && ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						TileEntity _ent = world.getTileEntity(pos);
@@ -219,7 +219,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (9))).getItem() == new ItemStack(Blocks.AIR, (int) (1))
 								.getItem()))
 						&& ((((new Object() {
-							public int getAmount(BlockPos pos, int sltid) {
+							public int getAmount(IWorld world, BlockPos pos, int sltid) {
 								AtomicInteger _retval = new AtomicInteger(0);
 								TileEntity _ent = world.getTileEntity(pos);
 								if (_ent != null) {
@@ -229,7 +229,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 								}
 								return _retval.get();
 							}
-						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (10))) <= 63) && ((new Object() {
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (10))) <= 63) && ((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								TileEntity _ent = world.getTileEntity(pos);
@@ -386,7 +386,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 					final int _sltid = (int) (9);
 					final ItemStack _setstack = new ItemStack(GlitchedIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
+						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
 							TileEntity _ent = world.getTileEntity(pos);
 							if (_ent != null) {
@@ -396,7 +396,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
+					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -410,7 +410,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 					final int _sltid = (int) (10);
 					final ItemStack _setstack = new ItemStack(GlitchedResidueItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
+						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
 							TileEntity _ent = world.getTileEntity(pos);
 							if (_ent != null) {
@@ -420,7 +420,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
+					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -430,7 +430,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 			}
 		}
 		if ((((new Object() {
-			public int getAmount(BlockPos pos, int sltid) {
+			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
 				if (_ent != null) {
@@ -440,7 +440,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 				}
 				return _retval.get();
 			}
-		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) < 64) && ((((new Object() {
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) < 64) && ((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -559,7 +559,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 																				.getItem() == new ItemStack(OpristoniumIngotItem.block, (int) (1))
 																						.getItem())))))))))
 				&& (((((new Object() {
-					public int getAmount(BlockPos pos, int sltid) {
+					public int getAmount(IWorld world, BlockPos pos, int sltid) {
 						AtomicInteger _retval = new AtomicInteger(0);
 						TileEntity _ent = world.getTileEntity(pos);
 						if (_ent != null) {
@@ -569,7 +569,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 						}
 						return _retval.get();
 					}
-				}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) <= 63) && ((new Object() {
+				}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) <= 63) && ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						TileEntity _ent = world.getTileEntity(pos);
@@ -595,7 +595,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (9))).getItem() == new ItemStack(Blocks.AIR, (int) (1))
 								.getItem()))
 						&& ((((new Object() {
-							public int getAmount(BlockPos pos, int sltid) {
+							public int getAmount(IWorld world, BlockPos pos, int sltid) {
 								AtomicInteger _retval = new AtomicInteger(0);
 								TileEntity _ent = world.getTileEntity(pos);
 								if (_ent != null) {
@@ -605,7 +605,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 								}
 								return _retval.get();
 							}
-						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (10))) <= 63) && ((new Object() {
+						}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (10))) <= 63) && ((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								TileEntity _ent = world.getTileEntity(pos);
@@ -762,7 +762,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 					final int _sltid = (int) (9);
 					final ItemStack _setstack = new ItemStack(GlitchedIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
+						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
 							TileEntity _ent = world.getTileEntity(pos);
 							if (_ent != null) {
@@ -772,7 +772,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
+					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -786,7 +786,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 					final int _sltid = (int) (10);
 					final ItemStack _setstack = new ItemStack(GlitchedResidueItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
+						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
 							TileEntity _ent = world.getTileEntity(pos);
 							if (_ent != null) {
@@ -796,7 +796,7 @@ public class GlitchedIngotRecipeProcedureProcedure extends InfinityAndOresModEle
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
+					}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (9))) + 1));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);

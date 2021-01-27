@@ -16,6 +16,8 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockBase": "Stairs",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",

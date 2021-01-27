@@ -28,7 +28,7 @@ public class PotionOfDecayPotion extends InfinityAndOresModElements.ModElement {
 	@ObjectHolder("infinity_and_ores:potion_of_decay")
 	public static final Potion potionType = null;
 	public PotionOfDecayPotion(InfinityAndOresModElements instance) {
-		super(instance, 409);
+		super(instance, 601);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -43,7 +43,7 @@ public class PotionOfDecayPotion extends InfinityAndOresModElements.ModElement {
 	}
 	public static class PotionCustom extends Potion {
 		public PotionCustom() {
-			super(new EffectInstance(potion, 800));
+			super(new EffectInstance(potion, 3600));
 			setRegistryName("potion_of_decay");
 		}
 	}
@@ -51,7 +51,7 @@ public class PotionOfDecayPotion extends InfinityAndOresModElements.ModElement {
 	public static class EffectCustom extends Effect {
 		private final ResourceLocation potionIcon;
 		public EffectCustom() {
-			super(EffectType.HARMFUL, -15135475);
+			super(EffectType.HARMFUL, -14940152);
 			setRegistryName("potion_of_decay");
 			potionIcon = new ResourceLocation("infinity_and_ores:textures/wither.png");
 		}

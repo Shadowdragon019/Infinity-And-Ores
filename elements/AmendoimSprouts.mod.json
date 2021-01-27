@@ -8,6 +8,8 @@
     "customModelName": "Cross model",
     "itemTexture": "",
     "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Grass",
     "growapableSpawnType": "Nether",

@@ -1,5 +1,5 @@
 {
-  "group": "infinity_and_ores",
+  "group": "soul_linker",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "infinity_and_ores:mantle"
+      "item": "infinity_and_ores:virus_nucleus"
     },
     "1": {
       "item": "infinity_and_ores:glitched_crystal"
     },
     "2": {
-      "item": "infinity_and_ores:mantle"
+      "item": "infinity_and_ores:virus_nucleus"
     },
     "3": {
       "item": "infinity_and_ores:glitched_crystal"
@@ -26,13 +26,13 @@
       "item": "infinity_and_ores:glitched_crystal"
     },
     "6": {
-      "item": "infinity_and_ores:mantle"
+      "item": "infinity_and_ores:virus_nucleus"
     },
     "7": {
       "item": "infinity_and_ores:glitched_crystal"
     },
     "8": {
-      "item": "infinity_and_ores:mantle"
+      "item": "infinity_and_ores:virus_nucleus"
     }
   },
   "result": {

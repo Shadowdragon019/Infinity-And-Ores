@@ -2,6 +2,8 @@
 package net.mcreator.infinityores.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
@@ -36,6 +38,12 @@ public class EnchantedGlitchedAppleItem extends InfinityAndOresModElements.ModEl
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).rarity(Rarity.EPIC)
 					.food((new Food.Builder()).hunger(4).saturation(2.4f).setAlwaysEdible().build()));
 			setRegistryName("enchanted_glitched_apple");
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 
 		@Override

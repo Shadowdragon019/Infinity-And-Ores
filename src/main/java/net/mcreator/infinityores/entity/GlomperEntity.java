@@ -19,6 +19,7 @@ import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
@@ -249,7 +250,11 @@ public class GlomperEntity extends InfinityAndOresModElements.ModElement {
 		}
 
 		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
+			this.TopRightLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 			this.TopMouth.rotateAngleY = f4 / (180F / (float) Math.PI);
+			this.BottomLeftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+			this.BottomRightLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+			this.TopLeftLeg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 		}
 	}
 }

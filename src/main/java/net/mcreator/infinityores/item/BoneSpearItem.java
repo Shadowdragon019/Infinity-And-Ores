@@ -36,7 +36,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.infinityores.procedures.BoneSpearRangedItemUsedProcedure;
+import net.mcreator.infinityores.procedures.SpearCooldownProcedureProcedure;
 import net.mcreator.infinityores.itemgroup.InfinityAndOresToolsAndArmorsTabItemGroup;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 
@@ -85,7 +85,7 @@ public class BoneSpearItem extends InfinityAndOresModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.SPEAR;
 		}
 
 		@Override
@@ -121,7 +121,7 @@ public class BoneSpearItem extends InfinityAndOresModElements.ModElement {
 					{
 						Map<String, Object> $_dependencies = new HashMap<>();
 						$_dependencies.put("entity", entity);
-						BoneSpearRangedItemUsedProcedure.executeProcedure($_dependencies);
+						SpearCooldownProcedureProcedure.executeProcedure($_dependencies);
 					}
 				}
 			}

@@ -1,19 +1,28 @@
 {
   "_fv": 15,
-  "_type": "potion",
+  "_type": "food",
   "definition": {
+    "renderType": 0,
+    "texture": "fiddly_potion",
+    "customModelName": "Normal",
     "name": "Fiddly Potion",
-    "effectName": "No Effect",
-    "icon": "opriston.png",
-    "color": {
-      "value": -13421569,
-      "falpha": 0.0
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§7No Effects"
+    ],
+    "creativeTab": {
+      "value": "BREWING"
     },
-    "isInstant": true,
-    "isBad": false,
-    "isBenefitical": false,
-    "registerPotionType": true,
-    "renderStatusInInventory": false,
-    "renderStatusInHUD": false
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
   }
 }

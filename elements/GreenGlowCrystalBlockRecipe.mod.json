@@ -6,7 +6,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "green_glow_crystal_block",
+    "group": "stained_glow_crystal_block",
     "recipeShapeless": true,
     "recipeSlots": [
       {

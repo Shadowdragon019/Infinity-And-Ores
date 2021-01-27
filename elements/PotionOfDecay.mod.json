@@ -2,11 +2,11 @@
   "_fv": 15,
   "_type": "potion",
   "definition": {
-    "name": "Potion of Decay",
-    "effectName": "Wither",
+    "name": "Potion Of Decay",
+    "effectName": "Potion Of Decay",
     "icon": "wither.png",
     "color": {
-      "value": -15135475,
+      "value": -14940152,
       "falpha": 0.0
     },
     "isInstant": true,

@@ -24,6 +24,7 @@
         "value": "CUSTOM:GlitchedIngot"
       }
     ],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

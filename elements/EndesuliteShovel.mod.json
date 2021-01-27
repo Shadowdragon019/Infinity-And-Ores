@@ -24,6 +24,7 @@
         "value": "CUSTOM:EndesuliteCrystal"
       }
     ],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

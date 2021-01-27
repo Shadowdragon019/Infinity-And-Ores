@@ -5,6 +5,8 @@
     "renderType": 12,
     "texture": "amendoim_mushroom_pot",
     "customModelName": "Cross model",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "growapableSpawnType": "Plains",
