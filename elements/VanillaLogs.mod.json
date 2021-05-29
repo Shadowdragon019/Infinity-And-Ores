@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 18,
   "_type": "tag",
   "definition": {
     "type": "Items",
@@ -30,10 +30,23 @@
       },
       {
         "value": "CUSTOM:StrippedAmendoimWood"
+      },
+      {
+        "value": "CUSTOM:SlimyOakLog"
+      },
+      {
+        "value": "CUSTOM:StrippedSlimyOakLog"
+      },
+      {
+        "value": "CUSTOM:SlimyOakWood"
+      },
+      {
+        "value": "CUSTOM:StrippedSlimyOakWood"
       }
     ],
     "blocks": [],
     "functions": [],
+    "entities": [],
     "name": "logs",
     "namespace": "minecraft"
   }

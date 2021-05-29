@@ -36,7 +36,7 @@ public class GlitchedObsidianBlock extends InfinityAndOresModElements.ModElement
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(75f, 2000f).setLightLevel(s -> 0)
-					.harvestLevel(4).harvestTool(ToolType.PICKAXE));
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("glitched_obsidian");
 		}
 

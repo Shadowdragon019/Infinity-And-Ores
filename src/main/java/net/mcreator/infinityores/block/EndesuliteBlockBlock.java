@@ -36,7 +36,7 @@ public class EndesuliteBlockBlock extends InfinityAndOresModElements.ModElement 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(7f, 8f).setLightLevel(s -> 0).harvestLevel(4)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("endesulite_block");
 		}
 

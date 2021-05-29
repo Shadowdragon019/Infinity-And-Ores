@@ -7,13 +7,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.state.Property;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.BlockState;
 
 import net.mcreator.infinityores.block.TallAmendoimRootsBlock;
+import net.mcreator.infinityores.block.AmendoimRootsBlock;
 import net.mcreator.infinityores.InfinityAndOresModElements;
 import net.mcreator.infinityores.InfinityAndOresMod;
 
@@ -52,20 +51,9 @@ public class AmendoimRootsPlantRightClickedProcedure extends InfinityAndOresModE
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		world.addParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, 0, 1, 0);
-		{
-			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-			BlockState _bs = TallAmendoimRootsBlock.block.getDefaultState();
-			BlockState _bso = world.getBlockState(_bp);
-			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-				Property _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());
-				if (_property != null && _bs.get(_property) != null)
-					try {
-						_bs = _bs.with(_property, (Comparable) entry.getValue());
-					} catch (Exception e) {
-					}
-			}
-			world.setBlockState(_bp, _bs, 3);
+		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == AmendoimRootsBlock.block.getDefaultState().getBlock())) {
+			world.addParticle(ParticleTypes.HAPPY_VILLAGER, x, y, z, 0, 1, 0);
+			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), TallAmendoimRootsBlock.block.getDefaultState(), 3);
 		}
 	}
 

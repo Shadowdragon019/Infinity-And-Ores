@@ -50,7 +50,7 @@ public class AmendoimTrapdoorBlock extends InfinityAndOresModElements.ModElement
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("amendoim_trapdoor");
 		}
 

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "infinity_and_ores:blocks/slimy_oak_trapdoor",
+    "particle": "infinity_and_ores:blocks/slimy_oak_trapdoor"
+  }
+}

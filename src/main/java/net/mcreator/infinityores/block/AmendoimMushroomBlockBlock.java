@@ -37,7 +37,7 @@ public class AmendoimMushroomBlockBlock extends InfinityAndOresModElements.ModEl
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.WET_GRASS).hardnessAndResistance(0.2f, 0.5f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.AXE));
+					.harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("amendoim_mushroom_block");
 		}
 

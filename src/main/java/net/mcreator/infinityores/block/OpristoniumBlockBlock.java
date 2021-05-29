@@ -36,7 +36,7 @@ public class OpristoniumBlockBlock extends InfinityAndOresModElements.ModElement
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(6f, 7f).setLightLevel(s -> 0).harvestLevel(3)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("opristonium_block");
 		}
 

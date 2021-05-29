@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "infinity_and_ores:blocks/slimy_oak_leaves",
+    "particle": "infinity_and_ores:blocks/slimy_oak_leaves"
+  }
+}

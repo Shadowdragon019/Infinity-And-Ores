@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinity_and_ores:blocks/slimy_oak_planks",
+    "up": "infinity_and_ores:blocks/slimy_oak_planks",
+    "north": "infinity_and_ores:blocks/slimy_oak_planks",
+    "east": "infinity_and_ores:blocks/slimy_oak_planks",
+    "south": "infinity_and_ores:blocks/slimy_oak_planks",
+    "west": "infinity_and_ores:blocks/slimy_oak_planks",
+    "particle": "infinity_and_ores:blocks/slimy_oak_planks"
+  }
+}

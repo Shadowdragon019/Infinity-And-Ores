@@ -6,7 +6,7 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
-import net.minecraft.client.entity.player.ClientPlayerEntity;
+import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.infinityores.item.ReinforcedBoneSpearItem;
@@ -35,7 +35,7 @@ public class SpearCooldownProcedureProcedure extends InfinityAndOresModElements.
 					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.ADVENTURE;
 				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
-							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
+							.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
 					return _npi != null && _npi.getGameType() == GameType.ADVENTURE;
 				}
 				return false;

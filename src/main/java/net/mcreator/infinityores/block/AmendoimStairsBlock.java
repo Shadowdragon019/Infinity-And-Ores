@@ -39,9 +39,10 @@ public class AmendoimStairsBlock extends InfinityAndOresModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 3f)).getDefaultState(),
+			super(() -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.AXE).setRequiresTool()).getDefaultState(),
 					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f).setLightLevel(s -> 0).harvestLevel(0)
-							.harvestTool(ToolType.AXE));
+							.harvestTool(ToolType.AXE).setRequiresTool());
 			setRegistryName("amendoim_stairs");
 		}
 

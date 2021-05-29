@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "infinity_and_ores:blocks/slimy_oak_planks",
+    "particle": "infinity_and_ores:blocks/slimy_oak_planks"
+  }
+}

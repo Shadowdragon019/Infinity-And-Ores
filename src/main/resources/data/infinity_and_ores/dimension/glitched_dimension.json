@@ -6,62 +6,62 @@
     "biome_source": {
       "type": "minecraft:multi_noise",
       "seed": 0,
-      "altitude_noise": {
-        "firstOctave": -7,
-        "amplitudes": [
-          1,
-          1
-        ]
-      },
       "temperature_noise": {
-        "firstOctave": -7,
+        "firstOctave": -5.53,
         "amplitudes": [
-          1,
-          1
+          2,
+          2
         ]
       },
       "humidity_noise": {
-        "firstOctave": -7,
+        "firstOctave": -5.53,
         "amplitudes": [
-          1,
-          1
+          2,
+          2
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -5.53,
+        "amplitudes": [
+          2,
+          2
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -7,
+        "firstOctave": -5.53,
         "amplitudes": [
-          1,
-          1
+          2,
+          2
         ]
       },
       "biomes": [
         {
           "biome": "infinity_and_ores:mantle_amendoim_forest",
           "parameters": {
-            "altitude": 0,
-            "temperature": 0.5,
-            "humidity": 0.1,
-            "weirdness": 0,
+            "temperature": 1,
+            "humidity": -1,
+            "altitude": 0.75,
+            "weirdness": -1.5,
             "offset": 0
           }
         },
         {
           "biome": "infinity_and_ores:mantle_realms",
           "parameters": {
-            "altitude": 0,
-            "temperature": 0.3,
-            "humidity": 0.3,
-            "weirdness": 0,
+            "temperature": 0,
+            "humidity": 0,
+            "altitude": -0.75,
+            "weirdness": 1.5,
             "offset": 0
           }
         },
         {
           "biome": "infinity_and_ores:spiky_plateau",
           "parameters": {
-            "altitude": 0,
-            "temperature": 0.1,
-            "humidity": 0.5,
-            "weirdness": 0,
+            "temperature": -1,
+            "humidity": 1,
+            "altitude": 0.75,
+            "weirdness": -1.5,
             "offset": 0
           }
         }

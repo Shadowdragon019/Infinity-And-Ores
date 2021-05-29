@@ -67,7 +67,7 @@ public class FlowerPotAmendoimMushroomBlock extends InfinityAndOresModElements.M
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0f, 0f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("flower_pot_amendoim_mushroom");
 		}
 
@@ -79,7 +79,7 @@ public class FlowerPotAmendoimMushroomBlock extends InfinityAndOresModElements.M
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.create(0.312D, 0D, 0.312D, 0.688D, 0.375D, 0.688D).withOffset(offset.x, offset.y, offset.z);
+			return VoxelShapes.or(makeCuboidShape(4.992, 0, 4.992, 11.008, 6, 11.008)).withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override

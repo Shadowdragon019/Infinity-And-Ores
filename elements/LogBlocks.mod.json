@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 18,
   "_type": "tag",
   "definition": {
     "type": "Blocks",
@@ -10,9 +10,28 @@
       },
       {
         "value": "CUSTOM:GhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:SlimyOakLog"
+      },
+      {
+        "value": "CUSTOM:AmendoimStem"
+      },
+      {
+        "value": "CUSTOM:StrippedAmendoimLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGhostwoodLog"
+      },
+      {
+        "value": "CUSTOM:SlimyOakLog"
+      },
+      {
+        "value": "CUSTOM:StrippedSlimyOakLog"
       }
     ],
     "functions": [],
+    "entities": [],
     "name": "logs",
     "namespace": "minecraft"
   }

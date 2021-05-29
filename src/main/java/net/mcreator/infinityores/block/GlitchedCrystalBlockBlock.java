@@ -2,16 +2,18 @@
 package net.mcreator.infinityores.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.PlantType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.gen.feature.FlowersFeature;
 import net.minecraft.world.gen.feature.Features;
+import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.DefaultFlowersFeature;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
@@ -22,6 +24,7 @@ import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
@@ -59,6 +62,7 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 	public GlitchedCrystalBlockBlock(InfinityAndOresModElements instance) {
 		super(instance, 158);
 		MinecraftForge.EVENT_BUS.register(this);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
 
 	@Override
@@ -72,43 +76,53 @@ public class GlitchedCrystalBlockBlock extends InfinityAndOresModElements.ModEle
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+	private static Feature<BlockClusterFeatureConfig> feature = null;
+	private static ConfiguredFeature<?, ?> configuredFeature = null;
+	private static class FeatureRegisterHandler {
+		@SubscribeEvent
+		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
+			feature = new DefaultFlowersFeature(BlockClusterFeatureConfig.field_236587_a_) {
+				@Override
+				public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
+					return block.getDefaultState();
+				}
 
+				@Override
+				public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
+					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
+					boolean dimensionCriteria = false;
+					if (dimensionType == World.OVERWORLD)
+						dimensionCriteria = true;
+					if (dimensionType == World.THE_NETHER)
+						dimensionCriteria = true;
+					if (dimensionType == World.THE_END)
+						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("infinity_and_ores:glitched_dimension")))
+						dimensionCriteria = true;
+					if (!dimensionCriteria)
+						return false;
+					int x = pos.getX();
+					int y = pos.getY();
+					int z = pos.getZ();
+					if (!GlitchedCrystalBlockAdditionalGenerationConditionProcedure
+							.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
+						return false;
+					return super.generate(world, generator, random, pos, config);
+				}
+			};
+			configuredFeature = feature
+					.withConfiguration(
+							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
+									.tries(64).build())
+					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(5);
+			event.getRegistry().register(feature.setRegistryName("glitched_crystal_block"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("infinity_and_ores:glitched_crystal_block"),
+					configuredFeature);
+		}
+	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		FlowersFeature feature = new DefaultFlowersFeature(BlockClusterFeatureConfig.field_236587_a_) {
-			@Override
-			public BlockState getFlowerToPlace(Random random, BlockPos bp, BlockClusterFeatureConfig fc) {
-				return block.getDefaultState();
-			}
-
-			@Override
-			public boolean generate(ISeedReader world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
-				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
-				boolean dimensionCriteria = false;
-				if (dimensionType == World.OVERWORLD)
-					dimensionCriteria = true;
-				if (dimensionType == World.THE_NETHER)
-					dimensionCriteria = true;
-				if (dimensionType == World.THE_END)
-					dimensionCriteria = true;
-				if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("infinity_and_ores:glitched_dimension")))
-					dimensionCriteria = true;
-				if (!dimensionCriteria)
-					return false;
-				int x = pos.getX();
-				int y = pos.getY();
-				int z = pos.getZ();
-				if (!GlitchedCrystalBlockAdditionalGenerationConditionProcedure
-						.executeProcedure(ImmutableMap.of("x", x, "y", y, "z", z, "world", world)))
-					return false;
-				return super.generate(world, generator, random, pos, config);
-			}
-		};
-		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> (ConfiguredFeature<?, ?>) feature
-				.withConfiguration(
-						(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
-								.tries(64).build())
-				.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(5));
+		event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION).add(() -> configuredFeature);
 	}
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {

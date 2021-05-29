@@ -36,9 +36,10 @@ public class PolishedMantleStairsBlock extends InfinityAndOresModElements.ModEle
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2f, 6f)).getDefaultState(),
+			super(() -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
 					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0).harvestLevel(0)
-							.harvestTool(ToolType.PICKAXE));
+							.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("polished_mantle_stairs");
 		}
 

@@ -49,7 +49,7 @@ public class MederiumTrapdoorBlock extends InfinityAndOresModElements.ModElement
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("mederium_trapdoor");
 		}
 

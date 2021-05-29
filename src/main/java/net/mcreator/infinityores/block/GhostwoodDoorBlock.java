@@ -52,7 +52,7 @@ public class GhostwoodDoorBlock extends InfinityAndOresModElements.ModElement {
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestTool(ToolType.AXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("ghostwood_door");
 		}
 

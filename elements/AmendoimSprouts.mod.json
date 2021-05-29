@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 18,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -15,6 +15,9 @@
     "growapableSpawnType": "Nether",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Grass",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [],
     "name": "Amendoim Sprouts",
     "specialInfo": [],
     "creativeTab": {
@@ -44,6 +47,9 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
     "frequencyOnChunks": 20,
     "spawnWorldTypes": [
       "CUSTOM:GlitchedDimension"
